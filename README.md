@@ -20,77 +20,19 @@ boilerplate code for me.
 - Built with the [fastmcp](https://github.com/modelcontextprotocol/fastmcp)
   library.
 
-## Installation
-
-To install the client and server, run the following command:
-
-```bash
-pip install '.[server]'
-```
-
-**Note for zsh users:** The square brackets are special characters in zsh and need
-to be escaped. You can do this by wrapping the package name in quotes.
-
-## Running the server
-
-To run the MCP server, run one of the following commands:
-
-```bash
-python server.py
-```
-
-Or:
-
-```bash
-fastmcp run server.py:app
-```
-
 ## Usage
 
-Once the server is running, you can interact with it using an MCP client. The
-server exposes the following tools:
-
-- `get_games_list`: Fetches a list of games with extensive filtering
-  capabilities.
-- `get_game_details`: Fetches details for a specific game.
-- `get_game_ratings`: Fetches ratings for a specific game.
-- `get_similar_games`: Fetches games similar to a specific game.
-- `get_collections`: Fetches collections of games.
-- `get_categories`: Fetches a list of categories.
-
-For example, to get a list of games, you can use the following command:
+To use the tools from the Gemini CLI, simply clone this repository and `cd` into
+the project directory. The Gemini CLI will automatically discover and use the
+`.gemini` directory in the root of the project.
 
 ```bash
-fastmcp call get_games_list
+git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
+cd minireview-mcp-server
+/opt/homebrew/bin/gemini
 ```
 
-**Note:** To use the tools from the Gemini CLI, you need to first start the MCP
-server in a separate terminal.
-
-## Development
-
-To set up the development environment, run the following command:
-
-```bash
-pip install -e '.[server,dev]'
-```
-
-**Note for zsh users:** The square brackets are special characters in zsh and need
-to be escaped. You can do this by wrapping the package name in quotes.
-
-To run the tests, run the following command:
-
-```bash
-pytest
-```
-
-### Installing the server for Gemini CLI
-
-To install the server for the Gemini CLI, run the following command:
-
-```bash
-fastmcp install gemini-cli server.py:app --name minireview
-```
+Once you are in the Gemini CLI, you can type `/mcp` to see the available tools.
 
 ## License
 

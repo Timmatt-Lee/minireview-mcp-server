@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "minireview": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "/Users/timmatt/Desktop/minireview-mcp-server/server.py:app"
+      ]
+    }
+  }
+}
