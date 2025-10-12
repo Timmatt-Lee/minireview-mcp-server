@@ -22,14 +22,7 @@ boilerplate code for me.
 
 ## Prerequisites
 
-Before you can use this project, you need to install the following:
-
-- [uv](https://github.com/astral-sh/uv): A fast, easy-to-use package manager for
-  Python.
-- [fastmcp](https://github.com/jlowin/fastmcp): A high-level framework for
-  building MCP servers.
-
-You can install these with pip:
+Before you can use this project, you need to install the dependencies:
 
 ```bash
 pip install -r requirements.txt
