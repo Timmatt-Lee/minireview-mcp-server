@@ -1,7 +1,17 @@
 # MiniReview MCP Server
 
-This project provides a Model Context Protocol (MCP) server for the
-[minireview.io API](https://minireview.io/).
+## Which MCP SDK is used?
+
+This project uses the [fastmcp](https://github.com/jlowin/fastmcp) library, which is a
+high-level framework for building MCP servers. While the official
+[Model Context Protocol Python SDK](https://github.com/modelcontextprotocol/python-sdk)
+provides the low-level building blocks for MCP, `fastmcp` provides a more
+user-friendly, "batteries-included" experience for building servers.
+
+For this particular task, where the goal was to quickly create an MCP server
+from an existing API client, `fastmcp` was the more appropriate tool. It allowed
+me to define the tools with simple decorators and it handled a lot of the
+boilerplate code for me.
 
 ## Features
 
