@@ -30,17 +30,36 @@ pip install -r requirements.txt
 
 ## Usage
 
-To use the tools from the Gemini CLI, simply clone this repository and `cd` into
-the project directory. The Gemini CLI will automatically discover and use the
-`.gemini` directory in the root of the project.
+To use the tools from the Gemini CLI, follow these steps:
 
-```bash
-git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
-cd minireview-mcp-server
-/opt/homebrew/bin/gemini
-```
+1.  **Clone the repository:**
 
-Once you are in the Gemini CLI, you can type `/mcp` to see the available tools.
+    ```bash
+    git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
+    ```
+
+2.  **Navigate to the project directory:**
+
+    ```bash
+    cd minireview-mcp-server
+    ```
+
+3.  **Install the dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Gemini CLI:**
+
+    ```bash
+    /opt/homebrew/bin/gemini
+    ```
+
+5.  **Check for the available tools:**
+
+    Once you are in the Gemini CLI, you can type `/mcp` to see the available
+    tools.
 
 ## License
 
