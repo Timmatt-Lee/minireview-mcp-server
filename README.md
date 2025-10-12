@@ -20,6 +20,21 @@ boilerplate code for me.
 - Built with the [fastmcp](https://github.com/modelcontextprotocol/fastmcp)
   library.
 
+## Prerequisites
+
+Before you can use this project, you need to install the following:
+
+- [uv](https://github.com/astral-sh/uv): A fast, easy-to-use package manager for
+  Python.
+- [fastmcp](https://github.com/jlowin/fastmcp): A high-level framework for
+  building MCP servers.
+
+You can install these with pip:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 To use the tools from the Gemini CLI, simply clone this repository and `cd` into
