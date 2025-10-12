@@ -2,6 +2,7 @@
   "cSpell.words": [
     "acao",
     "crossplay",
+    "fastmcp",
     "filtros",
     "gacha",
     "itens",
@@ -11,6 +12,7 @@
     "moba",
     "Newcollections",
     "oldschool",
+    "pytest",
     "roguelike",
     "royale",
     "singleplayer",
@@ -23,7 +25,5 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "ruff.lint.args": [
-    "--config=pyproject.toml"
-  ]
+  "ruff.lint.args": ["--config=pyproject.toml"]
 }

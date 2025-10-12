@@ -5,10 +5,10 @@ This project provides a Model Context Protocol (MCP) server for the
 
 ## Features
 
-*   Exposes the minireview.io API as an MCP server.
-*   Provides tools for fetching games, ratings, collections, and categories.
-*   Built with the [fastmcp](https://github.com/modelcontextprotocol/fastmcp)
-    library.
+- Exposes the minireview.io API as an MCP server.
+- Provides tools for fetching games, ratings, collections, and categories.
+- Built with the [fastmcp](https://github.com/modelcontextprotocol/fastmcp)
+  library.
 
 ## Installation
 
@@ -37,13 +37,13 @@ fastmcp run server.py:app
 Once the server is running, you can interact with it using an MCP client. The
 server exposes the following tools:
 
-*   `get_games_list`: Fetches a list of games with extensive filtering
-    capabilities.
-*   `get_game_details`: Fetches details for a specific game.
-*   `get_game_ratings`: Fetches ratings for a specific game.
-*   `get_similar_games`: Fetches games similar to a specific game.
-*   `get_collections`: Fetches collections of games.
-*   `get_categories`: Fetches a list of categories.
+- `get_games_list`: Fetches a list of games with extensive filtering
+  capabilities.
+- `get_game_details`: Fetches details for a specific game.
+- `get_game_ratings`: Fetches ratings for a specific game.
+- `get_similar_games`: Fetches games similar to a specific game.
+- `get_collections`: Fetches collections of games.
+- `get_categories`: Fetches a list of categories.
 
 For example, to get a list of games, you can use the following command:
 
