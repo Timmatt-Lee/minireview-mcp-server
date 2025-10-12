@@ -61,6 +61,9 @@ For example, to get a list of games, you can use the following command:
 fastmcp call get_games_list
 ```
 
+**Note:** To use the tools from the Gemini CLI, you need to first start the MCP
+server in a separate terminal.
+
 ## Development
 
 To set up the development environment, run the following command:
