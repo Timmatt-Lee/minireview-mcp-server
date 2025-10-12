@@ -21,3 +21,15 @@ select = [
 [tool.ruff.lint.pyupgrade]
 # Preserve types, even if a file doesn't have a `from __future__ import annotations` import.
 keep-runtime-typing = true
+
+[project]
+name = "minireview-client"
+version = "0.1.0"
+dependencies = [
+    "requests==2.32.5",
+]
+
+[project.optional-dependencies]
+server = [
+    "fastmcp",
+]
