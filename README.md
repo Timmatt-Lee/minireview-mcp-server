@@ -65,6 +65,18 @@ To run the tests, run the following command:
 pytest
 ```
 
+### Running the server in development mode
+
+To run the server in development mode with the MCP Inspector, run the following command:
+
+```bash
+fastmcp dev server.py:app
+```
+
+This will start the server and open the MCP Inspector in your web browser. The
+inspector allows you to see the available tools and to call them with different
+parameters.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
