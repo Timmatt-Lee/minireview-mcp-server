@@ -113,3 +113,6 @@ dmypy.json
 
 # uv
 uv.lock
+
+# gemini
+.gemini/GEMINI.md
