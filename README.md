@@ -1,12 +1,14 @@
 # MiniReview MCP Server
 
-This project provides a Model Context Protocol (MCP) server for the [minireview.io API](https://minireview.io/).
+This project provides a Model Context Protocol (MCP) server for the
+[minireview.io API](https://minireview.io/).
 
 ## Features
 
 *   Exposes the minireview.io API as an MCP server.
 *   Provides tools for fetching games, ratings, collections, and categories.
-*   Built with the [fastmcp](https://github.com/modelcontextprotocol/fastmcp) library.
+*   Built with the [fastmcp](https://github.com/modelcontextprotocol/fastmcp)
+    library.
 
 ## Installation
 
@@ -32,9 +34,11 @@ fastmcp run server.py:app
 
 ## Usage
 
-Once the server is running, you can interact with it using an MCP client. The server exposes the following tools:
+Once the server is running, you can interact with it using an MCP client. The
+server exposes the following tools:
 
-*   `get_games_list`: Fetches a list of games with extensive filtering capabilities.
+*   `get_games_list`: Fetches a list of games with extensive filtering
+    capabilities.
 *   `get_game_details`: Fetches details for a specific game.
 *   `get_game_ratings`: Fetches ratings for a specific game.
 *   `get_similar_games`: Fetches games similar to a specific game.
@@ -63,4 +67,5 @@ pytest
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+for details.
