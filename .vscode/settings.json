@@ -1,0 +1,29 @@
+{
+  "cSpell.words": [
+    "acao",
+    "crossplay",
+    "filtros",
+    "gacha",
+    "itens",
+    "jrpg",
+    "metroidvania",
+    "minireview",
+    "moba",
+    "Newcollections",
+    "oldschool",
+    "roguelike",
+    "royale",
+    "singleplayer",
+    "THREED",
+    "TOPGAMES",
+    "TWOD",
+    "Updatedcollections"
+  ],
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "ruff.lint.args": [
+    "--config=pyproject.toml"
+  ]
+}
