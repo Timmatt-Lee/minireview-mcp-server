@@ -75,17 +75,13 @@ To run the tests, run the following command:
 pytest
 ```
 
-### Running the server in development mode
+### Installing the server for Gemini CLI
 
-To run the server in development mode with the MCP Inspector, run the following command:
+To install the server for the Gemini CLI, run the following command:
 
 ```bash
-fastmcp dev server.py:app
+fastmcp install gemini-cli server.py:app --name minireview
 ```
-
-This will start the server and open the MCP Inspector in your web browser. The
-inspector allows you to see the available tools and to call them with different
-parameters.
 
 ## License
 
