@@ -25,8 +25,11 @@ boilerplate code for me.
 To install the client and server, run the following command:
 
 ```bash
-pip install .[server]
+pip install '.[server]'
 ```
+
+**Note for zsh users:** The square brackets are special characters in zsh and need
+to be escaped. You can do this by wrapping the package name in quotes.
 
 ## Running the server
 
@@ -69,8 +72,11 @@ server in a separate terminal.
 To set up the development environment, run the following command:
 
 ```bash
-pip install -e .[server,dev]
+pip install -e '.[server,dev]'
 ```
+
+**Note for zsh users:** The square brackets are special characters in zsh and need
+to be escaped. You can do this by wrapping the package name in quotes.
 
 To run the tests, run the following command:
 
