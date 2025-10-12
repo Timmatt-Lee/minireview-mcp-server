@@ -22,44 +22,18 @@ boilerplate code for me.
 
 ## Prerequisites
 
-Before you can use this project, you need to install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
+If you wanna use MiniReview MCP Server in [Gemini CLI](https://github.com/google/gemini-cli), install [Gemini CLI](https://github.com/google/gemini-cli) first
 
 ## Usage
 
 To use the tools from the Gemini CLI, follow these steps:
 
-1.  **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
-    ```
-
-2.  **Navigate to the project directory:**
-
-    ```bash
-    cd minireview-mcp-server
-    ```
-
-3.  **Install the dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Run the Gemini CLI:**
-
-    ```bash
-    /opt/homebrew/bin/gemini
-    ```
-
-5.  **Check for the available tools:**
-
-    Once you are in the Gemini CLI, you can type `/mcp` to see the available
-    tools.
+```bash
+git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
+cd minireview-mcp-server
+pip install -r requirements.txt
+gemini
+```
 
 ## License
 
