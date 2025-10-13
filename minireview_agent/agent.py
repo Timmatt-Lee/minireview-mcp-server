@@ -10,13 +10,14 @@ root_agent = LlmAgent(
     tools=[
         McpToolset(
             connection_params=StdioConnectionParams(
-                server_params = StdioServerParameters(
+                server_params=StdioServerParameters(
                     command='python',
                     args=[
                         "-m",
                         "server",
                     ],
                 ),
+                timeout_seconds=30,
             ),
         )
     ],
