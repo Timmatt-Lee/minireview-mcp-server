@@ -24,7 +24,26 @@ boilerplate code for me.
 
 If you wanna use MiniReview MCP Server in [Gemini CLI](https://github.com/google/gemini-cli), install [Gemini CLI](https://github.com/google/gemini-cli) first
 
-## Usage
+## Usage with ADK
+
+You can also interact with the MCP server using the `adk web` command. This will start a web-based interface for the agent.
+
+First, you need to set up your environment by creating a `.env` file in the `agent` directory.
+You can find detailed instructions on how to do this in the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model).
+
+Your `agent/.env` file should look like this:
+
+```
+API_KEY="YOUR_API_KEY"
+```
+
+Once you have configured your `.env` file, you can start the web interface with the following command:
+
+```bash
+adk web
+```
+
+## Usage with Gemini CLI
 
 To use the tools from the Gemini CLI, follow these steps:
 

@@ -114,5 +114,65 @@ def get_categories(search: str = "", platforms: Optional[list[Platform]] = None)
     return client.get_categories(search, platforms)
 
 
+@app.tool
+def get_games_list_with_details(
+    page: int = 1,
+    limit: int = 50,
+    search: str = "",
+    orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+    platforms: Optional[list[Platform]] = None,
+    players: Optional[list[Players]] = None,
+    network: Optional[Network] = None,
+    monetization_android: Optional[list[Monetization]] = None,
+    monetization_ios: Optional[list[Monetization]] = None,
+    screen_orientation: Optional[ScreenOrientation] = None,
+    category: Optional[Category] = None,
+    sub_category: Optional[SubCategory] = None,
+    tags: Optional[list[Tag]] = None,
+    countries_android: Optional[list[str]] = None,
+    countries_ios: Optional[list[str]] = None,
+    score: Optional[dict[Score, int]] = None,
+) -> dict:
+    """Fetches a list of games with extensive filtering capabilities and then fetches the details for each game."""
+    client = MiniReviewClient()
+    games = client.get_games_list(
+        page=page,
+        limit=limit,
+        search=search,
+        orderBy=orderBy,
+        platforms=platforms,
+        players=players,
+        network=network,
+        monetization_android=monetization_android,
+        monetization_ios=monetization_ios,
+        screen_orientation=screen_orientation,
+        category=category,
+        sub_category=sub_category,
+        tags=tags,
+        countries_android=countries_android,
+        countries_ios=countries_ios,
+        score=score,
+    )
+    for game in games["results"]:
+        game["details"] = client.get_game_details(game["slug"], game["category"])
+    return games
+
+
+@app.tool
+def get_similar_games_with_details(
+    game_id: int,
+    page: int = 1,
+    limit: int = 50,
+    platforms: Optional[list[Platform]] = None,
+    orderBy: OrderBy = OrderBy.MOST_POPULAR,
+) -> dict:
+    """Fetches games similar to a specific game and then fetches the details for each game."""
+    client = MiniReviewClient()
+    games = client.get_similar_games(game_id, page, limit, platforms, orderBy)
+    for game in games["results"]:
+        game["details"] = client.get_game_details(game["slug"], game["category"])
+    return games
+
+
 if __name__ == "__main__":
     app.run()
