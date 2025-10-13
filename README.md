@@ -5,6 +5,11 @@ server. It's built with the
 [fastmcp](https://github.com/jlowin/fastmcp) library, which is a high-level
 framework for building MCP servers.
 
+You can interact with the MCP server using any MCP client compatible interface, e.g. Gemini CLI, ADK, etc.
+
+This project also implement the example ADK agent to interact with the MCP server.
+
+
 ## Project Structure
 
 - `minireview_client/`: A Python client for [minireview.io](https://minireview.io/) API.
@@ -35,6 +40,11 @@ To get started, you'll need to have Python 3.10+ and pip installed.
     pip install -r requirements.txt
     ```
 
+## Usage with Gemini CLI
+
+You can interact with the MCP server using Gemini CLI.
+
+Install [Gemini CLI](https://github.com/google/gemini-cli) and launch it in this folder, this MCP server will automatically attach to Gemini CLI.
 
 ## Usage with ADK
 
@@ -53,12 +63,6 @@ the following command:
 adk web
 ```
 
-
-## Usage with Gemini CLI
-
-You can also interact with Gemini CLI.
-
-Install [Gemini CLI](https://github.com/google/gemini-cli) and launch it in this folder, this MCP server will automatically attach to Gemini CLI.
 
 
 ## License
