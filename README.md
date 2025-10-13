@@ -9,12 +9,11 @@ You can interact with the MCP server using any MCP client compatible interface, 
 
 This project also implement the example ADK agent to interact with the MCP server.
 
-
 ## Project Structure
 
 - `minireview_client/`: A Python client for [minireview.io](https://minireview.io/) API.
--   `server.py`: The MCP server wrap with `minireview_client`, built with `fastmcp`.
--   `minireview_agent/`: The ADK agent that connects to the MCP server (`server.py`).
+- `server.py`: The MCP server wrap with `minireview_client`, built with `fastmcp`.
+- `minireview_agent/`: The ADK agent that connects to the MCP server (`server.py`).
 
 ## Getting Started
 
@@ -62,8 +61,6 @@ the following command:
 ```bash
 adk web --session_service_uri="sqlite:///session.db"
 ```
-
-
 
 ## License
 
