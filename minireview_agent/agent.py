@@ -3,11 +3,6 @@ from google.adk.models import Gemini
 from google.adk.tools.mcp_tool.mcp_toolset import McpToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
 from mcp import StdioServerParameters
-from google.adk.tools.load_memory_tool import LoadMemoryTool
-
-async def auto_save_session_to_memory_callback(callback_context):
-    await callback_context._invocation_context.memory_service.add_session_to_memory(
-        callback_context._invocation_context.session)
 
 root_agent =  LlmAgent(
     model=Gemini(),
@@ -25,8 +20,6 @@ root_agent =  LlmAgent(
                 ),
                 timeout=30,
             ),
-        ),
-        LoadMemoryTool()
+        )
     ],
-    after_agent_callback=auto_save_session_to_memory_callback,
 )

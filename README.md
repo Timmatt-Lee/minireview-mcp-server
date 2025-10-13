@@ -60,7 +60,7 @@ Once you have configured your `.env` file, you can start the web interface with
 the following command:
 
 ```bash
-adk web
+adk web --session_service_uri="sqlite:///session.db"
 ```
 
 

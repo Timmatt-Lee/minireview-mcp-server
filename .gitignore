@@ -116,3 +116,4 @@ uv.lock
 
 # gemini
 .gemini/GEMINI.md
+session.db
