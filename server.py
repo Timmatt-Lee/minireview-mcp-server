@@ -20,7 +20,7 @@ from minireview_client.enums import (
 app = FastMCP()
 
 
-@app.tool
+@app.tool(description="Fetches a list of games with extensive filtering capabilities.")
 def get_games_list(
     page: int = 1,
     limit: int = 50,
@@ -61,14 +61,13 @@ def get_games_list(
     )
 
 
-@app.tool
-def get_game_details(game_slug: str, category: str) -> dict:
+@app.tool(description="Fetches details for a specific game.")(game_slug: str, category: str) -> dict:
     """Fetches details for a specific game."""
     client = MiniReviewClient()
     return client.get_game_details(game_slug, category)
 
 
-@app.tool
+@app.tool(description="Fetches ratings for a specific game.")
 def get_game_ratings(
     game_id: int,
     page: int = 1,
@@ -80,7 +79,7 @@ def get_game_ratings(
     return client.get_game_ratings(game_id, page, limit, orderBy)
 
 
-@app.tool
+@app.tool(description="Fetches games similar to a specific game.")
 def get_similar_games(
     game_id: int,
     page: int = 1,
@@ -93,7 +92,7 @@ def get_similar_games(
     return client.get_similar_games(game_id, page, limit, platforms, orderBy)
 
 
-@app.tool
+@app.tool(description="Fetches a list of game collections.")
 def get_collections(
     page: int = 1,
     limit: int = 50,
@@ -120,7 +119,7 @@ def get_collections(
     return client.get_collections(page, limit, search, orderBy, loadNew, loadLastUpdated)
 
 
-@app.tool
+@app.tool(description="Fetches a list of game categories.")
 def get_categories(search: str = "", platforms: Optional[list[Platform]] = None) -> dict:
     """
     Fetches a list of game categories.
@@ -136,7 +135,7 @@ def get_categories(search: str = "", platforms: Optional[list[Platform]] = None)
     return client.get_categories(search, platforms)
 
 
-@app.tool
+@app.tool(description="Fetches a list of games with extensive filtering capabilities and then fetches the details for each game in the list.")
 def get_games_list_with_details(
     page: int = 1,
     limit: int = 50,
@@ -205,7 +204,7 @@ def get_games_list_with_details(
     return games
 
 
-@app.tool
+@app.tool(description="Fetches a list of games similar to a specific game and then fetches the details for each game in the list.")
 def get_similar_games_with_details(
     game_id: int,
     page: int = 1,
