@@ -13,7 +13,8 @@ root_agent = LlmAgent(
                 server_params = StdioServerParameters(
                     command='python',
                     args=[
-                        "server.py",
+                        "-m",
+                        "server",
                     ],
                 ),
             ),
