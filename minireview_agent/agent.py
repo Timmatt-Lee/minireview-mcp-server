@@ -17,7 +17,7 @@ root_agent = LlmAgent(
                         "server",
                     ],
                 ),
-                timeout_seconds=30,
+                timeout=30,
             ),
         )
     ],
