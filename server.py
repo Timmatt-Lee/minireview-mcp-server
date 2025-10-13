@@ -102,14 +102,36 @@ def get_collections(
     loadNew: bool = True,
     loadLastUpdated: bool = True,
 ) -> dict:
-    """Fetches collections of games."""
+    """
+    Fetches a list of game collections.
+
+    Args:
+        page: The page number to fetch.
+        limit: The number of collections to fetch per page.
+        search: A search query to filter collections by name.
+        orderBy: The sorting order for the collections list.
+        loadNew: Whether to load new collections.
+        loadLastUpdated: Whether to load last updated collections.
+
+    Returns:
+        A dictionary containing a list of collections and pagination information.
+    """
     client = MiniReviewClient()
     return client.get_collections(page, limit, search, orderBy, loadNew, loadLastUpdated)
 
 
 @app.tool
 def get_categories(search: str = "", platforms: Optional[list[Platform]] = None) -> dict:
-    """Fetches a list of categories."""
+    """
+    Fetches a list of game categories.
+
+    Args:
+        search: A search query to filter categories by name.
+        platforms: A list of platforms to filter by.
+
+    Returns:
+        A dictionary containing a list of categories.
+    """
     client = MiniReviewClient()
     return client.get_categories(search, platforms)
 
@@ -133,7 +155,32 @@ def get_games_list_with_details(
     countries_ios: Optional[list[str]] = None,
     score: Optional[dict[Score, int]] = None,
 ) -> dict:
-    """Fetches a list of games with extensive filtering capabilities and then fetches the details for each game."""
+    """
+    Fetches a list of games with extensive filtering capabilities and then fetches the details for each game in the list.
+
+    This is a convenience function that combines `get_games_list` and `get_game_details`.
+
+    Args:
+        page: The page number to fetch.
+        limit: The number of games to fetch per page.
+        search: A search query to filter games by name.
+        orderBy: The sorting order for the games list.
+        platforms: A list of platforms to filter by (e.g., 'android', 'ios').
+        players: A list of player modes to filter by (e.g., 'singleplayer', 'multiplayer').
+        network: The network availability to filter by (e.g., 'online', 'offline').
+        monetization_android: A list of monetization models for Android to filter by.
+        monetization_ios: A list of monetization models for iOS to filter by.
+        screen_orientation: The screen orientation to filter by.
+        category: The game category to filter by.
+        sub_category: The game sub-category to filter by.
+        tags: A list of tags to filter by.
+        countries_android: A list of countries to filter by for Android games.
+        countries_ios: A list of countries to filter by for iOS games.
+        score: A dictionary to filter by score.
+
+    Returns:
+        A dictionary containing a list of games with their details and pagination information.
+    """
     client = MiniReviewClient()
     games = client.get_games_list(
         page=page,
@@ -166,7 +213,21 @@ def get_similar_games_with_details(
     platforms: Optional[list[Platform]] = None,
     orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
-    """Fetches games similar to a specific game and then fetches the details for each game."""
+    """
+    Fetches a list of games similar to a specific game and then fetches the details for each game in the list.
+
+    This is a convenience function that combines `get_similar_games` and `get_game_details`.
+
+    Args:
+        game_id: The ID of the game to find similar games for.
+        page: The page number to fetch.
+        limit: The number of similar games to fetch per page.
+        platforms: A list of platforms to filter by.
+        orderBy: The sorting order for the similar games list.
+
+    Returns:
+        A dictionary containing a list of similar games with their details and pagination information.
+    """
     client = MiniReviewClient()
     games = client.get_similar_games(game_id, page, limit, platforms, orderBy)
     for game in games["results"]:
