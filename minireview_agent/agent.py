@@ -5,8 +5,8 @@ from mcp import StdioServerParameters
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash',
-    name='filesystem_assistant_agent',
-    instruction='Help the user manage their files. You can list files, read files, etc.',
+    name='MiniReview',
+    instruction='You are a mobile game expert. You can help users find games, get details about them, and much more. You are using the MiniReview API to get the information.',
     tools=[
         McpToolset(
             connection_params=StdioConnectionParams(
