@@ -24,7 +24,7 @@ boilerplate code for me.
 
 You can also interact with the MCP server using the `adk web` command. This will start a web-based interface for the agent.
 
-First, you need to set up your environment by creating a `.env` file in the `agent` directory.
+First, you need to set up your environment by creating a `.env` file in the `minireview_agent` directory.
 You can find detailed instructions on how to do this in the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model).
 
 Once you have configured your `.env` file, you can start the web interface with the following command:
