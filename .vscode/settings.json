@@ -1,19 +1,12 @@
 {
   "cSpell.words": [
-    "acao",
     "crossplay",
-    "fastmcp",
-    "filtros",
     "gacha",
-    "genai",
-    "itens",
     "jrpg",
-    "metroidvania",
     "minireview",
     "moba",
     "Newcollections",
     "oldschool",
-    "pytest",
     "roguelike",
     "royale",
     "singleplayer",
@@ -22,6 +15,7 @@
     "TWOD",
     "Updatedcollections"
   ],
+  "cSpell.language": "en,es",
   "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
