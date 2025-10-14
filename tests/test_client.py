@@ -8,7 +8,6 @@ from unittest.mock import patch
 import requests
 
 from minireview_client.client import MiniReviewClient
-from minireview_client.enums import OrderBy, Platform
 from minireview_client.exceptions import APIError
 
 
@@ -30,8 +29,8 @@ class TestMiniReviewClient(unittest.TestCase):
         params = {
             "page": 1,
             "limit": 10,
-            "platforms": [Platform.ANDROID, Platform.IOS],
-            "orderBy": OrderBy.MOST_POPULAR,
+            "platforms": ["android", "ios"],
+            "orderBy": "most-popular",
             "search": None,  # This should be ignored
         }
 
@@ -49,7 +48,13 @@ class TestMiniReviewClient(unittest.TestCase):
     @patch("minireview_client.client.MiniReviewClient._fetch_api")
     def test_get_filters_caching(self, mock_fetch_api):
         """Test that get_filters caches its response."""
-        mock_response = {"filtros": [{"slug": "platforms", "itens": []}]}
+        # This test needs to be adjusted because get_filters now calls get_games_list
+        # which in turn calls _fetch_api. So we mock the return value for the
+        # get_games_list call.
+        mock_response = {
+            "filtros": [{"slug": "platforms", "itens": []}],
+            "data": [],
+        }
         mock_fetch_api.return_value = mock_response
 
         # First call - should call the API
@@ -82,6 +87,27 @@ class TestMiniReviewClient(unittest.TestCase):
 
         with self.assertRaises(APIError):
             self.client._fetch_api("/test-endpoint")
+
+    @patch("minireview_client.client.MiniReviewClient.get_filters")
+    def test_validation_raises_error_for_invalid_filter(self, mock_get_filters):
+        """Test that _validate_params raises ValueError for an invalid filter value."""
+        # Setup the mock to return a predefined set of filters
+        mock_get_filters.return_value = [
+            {
+                "slug": "category",
+                "nome": "Category",
+                "itens": [{"slug": "action"}, {"slug": "adventure"}],
+            }
+        ]
+
+        # Call a method that uses validation with an invalid category
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_games_list(category="invalid-category")
+
+        # Check if the error message is as expected
+        self.assertIn(
+            "Invalid value 'invalid-category' for filter 'category'", str(cm.exception)
+        )
 
 
 if __name__ == "__main__":

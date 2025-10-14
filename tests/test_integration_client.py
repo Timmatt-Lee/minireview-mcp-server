@@ -5,7 +5,6 @@ Integration tests for the MiniReviewClient that make live API calls.
 import unittest
 
 from minireview_client.client import MiniReviewClient
-from minireview_client.enums import Platform, SideContent
 from minireview_client.exceptions import APIError
 
 
@@ -74,12 +73,11 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
         self.assertIn("data", response)
         self.assertIsInstance(response["data"], list)
 
-    @unittest.expectedFailure
     def test_get_side_content(self):
-        """Test a live call to get_side_content (expected to fail)."""
+        """Test a live call to get_side_content."""
         self.client.get_side_content(
-            platforms=[Platform.ANDROID],
-            content=[SideContent.TOP_UPCOMING, SideContent.TOP_PAID],
+            platforms=["android"],
+            content=["reviews", "topgames"],
         )
 
     def test_get_collections(self):
@@ -90,27 +88,27 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
 
     def test_get_home(self):
         """Test a live call to get_home."""
-        response = self.client.get_home(platforms=[Platform.ANDROID])
+        response = self.client.get_home(platforms=["android"])
         self.assertIn("data", response)
 
     def test_get_games_of_the_week(self):
         """Test a live call to get_games_of_the_week."""
-        response = self.client.get_games_of_the_week(platforms=[Platform.ANDROID])
+        response = self.client.get_games_of_the_week(platforms=["android"])
         self.assertIn("data", response)
 
     def test_get_top_user_ratings(self):
         """Test a live call to get_top_user_ratings."""
-        response = self.client.get_top_user_ratings(platforms=[Platform.ANDROID])
+        response = self.client.get_top_user_ratings(platforms=["android"])
         self.assertIn("data", response)
 
     def test_get_upcoming_games(self):
         """Test a live call to get_upcoming_games."""
-        response = self.client.get_upcoming_games(platforms=[Platform.ANDROID])
+        response = self.client.get_upcoming_games(platforms=["android"])
         self.assertIn("data", response)
 
     def test_get_similar_games_main_page(self):
         """Test a live call to get_similar_games_main_page."""
-        response = self.client.get_similar_games_main_page(platforms=[Platform.ANDROID])
+        response = self.client.get_similar_games_main_page(platforms=["android"])
         self.assertIsNotNone(response)
 
     def test_get_top_games(self):

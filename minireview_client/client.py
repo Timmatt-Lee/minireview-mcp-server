@@ -3,27 +3,10 @@ This module contains the MiniReviewClient class, which is the main entry point
 for interacting with the minireview.io API.
 """
 
-from enum import Enum
 from typing import Any
 
 import requests
 
-from .enums import (
-    Action,
-    Category,
-    CollectionsOrderBy,
-    GameRatingsOrderBy,
-    Monetization,
-    Network,
-    OrderBy,
-    Platform,
-    Players,
-    Score,
-    ScreenOrientation,
-    SideContent,
-    SubCategory,
-    Tag,
-)
 from .exceptions import APIError
 
 
@@ -35,33 +18,78 @@ class MiniReviewClient:
     def __init__(self):
         self._session = requests.Session()
         self._filters_cache: dict | None = None
+        self._parsed_filters: dict[str, set[str]] | None = None
 
-    def _build_params(self, params: dict[str, Any]) -> dict[str, Any]:
+    def _init_validator(self):
         """
-        Builds a dictionary of query parameters, filtering out None values and
-        handling enums and lists.
+        Initializes a cache of parsed filters for efficient validation.
+        This method parses the raw filter data from the API into a
+        structure that's quick to check against.
+        """
+        if self._parsed_filters is not None:
+            return
+
+        raw_filters_list = self.get_filters()
+        if not raw_filters_list:
+            self._parsed_filters = {}
+            return
+
+        self._parsed_filters = {
+            f["slug"]: {item["slug"] for item in f["itens"]} for f in raw_filters_list
+        }
+
+    def _validate_params(self, params: dict[str, Any]):
+        """
+        Validates filter parameters against the allowed values from the API.
+        Raises a ValueError for any invalid filter values.
+        """
+        self._init_validator()
+        assert self._parsed_filters is not None
+
+        for key, value in params.items():
+            if value is None:
+                continue
+
+            if key in self._parsed_filters:
+                allowed_values = self._parsed_filters[key]
+                values_to_check = value if isinstance(value, list) else [value]
+
+                for v in values_to_check:
+                    if v not in allowed_values:
+                        error_msg = (
+                            f"Invalid value '{v}' for filter '{key}'. "
+                            "Use get_filters() to see available options, "
+                            "or check for typos."
+                        )
+                        raise ValueError(error_msg)
+
+    def _build_params(
+        self, params: dict[str, Any], validate: bool = False
+    ) -> dict[str, Any]:
+        """
+        Builds a dictionary of query parameters, filtering out None values,
+        handling lists, and optionally validating filter values.
 
         Args:
             params: A dictionary of parameters to process.
+            validate: If True, validate filter values against the API.
 
         Returns:
             A dictionary of processed query parameters.
         """
+        if validate:
+            self._validate_params(params)
+
         processed_params = {}
         for key, value in params.items():
             if value is None:
                 continue
 
-            if isinstance(value, Enum):
-                processed_params[key] = value.value
-            elif isinstance(value, list):
-                # Handle lists of Enums or strings
-                processed_params[f"{key}[]"] = [
-                    v.value if isinstance(v, Enum) else v for v in value
-                ]
+            if isinstance(value, list):
+                processed_params[f"{key}[]"] = value
             elif isinstance(value, dict):
                 for s, v in value.items():
-                    processed_params[f"score[{s.value}]"] = v
+                    processed_params[f"score[{s}]"] = v
             elif isinstance(value, bool):
                 processed_params[key] = 1 if value else 0
             else:
@@ -108,7 +136,10 @@ class MiniReviewClient:
             return self._filters_cache
 
         # We only need one game to get the 'filtros' object
-        games_data = self.get_games_list(limit=1)
+        # We call _build_params directly to avoid a validation circular dependency
+        params = self._build_params({"limit": 1})
+        games_data = self._fetch_api("/games", params)
+
         if "filtros" in games_data:
             self._filters_cache = games_data["filtros"]
             return self._filters_cache
@@ -136,44 +167,42 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         search: str = "",
-        orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-        platforms: list[Platform] | None = None,
-        players: list[Players] | None = None,
-        network: Network | None = None,
-        monetization_android: list[Monetization] | None = None,
-        monetization_ios: list[Monetization] | None = None,
-        screen_orientation: ScreenOrientation | None = None,
-        category: Category | None = None,
-        sub_category: SubCategory | None = None,
-        tags: list[Tag] | None = None,
+        orderBy: str = "last-added-reviews",
+        platforms: list[str] | None = None,
+        players: list[str] | None = None,
+        network: str | None = None,
+        monetization_android: list[str] | None = None,
+        monetization_ios: list[str] | None = None,
+        screen_orientation: str | None = None,
+        category: str | None = None,
+        sub_category: str | None = None,
+        tags: list[str] | None = None,
         countries_android: list[str] | None = None,
         countries_ios: list[str] | None = None,
-        score: dict[Score, int] | None = None,
+        score: dict[str, int] | None = None,
     ) -> dict:
         """
         Fetches a list of games with extensive filtering capabilities.
         """
-        params = self._build_params(
-            {
-                "page": page,
-                "limit": limit,
-                "search": search,
-                "orderBy": orderBy,
-                "platforms": platforms,
-                "players": players,
-                "network": network,
-                "monetization-android": monetization_android,
-                "monetization-ios": monetization_ios,
-                "screen-orientation": screen_orientation,
-                "category": category,
-                "sub-category": sub_category,
-                "tags": tags,
-                "countries-android": countries_android,
-                "countries-ios": countries_ios,
-                "score": score,
-            }
-        )
-        return self._fetch_api("/games", params)
+        params = {
+            "page": page,
+            "limit": limit,
+            "search": search,
+            "orderBy": orderBy,
+            "platforms": platforms,
+            "players": players,
+            "network": network,
+            "monetization-android": monetization_android,
+            "monetization-ios": monetization_ios,
+            "screen-orientation": screen_orientation,
+            "category": category,
+            "sub-category": sub_category,
+            "tags": tags,
+            "countries-android": countries_android,
+            "countries-ios": countries_ios,
+            "score": score,
+        }
+        return self._fetch_api("/games", self._build_params(params, validate=True))
 
     def get_game_details(self, game_slug: str, category: str) -> dict:
         """
@@ -187,177 +216,169 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        orderBy: GameRatingsOrderBy = GameRatingsOrderBy.NEWEST,
+        orderBy: str = "newest",
     ) -> dict:
         """
         Fetches ratings for a specific game.
         """
-        params = self._build_params(
-            {
-                "game_id": game_id,
-                "page": page,
-                "limit": limit,
-                "orderBy": orderBy,
-            }
+        params = {
+            "game_id": game_id,
+            "page": page,
+            "limit": limit,
+            "orderBy": orderBy,
+        }
+        return self._fetch_api(
+            "/games-ratings", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/games-ratings", params)
 
     def get_similar_games(
         self,
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        platforms: list[Platform] | None = None,
-        orderBy: OrderBy = OrderBy.MOST_POPULAR,
+        platforms: list[str] | None = None,
+        orderBy: str = "most-popular",
     ) -> dict:
         """
         Fetches games similar to a specific game.
         """
-        params = self._build_params(
-            {
-                "from_page": "game-page",
-                "game_id": game_id,
-                "page": page,
-                "limit": limit,
-                "orderBy": orderBy,
-                "platforms": platforms,
-            }
+        params = {
+            "from_page": "game-page",
+            "game_id": game_id,
+            "page": page,
+            "limit": limit,
+            "orderBy": orderBy,
+            "platforms": platforms,
+        }
+        return self._fetch_api(
+            "/games-similar", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/games-similar", params)
 
-    def get_side_content(
-        self, platforms: list[Platform], content: list[SideContent]
-    ) -> dict:
+    def get_side_content(self, platforms: list[str], content: list[str]) -> dict:
         """
         Fetches side content for the website.
         """
-        params = self._build_params(
-            {
-                "acao": Action.GET_SIDE_CONTENT,
-                "platforms": platforms,
-                "c": content,
-            }
+        params = {
+            "acao": "get-side-content",
+            "platforms": platforms,
+            "c": content,
+        }
+        return self._fetch_api(
+            "/general/rota_acao", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/general/rota_acao", params)
 
     def get_collections(
         self,
         page: int = 1,
         limit: int = 50,
         search: str = "",
-        orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
+        orderBy: str = "most-popular",
         loadNew: bool = True,
         loadLastUpdated: bool = True,
     ) -> dict:
         """
         Fetches collections of games.
         """
-        params = self._build_params(
-            {
-                "page": page,
-                "limit": limit,
-                "search": search,
-                "orderBy": orderBy,
-                "loadNewcollections": loadNew,
-                "loadLastUpdatedcollections": loadLastUpdated,
-            }
+        params = {
+            "page": page,
+            "limit": limit,
+            "search": search,
+            "orderBy": orderBy,
+            "loadNewcollections": loadNew,
+            "loadLastUpdatedcollections": loadLastUpdated,
+        }
+        return self._fetch_api(
+            "/collections", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/collections", params)
 
     def get_home(
         self,
         page: int = 1,
-        platforms: list[Platform] | None = None,
+        platforms: list[str] | None = None,
         ids_ignore: list[int] | None = None,
-        orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+        orderBy: str = "last-added-reviews",
     ) -> dict:
         """
         Fetches the home page content.
         """
-        params = self._build_params(
-            {
-                "page": page,
-                "orderBy": orderBy,
-                "platforms": platforms,
-                "ids_ignore": ",".join(map(str, ids_ignore)) if ids_ignore else None,
-            }
-        )
-        return self._fetch_api("/home", params)
+        params = {
+            "page": page,
+            "orderBy": orderBy,
+            "platforms": platforms,
+            "ids_ignore": ",".join(map(str, ids_ignore)) if ids_ignore else None,
+        }
+        return self._fetch_api("/home", self._build_params(params, validate=True))
 
     def get_games_of_the_week(
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: OrderBy = OrderBy.WEEK,
-        platforms: list[Platform] | None = None,
+        orderBy: str = "week",
+        platforms: list[str] | None = None,
     ) -> dict:
         """
         Fetches games of the week.
         """
-        params = self._build_params(
-            {
-                "type": "games-of-the-week",
-                "page": page,
-                "limit": limit,
-                "orderBy": orderBy,
-                "platforms": platforms,
-            }
-        )
-        return self._fetch_api("/games", params)
+        params = {
+            "type": "games-of-the-week",
+            "page": page,
+            "limit": limit,
+            "orderBy": orderBy,
+            "platforms": platforms,
+        }
+        return self._fetch_api("/games", self._build_params(params, validate=True))
 
     def get_top_user_ratings(
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: OrderBy = OrderBy.THIS_WEEK,
-        platforms: list[Platform] | None = None,
+        orderBy: str = "this-week",
+        platforms: list[str] | None = None,
     ) -> dict:
         """
         Fetches top user ratings.
         """
-        params = self._build_params(
-            {
-                "page": page,
-                "limit": limit,
-                "orderBy": orderBy,
-                "platforms": platforms,
-            }
+        params = {
+            "page": page,
+            "limit": limit,
+            "orderBy": orderBy,
+            "platforms": platforms,
+        }
+        return self._fetch_api(
+            "/top-user-ratings", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/top-user-ratings", params)
 
     def get_upcoming_games(
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: OrderBy = OrderBy.LAUNCH_DATE,
-        platforms: list[Platform] | None = None,
+        orderBy: str = "launch-date",
+        platforms: list[str] | None = None,
     ) -> dict:
         """
         Fetches upcoming games.
         """
-        params = self._build_params(
-            {
-                "page": page,
-                "limit": limit,
-                "orderBy": orderBy,
-                "platforms": platforms,
-            }
+        params = {
+            "page": page,
+            "limit": limit,
+            "orderBy": orderBy,
+            "platforms": platforms,
+        }
+        return self._fetch_api(
+            "/upcoming-games", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/upcoming-games", params)
 
-    def get_similar_games_main_page(
-        self, platforms: list[Platform] | None = None
-    ) -> dict:
+    def get_similar_games_main_page(self, platforms: list[str] | None = None) -> dict:
         """
         Fetches similar games for the main page.
         """
-        params = self._build_params(
-            {
-                "acao": Action.MAIN_PAGE,
-                "platforms": platforms,
-            }
+        params = {
+            "acao": "main-page",
+            "platforms": platforms,
+        }
+        return self._fetch_api(
+            "/games-similar/rota_acao", self._build_params(params, validate=True)
         )
-        return self._fetch_api("/games-similar/rota_acao", params)
 
     def get_top_games(self, page: int = 1, limit: int = 50, search: str = "") -> dict:
         """
@@ -379,15 +400,13 @@ class MiniReviewClient:
         return self._fetch_api(f"/special-top-games/{slug}")
 
     def get_categories(
-        self, search: str = "", platforms: list[Platform] | None = None
+        self, search: str = "", platforms: list[str] | None = None
     ) -> dict:
         """
         Fetches a list of categories.
         """
-        params = self._build_params(
-            {
-                "search": search,
-                "platforms": platforms,
-            }
-        )
-        return self._fetch_api("/categories", params)
+        params = {
+            "search": search,
+            "platforms": platforms,
+        }
+        return self._fetch_api("/categories", self._build_params(params, validate=True))

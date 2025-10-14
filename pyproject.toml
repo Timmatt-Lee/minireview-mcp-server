@@ -23,7 +23,7 @@ select = [
 keep-runtime-typing = true
 
 [tool.coverage.run]
-source = ["minireview_agent", "minireview_client"]
+source = ["minireview_client"]
 omit = ["*/__pycache__/*", "tests/*", ".venv/*", "server.py"]
 
 [tool.coverage.report]
