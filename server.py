@@ -1,6 +1,5 @@
-from typing import Optional
-
 from fastmcp import FastMCP
+
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
     Category,
@@ -11,8 +10,8 @@ from minireview_client.enums import (
     OrderBy,
     Platform,
     Players,
-    ScreenOrientation,
     Score,
+    ScreenOrientation,
     SubCategory,
     Tag,
 )
@@ -26,20 +25,45 @@ def get_games_list(
     limit: int = 50,
     search: str = "",
     orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-    platforms: Optional[list[Platform]] = None,
-    players: Optional[list[Players]] = None,
-    network: Optional[Network] = None,
-    monetization_android: Optional[list[Monetization]] = None,
-    monetization_ios: Optional[list[Monetization]] = None,
-    screen_orientation: Optional[ScreenOrientation] = None,
-    category: Optional[Category] = None,
-    sub_category: Optional[SubCategory] = None,
-    tags: Optional[list[Tag]] = None,
-    countries_android: Optional[list[str]] = None,
-    countries_ios: Optional[list[str]] = None,
-    score: Optional[dict[Score, int]] = None,
+    platforms: list[Platform] | None = None,
+    players: list[Players] | None = None,
+    network: Network | None = None,
+    monetization_android: list[Monetization] | None = None,
+    monetization_ios: list[Monetization] | None = None,
+    screen_orientation: ScreenOrientation | None = None,
+    category: Category | None = None,
+    sub_category: SubCategory | None = None,
+    tags: list[Tag] | None = None,
+    countries_android: list[str] | None = None,
+    countries_ios: list[str] | None = None,
+    score: dict[Score, int] | None = None,
 ) -> dict:
-    """Fetches a list of games with extensive filtering capabilities."""
+    """
+    Fetches a list of games from the MiniReview database with extensive filtering
+    capabilities.
+
+    Args:
+        page: The page number to fetch.
+        limit: The number of games to fetch per page.
+        search: A search query to filter games by name.
+        orderBy: The sorting order for the games list.
+        platforms: A list of platforms to filter by (e.g., 'android', 'ios').
+        players: A list of player modes to filter by
+            (e.g., 'singleplayer', 'multiplayer').
+        network: The network availability to filter by (e.g., 'online', 'offline').
+        monetization_android: A list of monetization models for Android to filter by.
+        monetization_ios: A list of monetization models for iOS to filter by.
+        screen_orientation: The screen orientation to filter by.
+        category: The game category to filter by.
+        sub_category: The game sub-category to filter by.
+        tags: A list of tags to filter by.
+        countries_android: A list of countries to filter by for Android games.
+        countries_ios: A list of countries to filter by for iOS games.
+        score: A dictionary to filter by score.
+
+    Returns:
+        A dictionary containing a list of games and pagination information.
+    """
     client = MiniReviewClient()
     return client.get_games_list(
         page=page,
@@ -61,33 +85,66 @@ def get_games_list(
     )
 
 
-@app.tool(description="Fetches details for a specific game.")(game_slug: str, category: str) -> dict:
-    """Fetches details for a specific game."""
+@app.tool(description="Fetches detailed information for a specific game.")
+def get_game_details(game_slug: str, category: str) -> dict:
+    """
+    Fetches detailed information for a specific game.
+
+    Args:
+        game_slug: The slug of the game (e.g., 'seven-knights-idle-adventure').
+        category: The category of the game.
+
+    Returns:
+        A dictionary containing the details of the game.
+    """
     client = MiniReviewClient()
     return client.get_game_details(game_slug, category)
 
 
-@app.tool(description="Fetches ratings for a specific game.")
+@app.tool(description="Fetches the ratings for a specific game.")
 def get_game_ratings(
     game_id: int,
     page: int = 1,
     limit: int = 50,
     orderBy: GameRatingsOrderBy = GameRatingsOrderBy.NEWEST,
 ) -> dict:
-    """Fetches ratings for a specific game."""
+    """
+    Fetches the ratings for a specific game.
+
+    Args:
+        game_id: The ID of the game.
+        page: The page number to fetch.
+        limit: The number of ratings to fetch per page.
+        orderBy: The sorting order for the ratings.
+
+    Returns:
+        A dictionary containing a list of ratings and pagination information.
+    """
     client = MiniReviewClient()
     return client.get_game_ratings(game_id, page, limit, orderBy)
 
 
-@app.tool(description="Fetches games similar to a specific game.")
+@app.tool(description="Fetches a list of games similar to a specific game.")
 def get_similar_games(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    platforms: Optional[list[Platform]] = None,
+    platforms: list[Platform] | None = None,
     orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
-    """Fetches games similar to a specific game."""
+    """
+    Fetches a list of games similar to a specific game.
+
+    Args:
+        game_id: The ID of the game to find similar games for.
+        page: The page number to fetch.
+        limit: The number of similar games to fetch per page.
+        platforms: A list of platforms to filter by.
+        orderBy: The sorting order for the similar games list.
+
+    Returns:
+        A dictionary containing a list of similar games and pagination information.
+    """
     client = MiniReviewClient()
     return client.get_similar_games(game_id, page, limit, platforms, orderBy)
 
@@ -116,11 +173,13 @@ def get_collections(
         A dictionary containing a list of collections and pagination information.
     """
     client = MiniReviewClient()
-    return client.get_collections(page, limit, search, orderBy, loadNew, loadLastUpdated)
+    return client.get_collections(
+        page, limit, search, orderBy, loadNew, loadLastUpdated
+    )
 
 
 @app.tool(description="Fetches a list of game categories.")
-def get_categories(search: str = "", platforms: Optional[list[Platform]] = None) -> dict:
+def get_categories(search: str = "", platforms: list[Platform] | None = None) -> dict:
     """
     Fetches a list of game categories.
 
@@ -135,29 +194,36 @@ def get_categories(search: str = "", platforms: Optional[list[Platform]] = None)
     return client.get_categories(search, platforms)
 
 
-@app.tool(description="Fetches a list of games with extensive filtering capabilities and then fetches the details for each game in the list.")
+@app.tool(
+    description=(
+        "Fetches a list of games with extensive filtering capabilities and then "
+        "fetches the details for each game in the list."
+    )
+)
 def get_games_list_with_details(
     page: int = 1,
     limit: int = 50,
     search: str = "",
     orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-    platforms: Optional[list[Platform]] = None,
-    players: Optional[list[Players]] = None,
-    network: Optional[Network] = None,
-    monetization_android: Optional[list[Monetization]] = None,
-    monetization_ios: Optional[list[Monetization]] = None,
-    screen_orientation: Optional[ScreenOrientation] = None,
-    category: Optional[Category] = None,
-    sub_category: Optional[SubCategory] = None,
-    tags: Optional[list[Tag]] = None,
-    countries_android: Optional[list[str]] = None,
-    countries_ios: Optional[list[str]] = None,
-    score: Optional[dict[Score, int]] = None,
+    platforms: list[Platform] | None = None,
+    players: list[Players] | None = None,
+    network: Network | None = None,
+    monetization_android: list[Monetization] | None = None,
+    monetization_ios: list[Monetization] | None = None,
+    screen_orientation: ScreenOrientation | None = None,
+    category: Category | None = None,
+    sub_category: SubCategory | None = None,
+    tags: list[Tag] | None = None,
+    countries_android: list[str] | None = None,
+    countries_ios: list[str] | None = None,
+    score: dict[Score, int] | None = None,
 ) -> dict:
     """
-    Fetches a list of games with extensive filtering capabilities and then fetches the details for each game in the list.
+    Fetches a list of games with extensive filtering capabilities and then fetches
+    the details for each game in the list.
 
-    This is a convenience function that combines `get_games_list` and `get_game_details`.
+    This is a convenience function that combines `get_games_list` and
+    `get_game_details`.
 
     Args:
         page: The page number to fetch.
@@ -165,7 +231,8 @@ def get_games_list_with_details(
         search: A search query to filter games by name.
         orderBy: The sorting order for the games list.
         platforms: A list of platforms to filter by (e.g., 'android', 'ios').
-        players: A list of player modes to filter by (e.g., 'singleplayer', 'multiplayer').
+        players: A list of player modes to filter by
+            (e.g., 'singleplayer', 'multiplayer').
         network: The network availability to filter by (e.g., 'online', 'offline').
         monetization_android: A list of monetization models for Android to filter by.
         monetization_ios: A list of monetization models for iOS to filter by.
@@ -178,7 +245,8 @@ def get_games_list_with_details(
         score: A dictionary to filter by score.
 
     Returns:
-        A dictionary containing a list of games with their details and pagination information.
+        A dictionary containing a list of games with their details and pagination
+        information.
     """
     client = MiniReviewClient()
     games = client.get_games_list(
@@ -204,18 +272,25 @@ def get_games_list_with_details(
     return games
 
 
-@app.tool(description="Fetches a list of games similar to a specific game and then fetches the details for each game in the list.")
+@app.tool(
+    description=(
+        "Fetches a list of games similar to a specific game and then fetches the "
+        "details for each game in the list."
+    )
+)
 def get_similar_games_with_details(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    platforms: Optional[list[Platform]] = None,
+    platforms: list[Platform] | None = None,
     orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
     """
-    Fetches a list of games similar to a specific game and then fetches the details for each game in the list.
+    Fetches a list of games similar to a specific game and then fetches the
+    details for each game in the list.
 
-    This is a convenience function that combines `get_similar_games` and `get_game_details`.
+    This is a convenience function that combines `get_similar_games` and
+    `get_game_details`.
 
     Args:
         game_id: The ID of the game to find similar games for.
@@ -225,7 +300,8 @@ def get_similar_games_with_details(
         orderBy: The sorting order for the similar games list.
 
     Returns:
-        A dictionary containing a list of similar games with their details and pagination information.
+        A dictionary containing a list of similar games with their details and
+        pagination information.
     """
     client = MiniReviewClient()
     games = client.get_similar_games(game_id, page, limit, platforms, orderBy)

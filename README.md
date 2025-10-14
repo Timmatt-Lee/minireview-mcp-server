@@ -21,23 +21,23 @@ To get started, you'll need to have Python 3.10+ and pip installed.
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
-    cd minireview-mcp-server
-    ```
+   ```bash
+   git clone https://github.com/Timmatt-Lee/minireview-mcp-server.git
+   cd minireview-mcp-server
+   ```
 
 2. **Create a virtual environment:**
 
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate
-    ```
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
 
 3. **Install the dependencies:**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage with Gemini CLI
 

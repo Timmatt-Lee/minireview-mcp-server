@@ -4,7 +4,7 @@ for interacting with the minireview.io API.
 """
 
 from enum import Enum
-from typing import Any, Optional
+from typing import Any
 
 import requests
 
@@ -34,7 +34,7 @@ class MiniReviewClient:
 
     def __init__(self):
         self._session = requests.Session()
-        self._filters_cache: Optional[dict] = None
+        self._filters_cache: dict | None = None
 
     def _build_params(self, params: dict[str, Any]) -> dict[str, Any]:
         """
@@ -69,7 +69,7 @@ class MiniReviewClient:
 
         return processed_params
 
-    def _fetch_api(self, endpoint: str, params: Optional[dict] = None) -> dict:
+    def _fetch_api(self, endpoint: str, params: dict | None = None) -> dict:
         """
         A private method to fetch data from the minireview.io API.
 
@@ -137,18 +137,18 @@ class MiniReviewClient:
         limit: int = 50,
         search: str = "",
         orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-        platforms: Optional[list[Platform]] = None,
-        players: Optional[list[Players]] = None,
-        network: Optional[Network] = None,
-        monetization_android: Optional[list[Monetization]] = None,
-        monetization_ios: Optional[list[Monetization]] = None,
-        screen_orientation: Optional[ScreenOrientation] = None,
-        category: Optional[Category] = None,
-        sub_category: Optional[SubCategory] = None,
-        tags: Optional[list[Tag]] = None,
-        countries_android: Optional[list[str]] = None,
-        countries_ios: Optional[list[str]] = None,
-        score: Optional[dict[Score, int]] = None,
+        platforms: list[Platform] | None = None,
+        players: list[Players] | None = None,
+        network: Network | None = None,
+        monetization_android: list[Monetization] | None = None,
+        monetization_ios: list[Monetization] | None = None,
+        screen_orientation: ScreenOrientation | None = None,
+        category: Category | None = None,
+        sub_category: SubCategory | None = None,
+        tags: list[Tag] | None = None,
+        countries_android: list[str] | None = None,
+        countries_ios: list[str] | None = None,
+        score: dict[Score, int] | None = None,
     ) -> dict:
         """
         Fetches a list of games with extensive filtering capabilities.
@@ -207,7 +207,7 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        platforms: Optional[list[Platform]] = None,
+        platforms: list[Platform] | None = None,
         orderBy: OrderBy = OrderBy.MOST_POPULAR,
     ) -> dict:
         """
@@ -267,8 +267,8 @@ class MiniReviewClient:
     def get_home(
         self,
         page: int = 1,
-        platforms: Optional[list[Platform]] = None,
-        ids_ignore: Optional[list[int]] = None,
+        platforms: list[Platform] | None = None,
+        ids_ignore: list[int] | None = None,
         orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
     ) -> dict:
         """
@@ -289,7 +289,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.WEEK,
-        platforms: Optional[list[Platform]] = None,
+        platforms: list[Platform] | None = None,
     ) -> dict:
         """
         Fetches games of the week.
@@ -310,7 +310,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.THIS_WEEK,
-        platforms: Optional[list[Platform]] = None,
+        platforms: list[Platform] | None = None,
     ) -> dict:
         """
         Fetches top user ratings.
@@ -330,7 +330,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.LAUNCH_DATE,
-        platforms: Optional[list[Platform]] = None,
+        platforms: list[Platform] | None = None,
     ) -> dict:
         """
         Fetches upcoming games.
@@ -346,7 +346,7 @@ class MiniReviewClient:
         return self._fetch_api("/upcoming-games", params)
 
     def get_similar_games_main_page(
-        self, platforms: Optional[list[Platform]] = None
+        self, platforms: list[Platform] | None = None
     ) -> dict:
         """
         Fetches similar games for the main page.
@@ -379,7 +379,7 @@ class MiniReviewClient:
         return self._fetch_api(f"/special-top-games/{slug}")
 
     def get_categories(
-        self, search: str = "", platforms: Optional[list[Platform]] = None
+        self, search: str = "", platforms: list[Platform] | None = None
     ) -> dict:
         """
         Fetches a list of categories.
