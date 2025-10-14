@@ -25,3 +25,13 @@ repos:
     rev: v3.0.0-alpha.6
     hooks:
       - id: prettier
+  - repo: local
+    hooks:
+      - id: coverage
+        name: Run Tests with Coverage
+        entry: bash -c 'coverage run -m unittest discover tests && coverage report'
+        language: python
+        language_version: default
+        types: [python]
+        pass_filenames: false
+        additional_dependencies: [coverage, requests]
