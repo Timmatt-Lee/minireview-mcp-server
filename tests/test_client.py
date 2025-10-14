@@ -94,6 +94,20 @@ class TestMiniReviewClient(unittest.TestCase):
         with self.assertRaises(APIError):
             self.client._fetch_api("/test-endpoint")
 
+    @patch.object(requests.Session, "get")
+    def test_fetch_api_http_error(self, mock_get):
+        """Test that an APIError is raised on an HTTP error."""
+        mock_response = unittest.mock.Mock()
+        mock_response.status_code = 404
+        mock_response.raise_for_status.side_effect = requests.exceptions.HTTPError(
+            "404 Client Error: Not Found for url: ..."
+        )
+        mock_get.return_value = mock_response
+
+        with self.assertRaises(APIError) as cm:
+            self.client._fetch_api("/test-endpoint")
+        self.assertIn("404 Client Error", str(cm.exception))
+
     @patch("minireview_client.client.MiniReviewClient._fetch_api")
     def test_get_game_ratings_uses_enum(self, mock_fetch_api):
         """Test that get_game_ratings correctly processes its OrderBy enum."""

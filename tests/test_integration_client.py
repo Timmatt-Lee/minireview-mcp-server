@@ -6,7 +6,6 @@ import unittest
 
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import Platform
-from minireview_client.exceptions import APIError
 
 
 class TestIntegrationMiniReviewClient(unittest.TestCase):
@@ -116,12 +115,6 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
         """Test a live call to get_top_games."""
         response = self.client.get_top_games()
         self.assertIn("data", response)
-
-    def test_get_special_top_games_404(self):
-        """Test that get_special_top_games raises a 404 for a bad slug."""
-        with self.assertRaises(APIError) as cm:
-            self.client.get_special_top_games(slug="a-slug-that-will-never-exist-123")
-        self.assertIn("404 Client Error", str(cm.exception))
 
     def test_get_categories(self):
         """Test a live call to get_categories."""
