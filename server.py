@@ -1,6 +1,12 @@
 from fastmcp import FastMCP
 
 from minireview_client.client import MiniReviewClient
+from minireview_client.enums import (
+    CollectionsOrderBy,
+    GameRatingsOrderBy,
+    OrderBy,
+    Platform,
+)
 
 app = FastMCP()
 
@@ -10,8 +16,8 @@ def get_games_list(
     page: int = 1,
     limit: int = 50,
     search: str = "",
-    orderBy: str = "last-added-reviews",
-    platforms: list[str] | None = None,
+    orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+    platforms: list[Platform] | None = None,
     players: list[str] | None = None,
     network: str | None = None,
     monetization_android: list[str] | None = None,
@@ -92,7 +98,7 @@ def get_game_ratings(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    orderBy: str = "newest",
+    orderBy: GameRatingsOrderBy = GameRatingsOrderBy.NEWEST,
 ) -> dict:
     """
     Fetches the ratings for a specific game.
@@ -115,8 +121,8 @@ def get_similar_games(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    platforms: list[str] | None = None,
-    orderBy: str = "most-popular",
+    platforms: list[Platform] | None = None,
+    orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
     """
     Fetches a list of games similar to a specific game.
@@ -140,7 +146,7 @@ def get_collections(
     page: int = 1,
     limit: int = 50,
     search: str = "",
-    orderBy: str = "most-popular",
+    orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
     loadNew: bool = True,
     loadLastUpdated: bool = True,
 ) -> dict:
@@ -165,7 +171,7 @@ def get_collections(
 
 
 @app.tool(description="Fetches a list of game categories.")
-def get_categories(search: str = "", platforms: list[str] | None = None) -> dict:
+def get_categories(search: str = "", platforms: list[Platform] | None = None) -> dict:
     """
     Fetches a list of game categories.
 
@@ -190,8 +196,8 @@ def get_games_list_with_details(
     page: int = 1,
     limit: int = 50,
     search: str = "",
-    orderBy: str = "last-added-reviews",
-    platforms: list[str] | None = None,
+    orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+    platforms: list[Platform] | None = None,
     players: list[str] | None = None,
     network: str | None = None,
     monetization_android: list[str] | None = None,
@@ -268,8 +274,8 @@ def get_similar_games_with_details(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    platforms: list[str] | None = None,
-    orderBy: str = "most-popular",
+    platforms: list[Platform] | None = None,
+    orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
     """
     Fetches a list of games similar to a specific game and then fetches the

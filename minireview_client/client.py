@@ -3,10 +3,12 @@ This module contains the MiniReviewClient class, which is the main entry point
 for interacting with the minireview.io API.
 """
 
+from enum import Enum
 from typing import Any
 
 import requests
 
+from .enums import CollectionsOrderBy, GameRatingsOrderBy, OrderBy, Platform
 from .exceptions import APIError
 
 
@@ -85,8 +87,12 @@ class MiniReviewClient:
             if value is None:
                 continue
 
-            if isinstance(value, list):
-                processed_params[f"{key}[]"] = value
+            if isinstance(value, Enum):
+                processed_params[key] = value.value
+            elif isinstance(value, list):
+                processed_params[f"{key}[]"] = [
+                    v.value if isinstance(v, Enum) else v for v in value
+                ]
             elif isinstance(value, dict):
                 for s, v in value.items():
                     processed_params[f"score[{s}]"] = v
@@ -167,8 +173,8 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         search: str = "",
-        orderBy: str = "last-added-reviews",
-        platforms: list[str] | None = None,
+        orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+        platforms: list[Platform] | None = None,
         players: list[str] | None = None,
         network: str | None = None,
         monetization_android: list[str] | None = None,
@@ -216,7 +222,7 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        orderBy: str = "newest",
+        orderBy: GameRatingsOrderBy = GameRatingsOrderBy.NEWEST,
     ) -> dict:
         """
         Fetches ratings for a specific game.
@@ -236,8 +242,8 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        platforms: list[str] | None = None,
-        orderBy: str = "most-popular",
+        platforms: list[Platform] | None = None,
+        orderBy: OrderBy = OrderBy.MOST_POPULAR,
     ) -> dict:
         """
         Fetches games similar to a specific game.
@@ -254,7 +260,7 @@ class MiniReviewClient:
             "/games-similar", self._build_params(params, validate=True)
         )
 
-    def get_side_content(self, platforms: list[str], content: list[str]) -> dict:
+    def get_side_content(self, platforms: list[Platform], content: list[str]) -> dict:
         """
         Fetches side content for the website.
         """
@@ -272,7 +278,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         search: str = "",
-        orderBy: str = "most-popular",
+        orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
         loadNew: bool = True,
         loadLastUpdated: bool = True,
     ) -> dict:
@@ -294,9 +300,9 @@ class MiniReviewClient:
     def get_home(
         self,
         page: int = 1,
-        platforms: list[str] | None = None,
+        platforms: list[Platform] | None = None,
         ids_ignore: list[int] | None = None,
-        orderBy: str = "last-added-reviews",
+        orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
     ) -> dict:
         """
         Fetches the home page content.
@@ -313,8 +319,8 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: str = "week",
-        platforms: list[str] | None = None,
+        orderBy: OrderBy = OrderBy.WEEK,
+        platforms: list[Platform] | None = None,
     ) -> dict:
         """
         Fetches games of the week.
@@ -332,8 +338,8 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: str = "this-week",
-        platforms: list[str] | None = None,
+        orderBy: OrderBy = OrderBy.THIS_WEEK,
+        platforms: list[Platform] | None = None,
     ) -> dict:
         """
         Fetches top user ratings.
@@ -352,8 +358,8 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: str = "launch-date",
-        platforms: list[str] | None = None,
+        orderBy: OrderBy = OrderBy.LAUNCH_DATE,
+        platforms: list[Platform] | None = None,
     ) -> dict:
         """
         Fetches upcoming games.
@@ -368,14 +374,13 @@ class MiniReviewClient:
             "/upcoming-games", self._build_params(params, validate=True)
         )
 
-    def get_similar_games_main_page(self, platforms: list[str] | None = None) -> dict:
+    def get_similar_games_main_page(
+        self, platforms: list[Platform] | None = None
+    ) -> dict:
         """
         Fetches similar games for the main page.
         """
-        params = {
-            "acao": "main-page",
-            "platforms": platforms,
-        }
+        params = {"acao": "main-page", "platforms": platforms}
         return self._fetch_api(
             "/games-similar/rota_acao", self._build_params(params, validate=True)
         )
@@ -384,13 +389,7 @@ class MiniReviewClient:
         """
         Fetches top games.
         """
-        params = self._build_params(
-            {
-                "page": page,
-                "limit": limit,
-                "search": search,
-            }
-        )
+        params = self._build_params({"page": page, "limit": limit, "search": search})
         return self._fetch_api("/top-games", params)
 
     def get_special_top_games(self, slug: str) -> dict:
@@ -400,13 +399,10 @@ class MiniReviewClient:
         return self._fetch_api(f"/special-top-games/{slug}")
 
     def get_categories(
-        self, search: str = "", platforms: list[str] | None = None
+        self, search: str = "", platforms: list[Platform] | None = None
     ) -> dict:
         """
         Fetches a list of categories.
         """
-        params = {
-            "search": search,
-            "platforms": platforms,
-        }
+        params = {"search": search, "platforms": platforms}
         return self._fetch_api("/categories", self._build_params(params, validate=True))
