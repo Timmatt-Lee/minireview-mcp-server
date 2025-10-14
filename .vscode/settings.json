@@ -15,10 +15,5 @@
     "TWOD",
     "Updatedcollections"
   ],
-  "cSpell.language": "en,es",
-  "editor.formatOnSave": true,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "ruff.lint.args": ["--config=pyproject.toml"]
+  "cSpell.language": "en,pt"
 }
