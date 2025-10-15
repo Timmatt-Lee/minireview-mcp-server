@@ -7,6 +7,7 @@
     "moba",
     "Newcollections",
     "oldschool",
+    "porcentagem",
     "roguelike",
     "royale",
     "singleplayer",
@@ -15,5 +16,8 @@
     "TWOD",
     "Updatedcollections"
   ],
-  "cSpell.language": "en,pt"
+  "cSpell.language": "en,pt",
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
