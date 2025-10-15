@@ -52,15 +52,28 @@ async def test_get_game_details_integration():
 
         # Assert the structure of the trimmed and translated response
         assert isinstance(details_data, dict)
-        assert "id" in details_data
-        assert "name" in details_data
-        assert "slug" not in details_data
-        assert "score" in details_data
-        assert "category" in details_data
-        assert "subcategory" in details_data
-        assert "available_platforms" in details_data
-        assert "android" in details_data["available_platforms"]
-        assert "ios" in details_data["available_platforms"]
+        assert details_data.get("id") is not None
+        assert details_data.get("name") is not None
+        assert details_data.get("slug") is not None
+        assert details_data.get("score") is not None
+        assert details_data.get("total_reviews") is not None
+        assert details_data.get("platform") is not None
+        assert details_data["platform"].get("android") is not None
+        assert details_data["platform"]["android"].get("is_available") is not None
+        assert details_data["platform"]["android"].get("is_dead") is not None
+        assert details_data["platform"].get("ios") is not None
+        assert details_data["platform"]["ios"].get("is_available") is not None
+        assert details_data["platform"]["ios"].get("is_dead") is not None
+        assert details_data.get("category") is not None
+        assert details_data.get("subcategory") is not None
+        assert details_data.get("categories") is not None
+        assert details_data.get("top_game") is not None
+        assert details_data.get("is_minireview_pick") is not None
+        assert details_data.get("is_game_of_week") is not None
+        assert details_data.get("description") is not None
+        assert details_data.get("review") is not None
+        assert details_data.get("spec") is not None
+        assert details_data.get("tags") is not None
 
 
 @pytest.mark.asyncio
