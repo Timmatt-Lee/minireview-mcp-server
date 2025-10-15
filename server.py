@@ -91,71 +91,44 @@ def get_game_details(game_slug: str, category: str) -> dict:
     """
     client = MiniReviewClient()
     game_details = client.get_game_details(game_slug, category)
+    game_details_data = game_details.get('data')
+    game_details_data.map(lambda item: {
+       
+    })
 
-    TRANSLATION_MAP = {
-        "nome": "name",
-        "avaliacoes_total": "total_reviews",
-        "usuario_favorito": "user_favorite",
-        "categoria": "category",
-        "sub_categoria": "subcategory",
-        "filtros": "filters",
-        "tipo": "type",
-        "ultima_pagina": "last_page",
-        "nota": "score",
-        "morto_data": "die_date",
-        "descricao": "description",
-        "preco": "price",
-        "semana": "week",
-        "data_lancamento": "release_date",
-        "data_escolha": "pick_date",
-        "porcentagem_positiva": "positive_review_percentage",
-        "total_review": "total_review",
-        "disponivel_android": "available_android",
-        "disponivel_ios": "available_ios",
-        "pagina": "page",
-        "total": "total",
-        "resultados": "results",
-        "id": "id",
-        "slug": "slug",
-    }
-
-    def translate_keys(obj, translation_map):
-        if isinstance(obj, dict):
-            new_obj = {}
-            for k, v in obj.items():
-                new_key = translation_map.get(k, k)
-                new_obj[new_key] = translate_keys(v, translation_map)
-            return new_obj
-        elif isinstance(obj, list):
-            return [translate_keys(item, translation_map) for item in obj]
-        else:
-            return obj
-
-    translated_details = translate_keys(game_details, TRANSLATION_MAP)
-
-    trimmed_game = {
-        "id": translated_details.get("id"),
-        "name": translated_details.get("name"),
-        "total_review": translated_details.get("total_reviews"),
-        "positive_review_percentage": translated_details.get(
-            "positive_review_percentage"
-        ),
-        "score": translated_details.get("score"),
-        "favorite_user": translated_details.get("user_favorite"),
-        "category": translated_details.get("category"),
-        "subcategory": translated_details.get("subcategory"),
-        "available_platforms": {
-            "android": translated_details.get("available_android"),
-            "ios": translated_details.get("available_ios"),
+    return {
+        "id": game_details_data.get("id"),
+        "name": game_details_data.get("nome"),
+        "slug": game_details_data.get("slug"),
+        "score": game_details_data.get("nota"),
+        "total_reviews": game_details_data.get("avaliacoes_total"),
+        "platform": {
+            "android":{
+                "is_available": game_details_data.get("disponivel_android"),
+                "price": game_details_data.get("preco_android"),
+                "is_dead": game_details_data.get("android_morto"),
+                "dead_date": game_details_data.get("android_morto_data"),
+                "link": game_details_data.get("link_android"),
+            },
+            "ios":{
+                "is_available": game_details_data.get("disponivel_ios"),
+                "price": game_details_data.get("preco_ios"),
+                "is_dead": game_details_data.get("ios_morto"),
+                "dead_date": game_details_data.get("ios_morto_data"),
+                "link": game_details_data.get("link_ios"),
+            }
         },
-        "description": translated_details.get("description"),
-        "die_date": translated_details.get("die_date"),
-        "pick_date": translated_details.get("pick_date"),
-        "week": translated_details.get("week"),
-        "price": translated_details.get("price"),
+        "category": game_details_data.get("categoria"),
+        "subcategory": game_details_data.get("sub_categoria"),
+        "categories": game_details_data.get("categorias"),
+        "top_game": game_details_data.get("top_game"),
+        "is_minireview_pick": game_details_data.get("our_picks"),
+        "is_game_of_week": game_details_data.get("game_of_the_week"),
+        "description": game_details_data.get("descricao"),
+        "review": game_details_data.get("review"),
+        "spec": game_details_data.get("especificacoes"),
+        "tags": game_details_data.get("tags"),
     }
-
-    return trimmed_game
 
 
 @app.tool(description="Fetches the ratings for a specific game.")
