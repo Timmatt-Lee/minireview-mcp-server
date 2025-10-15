@@ -22,9 +22,12 @@ select = [
 # Preserve types, even if a file doesn't have a `from __future__ import annotations` import.
 keep-runtime-typing = true
 
+[tool.pytest.ini_options]
+asyncio_mode = 'auto'
+
 [tool.coverage.run]
-source = ["minireview_client"]
-omit = ["*/__pycache__/*", "tests/*", ".venv/*", "server.py"]
+source = ["minireview_client", "server"]
+omit = ["*/__pycache__/*", "tests/*", ".venv/*"]
 
 [tool.coverage.report]
 fail_under = 95
