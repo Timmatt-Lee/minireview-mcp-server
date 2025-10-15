@@ -137,7 +137,9 @@ def get_game_details(game_slug: str, category: str) -> dict:
         "id": translated_details.get("id"),
         "name": translated_details.get("name"),
         "total_review": translated_details.get("total_reviews"),
-        "positive_review_percentage": translated_details.get("positive_review_percentage"),
+        "positive_review_percentage": translated_details.get(
+            "positive_review_percentage"
+        ),
         "score": translated_details.get("score"),
         "favorite_user": translated_details.get("user_favorite"),
         "category": translated_details.get("category"),
@@ -322,8 +324,10 @@ def get_games_list_with_details(
         countries_ios=countries_ios,
         score=score,
     )
-    for game in games["results"]:
-        game["details"] = client.get_game_details(game["slug"], game["category"])
+    for game in games["data"]:
+        game["details"] = client.get_game_details(
+            game["slug"], game["categoria"]["slug"]
+        )
     return games
 
 
@@ -360,8 +364,10 @@ def get_similar_games_with_details(
     """
     client = MiniReviewClient()
     games = client.get_similar_games(game_id, page, limit, platforms, orderBy)
-    for game in games["results"]:
-        game["details"] = client.get_game_details(game["slug"], game["category"])
+    for game in games["data"]:
+        game["details"] = client.get_game_details(
+            game["slug"], game["categoria"]["slug"]
+        )
     return games
 
 

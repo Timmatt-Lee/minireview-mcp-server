@@ -29,12 +29,13 @@ repos:
     hooks:
       - id: coverage
         name: Run Tests with Coverage
-        entry: bash -c 'coverage run -m unittest discover tests && coverage report'
+        entry: bash -c 'coverage run -m pytest tests && coverage report'
         language: python
         language_version: default
         types: [python]
         pass_filenames: false
-        additional_dependencies: [coverage, requests]
+        additional_dependencies:
+          [coverage, requests, pytest, fastmcp, pytest-asyncio]
       - id: test-agent
         name: Test Agent Configuration
         entry: test_agent_live.sh
