@@ -1,5 +1,7 @@
 # MiniReview MCP Server
 
+[![CI](https://github.com/Timmatt-Lee/minireview-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/Timmatt-Lee/minireview-mcp-server/actions/workflows/ci.yml)
+
 This project exposes the [minireview.io](https://minireview.io/) API as an MCP
 server. It's built with the
 [fastmcp](https://github.com/jlowin/fastmcp) library, which is a high-level
