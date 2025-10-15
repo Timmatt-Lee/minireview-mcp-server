@@ -43,7 +43,25 @@ async def test_get_game_details(mock_minireview_client):
             result = await client.call_tool("get_game_details", {"game_slug": "test-slug", "category": "test-category"})
             data = json.loads(result.content[0].text)
 
-            assert data == {"id": 1, "name": "Test Game", "slug": "test-slug"}
+            assert data == {
+                "id": 1,
+                "name": "Test Game",
+                "total_review": None,
+                "positive_review_percentage": None,
+                "score": None,
+                "favorite_user": None,
+                "category": None,
+                "subcategory": None,
+                "available_platforms": {
+                    "android": None,
+                    "ios": None,
+                },
+                "description": None,
+                "die_date": None,
+                "pick_date": None,
+                "week": None,
+                "price": None,
+            }
 
 @pytest.mark.asyncio
 async def test_get_game_ratings(mock_minireview_client):
@@ -104,6 +122,58 @@ async def test_get_games_list_with_details(mock_minireview_client):
             data = json.loads(result.content[0].text)
 
             assert "details" in data["results"][0]
+
+@pytest.mark.asyncio
+async def test_get_game_details_trims_and_translates_response(mock_minireview_client):
+    with patch('server.MiniReviewClient', return_value=mock_minireview_client):
+        mock_minireview_client.get_game_details.return_value = {
+            "id": 1,
+            "nome": "Test Game",
+            "slug": "test-slug",
+            "nota": 4.5,
+            "categoria": {"nome": "Aventura"},
+            "sub_categoria": "RPG",
+            "descricao": "A great game",
+            "morto_data": "2025-12-31",
+            "data_escolha": "2025-10-15",
+            "semana": 42,
+            "preco": 10,
+            "avaliacoes_total": 100,
+            "porcentagem_positiva": 95,
+            "usuario_favorito": True,
+            "disponivel_android": True,
+            "disponivel_ios": False,
+            "some_other_field": "should be removed"
+        }
+
+        app = FastMCP()
+        app.tool(get_game_details.fn)
+
+        async with Client(app) as client:
+            result = await client.call_tool("get_game_details", {"game_slug": "test-slug", "category": "test-category"})
+            data = json.loads(result.content[0].text)
+
+            expected_data = {
+                "id": 1,
+                "name": "Test Game",
+                "total_review": 100,
+                "positive_review_percentage": 95,
+                "score": 4.5,
+                "favorite_user": True,
+                "category": {"name": "Aventura"},
+                "subcategory": "RPG",
+                "available_platforms": {
+                    "android": True,
+                    "ios": False,
+                },
+                "description": "A great game",
+                "die_date": "2025-12-31",
+                "pick_date": "2025-10-15",
+                "week": 42,
+                "price": 10,
+            }
+
+            assert data == expected_data
 
 @pytest.mark.asyncio
 async def test_get_similar_games_with_details(mock_minireview_client):
