@@ -91,35 +91,32 @@ def get_game_details(game_slug: str, category: str) -> dict:
     """
     client = MiniReviewClient()
     game_details = client.get_game_details(game_slug, category)
-    game_details_data = game_details.get('data')
-    game_details_data.map(lambda item: {
-       
-    })
+    game_details_data = game_details.get("data")
 
     return {
         "id": game_details_data.get("id"),
         "name": game_details_data.get("nome"),
         "slug": game_details_data.get("slug"),
         "score": game_details_data.get("nota"),
-        "total_reviews": game_details_data.get("avaliacoes_total"),
+        "total_reviews": game_details_data.get("total_avaliacoes"),
         "platform": {
-            "android":{
+            "android": {
                 "is_available": game_details_data.get("disponivel_android"),
                 "price": game_details_data.get("preco_android"),
                 "is_dead": game_details_data.get("android_morto"),
                 "dead_date": game_details_data.get("android_morto_data"),
                 "link": game_details_data.get("link_android"),
             },
-            "ios":{
+            "ios": {
                 "is_available": game_details_data.get("disponivel_ios"),
                 "price": game_details_data.get("preco_ios"),
                 "is_dead": game_details_data.get("ios_morto"),
                 "dead_date": game_details_data.get("ios_morto_data"),
                 "link": game_details_data.get("link_ios"),
-            }
+            },
         },
         "category": game_details_data.get("categoria"),
-        "subcategory": game_details_data.get("sub_categoria"),
+        "subcategory": game_details_data.get("subcategoria"),
         "categories": game_details_data.get("categorias"),
         "top_game": game_details_data.get("top_game"),
         "is_minireview_pick": game_details_data.get("our_picks"),
