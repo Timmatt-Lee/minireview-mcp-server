@@ -45,6 +45,7 @@ dependencies = [
     "uv==0.9.2",
     "fastmcp==2.12.4",
     "google-adk",
+    "python-dotenv",
 ]
 
 [project.optional-dependencies]
