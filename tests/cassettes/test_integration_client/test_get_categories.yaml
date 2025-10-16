@@ -1,0 +1,66 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=125foslehl4lu5be3ddr8d876a
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/categories?search=
+    response:
+      body:
+        string:
+          '{"data":[{"id":1,"nome":"Action","slug":"action","total":769,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-59efb017c198dc333fd35a608ab9f68b.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-59efb017c198dc333fd35a608ab9f68b.webp"},{"id":2,"nome":"Adventure","slug":"adventure","total":754,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-c477dda6b811a438767f3110cf1ff35e.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-c477dda6b811a438767f3110cf1ff35e.webp"},{"id":3,"nome":"Arcade","slug":"arcade","total":574,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-26331b60dcffe4859f52093532aab15b.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-26331b60dcffe4859f52093532aab15b.webp"},{"id":37,"nome":"Auto
+          Battler","slug":"auto-battler","total":31,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-616264fd228391af89e409db0de298dd.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-616264fd228391af89e409db0de298dd.webp"},{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale","total":"18","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-5d3fb60ca479921d5ce776f47289ca52.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-5d3fb60ca479921d5ce776f47289ca52.webp"},{"id":4,"nome":"Board","slug":"board","total":122,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-80138e87429cc1039fe5d0d29f94bc9d.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-80138e87429cc1039fe5d0d29f94bc9d.webp"},{"id":11,"nome":"Card","slug":"card","total":77,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-8ff6f5892ce8a9663e8107c9b8364e58.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-8ff6f5892ce8a9663e8107c9b8364e58.webp"},{"id":6,"nome":"Casual","slug":"casual","total":539,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-f14e5882e183825a8077f16d1d2f5e66.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-f14e5882e183825a8077f16d1d2f5e66.webp"},{"id":32,"nome":"CCG","slug":"ccg","total":"25","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-9110d6956b3caf22cec134e68000d415.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-9110d6956b3caf22cec134e68000d415.webp"},{"id":35,"nome":"Deck-Building","slug":"deck-building","total":"104","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-e3c1caab8f52966f1b3ec98e9610e34d.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-e3c1caab8f52966f1b3ec98e9610e34d.webp"},{"id":22,"nome":"Fighting","slug":"fighting","total":102,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-dd687e708405dca9d29ad555dc72e741.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-dd687e708405dca9d29ad555dc72e741.webp"},{"id":19,"nome":"FPS","slug":"fps","total":"49","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-8a984de3e53491c840f56521654d4d10.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-8a984de3e53491c840f56521654d4d10.webp"},{"id":30,"nome":"Gacha","slug":"gacha","total":104,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-1e02f4f02e0356705c21009195dbd5a4.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-1e02f4f02e0356705c21009195dbd5a4.webp"},{"id":34,"nome":"Incremental","slug":"incremental","total":200,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-0350be4dbd97ca3a0d5db1373476e5ff.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-0350be4dbd97ca3a0d5db1373476e5ff.webp"},{"id":23,"nome":"MMORPG","slug":"mmorpg","total":"73","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-31601b93fc5ec0ce349058bb12270383.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-31601b93fc5ec0ce349058bb12270383.webp"},{"id":21,"nome":"MOBA","slug":"moba","total":"16","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-10a11ce98d4d53eee20e324f54b33718.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-10a11ce98d4d53eee20e324f54b33718.webp"},{"id":8,"nome":"Music","slug":"music","total":"35","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-bd652b9dfa48e9b1b8148fff03571242.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-bd652b9dfa48e9b1b8148fff03571242.webp"},{"id":24,"nome":"Platform","slug":"platform","total":382,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-0b79f45382ffeba855a6c1034f5bb1d4.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-0b79f45382ffeba855a6c1034f5bb1d4.webp"},{"id":9,"nome":"Puzzle","slug":"puzzle","total":828,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-02fbbec94f9acc348c35f87d08ce3e0f.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-02fbbec94f9acc348c35f87d08ce3e0f.webp"},{"id":10,"nome":"Racing","slug":"racing","total":142,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-95e46a7dd6bc02980e8b60013cb599d6.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-95e46a7dd6bc02980e8b60013cb599d6.webp"},{"id":12,"nome":"Role
+          Playing","slug":"role-playing","total":814,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-f9eb97dae514d081b598f378e911db43.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-f9eb97dae514d081b598f378e911db43.webp"},{"id":20,"nome":"Runner","slug":"runner","total":104,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-bbbd304182eba42494e02c40de50f4a0.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-bbbd304182eba42494e02c40de50f4a0.webp"},{"id":18,"nome":"Shooter","slug":"shooter","total":247,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-5cfbf42c18d157f7e359ae81558e06e6.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-5cfbf42c18d157f7e359ae81558e06e6.webp"},{"id":13,"nome":"Simulation","slug":"simulation","total":330,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-15476fa57abf2d914cb588ca26a86aee.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-15476fa57abf2d914cb588ca26a86aee.webp"},{"id":14,"nome":"Sports","slug":"sports","total":"102","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-9fb5c9482bc60cdb11fc789947741af0.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-9fb5c9482bc60cdb11fc789947741af0.webp"},{"id":15,"nome":"Strategy","slug":"strategy","total":551,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-eb92e86a446c82e4ddabb6e034b122f5.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-eb92e86a446c82e4ddabb6e034b122f5.webp"},{"id":26,"nome":"Survival","slug":"survival","total":136,"thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-094666120fff1991464289540d97cca3.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-094666120fff1991464289540d97cca3.webp"},{"id":25,"nome":"Tower
+          Defense","slug":"tower-defense","total":"93","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-48978a06b47ea948b9fce6de43c8a041.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-48978a06b47ea948b9fce6de43c8a041.webp"},{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush","total":"16","thumb":"\/common\/uploads\/cache\/categoria\/4-62-42-1dea74b235c4be79fdcddbdac1ea63c8.webp","thumb_preloader":"\/common\/uploads\/cache\/categoria\/4-31-21-1dea74b235c4be79fdcddbdac1ea63c8.webp"}],"total":29}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 98f846d93ef94a4e-TPE
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Thu, 16 Oct 2025 14:34:23 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jm3XNmaY0g%2B8QwE1qmepT2KlF9SuVcthzrJiIH42pLCNoewESmAMqqUmn2rkIOqbCVsume%2B6Tn%2FEL4StQZIJY4DwQ7v8tV3%2B9ZXzZWvHf%2Byz40ZnX%2Fk%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+version: 1

@@ -1,0 +1,71 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=125foslehl4lu5be3ddr8d876a
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/general/rota_acao?acao=get-side-content&platforms%5B%5D=android&c%5B%5D=reviews&c%5B%5D=topgames
+    response:
+      body:
+        string:
+          '{"reviews":[{"id":5184,"nome":"Lunar Silver Star Story Touch","slug":"lunar-silver-star-story-touch","logo":"common\/uploads\/icons\/bf3b6984e0ddff6d036292de573ff54f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bf3b6984e0ddff6d036292de573ff54f.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"price":"$11.99"},{"id":6136,"nome":"Kaamos","slug":"kaamos","logo":"common\/uploads\/icons\/0f2f30096c440bbea0df358d163dd061.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0f2f30096c440bbea0df358d163dd061.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":16,"nome":"Dungeon
+          Crawler","slug":"dungeon-crawler","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"price":"$3.99"},{"id":6114,"nome":"Poly
+          Bridge 3","slug":"poly-bridge-3","logo":"common\/uploads\/icons\/2fd24441ee4ee3ae53e0a2d5f74fb7cc.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-2fd24441ee4ee3ae53e0a2d5f74fb7cc.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"price":"$2.99"},{"id":2985,"nome":"Lowlander","slug":"lowlander","logo":"common\/uploads\/icons\/d55e6d70d22caf6a1d381fdf519d6441.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d55e6d70d22caf6a1d381fdf519d6441.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"price":"$1.99"},{"id":4121,"nome":"Candleman","slug":"candleman","logo":"common\/uploads\/icons\/0bf5e107fba1f08fee2cbb16951b2cb0.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0bf5e107fba1f08fee2cbb16951b2cb0.webp","categoria":{"id":24,"nome":"Platform","slug":"platform"},"categorias":[{"id":24,"nome":"Platform","slug":"platform","type":"category"},{"id":30,"nome":"Puzzle","slug":"puzzle","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"price":"$4.99"}],"topgames":[{"id":83,"nome":"The
+          14 best Role Playing mobile games with co-op 2025","nome_lista":"Best Co-op  Role
+          Playing games on mobile","slug":"best-co-op-role-playing-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-728-410-9e6f43c61fc185c0557abd8feb71b032.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-9e6f43c61fc185c0557abd8feb71b032.webp"},{"id":69,"nome":"The
+          17 best Action mobile games with co-op 2025","nome_lista":"Best Co-op  Action
+          games on mobile","slug":"best-co-op-action-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-728-410-tmnt-netflix-6711023.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-tmnt-netflix-6711023.webp"},{"id":48,"nome":"The
+          19 best Story-Driven games on Mobile 2025","nome_lista":"Best Story-Driven
+          games on mobile","slug":"best-story-driven-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-728-410-8a97e81ed7b51014a9879f39be2f8d46.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-8a97e81ed7b51014a9879f39be2f8d46.webp"}]}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 98f846f42cb402ce-HKG
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Thu, 16 Oct 2025 14:34:28 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=I8xErltMDbH9WeVTIhkDbXa4yN8zmU0GPm4EHIv4ANTkaqk9tGrBVdnLI6Vi4E%2FnA5mZaaxKCh1wHm7nwoS0OfE1oqK2%2Bl5lNGuznZcGNPZTSvcDh8ZmTA%3D%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+version: 1

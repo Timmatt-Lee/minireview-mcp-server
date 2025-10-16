@@ -54,5 +54,6 @@ dev = [
     "ruff",
     "coverage",
     "pre-commit",
-    "pytest-asyncio"
+    "pytest-asyncio",
+    "pytest-recording"
 ]

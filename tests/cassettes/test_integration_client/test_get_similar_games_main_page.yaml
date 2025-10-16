@@ -1,0 +1,142 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=125foslehl4lu5be3ddr8d876a
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/games-similar/rota_acao?acao=main-page&platforms%5B%5D=android
+    response:
+      body:
+        string:
+          '{"banners":[{"id":231,"nome":"Free Fire - Light Fest","slug":"free-fire-the-chaos","thumb":"\/common\/uploads\/cache\/review\/1-795-441-037aa9e851183b844d3f6e16d04bca9d.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-037aa9e851183b844d3f6e16d04bca9d.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"total":25},{"id":675,"nome":"8 Ball Pool","slug":"8-ball-pool","thumb":"\/common\/uploads\/cache\/review\/1-795-441-502fc6fcdbd20650bcc5a62db2447494.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-502fc6fcdbd20650bcc5a62db2447494.webp","categoria":{"id":14,"nome":"Sports","slug":"sports"},"total":25},{"id":981,"nome":"Stardew
+          Valley","slug":"stardew-valley","thumb":"\/common\/uploads\/cache\/review\/1-795-441-dv2sdsv33232sv4dd2bbbbv3a32-5649371.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-dv2sdsv33232sv4dd2bbbbv3a32-5649371.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"total":60},{"id":1046,"nome":"Hill Climb
+          Racing 2","slug":"hill-climb-racing-2","thumb":"\/common\/uploads\/cache\/review\/1-795-441-af1e99aa2761cecee77637c20f60b8e8.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-af1e99aa2761cecee77637c20f60b8e8.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"total":25},{"id":1980,"nome":"Raft\u00ae
+          Survival - Ocean Nomad","slug":"raft-survival-ocean-nomad","thumb":"\/common\/uploads\/cache\/review\/1-795-441-raft-8740903.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-raft-8740903.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"total":31},{"id":2601,"nome":"Dan
+          the Man: Action Platformer","slug":"dan-the-man-action-platformer","thumb":"\/common\/uploads\/cache\/review\/1-795-441-b4ebd04d86c2dc0a6aaf2fceb394a15c.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-b4ebd04d86c2dc0a6aaf2fceb394a15c.webp","categoria":{"id":24,"nome":"Platform","slug":"platform"},"total":60},{"id":3074,"nome":"Sky
+          Warriors: Airplane Games","slug":"sky-warriors-airplane-games","thumb":"\/common\/uploads\/cache\/review\/1-795-441-df3972a0c2d34be0b3ccdfcd1268e087.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-df3972a0c2d34be0b3ccdfcd1268e087.webp","categoria":{"id":1,"nome":"Action","slug":"action"},"total":60},{"id":4260,"nome":"Bad
+          Piggies","slug":"bad-piggies","thumb":"\/common\/uploads\/cache\/review\/1-795-441-c911fc7b26253ea3b2fd4e86c36898ab.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-c911fc7b26253ea3b2fd4e86c36898ab.webp","categoria":{"id":6,"nome":"Casual","slug":"casual"},"total":60},{"id":4772,"nome":"Terra
+          Nil","slug":"terra-nil","thumb":"\/common\/uploads\/cache\/review\/1-795-441-9db5aabd8b705d448a24fd0d4e7deeb0.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-9db5aabd8b705d448a24fd0d4e7deeb0.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"total":32},{"id":5612,"nome":"Balatro","slug":"balatro","thumb":"\/common\/uploads\/cache\/review\/1-795-441-balatro-8907460.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-balatro-8907460.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"total":60}],"games":[{"id":199,"nome":"Stick
+          War: Legacy","slug":"stick-war-legacy","thumb":"\/thumb\/review\/1\/440\/244\/webp\/3d51167447dd19bd6d281f015e970869.jpg","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-3d51167447dd19bd6d281f015e970869.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"categorias":[{"id":31,"nome":"Tower Rush","slug":"tower-rush","type":"category"},{"id":41,"nome":"Strategy","slug":"strategy","type":"subcategory"}],"items":[{"id":5451,"nome":"Tower
+          Rush - Tower Defense TD","slug":"tower-rush-legends","logo":"common\/uploads\/icons\/ffb4d1eb3d46bf2c8cdda46a41c2e33e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-ffb4d1eb3d46bf2c8cdda46a41c2e33e.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"similarity":58},{"id":5026,"nome":"Warcraft Rumble","slug":"warcraft-rumble","logo":"common\/uploads\/icons\/9ef0406669c3c459cc355c4271df464f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-9ef0406669c3c459cc355c4271df464f.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"similarity":58},{"id":4982,"nome":"Kingdom Eighties","slug":"kingdom-eighties","logo":"common\/uploads\/icons\/d5474304b5eb70108c29052fda4afb8e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d5474304b5eb70108c29052fda4afb8e.webp","categoria":{"id":25,"nome":"Tower
+          Defense","slug":"tower-defense"},"similarity":58},{"id":4744,"nome":"Ratropolis
+          : CARD DEFENSE GAME","slug":"ratropolis-card-defense-game","logo":"common\/uploads\/icons\/24485e97b05876163fa90189238aa260.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-24485e97b05876163fa90189238aa260.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"similarity":58},{"id":3146,"nome":"Battle!
+          Bunny : Tower Defense","slug":"battle-bunny-tower-defense","logo":"common\/uploads\/icons\/0623e954a1ddab7071d48b283fe8e751.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0623e954a1ddab7071d48b283fe8e751.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"similarity":58},{"id":2961,"nome":"Final Outpost","slug":"final-outpost","logo":"common\/uploads\/icons\/638a854a6869321e17fb2491bf4f5af8.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-638a854a6869321e17fb2491bf4f5af8.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"similarity":58},{"id":2096,"nome":"King''s
+          Blood: The Defense","slug":"king-s-blood-the-defense","logo":"common\/uploads\/icons\/d0f288db6f9f4c97b30e87ccdab9758b.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d0f288db6f9f4c97b30e87ccdab9758b.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"similarity":58},{"id":1098,"nome":"Soul
+          of Eden","slug":"soul-of-eden","logo":"common\/uploads\/icons\/698f808b8b08d4a22640570c8810c6ef.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-698f808b8b08d4a22640570c8810c6ef.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"similarity":58},{"id":660,"nome":"Clash Royale","slug":"clash-royale","logo":"common\/uploads\/icons\/24fbdfb8526d48dc10ae7773e99848c9.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-24fbdfb8526d48dc10ae7773e99848c9.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"similarity":58},{"id":5721,"nome":"After Inc.","slug":"after-inc","logo":"common\/uploads\/icons\/2175a2f4ea0193a47c24719dc3caad5e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-2175a2f4ea0193a47c24719dc3caad5e.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"similarity":54}]},{"id":417,"nome":"OTR
+          - Offroad Car Driving Game","slug":"otr-offroad-car-driving-game","thumb":"\/thumb\/review\/1\/440\/244\/webp\/7c953ef79db284394fd96da5a381fb7f.jpg","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-7c953ef79db284394fd96da5a381fb7f.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"categorias":[{"id":10,"nome":"Racing","slug":"racing","type":"category"},{"id":39,"nome":"Simulation","slug":"simulation","type":"subcategory"}],"items":[{"id":5200,"nome":"Art
+          of Rally","slug":"art-of-rally","logo":"common\/uploads\/icons\/e30f7bfb93853bb40877ab30db747a24.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-e30f7bfb93853bb40877ab30db747a24.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":89},{"id":5752,"nome":"GRID\u2122
+          Legends: Deluxe Edition","slug":"grid-legends-deluxe-edition","logo":"common\/uploads\/icons\/a2155429ad705bafbe7603cf1607ded7.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a2155429ad705bafbe7603cf1607ded7.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":84},{"id":2797,"nome":"GRID\u2122
+          Autosport","slug":"grid-autosport","logo":"common\/uploads\/icons\/9a037eddd987f7066925d3d0d947df72.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-9a037eddd987f7066925d3d0d947df72.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":84},{"id":2871,"nome":"Rush
+          Rally Origins","slug":"rush-rally-origins","logo":"common\/uploads\/icons\/bc87426692c4593f7ffd9af5ee27969a.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bc87426692c4593f7ffd9af5ee27969a.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":81},{"id":823,"nome":"Rush
+          Rally 3","slug":"rush-rally-3","logo":"common\/uploads\/icons\/f547391d19bdeb6b97f82c6ffc4f0be5.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-f547391d19bdeb6b97f82c6ffc4f0be5.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":81},{"id":5739,"nome":"CarX
+          Drift Racing 3","slug":"carx-drift-racing-3","logo":"common\/uploads\/icons\/d5decbd6f81161b5afc1f87e8c859b1c.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d5decbd6f81161b5afc1f87e8c859b1c.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":78},{"id":5007,"nome":"Thunder
+          Stock Car Racing 3","slug":"thunder-stock-car-racing-3","logo":"common\/uploads\/icons\/8013048dde4b6cc8604455df303adfe9.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-8013048dde4b6cc8604455df303adfe9.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":78},{"id":3901,"nome":"Offroad
+          Outlaws","slug":"offroad-outlaws","logo":"common\/uploads\/icons\/e90af3f31401c4a9562a2483df83726a.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-e90af3f31401c4a9562a2483df83726a.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":76},{"id":4248,"nome":"Road
+          Redemption Mobile","slug":"road-redemption-mobile","logo":"common\/uploads\/icons\/744e96552eb5253ca05dc132f8516a66.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-744e96552eb5253ca05dc132f8516a66.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"similarity":73},{"id":2952,"nome":"Crash
+          Dive 2","slug":"crash-dive-2","logo":"common\/uploads\/icons\/63f851393f24f4da9e323e7e437bef6e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-63f851393f24f4da9e323e7e437bef6e.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"similarity":71}]},{"id":4051,"nome":"Poppy
+          Playtime Chapter 1","slug":"poppy-playtime-chapter-1","thumb":"\/thumb\/review\/1\/440\/244\/webp\/1a9bac18c8adc4760fb0094f4d1a013e.jpg","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-1a9bac18c8adc4760fb0094f4d1a013e.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"categorias":[{"id":26,"nome":"Survival","slug":"survival","type":"category"},{"id":22,"nome":"Horror","slug":"horror","type":"subcategory"}],"items":[{"id":5734,"nome":"Forgotten
+          Memories: Remastered","slug":"forgotten-memories-remastered","logo":"common\/uploads\/icons\/380f82ed184cce438804686a320d08c5.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-380f82ed184cce438804686a320d08c5.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":100},{"id":4122,"nome":"Soviet
+          Project - Horror Game","slug":"soviet-project-horror-game","logo":"common\/uploads\/icons\/88ec06677fd16f737286833020930277.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-88ec06677fd16f737286833020930277.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":100},{"id":4110,"nome":"Poppy
+          Playtime Chapter 2","slug":"poppy-playtime-chapter-2","logo":"common\/uploads\/icons\/c69d1cdf5f944e6571bd3e10516250e8.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-c69d1cdf5f944e6571bd3e10516250e8.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":100},{"id":3215,"nome":"Forgotten
+          Memories","slug":"forgotten-memories","logo":"common\/uploads\/icons\/bb29558231f2b5f8ea679e2880e41464.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bb29558231f2b5f8ea679e2880e41464.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":100},{"id":4677,"nome":"The
+          Cross zombie survival game","slug":"the-cross-zombie-survival-game","logo":"common\/uploads\/icons\/4b07f2595b1e4e8b8bacd5e8580ec440.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-4b07f2595b1e4e8b8bacd5e8580ec440.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":91},{"id":3829,"nome":"Evil
+          Nun Rush: Mazes & Puzzles","slug":"evil-nun-rush","logo":"common\/uploads\/icons\/ea705955046123b3026b0f87c38c449d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-ea705955046123b3026b0f87c38c449d.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":91},{"id":1634,"nome":"Evil
+          Nun 2 : Origins","slug":"evil-nun-2-origins","logo":"common\/uploads\/icons\/db4a0e826f78c9fc035c88b77df081a0.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-db4a0e826f78c9fc035c88b77df081a0.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":91},{"id":1352,"nome":"Death
+          Park: Scary Clown Horror","slug":"death-park-scary-clown-horror","logo":"common\/uploads\/icons\/53f032f86f5261961b9cc6a9ff7eb8f5.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-53f032f86f5261961b9cc6a9ff7eb8f5.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":91},{"id":1300,"nome":"HeadHorse
+          Legacy: Horror Game","slug":"headhorse-legacy-horror-game","logo":"common\/uploads\/icons\/73ab7667f700035ceea3fecc6c385e62.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-73ab7667f700035ceea3fecc6c385e62.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":91},{"id":5597,"nome":"Maid
+          of Sker","slug":"maid-of-sker","logo":"common\/uploads\/icons\/c3bb6a56f64ff7dffc1efb9f75d02e24.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-c3bb6a56f64ff7dffc1efb9f75d02e24.webp","categoria":{"id":26,"nome":"Survival","slug":"survival"},"similarity":88}]},{"id":5293,"nome":"Blood
+          Strike - FPS for all","slug":"blood-strike-fps-for-all","thumb":"\/thumb\/review\/1\/440\/244\/webp\/blood-strike-66-kills-ak-47-solo-vs-squa-1400212.png","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-blood-strike-66-kills-ak-47-solo-vs-squa-1400212.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"categorias":[{"id":28,"nome":"Battle Royale","slug":"battle-royale","type":"category"},{"id":51,"nome":"FPS","slug":"fps","type":"subcategory"}],"items":[{"id":3892,"nome":"Farlight
+          84","slug":"farlight-84","logo":"common\/uploads\/icons\/b9a33f6380c3a3e1e0c7aa60ec4d0da4.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-b9a33f6380c3a3e1e0c7aa60ec4d0da4.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"similarity":100},{"id":4021,"nome":"Lost
+          Light: Weapon Skin Treat","slug":"lost-light-weapon-skin-treat","logo":"common\/uploads\/icons\/3af839bee6aa54971d9051a5c1826f30.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-3af839bee6aa54971d9051a5c1826f30.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"similarity":80},{"id":4192,"nome":"MaskGun:
+          FPS Shooting Gun Game","slug":"maskgun-fps-shooting-gun-game","logo":"common\/uploads\/icons\/d74e319238be6457da4f6ec00ba2a9af.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d74e319238be6457da4f6ec00ba2a9af.webp","categoria":{"id":19,"nome":"FPS","slug":"fps"},"similarity":73},{"id":335,"nome":"Pixel
+          Gun 3D - FPS Shooter","slug":"pixel-gun-3d-fps-shooter","logo":"common\/uploads\/icons\/f338843d764c1bc004dd909f3ea8344a.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-f338843d764c1bc004dd909f3ea8344a.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"similarity":73},{"id":4881,"nome":"Arena
+          Breakout: Realistic FPS","slug":"arena-breakout-realistic-fps","logo":"common\/uploads\/icons\/9f5d98946c2042bbd83845c94afbb7fc.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-9f5d98946c2042bbd83845c94afbb7fc.webp","categoria":{"id":19,"nome":"FPS","slug":"fps"},"similarity":70},{"id":4202,"nome":"Rainbow
+          Six Mobile","slug":"rainbow-six-mobile","logo":"common\/uploads\/icons\/511ff3179fcccb4411fd15496abe3cc1.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-511ff3179fcccb4411fd15496abe3cc1.webp","categoria":{"id":19,"nome":"FPS","slug":"fps"},"similarity":70},{"id":600,"nome":"Zooba:
+          Fun Battle Royale Games","slug":"zooba-fun-battle-royale-games","logo":"common\/uploads\/icons\/1a398c754bc09d63b2052db5109a0732.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1a398c754bc09d63b2052db5109a0732.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"similarity":70},{"id":526,"nome":"Bullet
+          League - Battle Royale","slug":"bullet-league-battle-royale","logo":"common\/uploads\/icons\/4cabb946b569f72f1a22c746f74ce32b.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-4cabb946b569f72f1a22c746f74ce32b.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"similarity":68},{"id":492,"nome":"Call of
+          Duty\u00ae: Mobile","slug":"call-of-duty-mobile-season-3","logo":"common\/uploads\/icons\/1d154f1d1846a40865a2df1e1e9ccb31.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1d154f1d1846a40865a2df1e1e9ccb31.webp","categoria":{"id":19,"nome":"FPS","slug":"fps"},"similarity":68},{"id":119,"nome":"Knives
+          Out","slug":"knives-out","logo":"common\/uploads\/icons\/157d39ca17cf7457b45e4dada1125ef8.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-157d39ca17cf7457b45e4dada1125ef8.webp","categoria":{"id":28,"nome":"Battle
+          Royale","slug":"battle-royale"},"similarity":68}]}],"popular_games":[{"id":21,"nome":"Standoff
+          2","slug":"standoff-2","thumb":"\/common\/uploads\/cache\/review\/1-448-248-0c18e5839f5a6b2359e7de713c9a8f5f.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-0c18e5839f5a6b2359e7de713c9a8f5f.webp","categoria":{"id":19,"nome":"FPS","slug":"fps"},"total":51},{"id":583,"nome":"Mario
+          Kart Tour","slug":"mario-kart-tour","thumb":"\/common\/uploads\/cache\/review\/1-448-248-6323d69e2ebd77bd78affeaa23e79e12.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-6323d69e2ebd77bd78affeaa23e79e12.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"total":25},{"id":660,"nome":"Clash
+          Royale","slug":"clash-royale","thumb":"\/common\/uploads\/cache\/review\/1-448-248-asdsad5das65das65-6954904.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-asdsad5das65das65-6954904.webp","categoria":{"id":31,"nome":"Tower
+          Rush","slug":"tower-rush"},"total":25},{"id":673,"nome":"Angry Birds 2","slug":"angry-birds-2","thumb":"\/common\/uploads\/cache\/review\/1-448-248-2fdf6bba283525d2984607760876e0b4.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-2fdf6bba283525d2984607760876e0b4.webp","categoria":{"id":6,"nome":"Casual","slug":"casual"},"total":25},{"id":702,"nome":"Subway
+          Surfers","slug":"subway-surfers","thumb":"\/common\/uploads\/cache\/review\/1-448-248-5450e3d4afd2fec89a6e1779a26dcd55.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-5450e3d4afd2fec89a6e1779a26dcd55.webp","categoria":{"id":20,"nome":"Runner","slug":"runner"},"total":25},{"id":1649,"nome":"Solar
+          Smash","slug":"solar-smash","thumb":"\/common\/uploads\/cache\/review\/1-448-248-d4f05c85308f1205e7a455715409ef3d.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-d4f05c85308f1205e7a455715409ef3d.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"total":60},{"id":2107,"nome":"Drift
+          Max Pro Car Racing Game","slug":"drift-max-pro-car-racing-game","thumb":"\/common\/uploads\/cache\/review\/1-448-248-cd8c2a1e9722cb9e749acb3b0918995d.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-cd8c2a1e9722cb9e749acb3b0918995d.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"total":49},{"id":3242,"nome":"Asphalt
+          Xtreme","slug":"asphalt-xtreme","thumb":"\/common\/uploads\/cache\/review\/1-448-248-930fffad47b1aba2aa084a5223a726fa.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-930fffad47b1aba2aa084a5223a726fa.webp","categoria":{"id":10,"nome":"Racing","slug":"racing"},"total":60},{"id":3709,"nome":"Game
+          Dev Story","slug":"game-dev-story","thumb":"\/common\/uploads\/cache\/review\/1-448-248-1df07dd64a287b77a89e3bf8b20b2f70.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-1df07dd64a287b77a89e3bf8b20b2f70.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"total":60},{"id":3860,"nome":"Plants
+          vs Zombies\u2122 2","slug":"plants-vs-zombies-2","thumb":"\/common\/uploads\/cache\/review\/1-448-248-164f6cdf79a1077932b6a6fd5b30cf54.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-164f6cdf79a1077932b6a6fd5b30cf54.webp","categoria":{"id":25,"nome":"Tower
+          Defense","slug":"tower-defense"},"total":55}],"popular_filters":{"titulo":"Browse
+          MiniReview","link":"\/browse","itens":[{"link":"\/browse?network=offline","nome":"Offline","trans":{"es":{"nome":"Fuera
+          de l\u00ednea"},"pt":{"nome":"Off-line"}}},{"link":"\/browse?tags=controller-support","nome":"Contoller
+          support","trans":{"es":{"nome":"Compatibilidad con mandos"},"pt":{"nome":"Suporte
+          ao cliente"}}},{"link":"\/browse?screen-orientation=portrait","nome":"Portrait","trans":{"es":{"nome":"Retrato"},"pt":{"nome":"Retrato"}}},{"link":"\/browse?players=co-op","nome":"Online
+          co-op","trans":{"es":{"nome":"Cooperativos en l\u00ednea"},"pt":{"nome":"Cooperativa
+          on-line"}}},{"link":"\/browse?players=pvp","nome":"Player vs. Player","trans":{"es":{"nome":"Jugador
+          contra jugador"},"pt":{"nome":"Jogador vs. Jogador"}}},{"link":"\/browse?category=mmo","nome":"MMOs","trans":{"es":{"nome":"MMOs"},"pt":{"nome":"MMOs"}}},{"link":"\/browse?sub-category=roguelike","nome":"Roguelike","trans":{"es":{"nome":"Roguelike"},"pt":{"nome":"Roguelike"}}},{"link":"\/browse?sub-category=sandbox","nome":"Sandbox","trans":{"es":{"nome":"Sandbox"},"pt":{"nome":"Caixa
+          de areia"}}}]}}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 98f846ff5c2f0974-HKG
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Thu, 16 Oct 2025 14:34:29 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IfaQIIDpB807C4XRS2GwqMTlchyt2ZnyzeLCe8jcIwERqAgiljvhWMDr1J55Ub%2Brl0cq0MS5FErG%2FvLILoCBbAzYMqYnxFkMKmbrffK%2BgeVZpT0LTo2fvA%3D%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+version: 1
