@@ -57,7 +57,7 @@ def get_games_list(
         A dictionary containing a list of games and pagination information.
     """
     client = MiniReviewClient()
-    return client.get_games_list(
+    games_list_res = client.get_games_list(
         page=page,
         limit=limit,
         search=search,
@@ -75,6 +75,41 @@ def get_games_list(
         countries_ios=countries_ios,
         score=score,
     )
+
+    games_list_data = [
+        {
+            "id": game_list_data_item.get("id"),
+            "name": game_list_data_item.get("nome"),
+            "slug": game_list_data_item.get("slug"),
+            "total_reviews": game_list_data_item.get("avaliacoes_total"),
+            "positive_review_percentage": game_list_data_item.get(
+                "avaliacoes_positivas_porcento"
+            ),
+            "platform": {
+                "android": {
+                    "is_available": game_list_data_item.get("disponivel_android"),
+                },
+                "ios": {
+                    "is_available": game_list_data_item.get("disponivel_ios"),
+                },
+            },
+            "category": game_list_data_item.get("categoria"),
+            "categories": game_list_data_item.get("categorias"),
+            "description": game_list_data_item.get("descricao"),
+            "die_date": game_list_data_item.get("morto_data"),
+            "pick_date": game_list_data_item.get("pick_data"),
+            "week": game_list_data_item.get("pick_data"),
+            "price": game_list_data_item.get("price"),
+        }
+        for game_list_data_item in games_list_res.get("data")
+    ]
+
+    return {
+        "data": games_list_data,
+        "current_page": games_list_res.get("page"),
+        "total_pages": games_list_res.get("total"),
+        "is_last_page": games_list_res.get("ultima_pagina"),
+    }
 
 
 @app.tool(description="Fetches detailed information for a specific game.")
