@@ -26,6 +26,7 @@ jobs:
       - name: Create .env file for live test
         run: |
           echo "GOOGLE_GENAI_USE_VERTEXAI=TRUE" > .env
+          echo "GEMINI_MODEL=gemini-2.5-pro" >> .env
           echo "GOOGLE_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env
 
       - name: Run pre-commit hooks
