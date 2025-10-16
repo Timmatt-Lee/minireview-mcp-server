@@ -29,6 +29,22 @@ async def test_get_games_list_integration():
         assert isinstance(data["data"], list)
         assert len(data["data"]) > 0
 
+        game = data["data"][0]
+        assert game.get("id") is not None
+        assert game.get("name") is not None
+        assert game.get("slug") is not None
+        assert game.get("total_reviews") is not None
+        assert game.get("positive_review_percentage") is not None
+        assert game.get("platform") is not None
+        assert game["platform"].get("android") is not None
+        assert game["platform"]["android"].get("is_available") is not None
+        assert game["platform"].get("ios") is not None
+        assert game["platform"]["ios"].get("is_available") is not None
+        assert game.get("category") is not None
+        assert game.get("categories") is not None
+        assert game.get("description") is not None
+        assert game.get("price") is not None
+
 
 @pytest.mark.asyncio
 async def test_get_game_details_integration():
@@ -42,7 +58,7 @@ async def test_get_game_details_integration():
         list_data = json.loads(list_result.content[0].text)
         game = list_data["data"][0]
         game_slug = game["slug"]
-        category_slug = game["categoria"]["slug"]
+        category_slug = game["category"]["slug"]
 
         # Now, call get_game_details with the real data
         details_result = await client.call_tool(
