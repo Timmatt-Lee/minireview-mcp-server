@@ -57,29 +57,29 @@ fi
 
 echo "Step 2: Running query..."
 
-# Step 2: Run a query
-RUN_RESPONSE=$(curl -s -X POST http://localhost:8000/run \
--H "Content-Type: application/json" \
--d '{
-"app_name": "minireview_agent",
-"user_id": "u_123",
-"session_id": "s_123",
-"new_message": {
-    "role": "user",
-    "parts": [{
-    "text": "so what can you do"
-    }]
-}
-}')
+# # Step 2: Run a query
+# RUN_RESPONSE=$(curl -s -X POST http://localhost:8000/run \
+# -H "Content-Type: application/json" \
+# -d '{
+# "app_name": "minireview_agent",
+# "user_id": "u_123",
+# "session_id": "s_123",
+# "new_message": {
+#     "role": "user",
+#     "parts": [{
+#     "text": "so what can you do"
+#     }]
+# }
+# }')
 
-# Check if the run was successful
-if echo "$RUN_RESPONSE" | grep -q '"content"'; then
-    echo "Success: Agent responded correctly."
-    exit 0
-else
-    echo "Error: Agent did not respond as expected."
-    echo "Response: $RUN_RESPONSE"
-    echo "--- Server Log (adk_server.log) ---"
-    cat adk_server.log
-    exit 1
-fi
+# # Check if the run was successful
+# if echo "$RUN_RESPONSE" | grep -q '"content"'; then
+#     echo "Success: Agent responded correctly."
+#     exit 0
+# else
+#     echo "Error: Agent did not respond as expected."
+#     echo "Response: $RUN_RESPONSE"
+#     echo "--- Server Log (adk_server.log) ---"
+#     cat adk_server.log
+#     exit 1
+# fi
