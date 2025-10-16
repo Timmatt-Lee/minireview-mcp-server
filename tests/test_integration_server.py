@@ -16,6 +16,7 @@ from server import (
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_games_list_integration():
     app = FastMCP()
     app.tool(get_games_list.fn)
@@ -31,6 +32,7 @@ async def test_get_games_list_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_game_details_integration():
     app = FastMCP()
     app.tool(get_games_list.fn)
@@ -77,6 +79,7 @@ async def test_get_game_details_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_game_ratings_integration():
     app = FastMCP()
     app.tool(get_games_list.fn)
@@ -98,6 +101,7 @@ async def test_get_game_ratings_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_similar_games_integration():
     app = FastMCP()
     app.tool(get_games_list.fn)
@@ -119,6 +123,7 @@ async def test_get_similar_games_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_collections_integration():
     app = FastMCP()
     app.tool(get_collections.fn)
@@ -133,6 +138,7 @@ async def test_get_collections_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_categories_integration():
     app = FastMCP()
     app.tool(get_categories.fn)
@@ -147,6 +153,7 @@ async def test_get_categories_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_games_list_with_details_integration():
     app = FastMCP()
     app.tool(get_games_list_with_details.fn)
@@ -164,6 +171,7 @@ async def test_get_games_list_with_details_integration():
 
 
 @pytest.mark.asyncio
+@pytest.mark.vcr()
 async def test_get_similar_games_with_details_integration():
     app = FastMCP()
     app.tool(get_games_list.fn)

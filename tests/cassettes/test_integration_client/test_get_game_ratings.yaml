@@ -1,0 +1,67 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=125foslehl4lu5be3ddr8d876a
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&limit=50&orderBy=newest
+    response:
+      body:
+        string:
+          '{"data":[{"id":531,"tipo":"positivo","data":"2020-06-25T22:32:14-03:00","texto":"very
+          addictive, don t be too far away from a power source, drain battery quickly.
+          good game that will take lots of hours away from your life :) ","texto_original":"very
+          addictive, don t be too far away from a power source, drain battery quickly.
+          good game that will take lots of hours away from your life :) ","pontuacao":"1","usuario_votou":null,"usuario":{"id":312,"avatar":null,"username":"Benoit
+          Noisette","slug":"benoit-noisette","nome":"Benoit Noisette","sobre":null,"sobre_original":null,"data_cadastro":"2020-06-04
+          18:49:57","score":1,"total_avaliacoes":1,"total_favoritos":3,"pais_nome":null,"pais_sigla":null}}],"page":1,"total":1,"total_positivo":1,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 98f846e46fe82119-HKG
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Thu, 16 Oct 2025 14:34:25 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RdzDJ%2BfpZWLWJqmYZnLuPStakhqNhdwxX0J6ebIiCQLPEzgZ%2Ff48Ccm4GL%2BQjeaRXhbGNMneGPCxwJjr4Jxo18xLxCdzK5WeHwUrJDmtmFtTA1W5AV91PA%3D%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+version: 1

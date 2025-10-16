@@ -1,0 +1,140 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=125foslehl4lu5be3ddr8d876a
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/top-games?page=1&limit=50&search=
+    response:
+      body:
+        string:
+          '{"data":[{"id":100001,"nome":"Best mobile games 2025","nome_lista":"Best
+          mobile games 2025","slug":"\/best-mobile-games","thumb":"\/common\/uploads\/cache\/specialtopgame\/1-900-506-c103a23c4c18b8eae6f43087d4634016.webp","thumb_preloader":"\/common\/uploads\/cache\/specialtopgame\/1-30-17-c103a23c4c18b8eae6f43087d4634016.webp","data_criacao":"2025-07-28
+          09:30:10","data_update":"2025-10-16 05:08:01"},{"id":47,"nome":"The 18 best
+          Strategy War games on Mobile 2025","nome_lista":"Best Strategy War games on
+          mobile","slug":"best-strategy-war-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-adf14c96fb467b3d2673350493addb0a.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-adf14c96fb467b3d2673350493addb0a.webp","data_criacao":"2025-03-10","data_update":"2025-10-08
+          09:51:16"},{"id":4,"nome":"The 17 best crossplay games on mobile 2025","nome_lista":"best
+          crossplay games on mobile","slug":"best-crossplay-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-1722aa0193a41dd244b6549be498cfd8.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-1722aa0193a41dd244b6549be498cfd8.webp","data_criacao":"2023-12-08","data_update":"2025-09-29
+          09:43:08"},{"id":52,"nome":"The 28 best Action RPG games on Mobile 2025","nome_lista":"Best
+          Action RPG games on mobile","slug":"best-action-rpg-games","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-7acb17229cffae1d257295a90a4a7c1e.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-7acb17229cffae1d257295a90a4a7c1e.webp","data_criacao":"2025-04-07","data_update":"2025-09-15
+          08:24:29"},{"id":32,"nome":"The 20 best Simulation games on Mobile 2025","nome_lista":"Best
+          Simulation games on mobile","slug":"best-simulation-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-a6bc5fd85854ec866c9e05212021e19e.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-a6bc5fd85854ec866c9e05212021e19e.webp","data_criacao":"2024-12-17","data_update":"2025-09-15
+          04:48:20"},{"id":28,"nome":"The 19 best Shooter games on Mobile 2025","nome_lista":"Best
+          Shooter games on mobile","slug":"best-shooter-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-67892cd66345fa71b882217275e90dfd.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-67892cd66345fa71b882217275e90dfd.webp","data_criacao":"2024-12-04","data_update":"2025-09-11
+          09:28:25"},{"id":26,"nome":"The 29 best Roguelike Deck-Builder games on Mobile
+          2025","nome_lista":"Best Roguelike Deck-Builder games on mobile","slug":"best-roguelike-deckbuilder-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-caa4c43dd35669175664fa6b29da64fe.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-caa4c43dd35669175664fa6b29da64fe.webp","data_criacao":"2024-10-23","data_update":"2025-09-04
+          08:49:52"},{"id":60,"nome":"The 12 best MMORPG games on Mobile 2025","nome_lista":"Best
+          MMORPGs on Mobile","slug":"best-mmorpg-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-39150e9017af898093ac1ce9ae5e6941.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-39150e9017af898093ac1ce9ae5e6941.webp","data_criacao":"2025-05-23","data_update":"2025-09-01
+          08:02:39"},{"id":50,"nome":"The 12 best Sports games on Mobile 2025","nome_lista":"Best
+          Sports games on mobile","slug":"best-sports-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-e20b37d6101fa90393133140a296e65a.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-e20b37d6101fa90393133140a296e65a.webp","data_criacao":"2025-04-01","data_update":"2025-08-19
+          10:18:40"},{"id":48,"nome":"The 19 best Story-Driven games on Mobile 2025","nome_lista":"Best
+          Story-Driven games on mobile","slug":"best-story-driven-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-8a97e81ed7b51014a9879f39be2f8d46.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-8a97e81ed7b51014a9879f39be2f8d46.webp","data_criacao":"2025-03-18","data_update":"2025-08-13
+          08:00:18"},{"id":14,"nome":"The 18 best Bullet Hell games on mobile 2025","nome_lista":"Best
+          Bullet Hell games on mobile","slug":"best-bullet-hell-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-b956f3c2778a371da8c97fc7fa2b7585.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-b956f3c2778a371da8c97fc7fa2b7585.webp","data_criacao":"2024-06-04","data_update":"2025-08-12
+          12:14:20"},{"id":29,"nome":"The 18 best Pixel Art games on Mobile 2025","nome_lista":"Best
+          Pixel Art games on mobile","slug":"best-pixel-art-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-8574f8598a3435c2d4917c0d4f5cfd5c.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-8574f8598a3435c2d4917c0d4f5cfd5c.webp","data_criacao":"2024-12-11","data_update":"2025-08-12
+          12:04:26"},{"id":2,"nome":"The 16 best action roguelike games on mobile 2025","nome_lista":"best
+          action roguelike games on mobile","slug":"best-action-roguelike-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-9f9d8b7362ca40ed06dd293d15b352ca.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-9f9d8b7362ca40ed06dd293d15b352ca.webp","data_criacao":"2023-10-03","data_update":"2025-07-24
+          10:04:57"},{"id":3,"nome":"The 13 best tower defense games on mobile 2025","nome_lista":"Best
+          Tower Defense games on mobile","slug":"best-tower-defense-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-268d8f196e39d2b7d0d4e9e54e1936dd.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-268d8f196e39d2b7d0d4e9e54e1936dd.webp","data_criacao":"2023-10-03","data_update":"2025-07-24
+          00:00:00"},{"id":51,"nome":"The 15 best traditional roguelike games on Mobile
+          2025","nome_lista":"Best Traditional Roguelike games on mobile","slug":"best-traditional-roguelike-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-b2206be08a3bf1251280c1cf6404888a.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-b2206be08a3bf1251280c1cf6404888a.webp","data_criacao":"2025-04-03","data_update":"2025-07-11
+          00:00:00"},{"id":12,"nome":"The 17 best metroidvania games on mobile 2025","nome_lista":"Best
+          Metroidvania games on mobile","slug":"best-metroidvania-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-72191b1e597e7a3a662ee026a2745b44.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-72191b1e597e7a3a662ee026a2745b44.webp","data_criacao":"2024-04-10","data_update":"2025-06-19
+          00:00:00"},{"id":6,"nome":"The 22 best puzzle games on mobile 2025","nome_lista":"best
+          puzzle games on mobile","slug":"best-puzzle-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-e52c3817ef050b15d02aa5b00666dee3.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-e52c3817ef050b15d02aa5b00666dee3.webp","data_criacao":"2024-01-23","data_update":"2025-05-22
+          00:00:00"},{"id":49,"nome":"The 23 best Sci-Fi games on Mobile 2025","nome_lista":"Best
+          Sci-Fi games on mobile","slug":"best-scifi-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-56c0ced45145b70395e73037ef7dc149.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-56c0ced45145b70395e73037ef7dc149.webp","data_criacao":"2025-03-25","data_update":"2025-05-19
+          00:00:00"},{"id":55,"nome":"The 16 best Twin-Stick Shooter games on Mobile
+          2025","nome_lista":"Best Twin-Stick Shooters on mobile","slug":"best-twin-stick-shooter-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-19b76a02786ff8b7f6f0ee0b3483ed21.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-19b76a02786ff8b7f6f0ee0b3483ed21.webp","data_criacao":"2025-04-23","data_update":"2025-05-14
+          00:00:00"},{"id":44,"nome":"The 15 best Cozy games on Mobile 2025","nome_lista":"Best
+          Cozy games on mobile","slug":"best-cozy-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-d6da95f367dab31361525ae00833b46b.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-d6da95f367dab31361525ae00833b46b.webp","data_criacao":"2025-02-26","data_update":"2025-05-09
+          00:00:00"},{"id":18,"nome":"The 30 best Strategy games on Mobile 2025","nome_lista":"Best
+          Strategy games on mobile","slug":"best-strategy-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-bb55e19861c47a382f05a2c4f663c340.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-bb55e19861c47a382f05a2c4f663c340.webp","data_criacao":"2024-08-11","data_update":"2025-04-25
+          00:00:00"},{"id":39,"nome":"The 15 best Survival games on Mobile 2025","nome_lista":"Best
+          Survival games on mobile","slug":"best-survival-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-4ad6dcc6e2bb0f27561d591383db90e3.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-4ad6dcc6e2bb0f27561d591383db90e3.webp","data_criacao":"2025-01-30","data_update":"2025-04-17
+          00:00:00"},{"id":17,"nome":"The 34 best Action games on Mobile 2025","nome_lista":"Best
+          Action games on mobile","slug":"best-action-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-f31d6a55bc4b8e419a0929a82dc0b7f3.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-f31d6a55bc4b8e419a0929a82dc0b7f3.webp","data_criacao":"2024-07-16","data_update":"2025-04-09
+          00:00:00"},{"id":38,"nome":"The 20 best games you can play for 100+ hours
+          on mobile 2025","nome_lista":"Best 100+ hours games on mobile","slug":"best-100-hours-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-ca94d3c9e4618e00e959f3c69828ffea.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-ca94d3c9e4618e00e959f3c69828ffea.webp","data_criacao":"2025-01-27","data_update":"2025-04-08
+          00:00:00"},{"id":35,"nome":"The 18 best co-op games on Mobile 2025","nome_lista":"Best
+          co-op games on mobile","slug":"best-co-op-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-00d525be73e7f8d1ae6e730a15775ebe.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-00d525be73e7f8d1ae6e730a15775ebe.webp","data_criacao":"2025-01-09","data_update":"2025-03-31
+          00:00:00"},{"id":15,"nome":"The 24 best Card games on Mobile 2025","nome_lista":"Best
+          Card games on mobile","slug":"best-card-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-9128d5d2e897802a55b37c1a7ea9380c.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-9128d5d2e897802a55b37c1a7ea9380c.webp","data_criacao":"2024-06-13","data_update":"2025-03-27
+          00:00:00"},{"id":41,"nome":"The 18 best Arcade games on Mobile 2025","nome_lista":"Best
+          Arcade games on mobile","slug":"best-arcade-games-on-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-28b97921ab81f59db306e320ba0ebc58.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-28b97921ab81f59db306e320ba0ebc58.webp","data_criacao":"2025-02-04","data_update":"2025-02-05
+          00:00:00"},{"id":20,"nome":"The 14 best Free games on mobile without ads or
+          in-app purchases 2025","nome_lista":"Best Completely Free games on mobile","slug":"best-completely-free-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-52a2ec7205e364ed2631d03fcf038d7c.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-52a2ec7205e364ed2631d03fcf038d7c.webp","data_criacao":"2024-09-11","data_update":"2025-03-16
+          00:00:00"},{"id":16,"nome":"The 24 best Racing games on Mobile 2025","nome_lista":"Best
+          Racing games on Mobile","slug":"best-racing-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-6e945f06e607b4b66d02e18bf5d67daf.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-6e945f06e607b4b66d02e18bf5d67daf.webp","data_criacao":"2024-06-24","data_update":"2025-03-02
+          00:00:00"},{"id":36,"nome":"The 17 best Hardcore games on Mobile 2025","nome_lista":"Best
+          Hardcore games on mobile","slug":"best-hardcore-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-de87cdd25c65e82b941fac76de7a0945.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-de87cdd25c65e82b941fac76de7a0945.webp","data_criacao":"2025-01-13","data_update":"2025-02-27
+          00:00:00"},{"id":37,"nome":"The 9 best Auto-Battlers on Mobile 2025","nome_lista":"Best
+          Auto Battler games on mobile","slug":"best-auto-battlers-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-0e15e2476a292410bbf6a3b5cc6f1c8b.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-0e15e2476a292410bbf6a3b5cc6f1c8b.webp","data_criacao":"2025-01-21","data_update":"2025-02-17
+          00:00:00"},{"id":33,"nome":"The 13 best Same-Device Multiplayer games on Mobile
+          2025","nome_lista":"Best Same-Device Multiplayer games on mobile","slug":"best-same-device-multiplayer-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-d58e280d5ef27015efac5771ddee4794.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-d58e280d5ef27015efac5771ddee4794.webp","data_criacao":"2025-01-02","data_update":"2025-02-10
+          00:00:00"},{"id":40,"nome":"The 20 best Dark Fantasy games on Mobile 2025","nome_lista":"Best
+          Dark Fantasy games on mobile","slug":"best-dark-fantasy-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-40c830b92f3d7ee169d1cee4bfe3c856.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-40c830b92f3d7ee169d1cee4bfe3c856.webp","data_criacao":"2025-02-04","data_update":"2025-02-04
+          00:00:00"},{"id":1,"nome":"The 15 best idle games on mobile 2025","nome_lista":"best
+          idle games on mobile","slug":"best-mobile-idle-games","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-570cc45ad99d3ab532257beb6de10194.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-570cc45ad99d3ab532257beb6de10194.webp","data_criacao":"2023-10-02","data_update":"2025-02-03
+          00:00:00"},{"id":13,"nome":"The 30 best Dungeon Crawler games on mobile 2025","nome_lista":"Best
+          Dungeon Crawler games on mobile","slug":"best-dungeon-crawler-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-814ccabc5f2d98d0b28b43ee5468b092.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-814ccabc5f2d98d0b28b43ee5468b092.webp","data_criacao":"2024-05-19","data_update":"2025-01-30
+          00:00:00"},{"id":30,"nome":"The 70 Best Mobile Games of 2024 TIER LIST","nome_lista":"Best
+          mobile games of 2024 tier list","slug":"best-mobile-games-2024-tier-list","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-8c1ff06f718910d6c7d34026c17a6071.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-8c1ff06f718910d6c7d34026c17a6071.webp","data_criacao":"2024-12-16","data_update":"2024-12-27
+          00:00:00"},{"id":5,"nome":"47 best mobile games of 2023 TIER LIST","nome_lista":"Best
+          mobile games of 2023 tier list","slug":"best-mobile-games-2023-tier-list","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-8ed6df56a99e3a0e6ce7004861759c07.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-8ed6df56a99e3a0e6ce7004861759c07.webp","data_criacao":"2024-01-04","data_update":"2024-03-14
+          00:00:00"},{"id":83,"nome":"The 14 best Role Playing mobile games with co-op
+          2025","nome_lista":"Best Co-op  Role Playing games on mobile","slug":"best-co-op-role-playing-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-9e6f43c61fc185c0557abd8feb71b032.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-9e6f43c61fc185c0557abd8feb71b032.webp","data_criacao":"2025-08-26","data_update":"2025-09-12
+          08:37:01"},{"id":69,"nome":"The 17 best Action mobile games with co-op 2025","nome_lista":"Best
+          Co-op  Action games on mobile","slug":"best-co-op-action-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-tmnt-netflix-6711023.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-tmnt-netflix-6711023.webp","data_criacao":"2025-08-26","data_update":"2025-09-09
+          11:24:02"}],"page":1,"total":38,"ultima_pagina":true}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 98f84702e82703e9-HKG
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Thu, 16 Oct 2025 14:34:30 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pVBiF31eYSO2WPddn2iS%2FPtGOzVek1aR8828cP%2F%2Fp%2BrPNZHoaQVH89lRosVsUpLz9Nbu0%2FrzFMCHzA36bKbcQu67NNuRITRSEv3rYAViJDTFGJfohwAr5g%3D%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+version: 1

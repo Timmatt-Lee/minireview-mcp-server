@@ -17,7 +17,7 @@
     "Updatedcollections"
   ],
   "cSpell.language": "en,pt",
-  "python.testing.pytestArgs": ["tests"],
+  "python.testing.pytestArgs": ["tests", "--record-mode=none"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true
 }
