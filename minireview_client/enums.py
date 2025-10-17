@@ -27,7 +27,8 @@ class GameRatingsOrderBy(Enum):
     """Represents the available sorting options for game ratings."""
 
     NEWEST = "newest"
-    MOST_POPULAR = "most-popular"
+    OLDEST = "oldest"
+    MOST_RELEVANT = "most-relevant"
 
 
 class Platform(Enum):
