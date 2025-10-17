@@ -104,7 +104,9 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
     )
     def test_get_collections(self):
         """Test a live call to get_collections."""
-        response = self.client.get_collections(limit=1)
+        response = self.client.get_collections(
+            limit=1, is_load_new=True, is_load_last_updated=True
+        )
         self.assertIn("data", response)
         self.assertIsInstance(response["data"], list)
 

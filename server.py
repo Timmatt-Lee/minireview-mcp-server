@@ -217,8 +217,8 @@ def get_collections(
     limit: int = 50,
     search: str = "",
     orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
-    loadNew: bool = True,
-    loadLastUpdated: bool = True,
+    is_load_new: bool = True,
+    is_load_last_updated: bool = True,
 ) -> dict:
     """
     Fetches a list of game collections.
@@ -228,15 +228,15 @@ def get_collections(
         limit: The number of collections to fetch per page.
         search: A search query to filter collections by name.
         orderBy: The sorting order for the collections list.
-        loadNew: Whether to load new collections.
-        loadLastUpdated: Whether to load last updated collections.
+        is_load_new: Whether to load new collections.
+        is_load_last_updated: Whether to load last updated collections.
 
     Returns:
         A dictionary containing a list of collections and pagination information.
     """
     client = MiniReviewClient()
     return client.get_collections(
-        page, limit, search, orderBy, loadNew, loadLastUpdated
+        page, limit, search, orderBy, is_load_new, is_load_last_updated
     )
 
 
