@@ -49,7 +49,7 @@ class MiniReviewClient:
         assert self._parsed_filters is not None
 
         for key, value in params.items():
-            if value is None:
+            if value is None or key == "score":  # Skip score validation
                 continue
 
             if key in self._parsed_filters:
@@ -84,7 +84,7 @@ class MiniReviewClient:
 
         processed_params = {}
         for key, value in params.items():
-            if value is None:
+            if value is None or not value:  # Check for None or empty
                 continue
 
             if isinstance(value, Enum):
@@ -174,18 +174,18 @@ class MiniReviewClient:
         limit: int = 50,
         search: str = "",
         orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-        platforms: list[Platform] | None = None,
-        players: list[str] | None = None,
-        network: str | None = None,
-        monetization_android: list[str] | None = None,
-        monetization_ios: list[str] | None = None,
-        screen_orientation: str | None = None,
-        category: str | None = None,
-        sub_category: str | None = None,
-        tags: list[str] | None = None,
-        countries_android: list[str] | None = None,
-        countries_ios: list[str] | None = None,
-        score: dict[str, int] | None = None,
+        platforms: list[Platform] = [],
+        players: list[str] = [],
+        network: list[str] = [],
+        monetization_android: list[str] = [],
+        monetization_ios: list[str] = [],
+        screen_orientation: list[str] = [],
+        category: list[str] = [],
+        sub_category: list[str] = [],
+        tags: list[str] = [],
+        countries_android: list[str] = [],
+        countries_ios: list[str] = [],
+        score: dict[str, int] = {},
     ) -> dict:
         """
         Fetches a list of games with extensive filtering capabilities.
@@ -242,7 +242,7 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        platforms: list[Platform] | None = None,
+        platforms: list[Platform] = [],
         orderBy: OrderBy = OrderBy.MOST_POPULAR,
     ) -> dict:
         """
@@ -300,8 +300,8 @@ class MiniReviewClient:
     def get_home(
         self,
         page: int = 1,
-        platforms: list[Platform] | None = None,
-        ids_ignore: list[int] | None = None,
+        platforms: list[Platform] = [],
+        ids_ignore: list[int] = [],
         orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
     ) -> dict:
         """
@@ -320,7 +320,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.WEEK,
-        platforms: list[Platform] | None = None,
+        platforms: list[Platform] = [],
     ) -> dict:
         """
         Fetches games of the week.
@@ -339,7 +339,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.THIS_WEEK,
-        platforms: list[Platform] | None = None,
+        platforms: list[Platform] = [],
     ) -> dict:
         """
         Fetches top user ratings.
@@ -359,7 +359,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.LAUNCH_DATE,
-        platforms: list[Platform] | None = None,
+        platforms: list[Platform] = [],
     ) -> dict:
         """
         Fetches upcoming games.
@@ -374,9 +374,7 @@ class MiniReviewClient:
             "/upcoming-games", self._build_params(params, validate=True)
         )
 
-    def get_similar_games_main_page(
-        self, platforms: list[Platform] | None = None
-    ) -> dict:
+    def get_similar_games_main_page(self, platforms: list[Platform] = []) -> dict:
         """
         Fetches similar games for the main page.
         """
@@ -398,9 +396,7 @@ class MiniReviewClient:
         """
         return self._fetch_api(f"/special-top-games/{slug}")
 
-    def get_categories(
-        self, search: str = "", platforms: list[Platform] | None = None
-    ) -> dict:
+    def get_categories(self, search: str = "", platforms: list[Platform] = []) -> dict:
         """
         Fetches a list of categories.
         """

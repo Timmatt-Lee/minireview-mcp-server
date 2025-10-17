@@ -17,18 +17,18 @@ def get_games_list(
     limit: int = 50,
     search: str = "",
     orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-    platforms: list[Platform] | None = None,
-    players: list[str] | None = None,
-    network: str | None = None,
-    monetization_android: list[str] | None = None,
-    monetization_ios: list[str] | None = None,
-    screen_orientation: str | None = None,
-    category: str | None = None,
-    sub_category: str | None = None,
-    tags: list[str] | None = None,
-    countries_android: list[str] | None = None,
-    countries_ios: list[str] | None = None,
-    score: dict[str, int] | None = None,
+    platforms: list[Platform] = [],
+    players: list[str] = [],
+    network: list[str] = [],
+    monetization_android: list[str] = [],
+    monetization_ios: list[str] = [],
+    screen_orientation: list[str] = [],
+    category: list[str] = [],
+    sub_category: list[str] = [],
+    tags: list[str] = [],
+    countries_android: list[str] = [],
+    countries_ios: list[str] = [],
+    score: dict[str, int] = {},
 ) -> dict:
     """
     Fetches a list of games from the MiniReview database with extensive filtering
@@ -191,7 +191,7 @@ def get_similar_games(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    platforms: list[Platform] | None = None,
+    platforms: list[Platform] = [],
     orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
     """
@@ -241,7 +241,7 @@ def get_collections(
 
 
 @app.tool(description="Fetches a list of game categories.")
-def get_categories(search: str = "", platforms: list[Platform] | None = None) -> dict:
+def get_categories(search: str = "", platforms: list[Platform] = []) -> dict:
     """
     Fetches a list of game categories.
 
@@ -267,18 +267,18 @@ def get_games_list_with_details(
     limit: int = 50,
     search: str = "",
     orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-    platforms: list[Platform] | None = None,
-    players: list[str] | None = None,
-    network: str | None = None,
-    monetization_android: list[str] | None = None,
-    monetization_ios: list[str] | None = None,
-    screen_orientation: str | None = None,
-    category: str | None = None,
-    sub_category: str | None = None,
-    tags: list[str] | None = None,
-    countries_android: list[str] | None = None,
-    countries_ios: list[str] | None = None,
-    score: dict[str, int] | None = None,
+    platforms: list[Platform] = [],
+    players: list[str] = [],
+    network: list[str] = [],
+    monetization_android: list[str] = [],
+    monetization_ios: list[str] = [],
+    screen_orientation: list[str] = [],
+    category: list[str] = [],
+    sub_category: list[str] = [],
+    tags: list[str] = [],
+    countries_android: list[str] = [],
+    countries_ios: list[str] = [],
+    score: dict[str, int] = {},
 ) -> dict:
     """
     Fetches a list of games with extensive filtering capabilities and then fetches
@@ -346,7 +346,7 @@ def get_similar_games_with_details(
     game_id: int,
     page: int = 1,
     limit: int = 50,
-    platforms: list[Platform] | None = None,
+    platforms: list[Platform] = [],
     orderBy: OrderBy = OrderBy.MOST_POPULAR,
 ) -> dict:
     """
