@@ -429,5 +429,47 @@ class TestBuildParams(unittest.TestCase):
         self.assertEqual(processed_params, {})
 
 
+@patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
+class TestFilterMethods(unittest.TestCase):
+    """A test suite for the filter helper methods."""
+
+    def setUp(self):
+        """Set up a new client and mock get_filters for each test."""
+        self.client = MiniReviewClient()
+        self.mock_filters_response = [
+            {
+                "slug": "players",
+                "itens": [
+                    {"slug": "singleplayer", "nome": "Singleplayer"},
+                    {"slug": "multiplayer", "nome": "Multiplayer"},
+                ],
+            },
+            {
+                "slug": "countries-android",
+                "itens": [
+                    {"slug": "us", "nome": "United States"},
+                    {"slug": "br", "nome": "Brazil"},
+                ],
+            },
+        ]
+        self.client.get_filters = unittest.mock.Mock(
+            return_value=self.mock_filters_response
+        )
+
+    def test_get_filter_options(self, mock_fetch_api):
+        """Test that the filter helper methods return the correct data."""
+        players = self.client.get_players()
+        self.assertEqual(
+            players, {"singleplayer": "Singleplayer", "multiplayer": "Multiplayer"}
+        )
+
+        countries = self.client.get_countries_android()
+        self.assertEqual(countries, {"us": "United States", "br": "Brazil"})
+
+        # Test a filter that doesn't exist
+        non_existent = self.client._get_filter_options("non-existent-filter")
+        self.assertEqual(non_existent, {})
+
+
 if __name__ == "__main__":
     unittest.main()

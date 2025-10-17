@@ -166,21 +166,48 @@ class MiniReviewClient:
 
         return {}
 
-    def get_countries(self) -> dict:
+    def _get_filter_options(self, filter_slug: str) -> dict:
         """
-        Fetches the available countries for the /games endpoint.
-
-        Returns:
-            A dictionary of countries, with country codes as keys and country names
-            as values.
+        A generic helper to fetch options for a given filter slug.
         """
         filters = self.get_filters()
-        countries = {}
         for f in filters:
-            if f["slug"] == "countries-android":
-                for country in f["itens"]:
-                    countries[country["slug"]] = country["nome"]
-        return countries
+            if f["slug"] == filter_slug:
+                return {item["slug"]: item["nome"] for item in f["itens"]}
+        return {}
+
+    def get_players(self) -> dict:
+        return self._get_filter_options("players")
+
+    def get_network_options(self) -> dict:
+        return self._get_filter_options("network")
+
+    def get_monetization_android(self) -> dict:
+        return self._get_filter_options("monetization-android")
+
+    def get_monetization_ios(self) -> dict:
+        return self._get_filter_options("monetization-ios")
+
+    def get_screen_orientation_options(self) -> dict:
+        return self._get_filter_options("screen-orientation")
+
+    def get_category_options(self) -> dict:
+        return self._get_filter_options("category")
+
+    def get_sub_category_options(self) -> dict:
+        return self._get_filter_options("sub-category")
+
+    def get_tags(self) -> dict:
+        return self._get_filter_options("tags")
+
+    def get_countries_android(self) -> dict:
+        return self._get_filter_options("countries-android")
+
+    def get_countries_ios(self) -> dict:
+        return self._get_filter_options("countries-ios")
+
+    def get_score_options(self) -> dict:
+        return self._get_filter_options("score")
 
     def get_games_list(
         self,
