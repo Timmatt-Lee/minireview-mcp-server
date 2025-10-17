@@ -66,7 +66,7 @@ class MiniReviewClient:
                         raise ValueError(error_msg)
 
     def _build_params(
-        self, params: dict[str, Any], validate: bool = False
+        self, params: dict[str, Any], is_validate: bool = False
     ) -> dict[str, Any]:
         """
         Builds a dictionary of query parameters, filtering out None values,
@@ -74,12 +74,12 @@ class MiniReviewClient:
 
         Args:
             params: A dictionary of parameters to process.
-            validate: If True, validate filter values against the API.
+            is_validate: If True, validate filter values against the API.
 
         Returns:
             A dictionary of processed query parameters.
         """
-        if validate:
+        if is_validate:
             self._validate_params(params)
 
         processed_params = {}
@@ -208,7 +208,7 @@ class MiniReviewClient:
             "countries-ios": countries_ios,
             "score": score,
         }
-        return self._fetch_api("/games", self._build_params(params, validate=True))
+        return self._fetch_api("/games", self._build_params(params, is_validate=True))
 
     def get_game_details(self, game_slug: str, category: str) -> dict:
         """
@@ -234,7 +234,7 @@ class MiniReviewClient:
             "orderBy": orderBy,
         }
         return self._fetch_api(
-            "/games-ratings", self._build_params(params, validate=True)
+            "/games-ratings", self._build_params(params, is_validate=True)
         )
 
     def get_similar_games(
@@ -257,7 +257,7 @@ class MiniReviewClient:
             "platforms": platforms,
         }
         return self._fetch_api(
-            "/games-similar", self._build_params(params, validate=True)
+            "/games-similar", self._build_params(params, is_validate=True)
         )
 
     def get_side_content(self, platforms: list[Platform], content: list[str]) -> dict:
@@ -270,7 +270,7 @@ class MiniReviewClient:
             "c": content,
         }
         return self._fetch_api(
-            "/general/rota_acao", self._build_params(params, validate=True)
+            "/general/rota_acao", self._build_params(params, is_validate=True)
         )
 
     def get_collections(
@@ -279,8 +279,8 @@ class MiniReviewClient:
         limit: int = 50,
         search: str = "",
         orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
-        loadNew: bool = True,
-        loadLastUpdated: bool = True,
+        is_load_new: bool = True,
+        is_load_last_updated: bool = True,
     ) -> dict:
         """
         Fetches collections of games.
@@ -290,11 +290,11 @@ class MiniReviewClient:
             "limit": limit,
             "search": search,
             "orderBy": orderBy,
-            "loadNewcollections": loadNew,
-            "loadLastUpdatedcollections": loadLastUpdated,
+            "loadNewcollections": is_load_new,
+            "loadLastUpdatedcollections": is_load_last_updated,
         }
         return self._fetch_api(
-            "/collections", self._build_params(params, validate=True)
+            "/collections", self._build_params(params, is_validate=True)
         )
 
     def get_home(
@@ -313,7 +313,7 @@ class MiniReviewClient:
             "platforms": platforms,
             "ids_ignore": ",".join(map(str, ids_ignore)) if ids_ignore else None,
         }
-        return self._fetch_api("/home", self._build_params(params, validate=True))
+        return self._fetch_api("/home", self._build_params(params, is_validate=True))
 
     def get_games_of_the_week(
         self,
@@ -332,7 +332,7 @@ class MiniReviewClient:
             "orderBy": orderBy,
             "platforms": platforms,
         }
-        return self._fetch_api("/games", self._build_params(params, validate=True))
+        return self._fetch_api("/games", self._build_params(params, is_validate=True))
 
     def get_top_user_ratings(
         self,
@@ -351,7 +351,7 @@ class MiniReviewClient:
             "platforms": platforms,
         }
         return self._fetch_api(
-            "/top-user-ratings", self._build_params(params, validate=True)
+            "/top-user-ratings", self._build_params(params, is_validate=True)
         )
 
     def get_upcoming_games(
@@ -371,7 +371,7 @@ class MiniReviewClient:
             "platforms": platforms,
         }
         return self._fetch_api(
-            "/upcoming-games", self._build_params(params, validate=True)
+            "/upcoming-games", self._build_params(params, is_validate=True)
         )
 
     def get_similar_games_main_page(self, platforms: list[Platform] = []) -> dict:
@@ -380,7 +380,7 @@ class MiniReviewClient:
         """
         params = {"acao": "main-page", "platforms": platforms}
         return self._fetch_api(
-            "/games-similar/rota_acao", self._build_params(params, validate=True)
+            "/games-similar/rota_acao", self._build_params(params, is_validate=True)
         )
 
     def get_top_games(self, page: int = 1, limit: int = 50, search: str = "") -> dict:
@@ -401,4 +401,6 @@ class MiniReviewClient:
         Fetches a list of categories.
         """
         params = {"search": search, "platforms": platforms}
-        return self._fetch_api("/categories", self._build_params(params, validate=True))
+        return self._fetch_api(
+            "/categories", self._build_params(params, is_validate=True)
+        )

@@ -122,11 +122,19 @@ class TestMiniReviewClient(unittest.TestCase):
     @patch("minireview_client.client.MiniReviewClient._fetch_api")
     def test_get_collections_uses_enum(self, mock_fetch_api):
         """Test that get_collections correctly processes its OrderBy enum."""
-        self.client.get_collections(orderBy=CollectionsOrderBy.NEWEST)
+        self.client.get_collections(
+            orderBy=CollectionsOrderBy.NEWEST,
+            is_load_new=True,
+            is_load_last_updated=True,
+        )
         call_args, _ = mock_fetch_api.call_args
         self.assertEqual(call_args[0], "/collections")
         self.assertIn("orderBy", call_args[1])
         self.assertEqual(call_args[1]["orderBy"], "newest")
+        self.assertIn("loadNewcollections", call_args[1])
+        self.assertEqual(call_args[1]["loadNewcollections"], 1)
+        self.assertIn("loadLastUpdatedcollections", call_args[1])
+        self.assertEqual(call_args[1]["loadLastUpdatedcollections"], 1)
 
     @patch("minireview_client.client.MiniReviewClient.get_filters")
     def test_string_filter_validation(self, mock_get_filters):

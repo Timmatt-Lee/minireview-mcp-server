@@ -145,7 +145,10 @@ async def test_get_collections_integration():
     app.tool(get_collections.fn)
 
     async with Client(app) as client:
-        collections_result = await client.call_tool("get_collections", {"limit": 1})
+        collections_result = await client.call_tool(
+            "get_collections",
+            {"limit": 1, "is_load_new": True, "is_load_last_updated": True},
+        )
         collections_data = json.loads(collections_result.content[0].text)
 
         assert isinstance(collections_data, dict)
