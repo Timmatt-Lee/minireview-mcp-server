@@ -189,7 +189,6 @@ class TestParameterValidation(unittest.TestCase):
             "tags": {"2d", "3d", "pixel-art"},
             "countries-android": {"us", "br"},
             "countries-ios": {"us", "ca"},
-            "c": {"new-games", "top-games"},
         }
         self.client._parsed_filters = self.mock_filters
 
@@ -242,11 +241,13 @@ class TestParameterValidation(unittest.TestCase):
 
     def test_get_side_content_validation(self, mock_fetch):
         """Test get_side_content validation."""
-        with self.assertRaises(ValueError):
+        # The 'c' filter for 'content' is considered obsolete and has been removed.
+        # This test is updated to reflect that no validation is expected on the
+        # 'content' parameter.
+        try:
             self.client.get_side_content(
                 platforms=[Platform.ANDROID], content=["invalid-content"]
             )
-        try:
             self.client.get_side_content(
                 platforms=[Platform.IOS], content=["new-games"]
             )
