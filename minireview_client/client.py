@@ -85,7 +85,7 @@ class MiniReviewClient:
 
         processed_params = {}
         for key, value in params.items():
-            if value is None or not value:  # Check for None or empty
+            if value is None or value in ([], {}, ""):
                 continue
 
             if isinstance(value, Enum):

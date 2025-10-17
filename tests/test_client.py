@@ -308,5 +308,87 @@ class TestParameterValidation(unittest.TestCase):
             self.fail("get_categories raised ValueError unexpectedly!")
 
 
+class TestBuildParams(unittest.TestCase):
+    """A test suite for the _build_params method."""
+
+    def setUp(self):
+        """Set up a new client for each test."""
+        self.client = MiniReviewClient()
+
+    def test_none_and_empty_values(self):
+        """Test that None and empty values are ignored."""
+        params = {
+            "a": None,
+            "b": "",
+            "c": [],
+            "d": {},
+            "e": "value",
+        }
+        processed_params = self.client._build_params(params)
+        self.assertEqual(processed_params, {"e": "value"})
+
+    def test_enum_value(self):
+        """Test that an Enum is converted to its value."""
+        params = {"orderBy": OrderBy.MOST_POPULAR}
+        processed_params = self.client._build_params(params)
+        self.assertEqual(processed_params, {"orderBy": "most-popular"})
+
+    def test_list_of_strings(self):
+        """Test a list of strings."""
+        params = {"tags": ["2d", "3d"]}
+        processed_params = self.client._build_params(params)
+        self.assertEqual(processed_params, {"tags[]": ["2d", "3d"]})
+
+    def test_list_of_enums(self):
+        """Test a list of enums."""
+        params = {"platforms": [Platform.ANDROID, Platform.IOS]}
+        processed_params = self.client._build_params(params)
+        self.assertEqual(processed_params, {"platforms[]": ["android", "ios"]})
+
+    def test_score_dict(self):
+        """Test the score dictionary."""
+        params = {"score": {"min": 80, "max": 100}}
+        processed_params = self.client._build_params(params)
+        self.assertEqual(processed_params, {"score[min]": 80, "score[max]": 100})
+
+    def test_boolean_values(self):
+        """Test boolean to integer conversion."""
+        params = {"is_new": True, "is_updated": False}
+        processed_params = self.client._build_params(params)
+        self.assertEqual(processed_params, {"is_new": 1, "is_updated": 0})
+
+    def test_mixed_types(self):
+        """Test a mix of all supported types."""
+        params = {
+            "page": 1,
+            "limit": 50,
+            "search": "test",
+            "orderBy": OrderBy.LAST_ADDED_REVIEWS,
+            "platforms": [Platform.ANDROID],
+            "tags": ["pixel-art"],
+            "score": {"min": 90},
+            "is_free": True,
+            "not_present": None,
+            "empty_list": [],
+        }
+        processed_params = self.client._build_params(params)
+        expected = {
+            "page": 1,
+            "limit": 50,
+            "search": "test",
+            "orderBy": "last-added-reviews",
+            "platforms[]": ["android"],
+            "tags[]": ["pixel-art"],
+            "score[min]": 90,
+            "is_free": 1,
+        }
+        self.assertEqual(processed_params, expected)
+
+    def test_empty_params(self):
+        """Test that an empty params dict results in an empty dict."""
+        processed_params = self.client._build_params({})
+        self.assertEqual(processed_params, {})
+
+
 if __name__ == "__main__":
     unittest.main()
