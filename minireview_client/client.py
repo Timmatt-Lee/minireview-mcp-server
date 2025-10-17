@@ -40,6 +40,34 @@ class MiniReviewClient:
             f["slug"]: {item["slug"] for item in f["itens"]} for f in raw_filters_list
         }
 
+    def _validate_score_param(self, score_value: dict[str, Any]):
+        """Validates the 'score' parameter."""
+        if not isinstance(score_value, dict):
+            raise ValueError("Score parameter must be a dictionary.")
+
+        allowed_keys = self._parsed_filters.get("score", set())
+        for s_key, s_value in score_value.items():
+            if s_key not in allowed_keys:
+                raise ValueError(f"Invalid score key: '{s_key}'")
+            if not isinstance(s_value, int) or not (0 <= s_value <= 10):
+                raise ValueError(
+                    f"Invalid score value for '{s_key}': {s_value}. "
+                    "Must be an integer from 0 to 10."
+                )
+
+    def _validate_filter_param(self, key: str, value: Any):
+        """Validates a generic filter parameter against the API's allowed values."""
+        allowed_values = self._parsed_filters[key]
+        values_to_check = value if isinstance(value, list) else [value]
+
+        for v in values_to_check:
+            actual_value = v.value if isinstance(v, Enum) else v
+            if actual_value not in allowed_values:
+                raise ValueError(
+                    f"Invalid value for filter '{key}': '{v}'. "
+                    "Check get_filters() for options."
+                )
+
     def _validate_params(self, params: dict[str, Any]):
         """
         Validates filter parameters against the allowed values from the API.
@@ -53,31 +81,9 @@ class MiniReviewClient:
                 continue
 
             if key == "score":
-                if not isinstance(value, dict):
-                    raise ValueError("Score parameter must be a dictionary.")
-
-                allowed_keys = self._parsed_filters.get("score", set())
-                for s_key, s_value in value.items():
-                    if s_key not in allowed_keys:
-                        raise ValueError(f"Invalid score key: '{s_key}'")
-                    if not isinstance(s_value, int) or not (0 <= s_value <= 10):
-                        raise ValueError(
-                            f"Invalid score value for '{s_key}': {s_value}. "
-                            "Must be an integer from 0 to 10."
-                        )
-                continue
-
-            if key in self._parsed_filters:
-                allowed_values = self._parsed_filters[key]
-                values_to_check = value if isinstance(value, list) else [value]
-
-                for v in values_to_check:
-                    actual_value = v.value if isinstance(v, Enum) else v
-                    if actual_value not in allowed_values:
-                        raise ValueError(
-                            f"Invalid value for filter '{key}': '{v}'. "
-                            "Check get_filters() for options."
-                        )
+                self._validate_score_param(value)
+            elif key in self._parsed_filters:
+                self._validate_filter_param(key, value)
 
     def _build_params(
         self, params: dict[str, Any], is_validate: bool = False
