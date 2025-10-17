@@ -170,5 +170,143 @@ class TestMiniReviewClient(unittest.TestCase):
         self.assertIn("'invalid-tag' for filter 'tags'", str(cm.exception))
 
 
+@patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
+class TestParameterValidation(unittest.TestCase):
+    """A test suite for all parameter validation in the client."""
+
+    def setUp(self):
+        """Set up a new client and mock get_filters for each test."""
+        self.client = MiniReviewClient()
+        self.mock_filters = {
+            "platforms": {"android", "ios"},
+            "players": {"singleplayer", "multiplayer"},
+            "network": {"online", "offline"},
+            "monetization-android": {"free", "paid"},
+            "monetization-ios": {"free", "paid"},
+            "screen-orientation": {"portrait", "landscape"},
+            "category": {"action", "adventure"},
+            "sub-category": {"rpg", "platformer"},
+            "tags": {"2d", "3d", "pixel-art"},
+            "countries-android": {"us", "br"},
+            "countries-ios": {"us", "ca"},
+            "c": {"new-games", "top-games"},
+        }
+        self.client._parsed_filters = self.mock_filters
+
+    def test_get_games_list_validation_success(self, mock_fetch):
+        """Test get_games_list validation with valid parameters."""
+        try:
+            self.client.get_games_list(
+                platforms=[Platform.ANDROID],
+                players=["singleplayer"],
+                category=["action"],
+                tags=["2d", "pixel-art"],
+                countries_android=["us"],
+            )
+        except ValueError:
+            self.fail("get_games_list raised ValueError unexpectedly!")
+
+    def test_get_games_list_validation_failure(self, mock_fetch):
+        """Test get_games_list validation with invalid parameters."""
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(category=["invalid-category"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(players=["invalid-player"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(network=["invalid-network"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(monetization_android=["invalid-monetization"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(monetization_ios=["invalid-monetization"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(screen_orientation=["invalid-orientation"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(sub_category=["invalid-sub-category"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(tags=["invalid-tag"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(countries_android=["invalid-country"])
+        with self.assertRaises(ValueError):
+            self.client.get_games_list(countries_ios=["invalid-country"])
+
+    def test_get_similar_games_validation(self, mock_fetch):
+        """Test get_similar_games validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_similar_games(
+                game_id=1, platforms=[Platform.ANDROID, "invalid-platform"]
+            )
+        try:
+            self.client.get_similar_games(game_id=1, platforms=[Platform.IOS])
+        except ValueError:
+            self.fail("get_similar_games raised ValueError unexpectedly!")
+
+    def test_get_side_content_validation(self, mock_fetch):
+        """Test get_side_content validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_side_content(
+                platforms=[Platform.ANDROID], content=["invalid-content"]
+            )
+        try:
+            self.client.get_side_content(
+                platforms=[Platform.IOS], content=["new-games"]
+            )
+        except ValueError:
+            self.fail("get_side_content raised ValueError unexpectedly!")
+
+    def test_get_home_validation(self, mock_fetch):
+        """Test get_home validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_home(platforms=["invalid-platform"])
+        try:
+            self.client.get_home(platforms=[Platform.ANDROID])
+        except ValueError:
+            self.fail("get_home raised ValueError unexpectedly!")
+
+    def test_get_games_of_the_week_validation(self, mock_fetch):
+        """Test get_games_of_the_week validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_games_of_the_week(platforms=["invalid-platform"])
+        try:
+            self.client.get_games_of_the_week(platforms=[Platform.IOS])
+        except ValueError:
+            self.fail("get_games_of_the_week raised ValueError unexpectedly!")
+
+    def test_get_top_user_ratings_validation(self, mock_fetch):
+        """Test get_top_user_ratings validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_top_user_ratings(platforms=["invalid-platform"])
+        try:
+            self.client.get_top_user_ratings(platforms=[Platform.ANDROID, Platform.IOS])
+        except ValueError:
+            self.fail("get_top_user_ratings raised ValueError unexpectedly!")
+
+    def test_get_upcoming_games_validation(self, mock_fetch):
+        """Test get_upcoming_games validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_upcoming_games(platforms=["invalid-platform"])
+        try:
+            self.client.get_upcoming_games(platforms=[Platform.ANDROID])
+        except ValueError:
+            self.fail("get_upcoming_games raised ValueError unexpectedly!")
+
+    def test_get_similar_games_main_page_validation(self, mock_fetch):
+        """Test get_similar_games_main_page validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_similar_games_main_page(platforms=["invalid-platform"])
+        try:
+            self.client.get_similar_games_main_page(platforms=[Platform.IOS])
+        except ValueError:
+            self.fail("get_similar_games_main_page raised ValueError unexpectedly!")
+
+    def test_get_categories_validation(self, mock_fetch):
+        """Test get_categories validation."""
+        with self.assertRaises(ValueError):
+            self.client.get_categories(platforms=["invalid-platform"])
+        try:
+            self.client.get_categories(platforms=[Platform.ANDROID])
+        except ValueError:
+            self.fail("get_categories raised ValueError unexpectedly!")
+
+
 if __name__ == "__main__":
     unittest.main()
