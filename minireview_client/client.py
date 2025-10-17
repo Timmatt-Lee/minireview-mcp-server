@@ -57,7 +57,8 @@ class MiniReviewClient:
                 values_to_check = value if isinstance(value, list) else [value]
 
                 for v in values_to_check:
-                    if v not in allowed_values:
+                    actual_value = v.value if isinstance(v, Enum) else v
+                    if actual_value not in allowed_values:
                         error_msg = (
                             f"Invalid value '{v}' for filter '{key}'. "
                             "Use get_filters() to see available options, "
