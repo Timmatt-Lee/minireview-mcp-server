@@ -185,7 +185,7 @@ class TestParameterValidation(unittest.TestCase):
             "monetization-ios": {"free", "paid"},
             "screen-orientation": {"portrait", "landscape"},
             "category": {"action", "adventure"},
-            "sub-category": {"rpg", "platformer"},
+            "sub-category": {"rpg", "sandbox"},
             "tags": {"2d", "3d", "pixel-art"},
             "countries-android": {"us", "br"},
             "countries-ios": {"us", "ca"},
