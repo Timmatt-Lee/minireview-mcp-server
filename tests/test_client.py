@@ -157,17 +157,23 @@ class TestMiniReviewClient(unittest.TestCase):
         # Test invalid category (single value)
         with self.assertRaises(ValueError) as cm:
             self.client.get_games_list(category="invalid-category")
-        self.assertIn("'invalid-category' for filter 'category'", str(cm.exception))
+        self.assertIn(
+            "Invalid value for filter 'category': 'invalid-category'", str(cm.exception)
+        )
 
         # Test invalid players (list of values)
         with self.assertRaises(ValueError) as cm:
             self.client.get_games_list(players=["singleplayer", "invalid-player"])
-        self.assertIn("'invalid-player' for filter 'players'", str(cm.exception))
+        self.assertIn(
+            "Invalid value for filter 'players': 'invalid-player'", str(cm.exception)
+        )
 
         # Test invalid tags (list of values)
         with self.assertRaises(ValueError) as cm:
             self.client.get_games_list(tags=["invalid-tag"])
-        self.assertIn("'invalid-tag' for filter 'tags'", str(cm.exception))
+        self.assertIn(
+            "Invalid value for filter 'tags': 'invalid-tag'", str(cm.exception)
+        )
 
 
 @patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
@@ -190,8 +196,40 @@ class TestParameterValidation(unittest.TestCase):
             "countries-android": {"us", "br"},
             "countries-ios": {"us", "ca"},
             "c": {"new-games", "top-games"},
+            "score": {"gameplay", "control"},
         }
         self.client._parsed_filters = self.mock_filters
+
+    def test_get_games_list_score_validation(self, mock_fetch):
+        """Test get_games_list validation for the score parameter."""
+        # Valid score
+        try:
+            self.client.get_games_list(score={"gameplay": 5, "control": 10})
+        except ValueError:
+            self.fail("get_games_list raised ValueError unexpectedly for score!")
+
+        # Invalid value (string)
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_games_list(score={"gameplay": "invalid"})
+        self.assertIn("Invalid score value for 'gameplay': invalid", str(cm.exception))
+
+        # Invalid value (out of range)
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_games_list(score={"gameplay": 11})
+        self.assertIn("Invalid score value for 'gameplay': 11", str(cm.exception))
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_games_list(score={"control": -1})
+        self.assertIn("Invalid score value for 'control': -1", str(cm.exception))
+
+        # Invalid key
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_games_list(score={"invalid_key": 5})
+        self.assertIn("Invalid score key: 'invalid_key'", str(cm.exception))
+
+        # Invalid type (not a dict)
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_games_list(score="invalid_score")
+        self.assertIn("Score parameter must be a dictionary", str(cm.exception))
 
     def test_get_games_list_validation_success(self, mock_fetch):
         """Test get_games_list validation with valid parameters."""
