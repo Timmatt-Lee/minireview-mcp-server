@@ -44,10 +44,12 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
         self.assertIsInstance(response["data"], list)
         self.assertGreater(len(response["data"]), 0)
 
-    @vcr.use_cassette("tests/cassettes/test_integration_client/test_get_countries.yaml")
-    def test_get_countries(self):
-        """Test a live call to get_countries."""
-        response = self.client.get_countries()
+    @vcr.use_cassette(
+        "tests/cassettes/test_integration_client/test_get_countries_android.yaml"
+    )
+    def test_get_countries_android(self):
+        """Test a live call to get_countries_android."""
+        response = self.client.get_countries_android()
         self.assertIsInstance(response, dict)
         self.assertIn("us", response)  # Check for a common country code
 
