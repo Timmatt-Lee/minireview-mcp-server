@@ -49,7 +49,22 @@ class MiniReviewClient:
         assert self._parsed_filters is not None
 
         for key, value in params.items():
-            if value is None or key == "score":  # Skip score validation
+            if value is None:
+                continue
+
+            if key == "score":
+                if not isinstance(value, dict):
+                    raise ValueError("Score parameter must be a dictionary.")
+
+                allowed_keys = self._parsed_filters.get("score", set())
+                for s_key, s_value in value.items():
+                    if s_key not in allowed_keys:
+                        raise ValueError(f"Invalid score key: '{s_key}'")
+                    if not isinstance(s_value, int) or not (0 <= s_value <= 10):
+                        raise ValueError(
+                            f"Invalid score value for '{s_key}': {s_value}. "
+                            "Must be an integer from 0 to 10."
+                        )
                 continue
 
             if key in self._parsed_filters:
@@ -59,12 +74,10 @@ class MiniReviewClient:
                 for v in values_to_check:
                     actual_value = v.value if isinstance(v, Enum) else v
                     if actual_value not in allowed_values:
-                        error_msg = (
-                            f"Invalid value '{v}' for filter '{key}'. "
-                            "Use get_filters() to see available options, "
-                            "or check for typos."
+                        raise ValueError(
+                            f"Invalid value for filter '{key}': '{v}'. "
+                            "Check get_filters() for options."
                         )
-                        raise ValueError(error_msg)
 
     def _build_params(
         self, params: dict[str, Any], is_validate: bool = False
