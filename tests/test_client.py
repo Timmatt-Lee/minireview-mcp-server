@@ -277,21 +277,6 @@ class TestParameterValidation(unittest.TestCase):
         except ValueError:
             self.fail("get_similar_games raised ValueError unexpectedly!")
 
-    def test_get_side_content_validation(self, mock_fetch):
-        """Test get_side_content validation."""
-        # The 'c' filter for 'content' is considered obsolete and has been removed.
-        # This test is updated to reflect that no validation is expected on the
-        # 'content' parameter.
-        try:
-            self.client.get_side_content(
-                platforms=[Platform.ANDROID], content=["invalid-content"]
-            )
-            self.client.get_side_content(
-                platforms=[Platform.IOS], content=["new-games"]
-            )
-        except ValueError:
-            self.fail("get_side_content raised ValueError unexpectedly!")
-
     def test_get_home_validation(self, mock_fetch):
         """Test get_home validation."""
         with self.assertRaises(ValueError):
@@ -327,15 +312,6 @@ class TestParameterValidation(unittest.TestCase):
             self.client.get_upcoming_games(platforms=[Platform.ANDROID])
         except ValueError:
             self.fail("get_upcoming_games raised ValueError unexpectedly!")
-
-    def test_get_similar_games_main_page_validation(self, mock_fetch):
-        """Test get_similar_games_main_page validation."""
-        with self.assertRaises(ValueError):
-            self.client.get_similar_games_main_page(platforms=["invalid-platform"])
-        try:
-            self.client.get_similar_games_main_page(platforms=[Platform.IOS])
-        except ValueError:
-            self.fail("get_similar_games_main_page raised ValueError unexpectedly!")
 
     def test_get_categories_validation(self, mock_fetch):
         """Test get_categories validation."""

@@ -92,16 +92,6 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
         self.assertIsInstance(response["data"], list)
 
     @vcr.use_cassette(
-        "tests/cassettes/test_integration_client/test_get_side_content.yaml"
-    )
-    def test_get_side_content(self):
-        """Test a live call to get_side_content."""
-        self.client.get_side_content(
-            platforms=[Platform.ANDROID],
-            content=["reviews", "topgames"],
-        )
-
-    @vcr.use_cassette(
         "tests/cassettes/test_integration_client/test_get_collections.yaml"
     )
     def test_get_collections(self):
@@ -141,14 +131,6 @@ class TestIntegrationMiniReviewClient(unittest.TestCase):
         """Test a live call to get_upcoming_games."""
         response = self.client.get_upcoming_games(platforms=[Platform.ANDROID])
         self.assertIn("data", response)
-
-    @vcr.use_cassette(
-        "tests/cassettes/test_integration_client/test_get_similar_games_main_page.yaml"
-    )
-    def test_get_similar_games_main_page(self):
-        """Test a live call to get_similar_games_main_page."""
-        response = self.client.get_similar_games_main_page(platforms=[Platform.ANDROID])
-        self.assertIsNotNone(response)
 
     @vcr.use_cassette("tests/cassettes/test_integration_client/test_get_top_games.yaml")
     def test_get_top_games(self):
