@@ -15,12 +15,10 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6193,"nome":"Just King","slug":"just-king","logo":"common\/uploads\/icons\/cf1dec6b49c049365040c750ca46c357.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-cf1dec6b49c049365040c750ca46c357.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-18-9270856.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-18-9270856.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":37,"nome":"Auto
-          Battler","slug":"auto-battler"},"categorias":[{"id":37,"nome":"Auto Battler","slug":"auto-battler","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Just
-          King is a paid 2D Auto Battler Roguelike game available on Android. It\u2019s
-          a single and multiplayer experience that can be played both offline and online
-          in landscape mode. Just King was released in August 2025 and has a current
-          rating of 3.3 out of 5.0 on Google Play.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9270225.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9270225.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9270225.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9270226.jpg"}],"price":"$4.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6197,"nome":"Mechanical Lab","slug":"mechanical-lab","logo":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","logo_preloader":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titdssdsdulo-1-9773232.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titdssdsdulo-1-9773232.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Mechanical
+          Lab is a paid 2D Simulation Physics-Based game available on Android. It\u2019s
+          a singleplayer experience that can be played offline in landscape mode. Mechanical
+          Lab was released in June 2025.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9442480.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9442480.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9442480.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-9442481.jpg"}],"price":"$5.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -186,12 +184,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3911,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f84208da04de84-HKG
+          - 99090e62df774a9e-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -203,7 +201,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:06 GMT
+          - Sat, 18 Oct 2025 15:26:49 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -211,12 +209,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ArqzgbMiVFzLClHVwcqvWVn9Y734aWa8xEastMuQiSwG9Nj4SGgg2Y49gVEeVyuvRfSt1Q5fDfZmLHDoWyo2Zt2CCwyzJjAWlv8XIoA%2Fqj6vRjjX6R1Fzw%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Tb2jIXezVAyNDblfJlyYsbwhn4%2BCUZWTNlyAvCYLOi%2FhNW%2F%2BB0K%2FO%2F75b74LXx6n9KO%2BzRIPezcnrWTKbtRgVR%2BvnEv6VsxTlYXnsfccHNhYGZwKzxk%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=nd7efms48m2eg11iddbacnbadk; Path=/; Max-Age=2592000; Expires=Sat,
-            15 Nov 2025 14:31:06 GMT
+          - minireview-io=8usfu30iaooffeth9e2jeao1eh; Path=/; Max-Age=2592000; Expires=Mon,
+            17 Nov 2025 15:26:48 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -240,41 +238,38 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=nd7efms48m2eg11iddbacnbadk
+          - minireview-io=8usfu30iaooffeth9e2jeao1eh
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?page=1&limit=1&search=&orderBy=last-added-reviews
+      uri: https://minireview.io/apiv2/games?page=1&limit=1&orderBy=last-added-reviews
     response:
       body:
         string:
-          '{"data":[{"id":5184,"nome":"Lunar Silver Star Story Touch","slug":"lunar-silver-star-story-touch","logo":"common\/uploads\/icons\/bf3b6984e0ddff6d036292de573ff54f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bf3b6984e0ddff6d036292de573ff54f.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-lunar9-6866449.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-lunar9-6866449.webp","avaliacoes_total":2,"avaliacoes_positivas_porcento":0,"nota":"8.0","usuario_favorito":false,"categoria":{"id":12,"nome":"Role
-          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Lunar
-          Silver Story Touch is an excellent port of one of the most iconic JRPGs of
-          the &#39;90s.\r\n\r\nIt features fantastic animated cutscenes, strong voice
-          acting, a beautiful soundtrack, charming pixel art, and a wonderful story
-          of adventure and romance sprinkled with lighthearted humor.\r\n\r\nThat said,
-          it&rsquo;s worth noting that the voice acting and songs of this release come
-          from the PSP version rather than the PS1 version. In this adaptation, the
-          songs and scripts are changed to be more faithful to the Japanese source,
-          a change that may disappoint some longtime fans of the series.\r\n\r\nThankfully,
-          the game includes useful features such as adjustable battle speed, AI-assisted
-          combat, and up to three programmable tactics. We can also adjust EXP and silver
-          gains as well as enemy stats, allowing us to fine-tune the grind.\r\n\r\nThe
-          game offers three control options, of which the external gamepad support is
-          easily the best and most reliable. Then there&#39;s the virtual joystick,
-          which gets the job done but feels stiff when navigating around objects. And
-          finally, there&#39;s the point-and-click option that needs to be reworked
-          as it&#39;s often unresponsive.\r\n\r\nI encountered an issue with the default
-          retro UI not displaying equipment stats or spell details, though switching
-          to the classic UI resolved these issues. But ironically, I also encountered
-          a bug when trying to switch to said classic UI using the touch controls, as
-          I kept unintentionally exiting the menu. This problem does not occur with
-          a gamepad. This is taken into account in the art style score.\r\n\r\nAside
-          from this, the rest of the UI works well and offers a good amount of customization.\r\n\r\nOverall,
-          I thoroughly enjoyed revisiting this cherished childhood memory, and I highly
-          recommend it to those who have an external controller.\r\n\r\nLunar Silver
-          Story Touch is a premium game that costs $11.99 on Android and $9.99 on iOS.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250825-222429-7424046.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250825-222429-7424046.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250825-222429-7424046.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250825-222809-7424047.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250825-222809-7424047.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250825-222809-7424047.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250828-021621-7424047.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250828-021621-7424047.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250828-021621-7424047.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250904-011222-7424047.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250904-011222-7424047.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250904-011222-7424047.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250905-004126-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250905-004126-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250905-004126-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250905-004355-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250905-004355-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250905-004355-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250906-092604-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250906-092604-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250906-092604-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250907-220348-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250907-220348-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250907-220348-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250908-001005-7424049.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250908-001005-7424049.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250908-001005-7424049.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250908-002128-7424049.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250908-002128-7424049.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250908-002128-7424049.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250908-003133-7424049.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250908-003133-7424049.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250908-003133-7424049.jpg"}],"price":"$11.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6168,"nome":"QB - a cube''s tale","slug":"qb-a-cube-s-tale","logo":"common\/uploads\/icons\/965b0c8a96aad0efaa3e6b72ba7f5c28.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-965b0c8a96aad0efaa3e6b72ba7f5c28.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-qb-a-cubes-tale-minireview-9394273.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-qb-a-cubes-tale-minireview-9394273.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.5","usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"QB
+          - a cube&#39;s tale is a well-made puzzle game that introduces a few new concepts
+          to the good old &ldquo;push a cube around a small level&rdquo; gameplay formula.\r\n\r\nThe
+          goal in each level is to find a way to push our black cube onto a black platform
+          by moving it left, right, up, and down. But as we move around the level, we
+          also land on various special tiles that demolish, move, or transform part
+          of the map itself.\r\n\r\nThis is an interesting mechanic that is used in
+          clever ways throughout the levels. In fact, we often need to break part of
+          the map to get a few steps ahead, but must do so carefully, as it&rsquo;s
+          easy to lock ourselves in a situation we can&rsquo;t get out of.&nbsp;\r\n\r\nWith
+          no rewind button, we&rsquo;re forced into a bunch of trial-and-error and level
+          restarts. Until we can finally remember which steps work and which don&rsquo;t,
+          and then implement them all in one go, that is.\r\n\r\nWhile there are 80
+          levels to play through, they all feel a tad too similar. In addition, the
+          difficulty ramps up too much at level 30, though it thankfully subsides to
+          a more reasonable level again after that.&nbsp;\r\n\r\nOverall, the game is
+          complex yet quite possible to complete. And once done, you can try to gain
+          three stars in each level, which is much more challenging.\r\n\r\nThe biggest
+          downside is that the game&rsquo;s visuals look like something we&rsquo;ve
+          seen a hundred times before.\r\n\r\nQB &ndash; a cube&rsquo;s tale is a $3.49
+          premium game on Android, whereas it&rsquo;s free to try on iOS, with a $3.99
+          iAP unlocking the full game.&nbsp;\r\n\r\nIt&rsquo;s honestly a great price
+          for how much gameplay we get &ndash; as long as you don&rsquo;t mind the simplistic
+          puzzles and predictable gameplay.\r\n","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210536-qb-7678344.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210536-qb-7678344.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210536-qb-7678344.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210600-qb-7678344.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210600-qb-7678344.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210600-qb-7678344.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210335-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210335-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210335-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210348-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210348-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210348-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210416-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210416-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210416-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210448-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210448-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210448-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210219-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210219-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210219-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210231-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210231-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210231-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210245-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210245-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210245-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210300-qb-7678346.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210300-qb-7678346.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210300-qb-7678346.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210324-qb-7678346.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210324-qb-7678346.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210324-qb-7678346.jpg"}],"price":"$3.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -440,12 +435,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3911,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f8420d0e0e02a9-HKG
+          - 99090e66dd970734-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -457,7 +452,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:07 GMT
+          - Sat, 18 Oct 2025 15:26:49 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -465,7 +460,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QX2AC4D88ZYiDEWhi5%2FyAPKpF9SUFqRMpxQXkrAFwcWxufev6fdbIv%2BxPgHTR%2B35Bcw8JSPRdKk6e0DFaD35r1Rm8Lldf7XoONlI1i7sHIO4CvSplrwWfA%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=E%2BYDWbt%2F%2B3RxnTwfOw7NRnRFoQrj3u1O9jAXNlEgoPoM9%2F3Ts2m1sMA65awH4KroIqzo5M3Oq27mD%2BXCdAzJ4mmxsAKdun5pSeYHwoo%2FGkDN5VNXFMo%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
@@ -497,12 +492,10 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6193,"nome":"Just King","slug":"just-king","logo":"common\/uploads\/icons\/cf1dec6b49c049365040c750ca46c357.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-cf1dec6b49c049365040c750ca46c357.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-18-9270856.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-18-9270856.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":37,"nome":"Auto
-          Battler","slug":"auto-battler"},"categorias":[{"id":37,"nome":"Auto Battler","slug":"auto-battler","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Just
-          King is a paid 2D Auto Battler Roguelike game available on Android. It\u2019s
-          a single and multiplayer experience that can be played both offline and online
-          in landscape mode. Just King was released in August 2025 and has a current
-          rating of 3.3 out of 5.0 on Google Play.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9270225.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9270225.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9270225.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9270226.jpg"}],"price":"$4.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6197,"nome":"Mechanical Lab","slug":"mechanical-lab","logo":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","logo_preloader":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titdssdsdulo-1-9773232.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titdssdsdulo-1-9773232.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Mechanical
+          Lab is a paid 2D Simulation Physics-Based game available on Android. It\u2019s
+          a singleplayer experience that can be played offline in landscape mode. Mechanical
+          Lab was released in June 2025.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9442480.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9442480.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9442480.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-9442481.jpg"}],"price":"$5.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -668,12 +661,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3911,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f842107b8807aa-HKG
+          - 99090e693ee4843a-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -685,7 +678,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:07 GMT
+          - Sat, 18 Oct 2025 15:26:50 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -693,12 +686,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PiZmoQ93MNg4YuyrG9rzQnNXZlDvyAohWiScePX90B9tKwqxUxi6S4EigoXGlDdSW0WKHCy8U%2F2NRDx1E0UwyHj2Fz8yrdoa4mdxCVUUafhvdaTNyHZr6Q%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KP%2FgESk0tO5U8B54j3BdHXrOe9Z7sg81eRnWzl3A4QduJCcvyQVcdbgl6bgoE%2BMcL4a%2BQOQWF31TK9O36qihnSQw6KPyiYAlY%2F39W3VZGqAYDtHI7Ew%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=vfcen98p8vrif9ii1795tbv241; Path=/; Max-Age=2592000; Expires=Sat,
-            15 Nov 2025 14:31:07 GMT
+          - minireview-io=2t7q28kbr9jq5de9t85aloe42u; Path=/; Max-Age=2592000; Expires=Mon,
+            17 Nov 2025 15:26:49 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -722,24 +715,19 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=vfcen98p8vrif9ii1795tbv241
+          - minireview-io=2t7q28kbr9jq5de9t85aloe42u
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-ratings?game_id=5184&page=1&limit=1&orderBy=newest
+      uri: https://minireview.io/apiv2/games-ratings?game_id=6168&page=1&type=newest&limit=1&orderBy=newest
     response:
       body:
-        string:
-          '{"data":[{"id":12170,"tipo":"positivo","data":"2025-08-13T03:41:57-03:00","texto":"Hello\u060cgame
-          Strategy for the game Android and HarmonyOS Huawei...","texto_original":"Hello\u060cgame
-          Strategy for the game Android and HarmonyOS Huawei...","pontuacao":"1","usuario_votou":null,"usuario":{"id":52481,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Ali
-          Egbali71775.webp","username":"Ali13","slug":"ali13","nome":"Ali13","sobre":null,"sobre_original":null,"data_cadastro":"2025-08-04
-          15:25:16","score":60,"total_avaliacoes":69,"total_favoritos":99,"pais_nome":null,"pais_sigla":null}}],"page":1,"total":2,"total_positivo":2,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":false}'
+        string: '{"data":[],"page":1,"total":0,"total_positivo":0,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f84213ed935de9-HKG
+          - 99090e6cdc714a8c-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -751,7 +739,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:08 GMT
+          - Sat, 18 Oct 2025 15:26:50 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -759,7 +747,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mYQWiz45XwU9gPg%2FyQSzjfcf82teCJv1gq8L1kcrYjgCt%2FepNRcRC%2FOOThayOuBETD%2F8G8xifg1l5rUsfPLDd4CTXqwxmLoUKSXK%2FIcrs%2B5rkOGQ11VtXQ%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oUmvZ%2B4fCrReP5VEppBe6B9eWzc89IekUyUaibT2AEeg4Dhu68To8F8MtUZADj%2BjGwZdUURDQzSq3RuBzHE4h%2BoRqYCAldnnq8gjvI0wgaLoz%2FvxMSk%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

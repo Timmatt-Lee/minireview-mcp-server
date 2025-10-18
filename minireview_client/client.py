@@ -8,7 +8,13 @@ from typing import Any
 
 import requests
 
-from .enums import CollectionsOrderBy, GameRatingsOrderBy, OrderBy, Platform
+from .enums import (
+    CollectionsOrderBy,
+    GameRatingsOrderBy,
+    GameRatingType,
+    OrderBy,
+    Platform,
+)
 from .exceptions import APIError
 
 
@@ -280,6 +286,7 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
+        type: GameRatingType = GameRatingType.ALL,
         orderBy: GameRatingsOrderBy = GameRatingsOrderBy.NEWEST,
     ) -> dict:
         """
@@ -288,6 +295,7 @@ class MiniReviewClient:
         params = {
             "game_id": game_id,
             "page": page,
+            "type": type,
             "limit": limit,
             "orderBy": orderBy,
         }
@@ -307,7 +315,6 @@ class MiniReviewClient:
         Fetches games similar to a specific game.
         """
         params = {
-            "from_page": "game-page",
             "game_id": game_id,
             "page": page,
             "limit": limit,

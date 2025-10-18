@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&limit=50&orderBy=newest
+      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&type=all&limit=50&orderBy=newest
     response:
       body:
         string:
@@ -28,7 +28,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f846e46fe82119-HKG
+          - 99090e249bb44a68-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -40,7 +40,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:34:25 GMT
+          - Sat, 18 Oct 2025 15:26:39 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -48,7 +48,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RdzDJ%2BfpZWLWJqmYZnLuPStakhqNhdwxX0J6ebIiCQLPEzgZ%2Ff48Ccm4GL%2BQjeaRXhbGNMneGPCxwJjr4Jxo18xLxCdzK5WeHwUrJDmtmFtTA1W5AV91PA%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pr43LThpKhsnj48HVmLVVuua7pYkXcwdJrEHCzNNB4Ibd1UgPq%2Be2MDf754Gj1oF2g56qCa17Kjmf%2BebendhNlUsyODQ4otRHe3aVLjDa1rDor8pHt4%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

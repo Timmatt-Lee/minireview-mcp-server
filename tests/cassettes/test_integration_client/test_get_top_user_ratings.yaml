@@ -481,12 +481,12 @@ interactions:
           Dungeon III","slug":"bit-dungeon-iii","logo":"common\/uploads\/icons\/0f9c5a9817e18fca06440991839da227.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0f9c5a9817e18fca06440991839da227.webp","categoria":{"id":12,"nome":"Role
           Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":16,"nome":"Dungeon
           Crawler","slug":"dungeon-crawler","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
-          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}}],"page":1,"total":91,"ultima_pagina":false}'
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}}],"page":1,"total":85,"ultima_pagina":false}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 99071588db938427-TPE
+          - 99090e376ac6827f-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -498,7 +498,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sat, 18 Oct 2025 09:42:10 GMT
+          - Sat, 18 Oct 2025 15:26:42 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -506,7 +506,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hx%2FpNdqKC6WS1UIUF1SzkYcco9MBs1yx%2FkuFBPBglRqkFnRuzBHq8ZeHXexjrICeAAfM8%2BSP5JV1ihP41FpT8dF6cKbcITuvOetLDDVegTHlTahpHAE%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hi3wiYdO3pnMFg18zgV2W2CRMsVAP56aksMlaUBoqB7DjBbNifBtCTgPhNH0XXRHh00La4LCdQ2fSeE2Dnvc70tMXdBQ6WWO3W58m7tg85wP3IjiTAA%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

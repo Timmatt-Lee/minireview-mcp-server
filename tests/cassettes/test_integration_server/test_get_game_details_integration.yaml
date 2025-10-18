@@ -15,12 +15,10 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6193,"nome":"Just King","slug":"just-king","logo":"common\/uploads\/icons\/cf1dec6b49c049365040c750ca46c357.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-cf1dec6b49c049365040c750ca46c357.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-18-9270856.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-18-9270856.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":37,"nome":"Auto
-          Battler","slug":"auto-battler"},"categorias":[{"id":37,"nome":"Auto Battler","slug":"auto-battler","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Just
-          King is a paid 2D Auto Battler Roguelike game available on Android. It\u2019s
-          a single and multiplayer experience that can be played both offline and online
-          in landscape mode. Just King was released in August 2025 and has a current
-          rating of 3.3 out of 5.0 on Google Play.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9270225.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9270225.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9270225.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9270226.jpg"}],"price":"$4.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6197,"nome":"Mechanical Lab","slug":"mechanical-lab","logo":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","logo_preloader":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titdssdsdulo-1-9773232.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titdssdsdulo-1-9773232.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Mechanical
+          Lab is a paid 2D Simulation Physics-Based game available on Android. It\u2019s
+          a singleplayer experience that can be played offline in landscape mode. Mechanical
+          Lab was released in June 2025.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9442480.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9442480.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9442480.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-9442481.jpg"}],"price":"$5.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -186,12 +184,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3911,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f841fe1a922112-HKG
+          - 99090e563b574a42-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -203,7 +201,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:04 GMT
+          - Sat, 18 Oct 2025 15:26:47 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -211,12 +209,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=k54dpZpWN3ebog6M4TcfUhyY4ucw8ltAaArLb45n6pyW%2BQJIFiZmapq4Fwo5R5awWfvtBSfTidAjoIV1kvfWatzQEKxrtMyUYH2SI0VVy43Cv2hFO7b4DA%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=t52Ocx0JUAPgDjQjQYUmccEls0rZrwyH%2BflT%2FwYxNBRB4hCydMaRYuBnvTbPUnzO2rNQNZpNRE0DKIYptLyKb2N48zezJAJQPSx4O1j7lJC4luUJplU%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=u5sr94lmadhjls785svq52qnv4; Path=/; Max-Age=2592000; Expires=Sat,
-            15 Nov 2025 14:31:04 GMT
+          - minireview-io=ih7jlis0d09nvvcrfn0htisv1h; Path=/; Max-Age=2592000; Expires=Mon,
+            17 Nov 2025 15:26:47 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -240,41 +238,38 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=u5sr94lmadhjls785svq52qnv4
+          - minireview-io=ih7jlis0d09nvvcrfn0htisv1h
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?page=1&limit=1&search=&orderBy=last-added-reviews
+      uri: https://minireview.io/apiv2/games?page=1&limit=1&orderBy=last-added-reviews
     response:
       body:
         string:
-          '{"data":[{"id":5184,"nome":"Lunar Silver Star Story Touch","slug":"lunar-silver-star-story-touch","logo":"common\/uploads\/icons\/bf3b6984e0ddff6d036292de573ff54f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bf3b6984e0ddff6d036292de573ff54f.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-lunar9-6866449.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-lunar9-6866449.webp","avaliacoes_total":2,"avaliacoes_positivas_porcento":0,"nota":"8.0","usuario_favorito":false,"categoria":{"id":12,"nome":"Role
-          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Lunar
-          Silver Story Touch is an excellent port of one of the most iconic JRPGs of
-          the &#39;90s.\r\n\r\nIt features fantastic animated cutscenes, strong voice
-          acting, a beautiful soundtrack, charming pixel art, and a wonderful story
-          of adventure and romance sprinkled with lighthearted humor.\r\n\r\nThat said,
-          it&rsquo;s worth noting that the voice acting and songs of this release come
-          from the PSP version rather than the PS1 version. In this adaptation, the
-          songs and scripts are changed to be more faithful to the Japanese source,
-          a change that may disappoint some longtime fans of the series.\r\n\r\nThankfully,
-          the game includes useful features such as adjustable battle speed, AI-assisted
-          combat, and up to three programmable tactics. We can also adjust EXP and silver
-          gains as well as enemy stats, allowing us to fine-tune the grind.\r\n\r\nThe
-          game offers three control options, of which the external gamepad support is
-          easily the best and most reliable. Then there&#39;s the virtual joystick,
-          which gets the job done but feels stiff when navigating around objects. And
-          finally, there&#39;s the point-and-click option that needs to be reworked
-          as it&#39;s often unresponsive.\r\n\r\nI encountered an issue with the default
-          retro UI not displaying equipment stats or spell details, though switching
-          to the classic UI resolved these issues. But ironically, I also encountered
-          a bug when trying to switch to said classic UI using the touch controls, as
-          I kept unintentionally exiting the menu. This problem does not occur with
-          a gamepad. This is taken into account in the art style score.\r\n\r\nAside
-          from this, the rest of the UI works well and offers a good amount of customization.\r\n\r\nOverall,
-          I thoroughly enjoyed revisiting this cherished childhood memory, and I highly
-          recommend it to those who have an external controller.\r\n\r\nLunar Silver
-          Story Touch is a premium game that costs $11.99 on Android and $9.99 on iOS.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250825-222429-7424046.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250825-222429-7424046.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250825-222429-7424046.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250825-222809-7424047.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250825-222809-7424047.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250825-222809-7424047.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250828-021621-7424047.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250828-021621-7424047.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250828-021621-7424047.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250904-011222-7424047.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250904-011222-7424047.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250904-011222-7424047.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250905-004126-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250905-004126-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250905-004126-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250905-004355-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250905-004355-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250905-004355-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250906-092604-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250906-092604-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250906-092604-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250907-220348-7424048.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250907-220348-7424048.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250907-220348-7424048.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250908-001005-7424049.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250908-001005-7424049.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250908-001005-7424049.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250908-002128-7424049.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250908-002128-7424049.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250908-002128-7424049.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250908-003133-7424049.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250908-003133-7424049.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250908-003133-7424049.jpg"}],"price":"$11.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6168,"nome":"QB - a cube''s tale","slug":"qb-a-cube-s-tale","logo":"common\/uploads\/icons\/965b0c8a96aad0efaa3e6b72ba7f5c28.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-965b0c8a96aad0efaa3e6b72ba7f5c28.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-qb-a-cubes-tale-minireview-9394273.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-qb-a-cubes-tale-minireview-9394273.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.5","usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"QB
+          - a cube&#39;s tale is a well-made puzzle game that introduces a few new concepts
+          to the good old &ldquo;push a cube around a small level&rdquo; gameplay formula.\r\n\r\nThe
+          goal in each level is to find a way to push our black cube onto a black platform
+          by moving it left, right, up, and down. But as we move around the level, we
+          also land on various special tiles that demolish, move, or transform part
+          of the map itself.\r\n\r\nThis is an interesting mechanic that is used in
+          clever ways throughout the levels. In fact, we often need to break part of
+          the map to get a few steps ahead, but must do so carefully, as it&rsquo;s
+          easy to lock ourselves in a situation we can&rsquo;t get out of.&nbsp;\r\n\r\nWith
+          no rewind button, we&rsquo;re forced into a bunch of trial-and-error and level
+          restarts. Until we can finally remember which steps work and which don&rsquo;t,
+          and then implement them all in one go, that is.\r\n\r\nWhile there are 80
+          levels to play through, they all feel a tad too similar. In addition, the
+          difficulty ramps up too much at level 30, though it thankfully subsides to
+          a more reasonable level again after that.&nbsp;\r\n\r\nOverall, the game is
+          complex yet quite possible to complete. And once done, you can try to gain
+          three stars in each level, which is much more challenging.\r\n\r\nThe biggest
+          downside is that the game&rsquo;s visuals look like something we&rsquo;ve
+          seen a hundred times before.\r\n\r\nQB &ndash; a cube&rsquo;s tale is a $3.49
+          premium game on Android, whereas it&rsquo;s free to try on iOS, with a $3.99
+          iAP unlocking the full game.&nbsp;\r\n\r\nIt&rsquo;s honestly a great price
+          for how much gameplay we get &ndash; as long as you don&rsquo;t mind the simplistic
+          puzzles and predictable gameplay.\r\n","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210536-qb-7678344.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210536-qb-7678344.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210536-qb-7678344.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210600-qb-7678344.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210600-qb-7678344.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210600-qb-7678344.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210335-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210335-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210335-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210348-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210348-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210348-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210416-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210416-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210416-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210448-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210448-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210448-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210219-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210219-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210219-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210231-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210231-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210231-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210245-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210245-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210245-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210300-qb-7678346.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210300-qb-7678346.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210300-qb-7678346.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210324-qb-7678346.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210324-qb-7678346.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210324-qb-7678346.jpg"}],"price":"$3.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -440,12 +435,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3911,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f84201cf605de1-HKG
+          - 99090e5c3fd96a8c-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -457,7 +452,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:05 GMT
+          - Sat, 18 Oct 2025 15:26:48 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -465,7 +460,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2ZBdN7IpXXM1gJkYRJ44Nf6um9gJC%2BKbKayGCXqXmPWmwHQ%2BTnv7ONAvvsJ5GI3o1T%2FuUGa68tjfTFwfOAZn2XM%2FcHC5IDhaxwrUK4s78%2F1J%2F4VOIBe8Ig%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XPeDB%2B9m%2BL1nuG1IXFjLqp2Qeq%2FumYusiDEPqUM0a1h%2BJ21x%2BDtnghkZ6yVoFFe4Lk8MFfTNqp%2B7pQt%2B%2FhE8QUOXjwXTu6c%2BH8rR%2BCAZuYtCYUqQn%2BM%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
@@ -493,75 +488,68 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games/lunar-silver-star-story-touch?getBy=slug&category=role-playing
+      uri: https://minireview.io/apiv2/games/qb-a-cube-s-tale?getBy=slug&category=puzzle
     response:
       body:
         string:
-          '{"data":{"id":5184,"nome":"Lunar Silver Star Story Touch","slug":"lunar-silver-star-story-touch","logo":"common\/uploads\/icons\/bf3b6984e0ddff6d036292de573ff54f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bf3b6984e0ddff6d036292de573ff54f.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-506-lunar9-6866449.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-lunar9-6866449.webp","nota":8,"total_avaliacoes":2,"usuario_favorito":false,"usuario_avaliou":false,"disponivel_android":true,"disponivel_ios":true,"android_morto":false,"android_morto_data":null,"ios_morto":false,"ios_morto_data":null,"preco_android":"$11.99","preco_ios":"$9.99","link_android":"https:\/\/play.google.com\/store\/apps\/details?id=com.somoga.lunar1android&referrer=utm_source%3DMiniReview","link_ios":"https:\/\/apps.apple.com\/us\/app\/id492598036?ct=MiniReview","categoria":{"id":12,"nome":"Role
-          Playing","slug":"role-playing"},"subcategoria":{"id":12,"nome":"Adventure","slug":"adventure"},"categorias":[{"id":12,"nome":"Role
-          Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"top_game":{"nome":"The
-          18 best Pixel Art games on Mobile 2025","slug":"best-pixel-art-games-mobile","text":"most
-          beautiful pixel art games"},"our_picks":false,"game_of_the_week":false,"galeria":[{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250825-222429-7424046.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250825-222429-7424046.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250825-222429-7424046.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250825-222809-7424047.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250825-222809-7424047.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250825-222809-7424047.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250828-021621-7424047.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250828-021621-7424047.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250828-021621-7424047.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250904-011222-7424047.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250904-011222-7424047.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250904-011222-7424047.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250905-004126-7424048.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250905-004126-7424048.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250905-004126-7424048.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250905-004355-7424048.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250905-004355-7424048.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250905-004355-7424048.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250906-092604-7424048.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250906-092604-7424048.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250906-092604-7424048.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250907-220348-7424048.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250907-220348-7424048.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250907-220348-7424048.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250908-001005-7424049.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250908-001005-7424049.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250908-001005-7424049.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250908-002128-7424049.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250908-002128-7424049.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250908-002128-7424049.jpg","width":473,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250908-003133-7424049.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250908-003133-7424049.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250908-003133-7424049.jpg","width":473,"height":268}],"descricao":"Lunar
-          Silver Star Story Touch is a paid 2D Role Playing Adventure game available
-          on Android and iOS. It\u2019s a singleplayer experience that can be played
-          offline in landscape mode. It has received 2 user ratings from the MiniReview
-          community. Lunar Silver Star Story Touch was released in January 2024 and
-          has a current rating of 4.6 out of 5.0 on Google Play and 4.6 out of 5.0 on
-          the iOS App Store.","mostrar_faq":false,"review":{"data":"2025-10-16","usuario":{"avatar":"\/common\/uploads\/cache\/usuario\/1-76-76-c931c54c26bdc33ceb629b00f056540d.webp","nome":"Pixel
-          Explorer","cargo":"Reviewer","reviews":22,"sobre":"","links":[]},"texto":"Lunar
-          Silver Story Touch is an excellent port of one of the most iconic JRPGs of
-          the &#39;90s.<br \/>\r\n<br \/>\r\nIt features fantastic animated cutscenes,
-          strong voice acting, a beautiful soundtrack, charming pixel art, and a wonderful
-          story of adventure and romance sprinkled with lighthearted humor.<br \/>\r\n<br
-          \/>\r\nThat said, it&rsquo;s worth noting that the voice acting and songs
-          of this release come from the PSP version rather than the PS1 version. In
-          this adaptation, the songs and scripts are changed to be more faithful to
-          the Japanese source, a change that may disappoint some longtime fans of the
-          series.<br \/>\r\n<br \/>\r\nThankfully, the game includes useful features
-          such as adjustable battle speed, AI-assisted combat, and up to three programmable
-          tactics. We can also adjust EXP and silver gains as well as enemy stats, allowing
-          us to fine-tune the grind.<br \/>\r\n<br \/>\r\nThe game offers three control
-          options, of which the external gamepad support is easily the best and most
-          reliable. Then there&#39;s the virtual joystick, which gets the job done but
-          feels stiff when navigating around objects. And finally, there&#39;s the point-and-click
-          option that needs to be reworked as it&#39;s often unresponsive.<br \/>\r\n<br
-          \/>\r\nI encountered an issue with the default retro UI not displaying equipment
-          stats or spell details, though switching to the classic UI resolved these
-          issues. But ironically, I also encountered a bug when trying to switch to
-          said classic UI using the touch controls, as I kept unintentionally exiting
-          the menu. This problem does not occur with a gamepad. This is taken into account
-          in the art style score.<br \/>\r\n<br \/>\r\nAside from this, the rest of
-          the UI works well and offers a good amount of customization.<br \/>\r\n<br
-          \/>\r\nOverall, I thoroughly enjoyed revisiting this cherished childhood memory,
-          and I highly recommend it to those who have an external controller.<br \/>\r\n<br
-          \/>\r\nLunar Silver Story Touch is a premium game that costs $11.99 on Android
-          and $9.99 on iOS.","notas":{"gameplay":9,"graficos":7,"controles":6,"monetizacao":10}},"review_total_solicitado":0,"usuario_seguiu":false,"usuario_seguiu_email":null,"usuario_seguiu_push":null,"usuario_ultimo_seguiu_email":null,"usuario_ultimo_seguiu_push":null,"mostrar_rewards":false,"especificacoes":[[{"nome":"Singleplayer","ativo":true,"url":"\/browse?players=singleplayer"},{"nome":"Multiplayer","ativo":false,"url":"\/browse?players=multiplayer"}],[{"nome":"Offline","ativo":true,"url":"\/browse?network=offline"},{"nome":"Online","ativo":false,"url":"\/browse?network=online"}],[{"nome":"Portrait","ativo":false,"url":"\/browse?screen-orientation=portrait"},{"nome":"Landscape","ativo":true,"url":"\/browse?screen-orientation=landscape"}],[{"nome":"PvE","ativo":true,"url":"\/browse?players=pve"}],[{"nome":"Co-op","ativo":false,"url":"\/browse?players=co-op"}],[{"nome":"PvP","ativo":false,"url":"\/browse?players=pvp"}],[{"nome":"Real-time
-          PvP","ativo":false,"url":"\/browse?players=real-time-pvp"}]],"tags":[{"id":106,"nome":"2D","slug":"2d","tag_tipo":"tag"},{"id":63,"nome":"Controller
-          Support","slug":"controller-support","tag_tipo":"tag"},{"id":53,"nome":"Exploration","slug":"exploration","tag_tipo":"tag"},{"id":121,"nome":"JRPG","slug":"jrpg","tag_tipo":"tag"},{"id":81,"nome":"Oldschool","slug":"oldschool","tag_tipo":"tag"},{"id":32,"nome":"Pixel
-          Art","slug":"pixel-art","tag_tipo":"tag"},{"id":1,"nome":"Port","slug":"port","tag_tipo":"tag"},{"id":45,"nome":"PvE","slug":"pve","tag_tipo":"espeficicacao"},{"id":15,"nome":"Turn-Based","slug":"turn-based","tag_tipo":"tag"},{"id":4,"nome":"Virtual
-          Joystick","slug":"virtual-joystick","tag_tipo":"tag"}],"android_dados_loja":{"desenvolvedor":{"nome":"SoMoGa,
-          Inc","link":"https:\/\/www.lunar-mobile.com\/"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
-          date","valor":"Jan 5, 2024"},{"type":"last-updated","nome":"Last updated","valor":"Jul
-          7, 2025"},{"type":"current-score","nome":"Current score","valor":4.6},{"type":"n-of-downloads","nome":"#
-          of Downloads","valor":"5,000+"},{"type":"price","nome":"Price","valor":"$11.99"},{"type":"ads","nome":"Contain
+          '{"data":{"id":6168,"nome":"QB - a cube''s tale","slug":"qb-a-cube-s-tale","logo":"common\/uploads\/icons\/965b0c8a96aad0efaa3e6b72ba7f5c28.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-965b0c8a96aad0efaa3e6b72ba7f5c28.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-506-qb-a-cubes-tale-minireview-9394273.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-qb-a-cubes-tale-minireview-9394273.webp","nota":7.5,"total_avaliacoes":0,"usuario_favorito":false,"usuario_avaliou":false,"disponivel_android":true,"disponivel_ios":true,"android_morto":false,"android_morto_data":null,"ios_morto":false,"ios_morto_data":null,"preco_android":"$3.49","preco_ios":"Free
+          Trial","link_android":"https:\/\/play.google.com\/store\/apps\/details?id=de.goebel.QBpaid&referrer=utm_source%3DMiniReview","link_ios":"https:\/\/apps.apple.com\/us\/app\/id1289455886?ct=MiniReview","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"subcategoria":{"id":9,"nome":"Casual","slug":"casual"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"top_game":{"nome":"The
+          22 best puzzle games on mobile 2025","slug":"best-puzzle-games-on-mobile","text":"best
+          puzzle games"},"our_picks":false,"game_of_the_week":false,"galeria":[{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210536-qb-7678344.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210536-qb-7678344.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210536-qb-7678344.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210600-qb-7678344.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210600-qb-7678344.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210600-qb-7678344.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210335-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210335-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210335-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210219-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210219-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210219-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210348-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210348-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210348-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210416-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210416-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210416-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210448-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210448-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210448-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210231-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210231-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210231-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210245-qb-7678345.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210245-qb-7678345.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210245-qb-7678345.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210300-qb-7678346.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210300-qb-7678346.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210300-qb-7678346.jpg","width":120,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250911-210324-qb-7678346.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250911-210324-qb-7678346.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250911-210324-qb-7678346.jpg","width":120,"height":268}],"descricao":"QB
+          - a cube''s tale is a paid 3D Puzzle Casual game available on Android and
+          iOS. It\u2019s a singleplayer experience that can be played offline in portrait
+          mode. QB - a cube''s tale was released in December 2017 and has a current
+          rating of 4.8 out of 5.0 on Google Play and 4.8 out of 5.0 on the iOS App
+          Store.","mostrar_faq":false,"review":{"data":"2025-10-18","usuario":{"avatar":"\/common\/uploads\/cache\/usuario\/1-76-76-c620708190bdd093f62822af9edd2668.webp","nome":"Jurij","cargo":"Reviewer","reviews":59,"sobre":"","links":[]},"texto":"<p>QB
+          - a cube&#39;s tale is a well-made puzzle game that introduces a few new concepts
+          to the good old &ldquo;push a cube around a small level&rdquo; gameplay formula.<br
+          \/>\r\n<br \/>\r\nThe goal in each level is to find a way to push our black
+          cube onto a black platform by moving it left, right, up, and down. But as
+          we move around the level, we also land on various special tiles that demolish,
+          move, or transform part of the map itself.<br \/>\r\n<br \/>\r\nThis is an
+          interesting mechanic that is used in clever ways throughout the levels. In
+          fact, we often need to break part of the map to get a few steps ahead, but
+          must do so carefully, as it&rsquo;s easy to lock ourselves in a situation
+          we can&rsquo;t get out of.&nbsp;<br \/>\r\n<br \/>\r\nWith no rewind button,
+          we&rsquo;re forced into a bunch of trial-and-error and level restarts. Until
+          we can finally remember which steps work and which don&rsquo;t, and then implement
+          them all in one go, that is.<br \/>\r\n<br \/>\r\nWhile there are 80 levels
+          to play through, they all feel a tad too similar. In addition, the difficulty
+          ramps up too much at level 30, though it thankfully subsides to a more reasonable
+          level again after that.&nbsp;<br \/>\r\n<br \/>\r\nOverall, the game is complex
+          yet quite possible to complete. And once done, you can try to gain three stars
+          in each level, which is much more challenging.<br \/>\r\n<br \/>\r\nThe biggest
+          downside is that the game&rsquo;s visuals look like something we&rsquo;ve
+          seen a hundred times before.<br \/>\r\n<br \/>\r\nQB &ndash; a cube&rsquo;s
+          tale is a $3.49 premium game on Android, whereas it&rsquo;s free to try on
+          iOS, with a $3.99 iAP unlocking the full game.&nbsp;<br \/>\r\n<br \/>\r\nIt&rsquo;s
+          honestly a great price for how much gameplay we get &ndash; as long as you
+          don&rsquo;t mind the simplistic puzzles and predictable gameplay.<\/p>\r\n","notas":{"gameplay":7,"graficos":6,"controles":7,"monetizacao":10}},"review_total_solicitado":0,"usuario_seguiu":false,"usuario_seguiu_email":null,"usuario_seguiu_push":null,"usuario_ultimo_seguiu_email":null,"usuario_ultimo_seguiu_push":null,"mostrar_rewards":false,"especificacoes":[[{"nome":"Singleplayer","ativo":true,"url":"\/browse?players=singleplayer"},{"nome":"Multiplayer","ativo":false,"url":"\/browse?players=multiplayer"}],[{"nome":"Offline","ativo":true,"url":"\/browse?network=offline"},{"nome":"Online","ativo":false,"url":"\/browse?network=online"}],[{"nome":"Portrait","ativo":true,"url":"\/browse?screen-orientation=portrait"},{"nome":"Landscape","ativo":false,"url":"\/browse?screen-orientation=landscape"}],[{"nome":"PvE","ativo":false,"url":"\/browse?players=pve"}],[{"nome":"Co-op","ativo":false,"url":"\/browse?players=co-op"}],[{"nome":"PvP","ativo":false,"url":"\/browse?players=pvp"}],[{"nome":"Real-time
+          PvP","ativo":false,"url":"\/browse?players=real-time-pvp"}]],"tags":[{"id":107,"nome":"3D","slug":"3d","tag_tipo":"tag"},{"id":70,"nome":"Achievements","slug":"achievements","tag_tipo":"tag"},{"id":33,"nome":"Indie","slug":"indie","tag_tipo":"tag"},{"id":13,"nome":"Isometric","slug":"isometric","tag_tipo":"tag"},{"id":104,"nome":"Minimalist","slug":"minimalist","tag_tipo":"tag"},{"id":57,"nome":"Relaxing","slug":"relaxing","tag_tipo":"tag"}],"android_dados_loja":{"desenvolvedor":{"nome":"Stephan
+          Goebel","link":"http:\/\/20edges.com"},"permissoes":[{"nome":"Other","valor":["view
+          network connections","full network access"]}],"detalhes":[{"type":"release-date","nome":"Release
+          date","valor":"Dec 10, 2017"},{"type":"last-updated","nome":"Last updated","valor":"Aug
+          29, 2024"},{"type":"current-score","nome":"Current score","valor":4.8},{"type":"n-of-downloads","nome":"#
+          of Downloads","valor":"1,000+"},{"type":"price","nome":"Price","valor":"$3.49"},{"type":"ads","nome":"Contain
           ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app purchases","valor":"None"},{"type":"content-rating","nome":"Content
-          rating","valor":"Teen"},{"type":"download-size","nome":"Download size","valor":"888.6
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"812 MB"},{"type":"version","nome":"Version","valor":"1.4.2"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"SoMoGa,
-          Inc.","link":"https:\/\/apps.apple.com\/us\/developer\/somoga-inc\/id284940610?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
-          date","valor":"Sep 20, 2012"},{"type":"last-updated","nome":"Last updated","valor":"Jul
-          7, 2025"},{"type":"average-score","nome":"Average score","valor":4.6},{"type":"current-score","nome":"Current
-          score","valor":4.6},{"type":"n-of-reviews","nome":"# of reviews","valor":826},{"type":"price","nome":"Price","valor":"$9.99"},{"type":"ads","nome":"Contain
-          ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app purchases","valor":"None"},{"type":"content-rating","nome":"Content
-          rating","valor":"12+"},{"type":"download-size","nome":"Download size","valor":"888.6
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"812 MB"},{"type":"version","nome":"Version","valor":"3.4.3"}]},"gameplays":[{"id":"pNFVU3nMGfM","image":"https:\/\/img.youtube.com\/vi\/pNFVU3nMGfM\/0.jpg"},{"id":"CyNlRCle-MM","image":"https:\/\/img.youtube.com\/vi\/CyNlRCle-MM\/0.jpg"},{"id":"k3UuvKujjNQ","image":"https:\/\/img.youtube.com\/vi\/k3UuvKujjNQ\/0.jpg"}],"meta_title":"Lunar
-          Silver Star Story Touch Review & User Ratings","meta_description":"Lunar Silver
-          Story Touch is an excellent port of one of the most iconic JRPGs of the &#39;90s.\r\n\r\nIt
-          features fantastic animated cutscenes, strong voice ac..."},"box_content":null}'
+          rating","valor":"Everyone"},{"type":"download-size","nome":"Download size","valor":"100.6
+          MB"},{"type":"storage-size","nome":"Storage Size","valor":"116 MB"},{"type":"version","nome":"Version","valor":"2.2.2"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"Stephan
+          Goebel","link":"https:\/\/apps.apple.com\/us\/developer\/stephan-goebel\/id1289455885?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
+          date","valor":"Dec 10, 2017"},{"type":"last-updated","nome":"Last updated","valor":"Feb
+          28, 2023"},{"type":"average-score","nome":"Average score","valor":4.8},{"type":"current-score","nome":"Current
+          score","valor":4.8},{"type":"n-of-reviews","nome":"# of reviews","valor":278},{"type":"price","nome":"Price","valor":"Free
+          Trial"},{"type":"ads","nome":"Contain ads?","valor":"Yes"},{"type":"in-app-purchases","nome":"In-app
+          purchases","valor":"None"},{"type":"content-rating","nome":"Content rating","valor":"4+"},{"type":"download-size","nome":"Download
+          size","valor":"100.6 MB"},{"type":"storage-size","nome":"Storage Size","valor":"116
+          MB"},{"type":"version","nome":"Version","valor":"2.1.1"}]},"gameplays":[{"id":"XqLpboANvUI","image":"https:\/\/img.youtube.com\/vi\/XqLpboANvUI\/0.jpg"},{"id":"SinLVGexrMA","image":"https:\/\/img.youtube.com\/vi\/SinLVGexrMA\/0.jpg"},{"id":"BGUWSZF2uxM","image":"https:\/\/img.youtube.com\/vi\/BGUWSZF2uxM\/0.jpg"}],"meta_title":"QB
+          - a cube''s tale Review & User Ratings","meta_description":"QB - a cube&#39;s
+          tale is a well-made puzzle game that introduces a few new concepts to the
+          good old &ldquo;push a cube around a small level&rdquo; gamepla..."},"box_content":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f842050b00bd68-HKG
+          - 99090e5f4d90846a-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -573,7 +561,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:31:06 GMT
+          - Sat, 18 Oct 2025 15:26:48 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -581,12 +569,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qV%2BdsaQXjvuZAuo23O7%2BNHckwEaDAJzNdauxLaf3jwO3jhKWijdXGnT2tXy9RSbwRU0R1hl2RCEbG42wyrZrZrvpV8fDiCyZsbH94ZAHzMZOlM%2BkZhfmaw%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s3gwOHC1ZVXrVDP9bM9Msldk8YpOV2Mhv2KezlO17Tsj%2BuQBHXc4lDIeAWql4TZzN%2FqXeuu6AytjGKNS7VZEONnPHKChPlHoQksobMeWKX0uLO82DYo%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=rm953p96gdiqhntp10p3n5jvmo; Path=/; Max-Age=2592000; Expires=Sat,
-            15 Nov 2025 14:31:05 GMT
+          - minireview-io=r62j7v3hqluiet8btdn5uk438l; Path=/; Max-Age=2592000; Expires=Mon,
+            17 Nov 2025 15:26:48 GMT
         Transfer-Encoding:
           - chunked
         Vary:
