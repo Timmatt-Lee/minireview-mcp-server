@@ -150,6 +150,13 @@ class TestMiniReviewClient(unittest.TestCase):
             "Invalid value for filter 'tags': 'invalid-tag'", str(cm.exception)
         )
 
+    @patch("minireview_client.client.MiniReviewClient._fetch_api")
+    def test_get_special_top_games(self, mock_fetch_api):
+        """Test that get_special_top_games calls _fetch_api with correct params."""
+        slug = "my-slug"
+        self.client.get_special_top_games(slug)
+        mock_fetch_api.assert_called_once_with(f"/special-top-games/{slug}")
+
 
 @patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
 class TestParameterValidation(unittest.TestCase):
@@ -437,21 +444,6 @@ class TestBuildParams(unittest.TestCase):
         )
 
         self.assertEqual(actual_params, expected_params)
-
-
-@patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
-class TestSimpleMethods(unittest.TestCase):
-    """A test suite for simple methods that just call _fetch_api."""
-
-    def setUp(self):
-        """Set up a new client for each test."""
-        self.client = MiniReviewClient()
-
-    def test_get_special_top_games(self, mock_fetch_api):
-        """Test that get_special_top_games calls _fetch_api with correct params."""
-        slug = "my-slug"
-        self.client.get_special_top_games(slug)
-        mock_fetch_api.assert_called_once_with(f"/special-top-games/{slug}")
 
 
 @patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
