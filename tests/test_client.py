@@ -11,7 +11,7 @@ from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
     CollectionsOrderBy,
     GameRatingsOrderBy,
-    OrderBy,
+    GamesListOrderBy,
     Platform,
 )
 from minireview_client.exceptions import APIError
@@ -328,7 +328,7 @@ class TestBuildParams(unittest.TestCase):
 
     def test_enum_value(self):
         """Test that an Enum is converted to its value."""
-        params = {"orderBy": OrderBy.MOST_POPULAR}
+        params = {"orderBy": CollectionsOrderBy.MOST_POPULAR}
         processed_params = self.client._build_params(params)
         self.assertEqual(processed_params, {"orderBy": "most-popular"})
 
@@ -363,8 +363,7 @@ class TestBuildParams(unittest.TestCase):
         params = {
             "page": 1,
             "limit": 50,
-            "search": "test",
-            "orderBy": OrderBy.LAST_ADDED_REVIEWS,
+            "orderBy": GamesListOrderBy.LAST_ADDED_REVIEWS,
             "platforms": [Platform.ANDROID],
             "tags": ["pixel-art"],
             "score": {"min": 90},
@@ -376,7 +375,6 @@ class TestBuildParams(unittest.TestCase):
         expected = {
             "page": 1,
             "limit": 50,
-            "search": "test",
             "orderBy": "last-added-reviews",
             "platforms[0]": "android",
             "tags": "pixel-art",
@@ -398,7 +396,7 @@ class TestBuildParams(unittest.TestCase):
             "page": 1,
             "limit": 50,
             "search": "rpg",
-            "orderBy": OrderBy.LAST_ADDED_REVIEWS,
+            "orderBy": GamesListOrderBy.LAST_ADDED_REVIEWS,
             "platforms": [Platform.ANDROID, Platform.IOS],
             "players": ["singleplayer"],
             "network": ["offline"],

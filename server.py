@@ -4,7 +4,7 @@ from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
     CollectionsOrderBy,
     GameRatingsOrderBy,
-    OrderBy,
+    GamesListOrderBy,
     Platform,
 )
 
@@ -16,7 +16,7 @@ def get_games_list(
     page: int = 1,
     limit: int = 50,
     search: str = "",
-    orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+    orderBy: GamesListOrderBy = GamesListOrderBy.LAST_ADDED_REVIEWS,
     platforms: list[Platform] = [],
     players: list[str] = [],
     network: list[str] = [],
@@ -60,7 +60,6 @@ def get_games_list(
     games_list_res = client.get_games_list(
         page=page,
         limit=limit,
-        search=search,
         orderBy=orderBy,
         platforms=platforms,
         players=players,
@@ -192,7 +191,7 @@ def get_similar_games(
     page: int = 1,
     limit: int = 50,
     platforms: list[Platform] = [],
-    orderBy: OrderBy = OrderBy.MOST_POPULAR,
+    orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
 ) -> dict:
     """
     Fetches a list of games similar to a specific game.
@@ -266,7 +265,7 @@ def get_games_list_with_details(
     page: int = 1,
     limit: int = 50,
     search: str = "",
-    orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+    orderBy: GamesListOrderBy = GamesListOrderBy.LAST_ADDED_REVIEWS,
     platforms: list[Platform] = [],
     players: list[str] = [],
     network: list[str] = [],
@@ -347,7 +346,7 @@ def get_similar_games_with_details(
     page: int = 1,
     limit: int = 50,
     platforms: list[Platform] = [],
-    orderBy: OrderBy = OrderBy.MOST_POPULAR,
+    orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
 ) -> dict:
     """
     Fetches a list of games similar to a specific game and then fetches the

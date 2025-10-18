@@ -5,15 +5,17 @@ Enums for fixed-value parameters in the minireview.io API client.
 from enum import Enum
 
 
-class OrderBy(Enum):
+class GamesListOrderBy(Enum):
     """Represents the available sorting options for game lists."""
 
     LAST_ADDED_REVIEWS = "last-added-reviews"
-    NEWEST = "newest"
-    MOST_POPULAR = "most-popular"
-    THIS_WEEK = "this-week"
-    LAUNCH_DATE = "launch-date"
-    WEEK = "week"
+    LAST_UPDATED_GAMES = "last-updated-games"
+    NEW_ON_MINIREVIEW = "new-on-minireview"
+    RELEASE_DATE = "release-date"
+    HIGHEST_USER_RATINGS = "highest-user-ratings"
+    HIGHEST_SCORE = "highest-score"
+    HIGHEST_GOOGLE_PLAY_SCORE = "highest-google-play-score"
+    HIGHEST_APP_STORE_SCORE = "highest-appStore-score"
 
 
 class CollectionsOrderBy(Enum):
@@ -44,3 +46,11 @@ class GameRatingType(Enum):
     ALL = "all"
     POSITIVE = "positive"
     NEGATIVE = "negative"
+
+
+class TopGamesOrderBy(Enum):
+    """Represents the available sorting options for top games."""
+
+    WEEK = "week"
+    THIS_WEEK = "this-week"
+    LAUNCH_DATE = "launch-date"
