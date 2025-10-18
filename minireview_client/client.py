@@ -77,9 +77,6 @@ class MiniReviewClient:
         assert self._parsed_filters is not None
 
         for key, value in params.items():
-            if value is None:
-                continue
-
             if key == "score":
                 self._validate_score_param(value)
             elif key in self._parsed_filters:
