@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?type=games-of-the-week&page=1&limit=50&orderBy=week&platforms%5B%5D=android
+      uri: https://minireview.io/apiv2/games?type=games-of-the-week&page=1&limit=50&orderBy=week&platforms%5B0%5D=android
     response:
       body:
         string:
@@ -86,7 +86,7 @@ interactions:
           I believe this price is very fair.\r\n\r\nOverall, Enter the Gungeon remains
           as one of the strongest roguelikes around, and despite some users reporting
           a few technical bugs, the mobile port is almost perfect.","morto_data":null,"pick_data":null,"semana":"Week
-          #203","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000694-6074780.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000694-6074780.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000694-6074780.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000696-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000696-6074781.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000696-6074781.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000699-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000699-6074781.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000699-6074781.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000702-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000702-6074782.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000702-6074782.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000700-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000700-6074782.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000700-6074782.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000697-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000697-6074781.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000697-6074781.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000703-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000703-6074782.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000703-6074782.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000704-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000704-6074782.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000704-6074782.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000705-6074783.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000705-6074783.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000705-6074783.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000707-6074783.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000707-6074783.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000707-6074783.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000698-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000698-6074781.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000698-6074781.jpg"}],"price":"Trial"},{"id":2664,"nome":"A
+          #203","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000694-6074780.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000694-6074780.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000694-6074780.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000696-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000696-6074781.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000696-6074781.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000699-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000699-6074781.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000699-6074781.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000702-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000702-6074782.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000702-6074782.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000700-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000700-6074782.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000700-6074782.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000697-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000697-6074781.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000697-6074781.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000703-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000703-6074782.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-1000000703-6074782.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000704-6074782.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000704-6074782.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000704-6074782.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000705-6074783.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000705-6074783.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000705-6074783.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000707-6074783.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000707-6074783.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000707-6074783.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/1000000698-6074781.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/1000000698-6074781.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/1000000698-6074781.jpg"}],"price":"Trial"},{"id":2664,"nome":"A
           Dance of Fire and Ice","slug":"a-dance-of-fire-and-ice","logo":"common\/uploads\/icons\/f2e205adf7c16e0a7b7c0ec4e12bb393.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-f2e205adf7c16e0a7b7c0ec4e12bb393.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-2e2010c370e96957fa9b6893b78942e1.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-2e2010c370e96957fa9b6893b78942e1.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"8.3","usuario_favorito":false,"categoria":{"id":3,"nome":"Arcade","slug":"arcade"},"categorias":[{"id":3,"nome":"Arcade","slug":"arcade","type":"category"},{"id":33,"nome":"Rhythm","slug":"rhythm","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"A
           Dance of Fire and Ice is an intense but clever and unique one-button rhythm
           game where we tap the screen to the beat of various songs as we guide two
@@ -1449,7 +1449,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f846eba8d15de2-HKG
+          - 9907157f4811a9bf-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -1461,7 +1461,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:34:26 GMT
+          - Sat, 18 Oct 2025 09:42:09 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -1469,7 +1469,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0vKjK1Kc8CX%2FHrBxwpg3L2oAr4QofL%2BOT6WuMZc88u4t6b9bD3LIy77cZJoRW6Qo7Zv2kAIvNaL7HlcHyC1YGeerRdMGn58NSjLGjIspYfTErU7Wf2HSKQ%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tj%2BL6UUz3RQpnH1QZeLyO1hYNBLpGHK8d6Umrj0wmSeFe0wm10HOxwnX%2BSCLdLJpfBq9ppXdvzPhRfCaBOSAg0d1FKYZiyWvOwXSgFrNcZKnQctLJjg%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

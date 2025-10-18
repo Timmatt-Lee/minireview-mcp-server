@@ -107,12 +107,26 @@ class MiniReviewClient:
             if isinstance(value, Enum):
                 processed_params[key] = value.value
             elif isinstance(value, list):
-                processed_params[f"{key}[]"] = [
-                    v.value if isinstance(v, Enum) else v for v in value
-                ]
+                # platforms is the only list that uses indexed keys
+                if key == "platforms":
+                    for i, v in enumerate(value):
+                        processed_params[f"{key}[{i}]"] = (
+                            v.value if isinstance(v, Enum) else v
+                        )
+                # All other lists are comma-separated
+                else:
+                    processed_params[key] = ",".join(
+                        [str(v.value if isinstance(v, Enum) else v) for v in value]
+                    )
             elif isinstance(value, dict):
-                for s, v in value.items():
-                    processed_params[f"score[{s}]"] = v
+                # Custom handling for "score"
+                if key == "score":
+                    processed_params[key] = ",".join(
+                        [f"{s}-{v}" for s, v in value.items()]
+                    )
+                else:
+                    for s, v in value.items():
+                        processed_params[f"{key}[{s}]"] = v
             elif isinstance(value, bool):
                 processed_params[key] = 1 if value else 0
             else:

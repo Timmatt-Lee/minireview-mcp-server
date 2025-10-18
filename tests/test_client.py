@@ -30,31 +30,6 @@ class TestMiniReviewClient(unittest.TestCase):
         client = MiniReviewClient()
         self.assertIsNotNone(client._session)
 
-    def test_build_params(self):
-        """Test the _build_params method for correct parameter formatting."""
-        params = {
-            "page": 1,
-            "limit": 10,
-            "platforms": [Platform.ANDROID, Platform.IOS],
-            "orderBy": OrderBy.MOST_POPULAR,
-            "search": None,  # This should be ignored
-            "category": "action",  # This should be a string
-            "tags": ["2d", "3d"],  # This should be a list of strings
-        }
-
-        processed_params = self.client._build_params(params)
-
-        expected_params = {
-            "page": 1,
-            "limit": 10,
-            "platforms[]": ["android", "ios"],
-            "orderBy": "most-popular",
-            "category": "action",
-            "tags[]": ["2d", "3d"],
-        }
-
-        self.assertEqual(processed_params, expected_params)
-
     @patch("minireview_client.client.MiniReviewClient._fetch_api")
     def test_get_filters_caching(self, mock_fetch_api):
         """Test that get_filters caches its response."""
@@ -352,19 +327,21 @@ class TestBuildParams(unittest.TestCase):
         """Test a list of strings."""
         params = {"tags": ["2d", "3d"]}
         processed_params = self.client._build_params(params)
-        self.assertEqual(processed_params, {"tags[]": ["2d", "3d"]})
+        self.assertEqual(processed_params, {"tags": "2d,3d"})
 
     def test_list_of_enums(self):
         """Test a list of enums."""
         params = {"platforms": [Platform.ANDROID, Platform.IOS]}
         processed_params = self.client._build_params(params)
-        self.assertEqual(processed_params, {"platforms[]": ["android", "ios"]})
+        self.assertEqual(
+            processed_params, {"platforms[0]": "android", "platforms[1]": "ios"}
+        )
 
     def test_score_dict(self):
         """Test the score dictionary."""
         params = {"score": {"min": 80, "max": 100}}
         processed_params = self.client._build_params(params)
-        self.assertEqual(processed_params, {"score[min]": 80, "score[max]": 100})
+        self.assertEqual(processed_params, {"score": "min-80,max-100"})
 
     def test_boolean_values(self):
         """Test boolean to integer conversion."""
@@ -392,9 +369,9 @@ class TestBuildParams(unittest.TestCase):
             "limit": 50,
             "search": "test",
             "orderBy": "last-added-reviews",
-            "platforms[]": ["android"],
-            "tags[]": ["pixel-art"],
-            "score[min]": 90,
+            "platforms[0]": "android",
+            "tags": "pixel-art",
+            "score": "min-90",
             "is_free": 1,
         }
         self.assertEqual(processed_params, expected)
@@ -403,6 +380,78 @@ class TestBuildParams(unittest.TestCase):
         """Test that an empty params dict results in an empty dict."""
         processed_params = self.client._build_params({})
         self.assertEqual(processed_params, {})
+
+    def test_url_encoding(self):
+        """Test the URL encoding of a complex parameter dictionary."""
+        from urllib.parse import unquote
+
+        params = {
+            "page": 1,
+            "limit": 50,
+            "search": "rpg",
+            "orderBy": OrderBy.LAST_ADDED_REVIEWS,
+            "platforms": [Platform.ANDROID, Platform.IOS],
+            "players": ["singleplayer"],
+            "network": ["offline"],
+            "monetization_android": ["free", "paid"],
+            "monetization_ios": ["free"],
+            "screen_orientation": ["landscape"],
+            "category": ["action", "adventure"],
+            "sub_category": ["rpg"],
+            "tags": ["2d", "3d"],
+            "countries_android": ["us", "br"],
+            "countries_ios": ["ca"],
+            "score": {"min": 8, "max": 10},
+            "loadNewcollections": True,
+            "loadLastUpdatedcollections": False,
+        }
+
+        processed_params = self.client._build_params(params)
+        req = requests.Request("GET", "https://example.com", params=processed_params)
+        prepared_req = req.prepare()
+        query_string = unquote(prepared_req.url.split("?")[1])
+        actual_params = sorted(query_string.split("&"))
+
+        expected_params = sorted(
+            [
+                "page=1",
+                "limit=50",
+                "search=rpg",
+                "orderBy=last-added-reviews",
+                "platforms[0]=android",
+                "platforms[1]=ios",
+                "players=singleplayer",
+                "network=offline",
+                "monetization_android=free,paid",
+                "monetization_ios=free",
+                "screen_orientation=landscape",
+                "category=action,adventure",
+                "sub_category=rpg",
+                "tags=2d,3d",
+                "countries_android=us,br",
+                "countries_ios=ca",
+                "score=min-8,max-10",
+                "loadNewcollections=1",
+                "loadLastUpdatedcollections=0",
+            ]
+        )
+
+        self.assertEqual(actual_params, expected_params)
+
+
+@patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
+class TestSimpleMethods(unittest.TestCase):
+    """A test suite for simple methods that just call _fetch_api."""
+
+    def setUp(self):
+        """Set up a new client for each test."""
+        self.client = MiniReviewClient()
+
+    def test_get_special_top_games(self, mock_fetch_api):
+        """Test that get_special_top_games calls _fetch_api with correct params."""
+        slug = "my-slug"
+        self.client.get_special_top_games(slug)
+        mock_fetch_api.assert_called_once_with(f"/special-top-games/{slug}")
 
 
 @patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
@@ -427,6 +476,19 @@ class TestFilterMethods(unittest.TestCase):
                     {"slug": "br", "nome": "Brazil"},
                 ],
             },
+            {"slug": "network", "itens": [{"slug": "online", "nome": "Online"}]},
+            {
+                "slug": "monetization-android",
+                "itens": [{"slug": "free", "nome": "Free"}],
+            },
+            {"slug": "monetization-ios", "itens": [{"slug": "paid", "nome": "Paid"}]},
+            {
+                "slug": "screen-orientation",
+                "itens": [{"slug": "portrait", "nome": "Portrait"}],
+            },
+            {"slug": "category", "itens": [{"slug": "action", "nome": "Action"}]},
+            {"slug": "sub-category", "itens": [{"slug": "rpg", "nome": "RPG"}]},
+            {"slug": "score", "itens": [{"slug": "gameplay", "nome": "Gameplay"}]},
         ]
         self.client.get_filters = unittest.mock.Mock(
             return_value=self.mock_filters_response
@@ -441,6 +503,27 @@ class TestFilterMethods(unittest.TestCase):
 
         countries = self.client.get_countries_android()
         self.assertEqual(countries, {"us": "United States", "br": "Brazil"})
+
+        network = self.client.get_network_options()
+        self.assertEqual(network, {"online": "Online"})
+
+        monetization_android = self.client.get_monetization_android()
+        self.assertEqual(monetization_android, {"free": "Free"})
+
+        monetization_ios = self.client.get_monetization_ios()
+        self.assertEqual(monetization_ios, {"paid": "Paid"})
+
+        screen_orientation = self.client.get_screen_orientation_options()
+        self.assertEqual(screen_orientation, {"portrait": "Portrait"})
+
+        category = self.client.get_category_options()
+        self.assertEqual(category, {"action": "Action"})
+
+        sub_category = self.client.get_sub_category_options()
+        self.assertEqual(sub_category, {"rpg": "RPG"})
+
+        score = self.client.get_score_options()
+        self.assertEqual(score, {"gameplay": "Gameplay"})
 
         # Test a filter that doesn't exist
         non_existent = self.client._get_filter_options("non-existent-filter")
