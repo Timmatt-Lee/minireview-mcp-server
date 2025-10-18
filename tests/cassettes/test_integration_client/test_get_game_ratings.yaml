@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&limit=50&orderBy=newest
+      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&type=all&limit=50&orderBy=newest
     response:
       body:
         string:
@@ -28,7 +28,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9908d7a59972842d-TPE
+          - 99090e249bb44a68-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -40,7 +40,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sat, 18 Oct 2025 14:49:27 GMT
+          - Sat, 18 Oct 2025 15:26:39 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -48,7 +48,72 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XeoTuHkCYD8fgchN9L03KF6XNWB4ThM%2FZcxamUlrsYbhf8oDWRCcr5x0HyyLTPEXDb25%2F%2FEXsVomZXej30M8LQ4MUDg9hUKaPSC%2FSzWWt9EeNXrEvxg%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pr43LThpKhsnj48HVmLVVuua7pYkXcwdJrEHCzNNB4Ibd1UgPq%2Be2MDf754Gj1oF2g56qCa17Kjmf%2BebendhNlUsyODQ4otRHe3aVLjDa1rDor8pHt4%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&type=all&limit=50&orderBy=newest
+    response:
+      body:
+        string:
+          '{"data":[{"id":531,"tipo":"positivo","data":"2020-06-25T22:32:14-03:00","texto":"very
+          addictive, don t be too far away from a power source, drain battery quickly.
+          good game that will take lots of hours away from your life :) ","texto_original":"very
+          addictive, don t be too far away from a power source, drain battery quickly.
+          good game that will take lots of hours away from your life :) ","pontuacao":"1","usuario_votou":null,"usuario":{"id":312,"avatar":null,"username":"Benoit
+          Noisette","slug":"benoit-noisette","nome":"Benoit Noisette","sobre":null,"sobre_original":null,"data_cadastro":"2020-06-04
+          18:49:57","score":1,"total_avaliacoes":1,"total_favoritos":3,"pais_nome":null,"pais_sigla":null}}],"page":1,"total":1,"total_positivo":1,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 99091b678a5a49f7-TPE
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Sat, 18 Oct 2025 15:35:42 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=v1bAaLct5GwR7UOoa88ZJMnOYovJ2Ddt5IjTMgsKa5qglQcPV%2FbyK6YL8DCuEIbrd%2BsMv22YnWVsXTwtqEmtKQIfOlTpiT8fnWyi5zUha5atcgLztz0%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

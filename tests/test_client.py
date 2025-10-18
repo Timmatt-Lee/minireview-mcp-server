@@ -87,12 +87,14 @@ class TestMiniReviewClient(unittest.TestCase):
     def test_get_game_ratings_uses_enum(self, mock_fetch_api):
         """Test that get_game_ratings correctly processes its OrderBy enum."""
         self.client.get_game_ratings(
-            game_id=123, orderBy=GameRatingsOrderBy.MOST_RELEVANT
+            game_id=123, orderBy=GameRatingsOrderBy.MOST_RELEVANT, type="all"
         )
         call_args, _ = mock_fetch_api.call_args
         self.assertEqual(call_args[0], "/games-ratings")
         self.assertIn("orderBy", call_args[1])
         self.assertEqual(call_args[1]["orderBy"], "most-relevant")
+        self.assertIn("type", call_args[1])
+        self.assertEqual(call_args[1]["type"], "all")
 
     @patch("minireview_client.client.MiniReviewClient._fetch_api")
     def test_get_collections_uses_enum(self, mock_fetch_api):

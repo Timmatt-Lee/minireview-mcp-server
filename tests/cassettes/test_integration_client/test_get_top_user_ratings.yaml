@@ -486,7 +486,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9908d7c36c654a5d-TPE
+          - 99090e376ac6827f-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -498,7 +498,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sat, 18 Oct 2025 14:49:32 GMT
+          - Sat, 18 Oct 2025 15:26:42 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -506,7 +506,530 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=V5gqbUXNwxN%2Fd3t5uA2ySha5SYBu7Q%2F01LnUM4IW1ZkX53NqNJynR75YT1ybv27kQfw6bNO5YJkqx76wyodekT90TNEhxVUsrlYyzV%2FGfK%2FlJpoc18Q%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hi3wiYdO3pnMFg18zgV2W2CRMsVAP56aksMlaUBoqB7DjBbNifBtCTgPhNH0XXRHh00La4LCdQ2fSeE2Dnvc70tMXdBQ6WWO3W58m7tg85wP3IjiTAA%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/top-user-ratings?page=1&limit=50&orderBy=this-week&platforms%5B0%5D=android
+    response:
+      body:
+        string:
+          '{"data":[{"id":12609,"tipo":"positivo","data":"2025-10-13 05:35:12","texto":"All-time
+          Puzzle \/ Adventure game! Can be played in both orientations and controller
+          support. One for the books for sure","texto_original":"All-time Puzzle \/
+          Adventure game! Can be played in both orientations and controller support.
+          One for the books for sure","total_likes":"2","sort_by":"this week","jogo":{"id":2623,"nome":"The
+          Gardens Between","slug":"the-gardens-between","logo":"common\/uploads\/icons\/566dd25f53050e6c94d28139652abe9f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-566dd25f53050e6c94d28139652abe9f.webp","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":10308,"tipo":"positivo","data":"2025-02-23
+          16:16:41","texto":"Pretty good, it''s akin to the old game tactikon that was
+          round a while ago. There is a huuuuuge amount of units and tech trees, for
+          example the undead have the generic raising dead enemies into their skeleton
+          equivalent with upgrades that makes the skeletons better, but then there''s
+          also an upgrade that will make them raise skeleton monsters instead that are
+          stronger, but have no upgrades. Then you also have some vampire unit sets,
+          then some dark elves ones etc... Making each faction almost bloated when you
+          see how many ways you can this game. On top of that there is six races (Humans,
+          undead, elves, orcs, dwarves and scale folks) all with their own gameplay
+          and specialties. This game is awesome in the tactical aspect.","texto_original":"Pretty
+          good, it''s akin to the old game tactikon that was round a while ago. There
+          is a huuuuuge amount of units and tech trees, for example the undead have
+          the generic raising dead enemies into their skeleton equivalent with upgrades
+          that makes the skeletons better, but then there''s also an upgrade that will
+          make them raise skeleton monsters instead that are stronger, but have no upgrades.
+          Then you also have some vampire unit sets, then some dark elves ones etc...
+          Making each faction almost bloated when you see how many ways you can this
+          game. On top of that there is six races (Humans, undead, elves, orcs, dwarves
+          and scale folks) all with their own gameplay and specialties. This game is
+          awesome in the tactical aspect.","total_likes":"2","sort_by":"this week","jogo":{"id":5754,"nome":"Age
+          of Fantasy","slug":"age-of-fantasy","logo":"common\/uploads\/icons\/a6aacc1f1eac87fd89fb94026ec0566e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a6aacc1f1eac87fd89fb94026ec0566e.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":14686,"avatar":null,"username":"AnotherGorgonIntoTheFight","slug":"anothergorgonintothefight","nome":"AnotherGorgonIntoTheFight","sobre":null,"sobre_original":null,"data_cadastro":"2022-10-12
+          08:47:46","score":39,"total_avaliacoes":20,"total_favoritos":10,"pais_nome":null,"pais_sigla":null}},{"id":12593,"tipo":"positivo","data":"2025-10-11
+          16:17:44","texto":"Both 1 & 2 kept me engaged the whole way through.","texto_original":"Both
+          1 & 2 kept me engaged the whole way through.","total_likes":"2","sort_by":"this
+          week","jogo":{"id":2985,"nome":"Lowlander","slug":"lowlander","logo":"common\/uploads\/icons\/d55e6d70d22caf6a1d381fdf519d6441.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d55e6d70d22caf6a1d381fdf519d6441.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":1909,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-screenshot-20240401-090733-min-984102.webp","username":"JBMessin","slug":"jbmessin-1","nome":"JBMessin","sobre":"I
+          love reviewing mostly role playing, roguelike and space sim games. All time
+          favorites: Dwarf Fortress, Cataclysm: Dark Days Ahead, Warsim and Aurora C#","sobre_original":"I
+          love reviewing mostly role playing, roguelike and space sim games. All time
+          favorites: Dwarf Fortress, Cataclysm: Dark Days Ahead, Warsim and Aurora C#","data_cadastro":"2020-10-21
+          11:34:14","score":84,"total_avaliacoes":51,"total_favoritos":45,"pais_nome":"United
+          States","pais_sigla":"US"}},{"id":9747,"tipo":"positivo","data":"2025-02-13
+          18:39:18","texto":"At this point pretty much a classic. Fun story, not to
+          difficult, encourages you to explore the different storylines.","texto_original":"At
+          this point pretty much a classic. Fun story, not to difficult, encourages
+          you to explore the different storylines.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":3937,"nome":"80 Days","slug":"80-days","logo":"common\/uploads\/icons\/439cf0f317eae2770883b349d12c5513.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-439cf0f317eae2770883b349d12c5513.webp","categoria":{"id":2,"nome":"Adventure","slug":"adventure"},"categorias":[{"id":2,"nome":"Adventure","slug":"adventure","type":"category"},{"id":40,"nome":"Story-Driven","slug":"story-driven","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":5164,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000043664-748805.webp","username":"relet","slug":"relet","nome":"relet","sobre":"150
+          character limit","sobre_original":"150 character limit","data_cadastro":"2021-05-24
+          23:48:39","score":581,"total_avaliacoes":348,"total_favoritos":4,"pais_nome":"Norway","pais_sigla":"NO"}},{"id":11899,"tipo":"positivo","data":"2025-07-13
+          10:54:55","texto":"An excellent port of Warhammer Classic tabletop.","texto_original":"An
+          excellent port of Warhammer Classic tabletop.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":6045,"nome":"SOVL: Fantasy Warfare","slug":"sovl-fantasy-warfare","logo":"common\/uploads\/icons\/b5e6b57be52677c403ef1932abf74e01.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-b5e6b57be52677c403ef1932abf74e01.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"},{"id":8,"nome":"Board","slug":"board","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":643,"avatar":null,"username":"Barnacle","slug":"barnacle","nome":"Barnacle","sobre":"A
+          boring geezer with strong opinions","sobre_original":"A boring geezer with
+          strong opinions","data_cadastro":"2020-06-05 16:53:24","score":134,"total_avaliacoes":85,"total_favoritos":6,"pais_nome":"United
+          States","pais_sigla":"US"}},{"id":11919,"tipo":"positivo","data":"2025-07-17
+          10:39:13","texto":"This game is shockingly good. It''s medium-complexity board
+          game which has a focus on precise unit movements (a pain on mobile i do have
+          to say) but it''s very much worth playing regardless. It''s a superb army
+          tactics game, technically well made in Unity (the unit and board graphics
+          are simple and wonderful), completely ad-free, multiple free factions to play
+          with, a well-made and well-balanced single player campaign mode, and cheap
+          optional purchases for extra factions. Be sure to read the guide\/watch a
+          few tutorials vids before you try though, there is no tutorial beyond the
+          guide!","texto_original":"This game is shockingly good. It''s medium-complexity
+          board game which has a focus on precise unit movements (a pain on mobile i
+          do have to say) but it''s very much worth playing regardless. It''s a superb
+          army tactics game, technically well made in Unity (the unit and board graphics
+          are simple and wonderful), completely ad-free, multiple free factions to play
+          with, a well-made and well-balanced single player campaign mode, and cheap
+          optional purchases for extra factions. Be sure to read the guide\/watch a
+          few tutorials vids before you try though, there is no tutorial beyond the
+          guide!","total_likes":"1","sort_by":"this week","jogo":{"id":6045,"nome":"SOVL:
+          Fantasy Warfare","slug":"sovl-fantasy-warfare","logo":"common\/uploads\/icons\/b5e6b57be52677c403ef1932abf74e01.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-b5e6b57be52677c403ef1932abf74e01.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"},{"id":8,"nome":"Board","slug":"board","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":48555,"avatar":null,"username":"K3end0","slug":"k3end0","nome":"K3end0","sobre":null,"sobre_original":null,"data_cadastro":"2025-06-25
+          12:40:09","score":3,"total_avaliacoes":2,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":11972,"tipo":"positivo","data":"2025-07-28
+          11:16:11","texto":"As a lifelong Warhammer fan and tabletop enthusiast with
+          little time to spare these days, this game is an absolute gem\u2014it really
+          scratches that itch perfectly! The gameplay is rock-solid, fluid, and incredibly
+          satisfying. While positioning units on a phone can be a bit fiddly at times,
+          it\u2019s a minor issue in an otherwise excellent experience. If you love
+          Warhammer and want a quality strategy fix on the go, this one\u2019s a must-try.","texto_original":"As
+          a lifelong Warhammer fan and tabletop enthusiast with little time to spare
+          these days, this game is an absolute gem\u2014it really scratches that itch
+          perfectly! The gameplay is rock-solid, fluid, and incredibly satisfying. While
+          positioning units on a phone can be a bit fiddly at times, it\u2019s a minor
+          issue in an otherwise excellent experience. If you love Warhammer and want
+          a quality strategy fix on the go, this one\u2019s a must-try.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":6045,"nome":"SOVL: Fantasy Warfare","slug":"sovl-fantasy-warfare","logo":"common\/uploads\/icons\/b5e6b57be52677c403ef1932abf74e01.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-b5e6b57be52677c403ef1932abf74e01.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"},{"id":8,"nome":"Board","slug":"board","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":51103,"avatar":null,"username":"Starjam","slug":"starjam","nome":"Starjam","sobre":null,"sobre_original":null,"data_cadastro":"2025-07-22
+          07:47:25","score":3,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12644,"tipo":"positivo","data":"2025-10-18
+          01:23:26","texto":"Been playing this game for about 8 months and I actually
+          really like it. There''s in app purchases but none are necessary for progressing,
+          most is just cosmetic and the ones that aren''t just help speed up some progress
+          and does not necessarily give you an advantage that those who can''t pay will
+          never get. It''s also a grind heavy game so take note of that. Finally, Edna
+          is OP is hell.","texto_original":"Been playing this game for about 8 months
+          and I actually really like it. There''s in app purchases but none are necessary
+          for progressing, most is just cosmetic and the ones that aren''t just help
+          speed up some progress and does not necessarily give you an advantage that
+          those who can''t pay will never get. It''s also a grind heavy game so take
+          note of that. Finally, Edna is OP is hell.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4554,"nome":"Epic Conquest 2","slug":"epic-conquest-2","logo":"common\/uploads\/icons\/b774e6c3da9f4c1a86496f6ed63b7a3e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-b774e6c3da9f4c1a86496f6ed63b7a3e.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":52086,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-soldier
+          of chaos80.webp","username":"Janhvi","slug":"janhvi","nome":"Janhvi","sobre":null,"sobre_original":null,"data_cadastro":"2025-08-02
+          03:27:27","score":1,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12643,"tipo":"positivo","data":"2025-10-18
+          00:32:30","texto":"Exactly the type of train game I''ve been looking to play
+          on mobile. The challenges are perfect and worth the price","texto_original":"Exactly
+          the type of train game I''ve been looking to play on mobile. The challenges
+          are perfect and worth the price","total_likes":"1","sort_by":"this week","jogo":{"id":3115,"nome":"DeckEleven''s
+          Railroads 2","slug":"deckeleven-s-railroads-2","logo":"common\/uploads\/icons\/c6cde2ffb33781c8a33c7dbdb17d7bcd.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-c6cde2ffb33781c8a33c7dbdb17d7bcd.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":41,"nome":"Strategy","slug":"strategy","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false},"usuario":{"id":58234,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Juan
+          Menendez26670.webp","username":"Kohbo","slug":"kohbo","nome":"Kohbo","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-04
+          10:29:55","score":3,"total_avaliacoes":2,"total_favoritos":2,"pais_nome":null,"pais_sigla":null}},{"id":11169,"tipo":"positivo","data":"2025-04-27
+          00:47:45","texto":"Old school","texto_original":"Old school","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5184,"nome":"Lunar Silver Star Story Touch","slug":"lunar-silver-star-story-touch","logo":"common\/uploads\/icons\/bf3b6984e0ddff6d036292de573ff54f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bf3b6984e0ddff6d036292de573ff54f.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":42489,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Sigmund
+          Chua48101.webp","username":"Bread420","slug":"bread420","nome":"Bread420","sobre":null,"sobre_original":null,"data_cadastro":"2025-04-27
+          00:32:51","score":6,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":11357,"tipo":"positivo","data":"2025-05-16
+          19:43:04","texto":"They  update this game weekly which is nice, I''ve been
+          playing it daily since release!","texto_original":"They  update this game
+          weekly which is nice, I''ve been playing it daily since release!","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5914,"nome":"TownsFolk","slug":"townsfolk","logo":"common\/uploads\/icons\/1c645f0e7644a32afcb989d0530511a6.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1c645f0e7644a32afcb989d0530511a6.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":21059,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-5k8rgg-596900.webp","username":"skatedurr","slug":"skatedurr","nome":"skatedurr","sobre":"https:\/\/allmylinks.com\/skatedurr","sobre_original":"https:\/\/allmylinks.com\/skatedurr","data_cadastro":"2024-04-20
+          04:06:42","score":27,"total_avaliacoes":12,"total_favoritos":12,"pais_nome":"Canada","pais_sigla":"CA"}},{"id":7466,"tipo":"positivo","data":"2023-10-19
+          12:38:46","texto":"This is a \"Game\" on mobile, not a \"Mobile Game\"  which
+          automatically makes this start at 10\/10.  Because this is a PC port there
+          are a couple considerations.  UI can be a little small, especially on smaller
+          phones and touch controls wont compare to a controller.  That said, the touch
+          controlls are very usable and the UI is scalable. There are also a lot of
+          graphic options to match performance with your device.  This Edition includes
+          3 expansions which means you can get THOUSANDS of hours of playtime.  There
+          are no IAP in this version.  Also there is no multiplayer which is a shame.  Saves
+          are not compatable with PC (though you CAN make it work ;) ) I give it a 9.9\/10
+          only because its not \"perfect\" The amount of content will blow your mind.","texto_original":"This
+          is a \"Game\" on mobile, not a \"Mobile Game\"  which automatically makes
+          this start at 10\/10.  Because this is a PC port there are a couple considerations.  UI
+          can be a little small, especially on smaller phones and touch controls wont
+          compare to a controller.  That said, the touch controlls are very usable and
+          the UI is scalable. There are also a lot of graphic options to match performance
+          with your device.  This Edition includes 3 expansions which means you can
+          get THOUSANDS of hours of playtime.  There are no IAP in this version.  Also
+          there is no multiplayer which is a shame.  Saves are not compatable with PC
+          (though you CAN make it work ;) ) I give it a 9.9\/10 only because its not
+          \"perfect\" The amount of content will blow your mind.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":2060,"nome":"Titan Quest: Legendary Edition","slug":"titan-quest-legendary-edition","logo":"common\/uploads\/icons\/4f1bf0aceae471fa612d6aebaf6bba15.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-4f1bf0aceae471fa612d6aebaf6bba15.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":19584,"avatar":null,"username":"tzetsin","slug":"tzetsin","nome":"tzetsin","sobre":"Say
+          no to \"mobile games\". Say yes to gaming on mobile. In pursuit of games to
+          play on my mobile while avoiding garbage mobile games.","sobre_original":"Say
+          no to \"mobile games\". Say yes to gaming on mobile. In pursuit of games to
+          play on my mobile while avoiding garbage mobile games.","data_cadastro":"2023-10-06
+          11:32:22","score":33,"total_avaliacoes":6,"total_favoritos":18,"pais_nome":"Canada","pais_sigla":"CA"}},{"id":8979,"tipo":"positivo","data":"2024-09-30
+          06:48:26","texto":"Genuinely perfect, a beauitful port. Easy to use and play.
+          Offline is pretty seamless.","texto_original":"Genuinely perfect, a beauitful
+          port. Easy to use and play. Offline is pretty seamless.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5612,"nome":"Balatro","slug":"balatro","logo":"common\/uploads\/icons\/aed16d2f07c1b7e0c1bda13aec9b17da.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-aed16d2f07c1b7e0c1bda13aec9b17da.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":22902,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-maxresdefault-689941.webp","username":"LCDeez","slug":"lcdeez","nome":"LCDeez","sobre":null,"sobre_original":null,"data_cadastro":"2024-09-30
+          06:35:29","score":13,"total_avaliacoes":4,"total_favoritos":3,"pais_nome":null,"pais_sigla":null}},{"id":8977,"tipo":"positivo","data":"2024-09-30
+          05:32:34","texto":"I think this game was ported fantastically. I have a foldable
+          phone and I can always tell when a dev puts care into their port. If I close
+          my phone while the game is playing and the resolution does not corrupt or
+          the game does not crash (unlike many other games I''ve played)  it actually
+          seamlessly swaps to the cover screen with no issue.   While the game doesnt
+          go into portrait mode (and on a regular phone, I can''t see how this game
+          would actually work like that) you can use apps to force that.  The the controls
+          are very intuitive coming from a PC game.  The gameplay itself is amazing.  I''m
+          not a big fan of poker or \"gambling\" games in general but this game is so
+          far beyond that.  It''s amazingly unique and near perfection.","texto_original":"I
+          think this game was ported fantastically. I have a foldable phone and I can
+          always tell when a dev puts care into their port. If I close my phone while
+          the game is playing and the resolution does not corrupt or the game does not
+          crash (unlike many other games I''ve played)  it actually seamlessly swaps
+          to the cover screen with no issue.   While the game doesnt go into portrait
+          mode (and on a regular phone, I can''t see how this game would actually work
+          like that) you can use apps to force that.  The the controls are very intuitive
+          coming from a PC game.  The gameplay itself is amazing.  I''m not a big fan
+          of poker or \"gambling\" games in general but this game is so far beyond that.  It''s
+          amazingly unique and near perfection.","total_likes":"1","sort_by":"this week","jogo":{"id":5612,"nome":"Balatro","slug":"balatro","logo":"common\/uploads\/icons\/aed16d2f07c1b7e0c1bda13aec9b17da.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-aed16d2f07c1b7e0c1bda13aec9b17da.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":22900,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000002581-685264.webp","username":"Rubadubdub","slug":"rubadubdub","nome":"Rubadubdub","sobre":null,"sobre_original":null,"data_cadastro":"2024-09-30
+          05:21:27","score":7,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":8984,"tipo":"positivo","data":"2024-10-01
+          08:54:12","texto":"Deserves 10\/10 Bro","texto_original":"Deserves 10\/10
+          Bro","total_likes":"1","sort_by":"this week","jogo":{"id":5612,"nome":"Balatro","slug":"balatro","logo":"common\/uploads\/icons\/aed16d2f07c1b7e0c1bda13aec9b17da.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-aed16d2f07c1b7e0c1bda13aec9b17da.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":20566,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Benjamin
+          Zentral38852.webp","username":"Benjamin Zentral","slug":"benjamin-zentral","nome":"Benjamin
+          Zentral","sobre":null,"sobre_original":null,"data_cadastro":"2024-02-11 13:29:24","score":20,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12642,"tipo":"negativo","data":"2025-10-17
+          10:52:17","texto":"I never so so many ads in one game. Even drops have ads.","texto_original":"I
+          never so so many ads in one game. Even drops have ads.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":1986,"nome":"A4 vs Zombies - ZomBattle","slug":"a4-vs-zombies-zombattle","logo":"common\/uploads\/icons\/8bedc7f86b9206c6d9cd729ed61c4beb.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-8bedc7f86b9206c6d9cd729ed61c4beb.webp","categoria":{"id":18,"nome":"Shooter","slug":"shooter"},"categorias":[{"id":18,"nome":"Shooter","slug":"shooter","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":36280,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Axoratl77234.webp","username":"Axoratl","slug":"axoratl","nome":"Axoratl","sobre":null,"sobre_original":null,"data_cadastro":"2025-02-20
+          00:30:43","score":6,"total_avaliacoes":3,"total_favoritos":5,"pais_nome":null,"pais_sigla":null}},{"id":10460,"tipo":"negativo","data":"2025-02-27
+          12:58:18","texto":"The iOS version of this game does not have a portrait orientation
+          option, at least as of 2\/26\/2025","texto_original":"The iOS version of this
+          game does not have a portrait orientation option, at least as of 2\/26\/2025","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5754,"nome":"Age of Fantasy","slug":"age-of-fantasy","logo":"common\/uploads\/icons\/a6aacc1f1eac87fd89fb94026ec0566e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a6aacc1f1eac87fd89fb94026ec0566e.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":37109,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Joey
+          Carton71726.webp","username":"PaycheckStevens","slug":"paycheckstevens","nome":"PaycheckStevens","sobre":null,"sobre_original":null,"data_cadastro":"2025-02-26
+          19:28:36","score":6,"total_avaliacoes":3,"total_favoritos":2,"pais_nome":null,"pais_sigla":null}},{"id":12419,"tipo":"negativo","data":"2025-09-12
+          17:48:25","texto":"I do like the gameplay, but the grindy nature of unlocking
+          upgrades and having to click through a million menus to get daily\/earned
+          rewards took the fun out of it.","texto_original":"I do like the gameplay,
+          but the grindy nature of unlocking upgrades and having to click through a
+          million menus to get daily\/earned rewards took the fun out of it.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":6172,"nome":"ACECRAFT","slug":"acecraft","logo":"common\/uploads\/icons\/70c3ec4fe85a5c6ec4b4d0e55fdb8c0c.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-70c3ec4fe85a5c6ec4b4d0e55fdb8c0c.webp","categoria":{"id":18,"nome":"Shooter","slug":"shooter"},"categorias":[{"id":18,"nome":"Shooter","slug":"shooter","type":"category"},{"id":9,"nome":"Bullet
+          Hell","slug":"bullet-hell","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":54452,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Trevor
+          Taylor32748.webp","username":"jypweb","slug":"jypweb","nome":"jypweb","sobre":null,"sobre_original":null,"data_cadastro":"2025-08-25
+          16:20:33","score":11,"total_avaliacoes":2,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":9029,"tipo":"positivo","data":"2024-10-08
+          13:10:01","texto":"Tradional RPG\/Dungeon crawler with a very original setting
+          (no, not many vampire clich\u00e9s). The game builds upon the former two entries
+          and expands their mechanics enough to feel fresh but not overwhelming. Character
+          building is beyond your background and beliefs (the former is chosen on creation
+          and the latter at level 10) completely flexible and we can use almost every
+          skill with any weapon type. The lore is rich and full of text to enjoy; if
+          you liked the story of Grim Quest and Tides, Grim Omens has some amazing plot
+          twists for you. Only con, there are relatively few epic quest, but they are
+          high quality. Monetization as usual is completely optional and any item can
+          be found in game. The gear has been expanded immensely too.","texto_original":"Tradional
+          RPG\/Dungeon crawler with a very original setting (no, not many vampire clich\u00e9s).
+          The game builds upon the former two entries and expands their mechanics enough
+          to feel fresh but not overwhelming. Character building is beyond your background
+          and beliefs (the former is chosen on creation and the latter at level 10)
+          completely flexible and we can use almost every skill with any weapon type.
+          The lore is rich and full of text to enjoy; if you liked the story of Grim
+          Quest and Tides, Grim Omens has some amazing plot twists for you. Only con,
+          there are relatively few epic quest, but they are high quality. Monetization
+          as usual is completely optional and any item can be found in game. The gear
+          has been expanded immensely too.","total_likes":"1","sort_by":"this week","jogo":{"id":5549,"nome":"Grim
+          Omens - Old School RPG","slug":"grim-omens-old-school-rpg","logo":"common\/uploads\/icons\/d160ff7af8b5dd7e93133d07a6e60779.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d160ff7af8b5dd7e93133d07a6e60779.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":44,"nome":"Text-Based","slug":"text-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":21790,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-o1e6fv-191957.webp","username":"Terminus","slug":"terminus","nome":"Terminus","sobre":null,"sobre_original":null,"data_cadastro":"2024-07-05
+          12:01:58","score":9,"total_avaliacoes":2,"total_favoritos":4,"pais_nome":"Spain","pais_sigla":"ES"}},{"id":12562,"tipo":"positivo","data":"2025-10-05
+          22:32:23","texto":"Pretty great fully offline game. I still haven''t gotten
+          past the orc but I really only play while  if there was ever a desktop version
+          I would for sure keep it up.","texto_original":"Pretty great fully offline
+          game. I still haven''t gotten past the orc but I really only play while  if
+          there was ever a desktop version I would for sure keep it up.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5991,"nome":"All Who Wander - Roguelike RPG","slug":"all-who-wander-roguelike-rpg","logo":"common\/uploads\/icons\/a629e012dfcce0c6e872af83a999206e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a629e012dfcce0c6e872af83a999206e.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":58393,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Andrew
+          J73253.webp","username":"MonitorZero","slug":"monitorzero","nome":"MonitorZero","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-05
+          22:30:01","score":2,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12641,"tipo":"positivo","data":"2025-10-16
+          11:30:04","texto":"Balance is kinda whack, but the Dev said he wanted to look
+          into it. If you liked pixel dungeon and cardinal quest, this is a love letter
+          to these games. Also, the terrain generation is really lovely and there seems
+          to be stuff the Dev wants to improve upon, which is nice","texto_original":"Balance
+          is kinda whack, but the Dev said he wanted to look into it. If you liked pixel
+          dungeon and cardinal quest, this is a love letter to these games. Also, the
+          terrain generation is really lovely and there seems to be stuff the Dev wants
+          to improve upon, which is nice","total_likes":"1","sort_by":"this week","jogo":{"id":5991,"nome":"All
+          Who Wander - Roguelike RPG","slug":"all-who-wander-roguelike-rpg","logo":"common\/uploads\/icons\/a629e012dfcce0c6e872af83a999206e.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a629e012dfcce0c6e872af83a999206e.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":14686,"avatar":null,"username":"AnotherGorgonIntoTheFight","slug":"anothergorgonintothefight","nome":"AnotherGorgonIntoTheFight","sobre":null,"sobre_original":null,"data_cadastro":"2022-10-12
+          08:47:46","score":39,"total_avaliacoes":20,"total_favoritos":10,"pais_nome":null,"pais_sigla":null}},{"id":12640,"tipo":"negativo","data":"2025-10-15
+          16:28:19","texto":"Great Game, but mobile port is meh. Game crashes every
+          time I open another player''s solution in gallery view. Building roads on
+          outlines created with the angle tool is buggy. And the game just has too many
+          small parts to properly play on a smartphone. Tablet might be a different
+          story.","texto_original":"Great Game, but mobile port is meh. Game crashes
+          every time I open another player''s solution in gallery view. Building roads
+          on outlines created with the angle tool is buggy. And the game just has too
+          many small parts to properly play on a smartphone. Tablet might be a different
+          story.","total_likes":"1","sort_by":"this week","jogo":{"id":6114,"nome":"Poly
+          Bridge 3","slug":"poly-bridge-3","logo":"common\/uploads\/icons\/2fd24441ee4ee3ae53e0a2d5f74fb7cc.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-2fd24441ee4ee3ae53e0a2d5f74fb7cc.webp","categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":55358,"avatar":null,"username":"apparatur","slug":"apparatur","nome":"apparatur","sobre":null,"sobre_original":null,"data_cadastro":"2025-09-02
+          14:46:27","score":1,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12638,"tipo":"negativo","data":"2025-10-15
+          08:48:18","texto":"Hidden behind a \"no ads free game\" there''s a game perfectly
+          optimized to give a sense of progress to just get stuck and pay $$. Everything
+          in here that makes you progress is behind prem currency (=$). Even buying
+          a bundle gets you stuck at some point where $$ are again needed. All is hidden
+          behind a \"we give free prem currency\". Just at such a slow rate that you
+          have to click a button every 10 mins for days. It''s just a no-no, go buy
+          and play Magic Research, you will have a more productive and fun time.","texto_original":"Hidden
+          behind a \"no ads free game\" there''s a game perfectly optimized to give
+          a sense of progress to just get stuck and pay $$. Everything in here that
+          makes you progress is behind prem currency (=$). Even buying a bundle gets
+          you stuck at some point where $$ are again needed. All is hidden behind a
+          \"we give free prem currency\". Just at such a slow rate that you have to
+          click a button every 10 mins for days. It''s just a no-no, go buy and play
+          Magic Research, you will have a more productive and fun time.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":6155,"nome":"Idle Obelisk Miner","slug":"idle-obelisk-miner","logo":"common\/uploads\/icons\/0a38ecb900898aa9d9be70464778f79b.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0a38ecb900898aa9d9be70464778f79b.webp","categoria":{"id":34,"nome":"Incremental","slug":"incremental"},"categorias":[{"id":34,"nome":"Incremental","slug":"incremental","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":5209,"avatar":null,"username":"Shinesei","slug":"shinesei","nome":"Shinesei","sobre":null,"sobre_original":null,"data_cadastro":"2021-05-25
+          09:32:50","score":46,"total_avaliacoes":32,"total_favoritos":45,"pais_nome":null,"pais_sigla":null}},{"id":12636,"tipo":"positivo","data":"2025-10-15
+          08:09:53","texto":"Mujhe ek ninja game chahiye ninja warrior jaisa rahana
+          chahie aur mera naam hai gulamrza","texto_original":"Mujhe ek Ninja game chahiye
+          Ninja warrior jaisa rahana chahie aur mera naam hai gulamrza","total_likes":"1","sort_by":"this
+          week","jogo":{"id":3071,"nome":"Ninja Ryuko: Shadow Ninja Game","slug":"ninja-ryuko-shadow-ninja-game","logo":"common\/uploads\/icons\/56436209a1af528181f2c91e46dd81b0.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-56436209a1af528181f2c91e46dd81b0.webp","categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59193,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Pro
+          pro39056.webp","username":"Nijawarrior","slug":"nijawarrior","nome":"Nijawarrior","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-13
+          08:19:13","score":3,"total_avaliacoes":3,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12635,"tipo":"positivo","data":"2025-10-15
+          08:07:12","texto":"Gulamrza","texto_original":"Gulamrza","total_likes":"1","sort_by":"this
+          week","jogo":{"id":1923,"nome":"Ninja Arashi 2","slug":"ninja-arashi-2","logo":"common\/uploads\/icons\/dec1a922f8ae1bbf09dc48cd1e0b0a23.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-dec1a922f8ae1bbf09dc48cd1e0b0a23.webp","categoria":{"id":24,"nome":"Platform","slug":"platform"},"categorias":[{"id":24,"nome":"Platform","slug":"platform","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59193,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Pro
+          pro39056.webp","username":"Nijawarrior","slug":"nijawarrior","nome":"Nijawarrior","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-13
+          08:19:13","score":3,"total_avaliacoes":3,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12634,"tipo":"positivo","data":"2025-10-15
+          02:09:01","texto":"Oh boy... I felt the urge to stop myself from playing too
+          much cuz I''m about to go all out, sheesh! It looks polished and cute for
+          its visuals. Nice to see this from Noodlecake, great job! Make more games
+          like this in the future hehe","texto_original":"Oh boy... I felt the urge
+          to stop myself from playing too much cuz I''m about to go all out, sheesh!
+          It looks polished and cute for its visuals. Nice to see this from Noodlecake,
+          great job! Make more games like this in the future hehe","total_likes":"1","sort_by":"this
+          week","jogo":{"id":283,"nome":"Farm Punks","slug":"farm-punks","logo":"common\/uploads\/icons\/f0952058446809cdac5dfac0542c7f49.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-f0952058446809cdac5dfac0542c7f49.webp","categoria":{"id":20,"nome":"Runner","slug":"runner"},"categorias":[{"id":20,"nome":"Runner","slug":"runner","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12633,"tipo":"positivo","data":"2025-10-15
+          01:03:26","texto":"Cute and intuitive space-themed puzzle game where you bring
+          aliens back to their respective homes through train tracks. Highly recommended
+          for all ages.","texto_original":"Cute and intuitive space-themed puzzle game
+          where you bring aliens back to their respective homes through train tracks.
+          Highly recommended for all ages.","total_likes":"1","sort_by":"this week","jogo":{"id":4232,"nome":"Cosmic
+          Express","slug":"cosmic-express","logo":"common\/uploads\/icons\/db5f8b8bf8ef33e6a8f4c0ef79f8c8e5.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-db5f8b8bf8ef33e6a8f4c0ef79f8c8e5.webp","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":9137,"tipo":"positivo","data":"2024-10-28
+          02:51:37","texto":"Honestly pretty great roguelike deckbuilder.","texto_original":"Honestly
+          pretty great roguelike deckbuilder.","total_likes":"1","sort_by":"this week","jogo":{"id":2461,"nome":"Rogue
+          Adventure card roguelike","slug":"rogue-adventure-roguelike-rpg","logo":"common\/uploads\/icons\/5687b6b504ef647e9075eea508a5ba4f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5687b6b504ef647e9075eea508a5ba4f.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false},"usuario":{"id":12209,"avatar":null,"username":"supersquirrel","slug":"supersquirrel","nome":"supersquirrel","sobre":null,"sobre_original":null,"data_cadastro":"2022-06-02
+          16:54:51","score":42,"total_avaliacoes":20,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12632,"tipo":"positivo","data":"2025-10-14
+          17:45:24","texto":"The face is the most beautiful thing I''ve","texto_original":"The
+          face is the most beautiful thing I''ve","total_likes":"1","sort_by":"this
+          week","jogo":{"id":677,"nome":"Roblox","slug":"roblox","logo":"common\/uploads\/icons\/158ba58a236573615b667a8d357d9f7c.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-158ba58a236573615b667a8d357d9f7c.webp","categoria":{"id":29,"nome":"MMO","slug":"mmo"},"categorias":[{"id":29,"nome":"MMO","slug":"mmo","type":"category"},{"id":37,"nome":"Sandbox","slug":"sandbox","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59348,"avatar":null,"username":"JustQ","slug":"justq","nome":"JustQ","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-14
+          17:42:46","score":2,"total_avaliacoes":2,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12631,"tipo":"positivo","data":"2025-10-14
+          17:45:05","texto":"You know I was don''t know if I could get a hold of","texto_original":"You
+          know I was don''t know if I could get a hold of","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4594,"nome":"Idle Distiller Tycoon Game","slug":"idle-distiller-tycoon-game","logo":"common\/uploads\/icons\/053649997d873500f11acc49fc3e6dd2.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-053649997d873500f11acc49fc3e6dd2.webp","categoria":{"id":34,"nome":"Incremental","slug":"incremental"},"categorias":[{"id":34,"nome":"Incremental","slug":"incremental","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59348,"avatar":null,"username":"JustQ","slug":"justq","nome":"JustQ","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-14
+          17:42:46","score":2,"total_avaliacoes":2,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":7634,"tipo":"positivo","data":"2023-12-05
+          20:41:53","texto":"I''ve played the game and it was extremely great, the controls
+          issue would vary on the device, but on mine it''s smooth. The only issue I
+          have is with the map button, when you press the map it''s responsive but when
+          you''re about to close it, you have to press a specific part on the button
+          to close the map, but overall the game is fun, smooth (fps would vary on the
+          device, it is already said there on the menu) and the multiplayer lobby, it''s
+          perfect, all you need is a hotspot or have to be at the same network, overall
+          its fun, challenging, and it''s worth having this on both steam n mobile","texto_original":"I''ve
+          played the game and it was extremely great, the controls issue would vary
+          on the device, but on mine it''s smooth. The only issue I have is with the
+          map button, when you press the map it''s responsive but when you''re about
+          to close it, you have to press a specific part on the button to close the
+          map, but overall the game is fun, smooth (fps would vary on the device, it
+          is already said there on the menu) and the multiplayer lobby, it''s perfect,
+          all you need is a hotspot or have to be at the same network, overall its fun,
+          challenging, and it''s worth having this on both steam n mobile","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5031,"nome":"Wizard of Legend","slug":"wizard-of-legend","logo":"common\/uploads\/icons\/5f00696af565a34b171c6546feac01ff.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5f00696af565a34b171c6546feac01ff.webp","categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":20068,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Fish
+          bones40373.webp","username":"Fish bones","slug":"fish-bones","nome":"Fish
+          bones","sobre":"You know me","sobre_original":"You know me","data_cadastro":"2023-12-05
+          20:34:52","score":17,"total_avaliacoes":7,"total_favoritos":2,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12629,"tipo":"positivo","data":"2025-10-14
+          13:21:00","texto":"si","texto_original":"si","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4192,"nome":"MaskGun: FPS Shooting Gun Game","slug":"maskgun-fps-shooting-gun-game","logo":"common\/uploads\/icons\/d74e319238be6457da4f6ec00ba2a9af.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d74e319238be6457da4f6ec00ba2a9af.webp","categoria":{"id":19,"nome":"FPS","slug":"fps"},"categorias":[{"id":19,"nome":"FPS","slug":"fps","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59329,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-ZONNY
+          SANTIAGO SOLANO CHAVES93596.webp","username":"zonnysolano","slug":"zonnysolano","nome":"zonnysolano","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-14
+          13:20:17","score":1,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12628,"tipo":"positivo","data":"2025-10-14
+          10:43:51","texto":"Review TBA","texto_original":"Review TBA","total_likes":"1","sort_by":"this
+          week","jogo":{"id":1439,"nome":"Gorogoa","slug":"gorogoa","logo":"common\/uploads\/icons\/810a6402dde63b54b1e1131b0d799098.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-810a6402dde63b54b1e1131b0d799098.webp","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12625,"tipo":"positivo","data":"2025-10-14
+          09:54:44","texto":"This game is good but control and boss fights are rough.i
+          can''t defeat first boss in android.","texto_original":"This game is good
+          but control and boss fights are rough.i can''t defeat first boss in android.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5832,"nome":"Crunchyroll 9 Years of Shadows","slug":"crunchyroll-9-years-of-shadows","logo":"common\/uploads\/icons\/0015b06d02489923150367e8669f9386.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0015b06d02489923150367e8669f9386.webp","categoria":{"id":24,"nome":"Platform","slug":"platform"},"categorias":[{"id":24,"nome":"Platform","slug":"platform","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59311,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Shahadat
+          Siam73533.webp","username":"Saam","slug":"saam","nome":"Saam","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-14
+          09:53:01","score":1,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12623,"tipo":"positivo","data":"2025-10-14
+          09:41:05","texto":"Review TBA","texto_original":"Review TBA","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5969,"nome":"Yolk Heroes: A Long Tamago","slug":"yolk-heroes-a-long-tamago","logo":"common\/uploads\/icons\/683db783d6dcd44505d26afae4d7f16f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-683db783d6dcd44505d26afae4d7f16f.webp","categoria":{"id":6,"nome":"Casual","slug":"casual"},"categorias":[{"id":6,"nome":"Casual","slug":"casual","type":"category"},{"id":35,"nome":"Role
+          Playing","slug":"role-playing","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":7978,"tipo":"negativo","data":"2024-02-28
+          03:25:32","texto":"Great idea and execution on the whole, but ruined by 1
+          seemingly simple design choice: there''s no way to gauge how difficult a quest
+          or zone is. This often resulted in my party being completely wiped by a much
+          stronger opponent and, after the 4th time it happened, I decided I ran out
+          of patience for the game. This is a fixable issue and I''m happy to try it
+          again if the devs rectify it.","texto_original":"Great idea and execution
+          on the whole, but ruined by 1 seemingly simple design choice: there''s no
+          way to gauge how difficult a quest or zone is. This often resulted in my party
+          being completely wiped by a much stronger opponent and, after the 4th time
+          it happened, I decided I ran out of patience for the game. This is a fixable
+          issue and I''m happy to try it again if the devs rectify it.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4649,"nome":"Vendir: Plague of Lies","slug":"vendir-plague-of-lies","logo":"common\/uploads\/icons\/58144db48277928ede6818e5b80735be.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-58144db48277928ede6818e5b80735be.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":643,"avatar":null,"username":"Barnacle","slug":"barnacle","nome":"Barnacle","sobre":"A
+          boring geezer with strong opinions","sobre_original":"A boring geezer with
+          strong opinions","data_cadastro":"2020-06-05 16:53:24","score":134,"total_avaliacoes":85,"total_favoritos":6,"pais_nome":"United
+          States","pais_sigla":"US"}},{"id":12622,"tipo":"positivo","data":"2025-10-14
+          02:19:54","texto":"I like its overall aesthetic and sound design. Could have
+          been better if this is two-handed (if there are existing buttons for skills)
+          and not just thru tapping or swiping. I guess it''s more on the technical
+          and hardcore players but still highly recommended.","texto_original":"I like
+          its overall aesthetic and sound design. Could have been better if this is
+          two-handed (if there are existing buttons for skills) and not just thru tapping
+          or swiping. I guess it''s more on the technical and hardcore players but still
+          highly recommended.","total_likes":"1","sort_by":"this week","jogo":{"id":4632,"nome":"Ultra
+          Blade Premium","slug":"ultra-blade-premium","logo":"common\/uploads\/icons\/bbfd6bae7b2acfe0145d854f63b44308.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-bbfd6bae7b2acfe0145d854f63b44308.webp","categoria":{"id":3,"nome":"Arcade","slug":"arcade"},"categorias":[{"id":3,"nome":"Arcade","slug":"arcade","type":"category"},{"id":63,"nome":"Bullet
+          Heaven","slug":"bullet-heaven","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12621,"tipo":"positivo","data":"2025-10-14
+          01:43:03","texto":"Made i rage the right amount not tooooo hard","texto_original":"Made
+          i rage the right amount not tooooo hard","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5268,"nome":"Level Devil - NOT A Troll Game","slug":"level-devil-not-a-troll-game","logo":"common\/uploads\/icons\/67409066e79c7b9464325849ae04c31c.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-67409066e79c7b9464325849ae04c31c.webp","categoria":{"id":24,"nome":"Platform","slug":"platform"},"categorias":[{"id":24,"nome":"Platform","slug":"platform","type":"category"},{"id":6,"nome":"Arcade","slug":"arcade","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":41510,"avatar":null,"username":"dreddlad","slug":"dreddlad","nome":"dreddlad","sobre":"Just
+          a normal MOBILE GAMER","sobre_original":"Just a normal MOBILE GAMER","data_cadastro":"2025-04-16
+          12:56:35","score":7,"total_avaliacoes":7,"total_favoritos":1,"pais_nome":"India","pais_sigla":"IN"}},{"id":12620,"tipo":"positivo","data":"2025-10-14
+          00:38:05","texto":"One of the best looking pixel art game since it was launched.
+          Can''t say anything bad about it except it''s not free (ofc it''s PREMIUM!).
+          Having controller support and a choice to switch screen orientations is a
+          must for all mobile games. S\/o to the team behind this game, a must try and
+          highly recommended for all ages.","texto_original":"One of the best looking
+          pixel art game since it was launched. Can''t say anything bad about it except
+          it''s not free (ofc it''s PREMIUM!). Having controller support and a choice
+          to switch screen orientations is a must for all mobile games. S\/o to the
+          team behind this game, a must try and highly recommended for all ages.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4992,"nome":"subpar pool","slug":"subpar-pool","logo":"common\/uploads\/icons\/a21bf55148a9e6343ecb2ef902c93116.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a21bf55148a9e6343ecb2ef902c93116.webp","categoria":{"id":14,"nome":"Sports","slug":"sports"},"categorias":[{"id":14,"nome":"Sports","slug":"sports","type":"category"},{"id":6,"nome":"Arcade","slug":"arcade","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12619,"tipo":"positivo","data":"2025-10-14
+          00:30:18","texto":"Review TBA","texto_original":"Review TBA","total_likes":"1","sort_by":"this
+          week","jogo":{"id":904,"nome":"Night of the Full Moon","slug":"night-of-the-full-moon","logo":"common\/uploads\/icons\/65eee16163c21b6f2c19cd8a59489ac4.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-65eee16163c21b6f2c19cd8a59489ac4.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12618,"tipo":"positivo","data":"2025-10-14
+          00:03:55","texto":"I''d say cool concept for an auto battler and a bit Slay
+          The Spire inspired in terms of sprite choice and map system. Still okay but
+          I think Doomdepths is better.","texto_original":"I''d say cool concept for
+          an auto battler and a bit Slay The Spire inspired in terms of sprite choice
+          and map system. Still okay but I think Doomdepths is better.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":5666,"nome":"Doomfields","slug":"doomfields","logo":"common\/uploads\/icons\/c636a39e8c70dc153855944e686a4414.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-c636a39e8c70dc153855944e686a4414.webp","categoria":{"id":37,"nome":"Auto
+          Battler","slug":"auto-battler"},"categorias":[{"id":37,"nome":"Auto Battler","slug":"auto-battler","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12617,"tipo":"positivo","data":"2025-10-13
+          18:30:52","texto":"Great","texto_original":"Great","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4645,"nome":"Dicey Dungeons","slug":"dicey-dungeons","logo":"common\/uploads\/icons\/dbf119839b1d228b111562feb31f18cc.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-dbf119839b1d228b111562feb31f18cc.webp","categoria":{"id":35,"nome":"Deck-Building","slug":"deck-building"},"categorias":[{"id":35,"nome":"Deck-Building","slug":"deck-building","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59252,"avatar":null,"username":"orlandonorth","slug":"orlandonorth","nome":"orlandonorth","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-13
+          18:29:14","score":1,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":7124,"tipo":"positivo","data":"2023-08-31
+          09:54:51","texto":"It''s a high quality game with decent puzzles. But I feel
+          like it''s highly overrated. It''s good, but not quite great. Many puzzles
+          have forced solutions where you just need to spot a small changing detail
+          on your small screen to solve it. And since all levels are dark and detailed
+          it''s not always easy. So instead of being smart and deep puzzles you just
+          have to figure out what the designers want you to do. Luckily there are very
+          few options so a solution is always possible to find by just trying everything.\n\nCausality
+          takes these time travel puzzles and makes them flat. It''s not as good, but
+          I feel like this idea of Tenet time travel will work out very well soon in
+          some format.","texto_original":"It''s a high quality game with decent puzzles.
+          But I feel like it''s highly overrated. It''s good, but not quite great. Many
+          puzzles have forced solutions where you just need to spot a small changing
+          detail on your small screen to solve it. And since all levels are dark and
+          detailed it''s not always easy. So instead of being smart and deep puzzles
+          you just have to figure out what the designers want you to do. Luckily there
+          are very few options so a solution is always possible to find by just trying
+          everything.\n\nCausality takes these time travel puzzles and makes them flat.
+          It''s not as good, but I feel like this idea of Tenet time travel will work
+          out very well soon in some format.","total_likes":"1","sort_by":"this week","jogo":{"id":2623,"nome":"The
+          Gardens Between","slug":"the-gardens-between","logo":"common\/uploads\/icons\/566dd25f53050e6c94d28139652abe9f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-566dd25f53050e6c94d28139652abe9f.webp","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":1668,"avatar":null,"username":"Jurij
+          Fedorov","slug":"jurij-fedorov","nome":"Jurij Fedorov","sobre":null,"sobre_original":null,"data_cadastro":"2020-08-31
+          11:13:35","score":44,"total_avaliacoes":30,"total_favoritos":8,"pais_nome":null,"pais_sigla":null}},{"id":8587,"tipo":"positivo","data":"2024-07-03
+          09:32:32","texto":"This game is perfect for those who love puzzle games. Stunning
+          visuals with soothing sound tracks.","texto_original":"This game is perfect
+          for those who love puzzle games. Stunning visuals with soothing sound tracks.","total_likes":"1","sort_by":"this
+          week","jogo":{"id":2623,"nome":"The Gardens Between","slug":"the-gardens-between","logo":"common\/uploads\/icons\/566dd25f53050e6c94d28139652abe9f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-566dd25f53050e6c94d28139652abe9f.webp","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":21760,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Vinit
+          Raut25431.webp","username":"TUSK","slug":"tusk","nome":"TUSK","sobre":null,"sobre_original":null,"data_cadastro":"2024-07-02
+          16:51:21","score":15,"total_avaliacoes":2,"total_favoritos":2,"pais_nome":"India","pais_sigla":"IN"}},{"id":12616,"tipo":"positivo","data":"2025-10-13
+          13:59:10","texto":"Very good card game with interesting mechanics. Plus it''s
+          free","texto_original":"Very good card game with interesting mechanics. Plus
+          it''s free","total_likes":"1","sort_by":"this week","jogo":{"id":1025,"nome":"Underhand","slug":"underhand","logo":"common\/uploads\/icons\/2f63814f1acea538739dd35a12879829.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-2f63814f1acea538739dd35a12879829.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"},{"id":10,"nome":"Card","slug":"card","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false},"usuario":{"id":59226,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Chris
+          (M3rcuryMorbid)66679.webp","username":"M3rcurymorbid","slug":"m3rcurymorbid","nome":"M3rcurymorbid","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-13
+          13:55:41","score":2,"total_avaliacoes":2,"total_favoritos":2,"pais_nome":null,"pais_sigla":null}},{"id":12615,"tipo":"positivo","data":"2025-10-13
+          13:58:26","texto":"Great game, simple, fun","texto_original":"Great game,
+          simple, fun","total_likes":"1","sort_by":"this week","jogo":{"id":1774,"nome":"Antiyoy
+          Classic","slug":"antiyoy-classic","logo":"common\/uploads\/icons\/a648c8019426e3631547abc7ec1db197.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-a648c8019426e3631547abc7ec1db197.webp","categoria":{"id":15,"nome":"Strategy","slug":"strategy"},"categorias":[{"id":15,"nome":"Strategy","slug":"strategy","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":59226,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Chris
+          (M3rcuryMorbid)66679.webp","username":"M3rcurymorbid","slug":"m3rcurymorbid","nome":"M3rcurymorbid","sobre":null,"sobre_original":null,"data_cadastro":"2025-10-13
+          13:55:41","score":2,"total_avaliacoes":2,"total_favoritos":2,"pais_nome":null,"pais_sigla":null}},{"id":7356,"tipo":"positivo","data":"2023-10-02
+          10:01:35","texto":"A great MOBA on the go, large player base and lower skill
+          entry compared to Wild Rift. \nFrequent update and balancing even though some
+          heroes are still broken imo.\nAnd no the skin are not p2w at all. There is
+          no different between a collector''s skin or a free skin except for cosmetic
+          value","texto_original":"A great MOBA on the go, large player base and lower
+          skill entry compared to Wild Rift. \nFrequent update and balancing even though
+          some heroes are still broken imo.\nAnd no the skin are not p2w at all. There
+          is no different between a collector''s skin or a free skin except for cosmetic
+          value.\n","total_likes":"1","sort_by":"this week","jogo":{"id":4903,"nome":"Mobile
+          Legends: Bang Bang","slug":"mobile-legends-bang-bang","logo":"common\/uploads\/icons\/5cc24bef76f30517409c5771c9c6a649.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5cc24bef76f30517409c5771c9c6a649.webp","categoria":{"id":21,"nome":"MOBA","slug":"moba"},"categorias":[{"id":21,"nome":"MOBA","slug":"moba","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false},"usuario":{"id":19545,"avatar":null,"username":"B.B
+          Rodriguez","slug":"b-b-rodriguez","nome":"B.B Rodriguez","sobre":null,"sobre_original":null,"data_cadastro":"2023-10-02
+          10:00:53","score":4,"total_avaliacoes":1,"total_favoritos":0,"pais_nome":null,"pais_sigla":null}},{"id":12613,"tipo":"positivo","data":"2025-10-13
+          09:21:26","texto":"It game","texto_original":"It game","total_likes":"1","sort_by":"this
+          week","jogo":{"id":1271,"nome":"CHAOS RINGS","slug":"chaos-rings","logo":"common\/uploads\/icons\/9e69636c18dec36e2aeb7efc7d48ada7.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-9e69636c18dec36e2aeb7efc7d48ada7.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":51582,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Haidar
+          Radiah98471.webp","username":"Ripplcfffcx","slug":"ripplcfffcx","nome":"Ripplcfffcx","sobre":null,"sobre_original":null,"data_cadastro":"2025-07-27
+          15:34:09","score":2,"total_avaliacoes":2,"total_favoritos":2,"pais_nome":null,"pais_sigla":null}},{"id":12611,"tipo":"positivo","data":"2025-10-13
+          05:45:58","texto":"Addicting and non-stop runs (although few mini games) could
+          be better with MORE games for stimuli overload. Perfect for ADHD-ers lol","texto_original":"Addicting
+          and non-stop runs (although few mini games) could be better with MORE games
+          for stimuli overload. Perfect for ADHD-ers lol","total_likes":"1","sort_by":"this
+          week","jogo":{"id":4373,"nome":"pureya","slug":"pureya","logo":"common\/uploads\/icons\/2d5348a23763ba35e571aaa718206574.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-2d5348a23763ba35e571aaa718206574.webp","categoria":{"id":3,"nome":"Arcade","slug":"arcade"},"categorias":[{"id":3,"nome":"Arcade","slug":"arcade","type":"category"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}},{"id":12610,"tipo":"positivo","data":"2025-10-13
+          05:41:19","texto":"Great improvements vs previous iterations. New HUD and
+          improved storage. Wishing this game to have more updates and for the upcoming
+          ones too (only if...)","texto_original":"Great improvements vs previous iterations.
+          New HUD and improved storage. Wishing this game to have more updates and for
+          the upcoming ones too (only if...)","total_likes":"1","sort_by":"this week","jogo":{"id":2081,"nome":"bit
+          Dungeon III","slug":"bit-dungeon-iii","logo":"common\/uploads\/icons\/0f9c5a9817e18fca06440991839da227.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0f9c5a9817e18fca06440991839da227.webp","categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":16,"nome":"Dungeon
+          Crawler","slug":"dungeon-crawler","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n","sobre":"yo","sobre_original":"yo","data_cadastro":"2023-01-09
+          12:12:39","score":27,"total_avaliacoes":24,"total_favoritos":23,"pais_nome":"Philippines","pais_sigla":"PH"}}],"page":1,"total":85,"ultima_pagina":false}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 99091b858b344a9f-TPE
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Sat, 18 Oct 2025 15:35:47 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=F4eSmmiBRWaaJRkgMAS1mB8U2LSf4GXBn%2BnnizlUYQPxvbIPczLcLAxCSSRY6ZIRy7e5IJFqOf0WstOzAjSGm85JgkZrKoL%2FRURzUjhz%2FoG6I%2BRR7xE%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

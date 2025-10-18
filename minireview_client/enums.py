@@ -36,3 +36,11 @@ class Platform(Enum):
 
     ANDROID = "android"
     IOS = "ios"
+
+
+class GameRatingType(Enum):
+    """Represents the available game rating types."""
+
+    ALL = "all"
+    POSITIVE = "positive"
+    NEGATIVE = "negative"

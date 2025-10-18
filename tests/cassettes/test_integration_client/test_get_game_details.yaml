@@ -65,7 +65,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9908d7a26d104a48-TPE
+          - 99090e209e94a361-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -77,7 +77,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sat, 18 Oct 2025 14:49:26 GMT
+          - Sat, 18 Oct 2025 15:26:38 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -85,7 +85,109 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yEtOchq7%2BEVVcxJV%2FwvvdgWW1WuuvA%2FbsJ8PDUVs2uY2OFDUgs7VWT%2F87ySlOIIQct8Von74H3oGieKw2Rbrv07S0ZUGASwvQP5fw0%2FrzxYkEr7KhKw%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rOsuA7axTf3etBwYsJi0cxPs2F9%2F5ERb5XV%2FrYWU2gQzGXHhCap6XOu4EnwnCBe7PYBta9C6ANHJsFf8kbCrBU7nvG1Jyj2GbqcYmP%2Boa60zmj3XjKQ%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/games/merge-dragons?getBy=slug&category=puzzle
+    response:
+      body:
+        string:
+          '{"data":{"id":95,"nome":"Merge Dragons!","slug":"merge-dragons","logo":"common\/uploads\/icons\/08228a03a48e97f429306fad07c7af79.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-08228a03a48e97f429306fad07c7af79.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-506-676fcc403df896dcd3b9d13241a7b930.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-676fcc403df896dcd3b9d13241a7b930.webp","nota":7.5,"total_avaliacoes":1,"usuario_favorito":false,"usuario_avaliou":false,"disponivel_android":true,"disponivel_ios":true,"android_morto":false,"android_morto_data":null,"ios_morto":false,"ios_morto_data":null,"preco_android":"Free
+          (Ads + iAP)","preco_ios":"Free (Ads + iAP)","link_android":"https:\/\/play.google.com\/store\/apps\/details?id=com.gramgames.mergedragons&referrer=utm_source%3DMiniReview","link_ios":"https:\/\/apps.apple.com\/us\/app\/id1208952944?ct=MiniReview","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"subcategoria":{"id":9,"nome":"Match-3","slug":"match-3"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":26,"nome":"Match-3","slug":"match-3","type":"subcategory"}],"top_game":{"nome":"The
+          22 best puzzle games on mobile 2025","slug":"best-puzzle-games-on-mobile","text":"best
+          puzzle games"},"our_picks":false,"game_of_the_week":false,"galeria":[{"imagem":"\/common\/uploads\/cache\/review\/5--322-3c05f896a249be1620bb21fa65c18e05.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-3c05f896a249be1620bb21fa65c18e05.webp","imagem_zoom":"common\/uploads\/review\/3c05f896a249be1620bb21fa65c18e05.jpg","width":476,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-7fd71b7727b66376cf6b4bbb6e8ed61f.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-7fd71b7727b66376cf6b4bbb6e8ed61f.webp","imagem_zoom":"common\/uploads\/review\/7fd71b7727b66376cf6b4bbb6e8ed61f.jpg","width":475,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-00bfe82d61ea01b37bef7e52c6ea3fd0.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-00bfe82d61ea01b37bef7e52c6ea3fd0.webp","imagem_zoom":"common\/uploads\/review\/00bfe82d61ea01b37bef7e52c6ea3fd0.jpg","width":477,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-586d28a31295e73ef390810db07e92e1.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-586d28a31295e73ef390810db07e92e1.webp","imagem_zoom":"common\/uploads\/review\/586d28a31295e73ef390810db07e92e1.jpg","width":475,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-fd0df81937a9b38b44c34f78bc7f15ce.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-fd0df81937a9b38b44c34f78bc7f15ce.webp","imagem_zoom":"common\/uploads\/review\/fd0df81937a9b38b44c34f78bc7f15ce.jpg","width":484,"height":268}],"descricao":"Merge
+          Dragons! is a free 2D Puzzle Match-3 game available on Android and iOS. It\u2019s
+          a singleplayer experience that can be played offline in landscape mode. It
+          has received 1 user rating from the MiniReview community. Merge Dragons! was
+          released in July 2017 and has a current rating of 4.5 out of 5.0 on Google
+          Play and 4.7 out of 5.0 on the iOS App Store.","mostrar_faq":false,"review":{"data":"2017-07-21","usuario":{"avatar":"\/common\/uploads\/cache\/usuario\/1-76-76-3ac33a3fa0a99aa07b89dbff1d48e170.webp","nome":"NimbleThor","cargo":"Youtuber","reviews":801,"sobre":"I''ve
+          been covering mobile games since 2017. My favorite genres include RPGs, Roguelikes,
+          Tower Defense, and Arcade.","links":[{"tipo":"youtube","nome":"\/NimbleThor","link":"https:\/\/www.youtube.com\/c\/NimbleThor"},{"tipo":"twitter","nome":"@NimbleThor","link":"https:\/\/twitter.com\/NimbleThor"}]},"texto":"Notice;
+          I nearly uninstalled this game after 30 seconds, dismissing it because of
+          its \"childish\" look, but this game has me hooked now!<br\/><br\/>Merge 3
+          \"things\" together to gain a new \"thing\", with the ultimate goal being
+          to build out your home base by continually merging new \"things\" together
+          to reveal more of your base and get more dragons.That''s the core gameplay
+          in this puzzle game.<br\/><br\/>There are no obtrusive ads and while in-app
+          purchases go all the way up to $100, the game never forces you to spend any
+          money. An easy recommendation, if you''re looking for an alternative puzzle
+          game.","notas":{"gameplay":9,"graficos":6,"controles":9,"monetizacao":6}},"review_total_solicitado":0,"usuario_seguiu":false,"usuario_seguiu_email":null,"usuario_seguiu_push":null,"usuario_ultimo_seguiu_email":null,"usuario_ultimo_seguiu_push":null,"mostrar_rewards":false,"especificacoes":[[{"nome":"Singleplayer","ativo":true,"url":"\/browse?players=singleplayer"},{"nome":"Multiplayer","ativo":false,"url":"\/browse?players=multiplayer"}],[{"nome":"Offline","ativo":true,"url":"\/browse?network=offline"},{"nome":"Online","ativo":false,"url":"\/browse?network=online"}],[{"nome":"Portrait","ativo":false,"url":"\/browse?screen-orientation=portrait"},{"nome":"Landscape","ativo":true,"url":"\/browse?screen-orientation=landscape"}],[{"nome":"PvE","ativo":false,"url":"\/browse?players=pve"}],[{"nome":"Co-op","ativo":false,"url":"\/browse?players=co-op"}],[{"nome":"PvP","ativo":false,"url":"\/browse?players=pvp"}],[{"nome":"Real-time
+          PvP","ativo":false,"url":"\/browse?players=real-time-pvp"}]],"tags":[{"id":106,"nome":"2D","slug":"2d","tag_tipo":"tag"},{"id":70,"nome":"Achievements","slug":"achievements","tag_tipo":"tag"},{"id":20,"nome":"Base
+          Building","slug":"base-building","tag_tipo":"tag"},{"id":13,"nome":"Isometric","slug":"isometric","tag_tipo":"tag"},{"id":117,"nome":"Merge","slug":"merge","tag_tipo":"tag"},{"id":52,"nome":"Quests","slug":"quests","tag_tipo":"tag"}],"android_dados_loja":{"desenvolvedor":{"nome":"Gram
+          Games Limited","link":"https:\/\/www.zynga.com\/"},"permissoes":[{"nome":"Other","valor":["find
+          accounts on the device","find accounts on the device","view Wi-Fi connections","view
+          network connections","full network access","run at startup","control vibration","prevent
+          device from sleeping"]}],"detalhes":[{"type":"release-date","nome":"Release
+          date","valor":"Jul 26, 2017"},{"type":"last-updated","nome":"Last updated","valor":"Oct
+          16, 2025"},{"type":"current-score","nome":"Current score","valor":4.5},{"type":"n-of-downloads","nome":"#
+          of Downloads","valor":"50,000,000+"},{"type":"price","nome":"Price","valor":"Free
+          (Ads + iAP)"},{"type":"ads","nome":"Contain ads?","valor":"Yes"},{"type":"in-app-purchases","nome":"In-app
+          purchases","valor":"$0.99 - $399.99"},{"type":"content-rating","nome":"Content
+          rating","valor":"Everyone"},{"type":"download-size","nome":"Download size","valor":"399.6
+          MB"},{"type":"storage-size","nome":"Storage Size","valor":"147 MB"},{"type":"version","nome":"Version","valor":"12.12.2"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"Gram
+          Games","link":"https:\/\/apps.apple.com\/us\/developer\/gram-games\/id1202264615?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
+          date","valor":"Jun 28, 2017"},{"type":"last-updated","nome":"Last updated","valor":"Oct
+          17, 2025"},{"type":"average-score","nome":"Average score","valor":4.7},{"type":"current-score","nome":"Current
+          score","valor":4.7},{"type":"n-of-reviews","nome":"# of reviews","valor":413449},{"type":"price","nome":"Price","valor":"Free
+          (Ads + iAP)"},{"type":"ads","nome":"Contain ads?","valor":"Yes"},{"type":"in-app-purchases","nome":"In-app
+          purchases","valor":"$0.99 - $399.99"},{"type":"content-rating","nome":"Content
+          rating","valor":"9+"},{"type":"download-size","nome":"Download size","valor":"399.6
+          MB"},{"type":"storage-size","nome":"Storage Size","valor":"147 MB"},{"type":"version","nome":"Version","valor":"12.12.3"}]},"gameplays":[{"id":"AAUIE3pKl20","image":"https:\/\/img.youtube.com\/vi\/AAUIE3pKl20\/0.jpg"},{"id":"zDPTbFCBc1Q","image":"https:\/\/img.youtube.com\/vi\/zDPTbFCBc1Q\/0.jpg"},{"id":"KUtr2s1BWjo","image":"https:\/\/img.youtube.com\/vi\/KUtr2s1BWjo\/0.jpg"}],"meta_title":"Merge
+          Dragons! Review & User Ratings","meta_description":"Notice; I nearly uninstalled
+          this game after 30 seconds, dismissing it because of its \"childish\" look,
+          but this game has me hooked now!Merge 3 \"things\" tog..."},"box_content":null}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 99091b63aac34a06-TPE
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Sat, 18 Oct 2025 15:35:41 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=U%2Bn0K3i8XVNxP%2BhU8SqTneszcLF0GE3Hq%2BugOPu7qMiDCtCyNt5IziLqM4jkfYa6%2F9YXiWyFG%2F8vMciGHOMO%2BFqGv%2FDOWA5RP9eYMktIVpouk%2FLY1B4%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
