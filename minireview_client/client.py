@@ -307,19 +307,6 @@ class MiniReviewClient:
             "/games-similar", self._build_params(params, is_validate=True)
         )
 
-    def get_side_content(self, platforms: list[Platform], content: list[str]) -> dict:
-        """
-        Fetches side content for the website.
-        """
-        params = {
-            "acao": "get-side-content",
-            "platforms": platforms,
-            "c": content,
-        }
-        return self._fetch_api(
-            "/general/rota_acao", self._build_params(params, is_validate=True)
-        )
-
     def get_collections(
         self,
         page: int = 1,
@@ -419,15 +406,6 @@ class MiniReviewClient:
         }
         return self._fetch_api(
             "/upcoming-games", self._build_params(params, is_validate=True)
-        )
-
-    def get_similar_games_main_page(self, platforms: list[Platform] = []) -> dict:
-        """
-        Fetches similar games for the main page.
-        """
-        params = {"acao": "main-page", "platforms": platforms}
-        return self._fetch_api(
-            "/games-similar/rota_acao", self._build_params(params, is_validate=True)
         )
 
     def get_top_games(self, page: int = 1, limit: int = 50, search: str = "") -> dict:
