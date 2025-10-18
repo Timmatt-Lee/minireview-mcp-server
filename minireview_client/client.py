@@ -12,8 +12,9 @@ from .enums import (
     CollectionsOrderBy,
     GameRatingsOrderBy,
     GameRatingType,
-    OrderBy,
+    GamesListOrderBy,
     Platform,
+    TopGamesOrderBy,
 )
 from .exceptions import APIError
 
@@ -237,7 +238,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         search: str = "",
-        orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+        orderBy: GamesListOrderBy = GamesListOrderBy.LAST_ADDED_REVIEWS,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
         players: list[str] = [],
         network: list[str] = [],
@@ -309,7 +310,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
-        orderBy: OrderBy = OrderBy.MOST_POPULAR,
+        orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
     ) -> dict:
         """
         Fetches games similar to a specific game.
@@ -354,7 +355,7 @@ class MiniReviewClient:
         page: int = 1,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
         ids_ignore: list[int] = [],
-        orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
+        orderBy: GamesListOrderBy = GamesListOrderBy.LAST_ADDED_REVIEWS,
     ) -> dict:
         """
         Fetches the home page content.
@@ -371,7 +372,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: OrderBy = OrderBy.WEEK,
+        orderBy: TopGamesOrderBy = TopGamesOrderBy.WEEK,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
@@ -390,7 +391,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: OrderBy = OrderBy.THIS_WEEK,
+        orderBy: TopGamesOrderBy = TopGamesOrderBy.THIS_WEEK,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
@@ -410,7 +411,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: OrderBy = OrderBy.LAUNCH_DATE,
+        orderBy: TopGamesOrderBy = TopGamesOrderBy.LAUNCH_DATE,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
