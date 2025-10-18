@@ -9,7 +9,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=125foslehl4lu5be3ddr8d876a
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -44,20 +44,20 @@ interactions:
           network connections","full network access","run at startup","control vibration","prevent
           device from sleeping"]}],"detalhes":[{"type":"release-date","nome":"Release
           date","valor":"Jul 26, 2017"},{"type":"last-updated","nome":"Last updated","valor":"Oct
-          9, 2025"},{"type":"current-score","nome":"Current score","valor":4.5},{"type":"n-of-downloads","nome":"#
+          16, 2025"},{"type":"current-score","nome":"Current score","valor":4.5},{"type":"n-of-downloads","nome":"#
           of Downloads","valor":"50,000,000+"},{"type":"price","nome":"Price","valor":"Free
           (Ads + iAP)"},{"type":"ads","nome":"Contain ads?","valor":"Yes"},{"type":"in-app-purchases","nome":"In-app
           purchases","valor":"$0.99 - $399.99"},{"type":"content-rating","nome":"Content
-          rating","valor":"Everyone"},{"type":"download-size","nome":"Download size","valor":"408.2
+          rating","valor":"Everyone"},{"type":"download-size","nome":"Download size","valor":"399.6
           MB"},{"type":"storage-size","nome":"Storage Size","valor":"147 MB"},{"type":"version","nome":"Version","valor":"12.12.2"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"Gram
           Games","link":"https:\/\/apps.apple.com\/us\/developer\/gram-games\/id1202264615?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
           date","valor":"Jun 28, 2017"},{"type":"last-updated","nome":"Last updated","valor":"Oct
-          10, 2025"},{"type":"average-score","nome":"Average score","valor":4.7},{"type":"current-score","nome":"Current
-          score","valor":4.7},{"type":"n-of-reviews","nome":"# of reviews","valor":413337},{"type":"price","nome":"Price","valor":"Free
+          17, 2025"},{"type":"average-score","nome":"Average score","valor":4.7},{"type":"current-score","nome":"Current
+          score","valor":4.7},{"type":"n-of-reviews","nome":"# of reviews","valor":413449},{"type":"price","nome":"Price","valor":"Free
           (Ads + iAP)"},{"type":"ads","nome":"Contain ads?","valor":"Yes"},{"type":"in-app-purchases","nome":"In-app
           purchases","valor":"$0.99 - $399.99"},{"type":"content-rating","nome":"Content
-          rating","valor":"9+"},{"type":"download-size","nome":"Download size","valor":"408.2
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"147 MB"},{"type":"version","nome":"Version","valor":"12.12.2"}]},"gameplays":[{"id":"AAUIE3pKl20","image":"https:\/\/img.youtube.com\/vi\/AAUIE3pKl20\/0.jpg"},{"id":"zDPTbFCBc1Q","image":"https:\/\/img.youtube.com\/vi\/zDPTbFCBc1Q\/0.jpg"},{"id":"KUtr2s1BWjo","image":"https:\/\/img.youtube.com\/vi\/KUtr2s1BWjo\/0.jpg"}],"meta_title":"Merge
+          rating","valor":"9+"},{"type":"download-size","nome":"Download size","valor":"399.6
+          MB"},{"type":"storage-size","nome":"Storage Size","valor":"147 MB"},{"type":"version","nome":"Version","valor":"12.12.3"}]},"gameplays":[{"id":"AAUIE3pKl20","image":"https:\/\/img.youtube.com\/vi\/AAUIE3pKl20\/0.jpg"},{"id":"zDPTbFCBc1Q","image":"https:\/\/img.youtube.com\/vi\/zDPTbFCBc1Q\/0.jpg"},{"id":"KUtr2s1BWjo","image":"https:\/\/img.youtube.com\/vi\/KUtr2s1BWjo\/0.jpg"}],"meta_title":"Merge
           Dragons! Review & User Ratings","meta_description":"Notice; I nearly uninstalled
           this game after 30 seconds, dismissing it because of its \"childish\" look,
           but this game has me hooked now!Merge 3 \"things\" tog..."},"box_content":null}'
@@ -65,7 +65,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f846e09cce978a-HKG
+          - 9908d7a26d104a48-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -77,7 +77,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:34:25 GMT
+          - Sat, 18 Oct 2025 14:49:26 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -85,7 +85,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1aU3Rn4t%2B7twp7FYjxRH9949vD9S6EQm4jp0rtMn8EDUioe%2BdsSl9Fv6VXrXcZSrGglszRIssvo23oHCmhDgTj6GE08cSOpXtqkSlYJa2oSEK%2FN5XgtC%2FQ%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yEtOchq7%2BEVVcxJV%2FwvvdgWW1WuuvA%2FbsJ8PDUVs2uY2OFDUgs7VWT%2F87ySlOIIQct8Von74H3oGieKw2Rbrv07S0ZUGASwvQP5fw0%2FrzxYkEr7KhKw%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
