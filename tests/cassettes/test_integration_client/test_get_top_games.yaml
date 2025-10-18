@@ -9,17 +9,17 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=125foslehl4lu5be3ddr8d876a
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/top-games?page=1&limit=50&search=
+      uri: https://minireview.io/apiv2/top-games?page=1&limit=50
     response:
       body:
         string:
           '{"data":[{"id":100001,"nome":"Best mobile games 2025","nome_lista":"Best
           mobile games 2025","slug":"\/best-mobile-games","thumb":"\/common\/uploads\/cache\/specialtopgame\/1-900-506-c103a23c4c18b8eae6f43087d4634016.webp","thumb_preloader":"\/common\/uploads\/cache\/specialtopgame\/1-30-17-c103a23c4c18b8eae6f43087d4634016.webp","data_criacao":"2025-07-28
-          09:30:10","data_update":"2025-10-16 05:08:01"},{"id":47,"nome":"The 18 best
+          09:30:10","data_update":"2025-10-17 09:45:02"},{"id":47,"nome":"The 18 best
           Strategy War games on Mobile 2025","nome_lista":"Best Strategy War games on
           mobile","slug":"best-strategy-war-games-mobile","thumb":"\/common\/uploads\/cache\/topgame\/1-900-506-adf14c96fb467b3d2673350493addb0a.webp","thumb_preloader":"\/common\/uploads\/cache\/topgame\/1-30-17-adf14c96fb467b3d2673350493addb0a.webp","data_criacao":"2025-03-10","data_update":"2025-10-08
           09:51:16"},{"id":4,"nome":"The 17 best crossplay games on mobile 2025","nome_lista":"best
@@ -101,7 +101,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f84702e82703e9-HKG
+          - 9908d7bc5a53a34f-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -113,7 +113,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:34:30 GMT
+          - Sat, 18 Oct 2025 14:49:30 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -121,7 +121,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pVBiF31eYSO2WPddn2iS%2FPtGOzVek1aR8828cP%2F%2Fp%2BrPNZHoaQVH89lRosVsUpLz9Nbu0%2FrzFMCHzA36bKbcQu67NNuRITRSEv3rYAViJDTFGJfohwAr5g%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=htF1433kYGPJSyqkQD64%2FfuowlVZaXyYXHJw7KdUFpWCYSN%2Bzy0BpSDYiL6WswH1aK5LJhbCBhX1qC3D8IK6sb%2FnLcYLyGsm29ubyUpghdAEZQzzonw%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

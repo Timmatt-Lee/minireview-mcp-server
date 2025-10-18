@@ -15,12 +15,10 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6193,"nome":"Just King","slug":"just-king","logo":"common\/uploads\/icons\/cf1dec6b49c049365040c750ca46c357.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-cf1dec6b49c049365040c750ca46c357.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-18-9270856.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-18-9270856.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":37,"nome":"Auto
-          Battler","slug":"auto-battler"},"categorias":[{"id":37,"nome":"Auto Battler","slug":"auto-battler","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Just
-          King is a paid 2D Auto Battler Roguelike game available on Android. It\u2019s
-          a single and multiplayer experience that can be played both offline and online
-          in landscape mode. Just King was released in August 2025 and has a current
-          rating of 3.3 out of 5.0 on Google Play.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9270225.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9270225.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9270225.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9270226.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9270226.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9270226.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9270226.jpg"}],"price":"$4.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6197,"nome":"Mechanical Lab","slug":"mechanical-lab","logo":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","logo_preloader":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titdssdsdulo-1-9773232.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titdssdsdulo-1-9773232.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Mechanical
+          Lab is a paid 2D Simulation Physics-Based game available on Android. It\u2019s
+          a singleplayer experience that can be played offline in landscape mode. Mechanical
+          Lab was released in June 2025.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9442480.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9442480.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9442480.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-9442481.jpg"}],"price":"$5.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -186,12 +184,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3911,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f846d36bf50701-HKG
+          - 9908d791dbc0846a-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -203,7 +201,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:34:22 GMT
+          - Sat, 18 Oct 2025 14:49:23 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -211,12 +209,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DFgoqEu48Kl8XG3Bkqfbag3wyoRRnlJlnWrwZee%2FMoYfc5NFe9quK%2FLrh5BbdiJ6vz1RDfbJ8IN%2BJVMPtsKfCvhX%2BpuOsj1p%2FGQJ7niAk%2F5IPkV1vFKW5A%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=e9zbs104eH1xMYXtytBg7O%2BgUA7yKTq7t%2BAl%2FocAWVem%2Bh%2FSuNe3psn2rfHHqm%2B3Kk%2BfQxKMx6N%2B21yqfgrb0c%2BUuuAAYGMkVtH3kC8OVfJ5jRgB88I%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=125foslehl4lu5be3ddr8d876a; Path=/; Max-Age=2592000; Expires=Sat,
-            15 Nov 2025 14:34:22 GMT
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl; Path=/; Max-Age=2592000; Expires=Mon,
+            17 Nov 2025 14:49:23 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -240,11 +238,11 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=125foslehl4lu5be3ddr8d876a
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?page=1&limit=1&search=Merge+Dragons%21&orderBy=last-added-reviews
+      uri: https://minireview.io/apiv2/games?page=1&limit=1&search=Merge+Dragons%21&orderBy=last-added-reviews&platforms%5B0%5D=android&platforms%5B1%5D=ios
     response:
       body:
         string:
@@ -427,7 +425,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 98f846d69a437161-HKG
+          - 9908d7959d3a6b62-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -439,7 +437,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Thu, 16 Oct 2025 14:34:23 GMT
+          - Sat, 18 Oct 2025 14:49:24 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -447,7 +445,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=56bwM1I9gf%2F2eAmxo9ocIpPvOng7yif%2FRpGUfUYAVfqg%2Bptsycf6Fxu9cjNba2geNwmpRJfiYX%2FsGWBkzqeKcO88%2BHaXqJBuC1PBJ2xRQCBLtpQimC8%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=EuE4yBhn17UwtgRgBcAum063Zz4YJZy9a%2FqSpYFjwZtlbsdLzz1bI97IDL6MxNiDA7uXiIQSB%2B6nFtUEwJmDzbvXw0QAFKH7HEvp9d3D9WOGar0d6Jw%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

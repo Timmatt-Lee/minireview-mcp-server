@@ -232,7 +232,7 @@ class MiniReviewClient:
         limit: int = 50,
         search: str = "",
         orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
-        platforms: list[Platform] = [],
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
         players: list[str] = [],
         network: list[str] = [],
         monetization_android: list[str] = [],
@@ -300,7 +300,7 @@ class MiniReviewClient:
         game_id: int,
         page: int = 1,
         limit: int = 50,
-        platforms: list[Platform] = [],
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
         orderBy: OrderBy = OrderBy.MOST_POPULAR,
     ) -> dict:
         """
@@ -345,7 +345,7 @@ class MiniReviewClient:
     def get_home(
         self,
         page: int = 1,
-        platforms: list[Platform] = [],
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
         ids_ignore: list[int] = [],
         orderBy: OrderBy = OrderBy.LAST_ADDED_REVIEWS,
     ) -> dict:
@@ -365,7 +365,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.WEEK,
-        platforms: list[Platform] = [],
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
         Fetches games of the week.
@@ -384,7 +384,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.THIS_WEEK,
-        platforms: list[Platform] = [],
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
         Fetches top user ratings.
@@ -404,7 +404,7 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         orderBy: OrderBy = OrderBy.LAUNCH_DATE,
-        platforms: list[Platform] = [],
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
         Fetches upcoming games.
@@ -432,7 +432,11 @@ class MiniReviewClient:
         """
         return self._fetch_api(f"/special-top-games/{slug}")
 
-    def get_categories(self, search: str = "", platforms: list[Platform] = []) -> dict:
+    def get_categories(
+        self,
+        search: str = "",
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
+    ) -> dict:
         """
         Fetches a list of categories.
         """
