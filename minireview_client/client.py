@@ -13,7 +13,10 @@ from .enums import (
     GameRatingsOrderBy,
     GameRatingType,
     GamesListOrderBy,
+    Monetization,
     Platform,
+    Players,
+    ScreenOrientation,
     TopGamesOrderBy,
 )
 from .exceptions import APIError
@@ -64,6 +67,8 @@ class MiniReviewClient:
 
     def _validate_filter_param(self, key: str, value: Any):
         """Validates a generic filter parameter against the API's allowed values."""
+        if value is None:
+            return
         allowed_values = self._parsed_filters[key]
         values_to_check = value if isinstance(value, list) else [value]
 
@@ -310,7 +315,9 @@ class MiniReviewClient:
         page: int = 1,
         limit: int = 50,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
-        orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
+        monetization: Monetization | None = None,
+        players: Players | None = None,
+        screen_orientation: ScreenOrientation | None = None,
     ) -> dict:
         """
         Fetches games similar to a specific game.
@@ -319,8 +326,10 @@ class MiniReviewClient:
             "game_id": game_id,
             "page": page,
             "limit": limit,
-            "orderBy": orderBy,
             "platforms": platforms,
+            "monetization": monetization,
+            "players": players,
+            "screen-orientation": screen_orientation,
         }
         return self._fetch_api(
             "/games-similar", self._build_params(params, is_validate=True)

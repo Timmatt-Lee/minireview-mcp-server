@@ -54,3 +54,24 @@ class TopGamesOrderBy(Enum):
     WEEK = "week"
     THIS_WEEK = "this-week"
     LAUNCH_DATE = "launch-date"
+
+
+class Monetization(Enum):
+    """Represents the available monetization types."""
+
+    FREE = "free"
+    PAID = "paid"
+
+
+class Players(Enum):
+    """Represents the available monetization types."""
+
+    SINGLE_PLAYER = "singleplayer"
+    MULTI_PLAYER = "multiplayer"
+
+
+class ScreenOrientation(Enum):
+    """Represents the available screen orientations."""
+
+    PORTRAIT = "portrait"
+    LANDSCAPE = "landscape"
