@@ -165,6 +165,15 @@ def test_get_games_of_the_week(game_data):
 
 
 @pytest.mark.vcr(
+    "tests/cassettes/test_integration_client/test_get_minireview_pick.yaml"
+)
+def test_get_minireview_pick(game_data):
+    """Test a live call to get_minireview_pick."""
+    response = game_data["client"].get_minireview_pick(platforms=[Platform.ANDROID])
+    assert "data" in response
+
+
+@pytest.mark.vcr(
     "tests/cassettes/test_integration_client/test_get_top_user_ratings.yaml"
 )
 def test_get_top_user_ratings(game_data):
