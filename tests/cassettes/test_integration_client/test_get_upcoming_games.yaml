@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/upcoming-games?page=1&limit=50&orderBy=launch-date&platforms%5B0%5D=android
+      uri: https://minireview.io/apiv2/upcoming-games?page=1&limit=50&orderBy=release-date&platforms%5B0%5D=android
     response:
       body:
         string:
@@ -213,7 +213,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990d9a24389d4a4b-TPE
+          - 990da3b52d4b0730-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -225,7 +225,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 04:41:16 GMT
+          - Sun, 19 Oct 2025 04:47:48 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -233,7 +233,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0CaCabUTTEIWtyOKI4ClGgJwe70G703eQQ%2BeRl9u6kDPKqrZggTGr7V%2F0o1A7teGdm4c7XRcepS3nAeQ7rEx%2BCt6d5fklFHAhmXcw0E6ne%2Bk2c60ku4%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7XQc0cn4GFN2jtdy%2F8N6V4pN%2BroTewL4tP32nBXkbsHdQlc05H9jm%2Fq8KnsaYAoG2ZMQMelcBAuQWdqz1aSQWpMGz8ZfAgKfuoa3JolQ5tmicbs4qik%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
