@@ -2,7 +2,6 @@ from fastmcp import FastMCP
 
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
-    CollectionsOrderBy,
     GameRatingsOrderBy,
     GamesListOrderBy,
     Platform,
@@ -191,7 +190,6 @@ def get_similar_games(
     page: int = 1,
     limit: int = 50,
     platforms: list[Platform] = [],
-    orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
 ) -> dict:
     """
     Fetches a list of games similar to a specific game.
@@ -207,52 +205,7 @@ def get_similar_games(
         A dictionary containing a list of similar games and pagination information.
     """
     client = MiniReviewClient()
-    return client.get_similar_games(game_id, page, limit, platforms, orderBy)
-
-
-@app.tool(description="Fetches a list of game collections.")
-def get_collections(
-    page: int = 1,
-    limit: int = 50,
-    search: str = "",
-    orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
-    is_load_new: bool = True,
-    is_load_last_updated: bool = True,
-) -> dict:
-    """
-    Fetches a list of game collections.
-
-    Args:
-        page: The page number to fetch.
-        limit: The number of collections to fetch per page.
-        search: A search query to filter collections by name.
-        orderBy: The sorting order for the collections list.
-        is_load_new: Whether to load new collections.
-        is_load_last_updated: Whether to load last updated collections.
-
-    Returns:
-        A dictionary containing a list of collections and pagination information.
-    """
-    client = MiniReviewClient()
-    return client.get_collections(
-        page, limit, search, orderBy, is_load_new, is_load_last_updated
-    )
-
-
-@app.tool(description="Fetches a list of game categories.")
-def get_categories(search: str = "", platforms: list[Platform] = []) -> dict:
-    """
-    Fetches a list of game categories.
-
-    Args:
-        search: A search query to filter categories by name.
-        platforms: A list of platforms to filter by.
-
-    Returns:
-        A dictionary containing a list of categories.
-    """
-    client = MiniReviewClient()
-    return client.get_categories(search, platforms)
+    return client.get_similar_games(game_id, page, limit, platforms)
 
 
 @app.tool(
@@ -346,7 +299,6 @@ def get_similar_games_with_details(
     page: int = 1,
     limit: int = 50,
     platforms: list[Platform] = [],
-    orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
 ) -> dict:
     """
     Fetches a list of games similar to a specific game and then fetches the
@@ -367,7 +319,7 @@ def get_similar_games_with_details(
         pagination information.
     """
     client = MiniReviewClient()
-    games = client.get_similar_games(game_id, page, limit, platforms, orderBy)
+    games = client.get_similar_games(game_id, page, limit, platforms)
     for game in games["data"]:
         game["details"] = client.get_game_details(
             game["slug"], game["categoria"]["slug"]

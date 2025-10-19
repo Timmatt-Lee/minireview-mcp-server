@@ -4,8 +4,6 @@ import pytest
 from fastmcp import Client, FastMCP
 
 from server import (
-    get_categories,
-    get_collections,
     get_game_details,
     get_game_ratings,
     get_games_list,
@@ -136,39 +134,6 @@ async def test_get_similar_games_integration():
         assert isinstance(similar_games_data, dict)
         assert "data" in similar_games_data
         assert isinstance(similar_games_data["data"], list)
-
-
-@pytest.mark.asyncio
-@pytest.mark.vcr()
-async def test_get_collections_integration():
-    app = FastMCP()
-    app.tool(get_collections.fn)
-
-    async with Client(app) as client:
-        collections_result = await client.call_tool(
-            "get_collections",
-            {"limit": 1, "is_load_new": True, "is_load_last_updated": True},
-        )
-        collections_data = json.loads(collections_result.content[0].text)
-
-        assert isinstance(collections_data, dict)
-        assert "data" in collections_data
-        assert isinstance(collections_data["data"], list)
-
-
-@pytest.mark.asyncio
-@pytest.mark.vcr()
-async def test_get_categories_integration():
-    app = FastMCP()
-    app.tool(get_categories.fn)
-
-    async with Client(app) as client:
-        categories_result = await client.call_tool("get_categories", {})
-        categories_data = json.loads(categories_result.content[0].text)
-
-        assert isinstance(categories_data, dict)
-        assert "data" in categories_data
-        assert isinstance(categories_data["data"], list)
 
 
 @pytest.mark.asyncio

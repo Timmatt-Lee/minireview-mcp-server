@@ -9,7 +9,6 @@ import requests
 
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
-    CollectionsOrderBy,
     GameRatingsOrderBy,
     GamesListOrderBy,
     Platform,
@@ -96,23 +95,6 @@ class TestMiniReviewClient(unittest.TestCase):
         self.assertIn("type", call_args[1])
         self.assertEqual(call_args[1]["type"], "all")
 
-    @patch("minireview_client.client.MiniReviewClient._fetch_api")
-    def test_get_collections_uses_enum(self, mock_fetch_api):
-        """Test that get_collections correctly processes its OrderBy enum."""
-        self.client.get_collections(
-            orderBy=CollectionsOrderBy.NEWEST,
-            is_load_new=True,
-            is_load_last_updated=True,
-        )
-        call_args, _ = mock_fetch_api.call_args
-        self.assertEqual(call_args[0], "/collections")
-        self.assertIn("orderBy", call_args[1])
-        self.assertEqual(call_args[1]["orderBy"], "newest")
-        self.assertIn("loadNewcollections", call_args[1])
-        self.assertEqual(call_args[1]["loadNewcollections"], 1)
-        self.assertIn("loadLastUpdatedcollections", call_args[1])
-        self.assertEqual(call_args[1]["loadLastUpdatedcollections"], 1)
-
     @patch("minireview_client.client.MiniReviewClient.get_filters")
     def test_string_filter_validation(self, mock_get_filters):
         """Test that various string-based filters are validated correctly."""
@@ -151,13 +133,6 @@ class TestMiniReviewClient(unittest.TestCase):
         self.assertIn(
             "Invalid value for filter 'tags': 'invalid-tag'", str(cm.exception)
         )
-
-    @patch("minireview_client.client.MiniReviewClient._fetch_api")
-    def test_get_special_top_games(self, mock_fetch_api):
-        """Test that get_special_top_games calls _fetch_api with correct params."""
-        slug = "my-slug"
-        self.client.get_special_top_games(slug)
-        mock_fetch_api.assert_called_once_with(f"/special-top-games/{slug}")
 
 
 @patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
@@ -297,15 +272,6 @@ class TestParameterValidation(unittest.TestCase):
         except ValueError:
             self.fail("get_upcoming_games raised ValueError unexpectedly!")
 
-    def test_get_categories_validation(self, mock_fetch):
-        """Test get_categories validation."""
-        with self.assertRaises(ValueError):
-            self.client.get_categories(platforms=["invalid-platform"])
-        try:
-            self.client.get_categories(platforms=[Platform.ANDROID])
-        except ValueError:
-            self.fail("get_categories raised ValueError unexpectedly!")
-
 
 class TestBuildParams(unittest.TestCase):
     """A test suite for the _build_params method."""
@@ -325,12 +291,6 @@ class TestBuildParams(unittest.TestCase):
         }
         processed_params = self.client._build_params(params)
         self.assertEqual(processed_params, {"e": "value"})
-
-    def test_enum_value(self):
-        """Test that an Enum is converted to its value."""
-        params = {"orderBy": CollectionsOrderBy.MOST_POPULAR}
-        processed_params = self.client._build_params(params)
-        self.assertEqual(processed_params, {"orderBy": "most-popular"})
 
     def test_list_of_strings(self):
         """Test a list of strings."""
