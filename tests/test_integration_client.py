@@ -6,9 +6,12 @@ import vcr
 
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
+    CollectionsOrderBy,
     GamesListOrderBy,
+    Monetization,
     Platform,
     Players,
+    ScreenOrientation,
 )
 
 
@@ -31,15 +34,6 @@ def game_data():
         pytest.fail("Failed to fetch initial game data: No data found.")
     except Exception as e:
         pytest.fail(f"Failed to fetch initial game data for tests: {e}")
-
-
-@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_games_list.yaml")
-def test_get_games_list(game_data):
-    """Test a live call to get_games_list."""
-    response = game_data["client"].get_games_list(limit=5)
-    assert "data" in response
-    assert isinstance(response["data"], list)
-    assert len(response["data"]) > 0
 
 
 @pytest.mark.vcr(
@@ -141,14 +135,25 @@ def test_get_game_ratings(game_data):
     assert isinstance(response["data"], list)
 
 
-@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_similar_games.yaml")
-def test_get_similar_games(game_data):
-    """Test a live call to get_similar_games."""
+@pytest.mark.vcr(
+    "tests/cassettes/test_integration_client/test_get_similar_games_comprehensive.yaml"
+)
+def test_get_similar_games_comprehensive(game_data):
+    """Test get_similar_games with a comprehensive set of parameters."""
+    client = game_data["client"]
     game_id = game_data["game_id"]
     if not game_id:
         pytest.skip("Skipping test: missing game ID from initial data.")
 
-    response = game_data["client"].get_similar_games(game_id)
+    params = {
+        "game_id": game_id,
+        "limit": 1,
+        "platforms": [Platform.ANDROID],
+        "monetization": Monetization.FREE,
+        "players": Players.SINGLE_PLAYER,
+        "screen_orientation": ScreenOrientation.LANDSCAPE,
+    }
+    response = client.get_similar_games(**params)
     assert "data" in response
     assert isinstance(response["data"], list)
 
@@ -159,6 +164,25 @@ def test_get_collections(game_data):
     response = game_data["client"].get_collections(
         limit=1, is_load_new=True, is_load_last_updated=True
     )
+    assert "data" in response
+    assert isinstance(response["data"], list)
+
+
+@pytest.mark.vcr(
+    "tests/cassettes/test_integration_client/test_get_collections_comprehensive.yaml"
+)
+def test_get_collections_comprehensive(game_data):
+    """Test get_collections with a comprehensive set of parameters."""
+    client = game_data["client"]
+
+    params = {
+        "limit": 1,
+        "search": "rpg",
+        "orderBy": CollectionsOrderBy.NEWEST,
+        "is_load_new": True,
+        "is_load_last_updated": False,
+    }
+    response = client.get_collections(**params)
     assert "data" in response
     assert isinstance(response["data"], list)
 
