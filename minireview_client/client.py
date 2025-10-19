@@ -392,6 +392,46 @@ class MiniReviewClient:
         }
         return self._fetch_api("/games", self._build_params(params, is_validate=True))
 
+    def get_minireview_pick(
+        self,
+        page: int = 1,
+        limit: int = 50,
+        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
+        players: list[str] = [],
+        network: list[str] = [],
+        monetization_android: list[str] = [],
+        monetization_ios: list[str] = [],
+        screen_orientation: list[str] = [],
+        category: list[str] = [],
+        sub_category: list[str] = [],
+        tags: list[str] = [],
+        countries_android: list[str] = [],
+        countries_ios: list[str] = [],
+        score: dict[str, int] = {},
+    ) -> dict:
+        """
+        Fetches games that are MiniReview picks.
+        """
+        params = {
+            "type": "our-pick",
+            "page": page,
+            "limit": limit,
+            "orderBy": "pick-date",
+            "platforms": platforms,
+            "players": players,
+            "network": network,
+            "monetization_android": monetization_android,
+            "monetization_ios": monetization_ios,
+            "screen_orientation": screen_orientation,
+            "category": category,
+            "sub_category": sub_category,
+            "tags": tags,
+            "countries_android": countries_android,
+            "countries_ios": countries_ios,
+            "score": score,
+        }
+        return self._fetch_api("/games", self._build_params(params, is_validate=True))
+
     def get_top_user_ratings(
         self,
         page: int = 1,
