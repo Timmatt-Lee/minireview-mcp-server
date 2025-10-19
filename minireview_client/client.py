@@ -17,7 +17,6 @@ from .enums import (
     Players,
     ScreenOrientation,
     TopUserRatingsOrderBy,
-    UpComingGamesOrderBy,
 )
 from .exceptions import APIError
 
@@ -357,8 +356,18 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: GamesListOrderBy = GamesListOrderBy.LAST_ADDED_REVIEWS,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
+        players: list[str] = [],
+        network: list[str] = [],
+        monetization_android: list[str] = [],
+        monetization_ios: list[str] = [],
+        screen_orientation: list[str] = [],
+        category: list[str] = [],
+        sub_category: list[str] = [],
+        tags: list[str] = [],
+        countries_android: list[str] = [],
+        countries_ios: list[str] = [],
+        score: dict[str, int] = {},
     ) -> dict:
         """
         Fetches games of the week.
@@ -367,8 +376,19 @@ class MiniReviewClient:
             "type": "games-of-the-week",
             "page": page,
             "limit": limit,
-            "orderBy": orderBy,
+            "orderBy": "week",
             "platforms": platforms,
+            "players": players,
+            "network": network,
+            "monetization_android": monetization_android,
+            "monetization_ios": monetization_ios,
+            "screen_orientation": screen_orientation,
+            "category": category,
+            "sub_category": sub_category,
+            "tags": tags,
+            "countries_android": countries_android,
+            "countries_ios": countries_ios,
+            "score": score,
         }
         return self._fetch_api("/games", self._build_params(params, is_validate=True))
 
@@ -396,7 +416,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: UpComingGamesOrderBy = UpComingGamesOrderBy.LAUNCH_DATE,
+        orderBy: GamesListOrderBy = GamesListOrderBy.RELEASE_DATE,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
