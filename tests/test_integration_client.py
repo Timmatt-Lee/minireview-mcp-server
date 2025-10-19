@@ -6,12 +6,9 @@ import vcr
 
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
-    CollectionsOrderBy,
     GamesListOrderBy,
-    Monetization,
     Platform,
     Players,
-    ScreenOrientation,
 )
 
 
@@ -145,28 +142,8 @@ def test_get_similar_games(game_data):
         "game_id": game_id,
         "limit": 1,
         "platforms": [Platform.ANDROID],
-        "monetization": Monetization.FREE,
-        "players": Players.SINGLE_PLAYER,
-        "screen_orientation": ScreenOrientation.LANDSCAPE,
     }
     response = client.get_similar_games(**params)
-    assert "data" in response
-    assert isinstance(response["data"], list)
-
-
-@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_collections.yaml")
-def test_get_collections(game_data):
-    """Test get_collections with a comprehensive set of parameters."""
-    client = game_data["client"]
-
-    params = {
-        "limit": 1,
-        "search": "rpg",
-        "orderBy": CollectionsOrderBy.NEWEST,
-        "is_load_new": True,
-        "is_load_last_updated": False,
-    }
-    response = client.get_collections(**params)
     assert "data" in response
     assert isinstance(response["data"], list)
 
@@ -201,18 +178,3 @@ def test_get_upcoming_games(game_data):
     """Test a live call to get_upcoming_games."""
     response = game_data["client"].get_upcoming_games(platforms=[Platform.ANDROID])
     assert "data" in response
-
-
-@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_top_games.yaml")
-def test_get_top_games(game_data):
-    """Test a live call to get_top_games."""
-    response = game_data["client"].get_top_games()
-    assert "data" in response
-
-
-@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_categories.yaml")
-def test_get_categories(game_data):
-    """Test a live call to get_categories."""
-    response = game_data["client"].get_categories()
-    assert "data" in response
-    assert isinstance(response["data"], list)

@@ -189,7 +189,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c914f3b846b68-TPE
+          - 990cc041bf4e4a48-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -201,7 +201,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:40:28 GMT
+          - Sun, 19 Oct 2025 02:12:32 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -209,12 +209,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=S8AKdIxj5dQpNY2d9qd32i9dW9738viEVJMLpooAOwRbWpHQkYGdt6%2BZgogBwJJgaEFY%2FSLHrV7siN1EZ1oftDokExf03Errm3Q%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=a8Ds6fMDyiRzFthYSSHPfRouIUzq0sUq7hXMyTDpdO9iZx8wW3Vo0ZxMrg33EVWOOhM%2BCrKSm9cG9yKFE7l2KFATjz1O%2BFQWISYXoF7Pwq3CiU%2BudxA%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=ldfmdptobmp6pojk3rvq9vr5b2; Path=/; Max-Age=2592000; Expires=Tue,
-            18 Nov 2025 01:40:28 GMT
+          - minireview-io=1dvpgco77h61tumnqtbvbdnjan; Path=/; Max-Age=2592000; Expires=Tue,
+            18 Nov 2025 02:12:31 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -238,7 +238,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=ldfmdptobmp6pojk3rvq9vr5b2
+          - minireview-io=1dvpgco77h61tumnqtbvbdnjan
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -440,7 +440,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c915259934a64-TPE
+          - 990cc045b8a2a3ac-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -452,7 +452,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:40:29 GMT
+          - Sun, 19 Oct 2025 02:12:32 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -460,7 +460,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=93l1KbpkKS2oI31FG3eKAa0W3f5NVpOcz66uEv9mvL%2FFoyV3NlP6hmVVcD2D%2Bsb1XdXTBvWOegit7Dyv9dd38LFOiBmdY79cF9s%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6qw%2BVLt%2FOBfncZHQg3GUNWCRjhZVyTOwexqfXo4GUsqZD2uAF90e7lQ2IQujPlaMl2iqtPKIAz3geb7euVAmXYl7hMBdS%2F6DC1xxB7xyO16QwJwA9R0%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
@@ -666,7 +666,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c915939d05701-TPE
+          - 990cc048eb2b841c-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -678,7 +678,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:40:30 GMT
+          - Sun, 19 Oct 2025 02:12:33 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -686,12 +686,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fRStrZsN9x75dPlW0YJDQW4aIBXe0nDI46sCEQSR%2BDZpSfkPHoEMcYhrvH3pqONlOTAS73LKK3buR6rtLyjMWDkr1rsr9gHrJZ0%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IrufT0%2BeeK6E88EGMxFVRfFROoMRR0MlouS%2BUj6adoHQNt4CWCDrEvMdWU7kmbc9q%2Ffyy8zK4RXDSzfnAhDp%2Fnd8IGvITcfTlAJcMBqj8PZ3g8rwGcY%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=9c0vk0fhki1c3872382oo5em66; Path=/; Max-Age=2592000; Expires=Tue,
-            18 Nov 2025 01:40:30 GMT
+          - minireview-io=thil5q6hevq4p1bu8u96a7oi38; Path=/; Max-Age=2592000; Expires=Tue,
+            18 Nov 2025 02:12:32 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -715,11 +715,11 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=9c0vk0fhki1c3872382oo5em66
+          - minireview-io=thil5q6hevq4p1bu8u96a7oi38
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-similar?game_id=6168&page=1&limit=1&monetization=most-popular
+      uri: https://minireview.io/apiv2/games-similar?game_id=6168&page=1&limit=1
     response:
       body:
         string:
@@ -737,7 +737,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c915d9eb14a91-TPE
+          - 990cc04c787d4a93-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -749,7 +749,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:40:31 GMT
+          - Sun, 19 Oct 2025 02:12:33 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -757,7 +757,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=smTYJdrhec%2BmI0lBNi3dgdYRAhgDMdBs01bv4CvkV0YVdyu4KprNikFWq%2B1b013rANY7CgozDWzqLV%2FAC3pC%2BGq0RWDVD0sR%2FVA%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fP0JVqEmk2AHwDsZxJ%2FxmK%2BaCfI77ISRbPk4q%2BEPsu8CnemdI0HQuGZFFO45bi%2F3oT9j%2Fq8OnpcXUWOQay3KGAa3DK3F4%2BXsLnItEXxmlTTsrRDq04k%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
@@ -783,7 +783,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=9c0vk0fhki1c3872382oo5em66
+          - minireview-io=thil5q6hevq4p1bu8u96a7oi38
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -829,7 +829,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c91617f748282-TPE
+          - 990cc0509b074aa3-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -841,7 +841,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:40:31 GMT
+          - Sun, 19 Oct 2025 02:12:34 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -849,7 +849,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=d7vIS%2BUVEh6mP0FCfVwTwjI8k2vfKLgvnYgX1EAvLykQZZHQKtJOTFMVroXkXg3gYcR6JVndTcnMibf8iuAEhplBfW1yyG0d0yw%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Jy%2BJoolnEhV34sm09JDrt%2BkqtR8VcsdFCU402p08HVG02%2B3%2BHBKHtjq%2B5cmp0VJ8XTDG%2FXSEaVW2KJAtHi3rF6KKRXXNytxKzPwsQ3cwBuaFTNS5E%2Fg%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

@@ -18,13 +18,6 @@ class GamesListOrderBy(Enum):
     HIGHEST_APP_STORE_SCORE = "highest-appStore-score"
 
 
-class CollectionsOrderBy(Enum):
-    """Represents the available sorting options for collections."""
-
-    MOST_POPULAR = "most-popular"
-    NEWEST = "newest"
-
-
 class GameRatingsOrderBy(Enum):
     """Represents the available sorting options for game ratings."""
 

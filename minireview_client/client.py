@@ -9,7 +9,6 @@ from typing import Any
 import requests
 
 from .enums import (
-    CollectionsOrderBy,
     GameRatingsOrderBy,
     GameRatingType,
     GamesListOrderBy,
@@ -335,30 +334,6 @@ class MiniReviewClient:
             "/games-similar", self._build_params(params, is_validate=True)
         )
 
-    def get_collections(
-        self,
-        page: int = 1,
-        limit: int = 50,
-        search: str = "",
-        orderBy: CollectionsOrderBy = CollectionsOrderBy.MOST_POPULAR,
-        is_load_new: bool = True,
-        is_load_last_updated: bool = True,
-    ) -> dict:
-        """
-        Fetches collections of games.
-        """
-        params = {
-            "page": page,
-            "limit": limit,
-            "search": search,
-            "orderBy": orderBy,
-            "loadNewcollections": is_load_new,
-            "loadLastUpdatedcollections": is_load_last_updated,
-        }
-        return self._fetch_api(
-            "/collections", self._build_params(params, is_validate=True)
-        )
-
     def get_home(
         self,
         page: int = 1,
@@ -434,30 +409,4 @@ class MiniReviewClient:
         }
         return self._fetch_api(
             "/upcoming-games", self._build_params(params, is_validate=True)
-        )
-
-    def get_top_games(self, page: int = 1, limit: int = 50, search: str = "") -> dict:
-        """
-        Fetches top games.
-        """
-        params = self._build_params({"page": page, "limit": limit, "search": search})
-        return self._fetch_api("/top-games", params)
-
-    def get_special_top_games(self, slug: str) -> dict:
-        """
-        Fetches special top games by slug.
-        """
-        return self._fetch_api(f"/special-top-games/{slug}")
-
-    def get_categories(
-        self,
-        search: str = "",
-        platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
-    ) -> dict:
-        """
-        Fetches a list of categories.
-        """
-        params = {"search": search, "platforms": platforms}
-        return self._fetch_api(
-            "/categories", self._build_params(params, is_validate=True)
         )

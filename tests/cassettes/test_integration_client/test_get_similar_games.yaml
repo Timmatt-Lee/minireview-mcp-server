@@ -13,42 +13,26 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-similar?game_id=95&page=1&limit=1&platforms%5B0%5D=android&monetization=free&players=singleplayer&screen-orientation=landscape
+      uri: https://minireview.io/apiv2/games-similar?game_id=95&page=1&limit=1&platforms%5B0%5D=android
     response:
       body:
         string:
-          '{"data":[{"id":5143,"nome":"Strongblade: Match 3 Game","slug":"strongblade-match-3-game","logo":"common\/uploads\/icons\/c143fa057256b4c95cd1ee2fa34270d7.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-c143fa057256b4c95cd1ee2fa34270d7.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-strongblade-minireview-4361328-4911999.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-strongblade-minireview-4361328-4911999.webp","usuario_favorito":false,"usuario_votou":null,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":26,"nome":"Match-3","slug":"match-3","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"StrongBlade
-          is a cute offline-playable match-3 game where we play as a mouse traveling
-          through a colorful world full of devious villains and friendly animal characters.\r\n\r\nThe
-          core gameplay involves entering a level, matching tiles to complete its objective,
-          spending the stars we earn to improve our camp, and then continuing to the
-          next level.\r\n\r\nAs in all match-3 games, matching more than three tiles
-          creates a special tile that may cause a large explosion or take out an entire
-          row or column of tiles. As we progress, new obstacles are also introduced
-          on the board that make strategically using these special tiles very important.\r\n\r\nAlong
-          the way, we meet new friends that we can choose to play as when entering a
-          level, each of which has a unique power that may come in handy. This variety
-          of&nbsp;level objectives, traps, and friends prevents the game from growing
-          stale too quickly during long&nbsp;play sessions.\r\n\r\nIf we fail&nbsp;to
-          complete&nbsp;the level objective before running out of moves, we lose one
-          of five lives. These lives replenish over time, but if there are none left,
-          we must wait or pay for more. Thankfully, there are many ways to receive extra
-          lives, or even unlimited lives for 30 minutes, including quests and donations
-          from guild members.\r\n\r\nStrongBlade monetizes via iAPs for consumable power-ups
-          and lives, but unlike most match-3 games, there are no forced or incentivized
-          ads at all. It has several purchase pop-ups, but I haven&rsquo;t found the
-          monetization limiting as a free player, and I have yet to run into any&nbsp;paywalls.\r\n\r\nOverall,
-          it&rsquo;s one of the more polished cute match-3 experiences I&rsquo;ve played
-          on mobile, so it&rsquo;s worth a try if you enjoy the genre.","price":"Free","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2023-12-15-17-53-38-38-2ca298-4362175.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2023-12-15-17-53-38-38-2ca298-4362175.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2023-12-15-17-53-38-38-2ca298-4362175.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2023-12-16-23-29-14-19-2ca298-4362176.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2023-12-16-23-29-14-19-2ca298-4362176.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2023-12-16-23-29-14-19-2ca298-4362176.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-13-02-24-2ca298-4362176.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-13-02-24-2ca298-4362176.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-13-02-24-2ca298-4362176.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-42-33-17-2ca298-4362177.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-42-33-17-2ca298-4362177.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-42-33-17-2ca298-4362177.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-42-35-48-2ca298-4362177.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-42-35-48-2ca298-4362177.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-42-35-48-2ca298-4362177.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-42-38-79-2ca298-4362177.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-42-38-79-2ca298-4362177.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-42-38-79-2ca298-4362177.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-42-55-38-2ca298-4362178.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-42-55-38-2ca298-4362178.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-42-55-38-2ca298-4362178.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-45-56-33-2ca298-4362178.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-45-56-33-2ca298-4362178.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-45-56-33-2ca298-4362178.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-46-15-59-2ca298-4362178.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-46-15-59-2ca298-4362178.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-46-15-59-2ca298-4362178.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-47-58-85-2ca298-4362179.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-47-58-85-2ca298-4362179.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-01-04-10-47-58-85-2ca298-4362179.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-01-04-10-49-43-01-2ca298-4362179.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-01-04-10-49-43-01-2ca298-4362179.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2024-01-04-10-49-43-01-2ca298-4362179.jpg"}],"similarity":86,"similar_items":[{"name":"Puzzle","slug":"puzzle","type":"category"},{"name":"Match-3","slug":"match-3","type":"subcategory"},{"name":"Offline","slug":"offline","type":"network"},{"name":"Singleplayer","slug":"singleplayer","type":"players"},{"name":"Landscape","slug":"landscape","type":"screen-orientation"},{"name":"2D","slug":"2d","type":"tag"},{"name":"Quests","slug":"quests","type":"tag"}],"total_likes":0,"total_dislikes":0}],"last_date_updated":"2024-09-30
-          10:24:06","total":60,"ultima_pagina":true,"meta_title":"60+ Free Games Like
-          Merge Dragons! - MiniReview","meta_description":"What are the best Free games
-          like Merge Dragons!? Explore 60+ similar games and filter the list to find
-          the top free, paid, or offline games you will love.","box_content":null,"box_content_game":null}'
+          '{"data":[{"id":4702,"nome":"Merge Survival : Wasteland","slug":"merge-survival-wasteland","logo":"common\/uploads\/icons\/0077d9559dfe98b3c9f41ff214f89fb3.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0077d9559dfe98b3c9f41ff214f89fb3.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-9141919e75de7242a2a2d99002e9a088.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-9141919e75de7242a2a2d99002e9a088.webp","usuario_favorito":false,"usuario_votou":null,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":26,"nome":"Match-3","slug":"match-3","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Merge
+          Survival : Wasteland is a free 2D Puzzle Match-3 game available on Android
+          and iOS. It\u2019s a singleplayer experience that can be played online in
+          portrait mode. It has received 1 user rating from the MiniReview community.
+          Merge Survival : Wasteland was released in May 2023 and has a current rating
+          of 4.6 out of 5.0 on Google Play and 4.7 out of 5.0 on the iOS App Store.","price":"Free","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/721f38ad5adfa64b5c25892e6c20a8c6.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/721f38ad5adfa64b5c25892e6c20a8c6.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-721f38ad5adfa64b5c25892e6c20a8c6.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/20c8e82875e17c91aa58c8359479fbcc.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/20c8e82875e17c91aa58c8359479fbcc.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-20c8e82875e17c91aa58c8359479fbcc.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/79ec4de06f8e4ba6fd255a9ae4ab3a55.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/79ec4de06f8e4ba6fd255a9ae4ab3a55.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-79ec4de06f8e4ba6fd255a9ae4ab3a55.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/5036628a6bf2a3cd0251849b552238bb.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/5036628a6bf2a3cd0251849b552238bb.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-5036628a6bf2a3cd0251849b552238bb.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/cb07bd5e9e471cbe30df4b2f0b414ff3.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/cb07bd5e9e471cbe30df4b2f0b414ff3.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-cb07bd5e9e471cbe30df4b2f0b414ff3.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a14aac086ba47adc508671bf4f1ae3ba.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a14aac086ba47adc508671bf4f1ae3ba.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a14aac086ba47adc508671bf4f1ae3ba.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/0922015d7eab76d91b33bf3d137e2608.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/0922015d7eab76d91b33bf3d137e2608.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-0922015d7eab76d91b33bf3d137e2608.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/d8fc2f14e759469561af9d890bee8c32.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/d8fc2f14e759469561af9d890bee8c32.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/d8fc2f14e759469561af9d890bee8c32.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/406cffbfa87078c9920d01f15f8c06f1.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/406cffbfa87078c9920d01f15f8c06f1.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/406cffbfa87078c9920d01f15f8c06f1.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/2b55e76b5c8a0c51df78591fdbe8c7c1.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/2b55e76b5c8a0c51df78591fdbe8c7c1.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/2b55e76b5c8a0c51df78591fdbe8c7c1.jpg"}],"similarity":96,"similar_items":[{"name":"Puzzle","slug":"puzzle","type":"category"},{"name":"Match-3","slug":"match-3","type":"subcategory"},{"name":"Singleplayer","slug":"singleplayer","type":"players"},{"name":"2D","slug":"2d","type":"tag"},{"name":"Base
+          Building","slug":"base-building","type":"tag"},{"name":"Merge","slug":"merge","type":"tag"},{"name":"Quests","slug":"quests","type":"tag"}],"total_likes":0,"total_dislikes":0}],"last_date_updated":"2024-09-30
+          10:23:08","total":60,"ultima_pagina":true,"meta_title":"60+ Games Like Merge
+          Dragons! - MiniReview","meta_description":"What are the best games like Merge
+          Dragons!? Explore 60+ similar games and filter the list to find the top free,
+          paid, or offline games you will love.","box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c90e7e96f4aa3-TPE
+          - 990cbffb8da0a343-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -60,7 +44,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:40:12 GMT
+          - Sun, 19 Oct 2025 02:12:20 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -68,7 +52,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mdT7ayhBd5NFsBLz1qT366sdNdpnPWmj6XB2C03suUhw9RtfkGNN3NCaUuIWZmc%2BMm%2BGUIIoyqbW%2Fn1rbJF5C1ABRwZgZn3WPJY%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7%2FuQtYuPcAXpVmGtpZRbIAZPGkBx8ptBzkGbXOxN9%2FhaYPc1nDYkHXYxf3vCUHld4L7y7Tvp051tXzDlfouHWe55GNMjSemUQMMq%2BmZyZKqk0rrVwpc%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
