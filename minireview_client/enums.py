@@ -64,7 +64,7 @@ class Monetization(Enum):
 
 
 class Players(Enum):
-    """Represents the available monetization types."""
+    """Represents the available player types."""
 
     SINGLE_PLAYER = "singleplayer"
     MULTI_PLAYER = "multiplayer"

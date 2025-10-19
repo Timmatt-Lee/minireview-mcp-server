@@ -5,7 +5,11 @@ import pytest
 import vcr
 
 from minireview_client.client import MiniReviewClient
-from minireview_client.enums import Platform
+from minireview_client.enums import (
+    GamesListOrderBy,
+    Platform,
+    Players,
+)
 
 
 @pytest.fixture(scope="module")
@@ -36,6 +40,68 @@ def test_get_games_list(game_data):
     assert "data" in response
     assert isinstance(response["data"], list)
     assert len(response["data"]) > 0
+
+
+@pytest.mark.vcr(
+    "tests/cassettes/test_integration_client/test_get_games_list_comprehensive.yaml"
+)
+def test_get_games_list_comprehensive(game_data):
+    """Test get_games_list with a comprehensive set of parameters."""
+    client = game_data["client"]
+    filters = client.get_filters()
+
+    def get_valid_filter_value(filter_slug):
+        for f in filters:
+            if f["slug"] == filter_slug and f["itens"]:
+                return f["itens"][0]["slug"]
+        return None
+
+    score_keys = []
+    for f in filters:
+        if f["slug"] == "score":
+            score_keys = [item["slug"] for item in f["itens"]]
+            break
+
+    score_param = {key: 5 for key in score_keys}
+
+    params = {
+        "limit": 1,
+        "search": "rpg",
+        "orderBy": GamesListOrderBy.HIGHEST_SCORE,
+        "platforms": [Platform.ANDROID],
+        "players": [Players.SINGLE_PLAYER],
+        "network": [get_valid_filter_value("network")]
+        if get_valid_filter_value("network")
+        else [],
+        "monetization_android": [get_valid_filter_value("monetization-android")]
+        if get_valid_filter_value("monetization-android")
+        else [],
+        "monetization_ios": [get_valid_filter_value("monetization-ios")]
+        if get_valid_filter_value("monetization-ios")
+        else [],
+        "screen_orientation": [get_valid_filter_value("screen-orientation")]
+        if get_valid_filter_value("screen-orientation")
+        else [],
+        "category": [get_valid_filter_value("category")]
+        if get_valid_filter_value("category")
+        else [],
+        "sub_category": [get_valid_filter_value("sub-category")]
+        if get_valid_filter_value("sub-category")
+        else [],
+        "tags": [get_valid_filter_value("tags")]
+        if get_valid_filter_value("tags")
+        else [],
+        "countries_android": [get_valid_filter_value("countries-android")]
+        if get_valid_filter_value("countries-android")
+        else [],
+        "countries_ios": [get_valid_filter_value("countries-ios")]
+        if get_valid_filter_value("countries-ios")
+        else [],
+        "score": score_param,
+    }
+    response = client.get_games_list(**params)
+    assert "data" in response
+    assert isinstance(response["data"], list)
 
 
 @pytest.mark.vcr(
