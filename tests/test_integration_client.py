@@ -38,11 +38,14 @@ def game_data():
         pytest.fail(f"Failed to fetch initial game data for tests: {e}")
 
 
-@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_games_list.yaml")
-def test_get_games_list(game_data):
-    """Test get_games_list with a comprehensive set of parameters."""
-    client = game_data["client"]
-    filters = client.get_filters()
+@pytest.fixture(scope="module")
+def filters_data(game_data):
+    """Get the filters from the client."""
+    return game_data["client"].get_filters()
+
+
+def _build_params(filters, filter_slugs):
+    """Build a dictionary of parameters for the API calls."""
 
     def get_valid_filter_value(filter_slug):
         for f in filters:
@@ -50,49 +53,48 @@ def test_get_games_list(game_data):
                 return f["itens"][0]["slug"]
         return None
 
+    params = {}
+    for slug in filter_slugs:
+        value = get_valid_filter_value(slug)
+        if value:
+            params[slug.replace("-", "_")] = [value]
+
     score_keys = []
     for f in filters:
         if f["slug"] == "score":
             score_keys = [item["slug"] for item in f["itens"]]
             break
+    if score_keys:
+        params["score"] = {key: 5 for key in score_keys}
 
-    score_param = {key: 5 for key in score_keys}
+    return params
 
-    params = {
-        "limit": 1,
-        "search": "rpg",
-        "orderBy": GamesListOrderBy.HIGHEST_SCORE,
-        "platforms": [Platform.ANDROID],
-        "players": [Players.SINGLE_PLAYER],
-        "network": [get_valid_filter_value("network")]
-        if get_valid_filter_value("network")
-        else [],
-        "monetization_android": [get_valid_filter_value("monetization-android")]
-        if get_valid_filter_value("monetization-android")
-        else [],
-        "monetization_ios": [get_valid_filter_value("monetization-ios")]
-        if get_valid_filter_value("monetization-ios")
-        else [],
-        "screen_orientation": [get_valid_filter_value("screen-orientation")]
-        if get_valid_filter_value("screen-orientation")
-        else [],
-        "category": [get_valid_filter_value("category")]
-        if get_valid_filter_value("category")
-        else [],
-        "sub_category": [get_valid_filter_value("sub-category")]
-        if get_valid_filter_value("sub-category")
-        else [],
-        "tags": [get_valid_filter_value("tags")]
-        if get_valid_filter_value("tags")
-        else [],
-        "countries_android": [get_valid_filter_value("countries-android")]
-        if get_valid_filter_value("countries-android")
-        else [],
-        "countries_ios": [get_valid_filter_value("countries-ios")]
-        if get_valid_filter_value("countries-ios")
-        else [],
-        "score": score_param,
-    }
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_games_list.yaml")
+def test_get_games_list(game_data, filters_data):
+    """Test get_games_list with a comprehensive set of parameters."""
+    client = game_data["client"]
+    filter_slugs = [
+        "network",
+        "monetization-android",
+        "monetization-ios",
+        "screen-orientation",
+        "category",
+        "sub-category",
+        "tags",
+        "countries-android",
+        "countries-ios",
+    ]
+    params = _build_params(filters_data, filter_slugs)
+    params.update(
+        {
+            "limit": 1,
+            "search": "rpg",
+            "orderBy": GamesListOrderBy.HIGHEST_SCORE,
+            "platforms": [Platform.ANDROID],
+            "players": [Players.SINGLE_PLAYER],
+        }
+    )
     response = client.get_games_list(**params)
     assert "data" in response
     assert isinstance(response["data"], list)
@@ -181,58 +183,28 @@ def test_get_home(game_data):
 @pytest.mark.vcr(
     "tests/cassettes/test_integration_client/test_get_games_of_the_week.yaml"
 )
-def test_get_games_of_the_week(game_data):
+def test_get_games_of_the_week(game_data, filters_data):
     """Test get_games_of_the_week with a comprehensive set of parameters."""
     client = game_data["client"]
-    filters = client.get_filters()
-
-    def get_valid_filter_value(filter_slug):
-        for f in filters:
-            if f["slug"] == filter_slug and f["itens"]:
-                return f["itens"][0]["slug"]
-        return None
-
-    score_keys = []
-    for f in filters:
-        if f["slug"] == "score":
-            score_keys = [item["slug"] for item in f["itens"]]
-            break
-
-    score_param = {key: 5 for key in score_keys}
-
-    params = {
-        "limit": 1,
-        "platforms": [Platform.ANDROID],
-        "players": [Players.SINGLE_PLAYER],
-        "network": [get_valid_filter_value("network")]
-        if get_valid_filter_value("network")
-        else [],
-        "monetization_android": [get_valid_filter_value("monetization-android")]
-        if get_valid_filter_value("monetization-android")
-        else [],
-        "monetization_ios": [get_valid_filter_value("monetization-ios")]
-        if get_valid_filter_value("monetization-ios")
-        else [],
-        "screen_orientation": [get_valid_filter_value("screen-orientation")]
-        if get_valid_filter_value("screen-orientation")
-        else [],
-        "category": [get_valid_filter_value("category")]
-        if get_valid_filter_value("category")
-        else [],
-        "sub_category": [get_valid_filter_value("sub-category")]
-        if get_valid_filter_value("sub-category")
-        else [],
-        "tags": [get_valid_filter_value("tags")]
-        if get_valid_filter_value("tags")
-        else [],
-        "countries_android": [get_valid_filter_value("countries-android")]
-        if get_valid_filter_value("countries-android")
-        else [],
-        "countries_ios": [get_valid_filter_value("countries-ios")]
-        if get_valid_filter_value("countries-ios")
-        else [],
-        "score": score_param,
-    }
+    filter_slugs = [
+        "network",
+        "monetization-android",
+        "monetization-ios",
+        "screen-orientation",
+        "category",
+        "sub-category",
+        "tags",
+        "countries-android",
+        "countries-ios",
+    ]
+    params = _build_params(filters_data, filter_slugs)
+    params.update(
+        {
+            "limit": 1,
+            "platforms": [Platform.ANDROID],
+            "players": [Players.SINGLE_PLAYER],
+        }
+    )
     response = client.get_games_of_the_week(**params)
     assert "data" in response
 
@@ -240,58 +212,28 @@ def test_get_games_of_the_week(game_data):
 @pytest.mark.vcr(
     "tests/cassettes/test_integration_client/test_get_minireview_pick.yaml"
 )
-def test_get_minireview_pick(game_data):
+def test_get_minireview_pick(game_data, filters_data):
     """Test get_minireview_pick with a comprehensive set of parameters."""
     client = game_data["client"]
-    filters = client.get_filters()
-
-    def get_valid_filter_value(filter_slug):
-        for f in filters:
-            if f["slug"] == filter_slug and f["itens"]:
-                return f["itens"][0]["slug"]
-        return None
-
-    score_keys = []
-    for f in filters:
-        if f["slug"] == "score":
-            score_keys = [item["slug"] for item in f["itens"]]
-            break
-
-    score_param = {key: 5 for key in score_keys}
-
-    params = {
-        "limit": 1,
-        "platforms": [Platform.ANDROID],
-        "players": [Players.SINGLE_PLAYER],
-        "network": [get_valid_filter_value("network")]
-        if get_valid_filter_value("network")
-        else [],
-        "monetization_android": [get_valid_filter_value("monetization-android")]
-        if get_valid_filter_value("monetization-android")
-        else [],
-        "monetization_ios": [get_valid_filter_value("monetization-ios")]
-        if get_valid_filter_value("monetization-ios")
-        else [],
-        "screen_orientation": [get_valid_filter_value("screen-orientation")]
-        if get_valid_filter_value("screen-orientation")
-        else [],
-        "category": [get_valid_filter_value("category")]
-        if get_valid_filter_value("category")
-        else [],
-        "sub_category": [get_valid_filter_value("sub-category")]
-        if get_valid_filter_value("sub-category")
-        else [],
-        "tags": [get_valid_filter_value("tags")]
-        if get_valid_filter_value("tags")
-        else [],
-        "countries_android": [get_valid_filter_value("countries-android")]
-        if get_valid_filter_value("countries-android")
-        else [],
-        "countries_ios": [get_valid_filter_value("countries-ios")]
-        if get_valid_filter_value("countries-ios")
-        else [],
-        "score": score_param,
-    }
+    filter_slugs = [
+        "network",
+        "monetization-android",
+        "monetization-ios",
+        "screen-orientation",
+        "category",
+        "sub-category",
+        "tags",
+        "countries-android",
+        "countries-ios",
+    ]
+    params = _build_params(filters_data, filter_slugs)
+    params.update(
+        {
+            "limit": 1,
+            "platforms": [Platform.ANDROID],
+            "players": [Players.SINGLE_PLAYER],
+        }
+    )
     response = client.get_minireview_pick(**params)
     assert "data" in response
 
