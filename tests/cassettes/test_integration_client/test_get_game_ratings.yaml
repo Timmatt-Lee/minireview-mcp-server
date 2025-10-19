@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=1&type=all&limit=50&orderBy=newest
+      uri: https://minireview.io/apiv2/games-ratings?game_id=95&page=2&type=positive&limit=10&orderBy=oldest
     response:
       body:
         string:
@@ -23,12 +23,12 @@ interactions:
           addictive, don t be too far away from a power source, drain battery quickly.
           good game that will take lots of hours away from your life :) ","pontuacao":"1","usuario_votou":null,"usuario":{"id":312,"avatar":null,"username":"Benoit
           Noisette","slug":"benoit-noisette","nome":"Benoit Noisette","sobre":null,"sobre_original":null,"data_cadastro":"2020-06-04
-          18:49:57","score":1,"total_avaliacoes":1,"total_favoritos":3,"pais_nome":null,"pais_sigla":null}}],"page":1,"total":1,"total_positivo":1,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
+          18:49:57","score":1,"total_avaliacoes":1,"total_favoritos":3,"pais_nome":null,"pais_sigla":null}}],"page":2,"total":1,"total_positivo":1,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990cf60d5c634a6a-TPE
+          - 99112b1be9ab8f12-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -40,7 +40,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 02:49:15 GMT
+          - Sun, 19 Oct 2025 15:04:32 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -48,7 +48,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kAZsJ80xZhAdr9sMpdlq5Xu5lW8J84OZocAZumlGCbcNTxgHXmL3vkhYxXzKduMAbiljR9iHbkg1ibtX4z%2BEbIJn2%2B4HQyzKSUTUGD1gYc3x4WjwUKY%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MSw8AsBwsj%2BvOyNdb%2FXV%2FFeDA%2FZivrQFYYN6ybTGP1Jaq59e56wvZgQDzF8ZLRibbKgqFeC6yO726dSLfpiDUlpe9NboWLzlAO%2F8zgWcR3jSKDJl%2BMk%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
