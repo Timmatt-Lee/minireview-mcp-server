@@ -1,0 +1,74 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - "*/*"
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Cookie:
+          - minireview-io=kbfu3hlkcmusd23e87rohqqhhl
+        User-Agent:
+          - python-requests/2.32.5
+      method: GET
+      uri: https://minireview.io/apiv2/collections?page=1&limit=1&search=rpg&orderBy=newest&loadNewcollections=1&loadLastUpdatedcollections=0
+    response:
+      body:
+        string:
+          '{"data":[{"id":52,"title":"Premium RPGs","title_original":"Premium
+          RPGs","slug":"premium-rpgs","image":"\/common\/uploads\/cache\/review\/1-900-498-b14e7d5e7194ade83903e287ff5809b4.webp","image_preloader":"\/common\/uploads\/cache\/review\/1-30-17-b14e7d5e7194ade83903e287ff5809b4.webp","created_at":"2025-02-20
+          12:06:04","likes_total":22,"games_total":33,"usuario_curtiu":false,"usuario":{"id":32772,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Paul
+          Nichols41409.webp","username":"Ransom","slug":"ransom","nome":"Ransom"},"games":[{"id":1422,"logo":"common\/uploads\/icons\/e98b90aba09122b3e134046c756080fb.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-e98b90aba09122b3e134046c756080fb.webp","cover":"b14e7d5e7194ade83903e287ff5809b4.jpg"},{"id":1642,"logo":"common\/uploads\/icons\/291acdf1f83e42d8cd96d576b5b1797f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-291acdf1f83e42d8cd96d576b5b1797f.webp","cover":"aaf0f9a8bf3158f20e7704fb17544aa1.jpg"},{"id":4077,"logo":"common\/uploads\/icons\/d0af92d20851e3abdd9e38f9c1bb86df.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-d0af92d20851e3abdd9e38f9c1bb86df.webp","cover":"411e35259ff7f8aa8429c654b2f87913.jpg"}]}],"page":1,"total":19,"ultima_pagina":false,"new_collections":[{"id":1259,"title":"Wishlist","title_original":"Wishlist","slug":"wishlist-1259","image":"\/common\/uploads\/cache\/review\/1-900-498-sem-titulo-1-4754024.webp","image_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titulo-1-4754024.webp","created_at":"2025-10-16
+          17:47:49","likes_total":1,"games_total":8,"usuario_curtiu":false,"usuario":{"id":59537,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-Sabastian
+          Sultz79169.webp","username":"Sabastiansultz","slug":"sabastiansultz","nome":"Sabastiansultz"},"games":[{"id":5150,"logo":"common\/uploads\/icons\/006814d1811f5a423585361575f477b9.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-006814d1811f5a423585361575f477b9.webp","cover":"sem-titulo-1-4754024.jpg"},{"id":6167,"logo":"common\/uploads\/icons\/229994110e9e057f37a29190e1e2ae0f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-229994110e9e057f37a29190e1e2ae0f.webp","cover":"sem-titsdsdulo-1-0610716.jpg"},{"id":4121,"logo":"common\/uploads\/icons\/0bf5e107fba1f08fee2cbb16951b2cb0.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0bf5e107fba1f08fee2cbb16951b2cb0.webp","cover":"3f95a414deceb25b66a554be4c918b6f.jpg"}]},{"id":1248,"title":"Might
+          Replay","title_original":"Might Replay","slug":"might-replay","image":"\/common\/uploads\/cache\/review\/1-900-498-5ab5c446b1b5662ea0be0ebd724a8098.webp","image_preloader":"\/common\/uploads\/cache\/review\/1-30-17-5ab5c446b1b5662ea0be0ebd724a8098.webp","created_at":"2025-10-14
+          05:52:06","likes_total":1,"games_total":7,"usuario_curtiu":false,"usuario":{"id":59185,"avatar":null,"username":"ApratimPlays","slug":"apratimplays","nome":"ApratimPlays"},"games":[{"id":4376,"logo":"common\/uploads\/icons\/e562aa550305ec49d3e1bc123195e18d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-e562aa550305ec49d3e1bc123195e18d.webp","cover":"5ab5c446b1b5662ea0be0ebd724a8098.jpg"},{"id":755,"logo":"common\/uploads\/icons\/6e7b2e168ba2696cfb8e8a15190c80a1.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-6e7b2e168ba2696cfb8e8a15190c80a1.webp","cover":"f81b5577f16bccee917a44fa95726b2c.jpg"},{"id":659,"logo":"common\/uploads\/icons\/507641a6e4eb04938768b0a6f0e01964.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-507641a6e4eb04938768b0a6f0e01964.webp","cover":"1231312313123-7879567.jpg"}]},{"id":1245,"title":"A-tier
+          (Portrait)","title_original":"A-tier (Portrait)","slug":"a-tier-portrait","image":"\/common\/uploads\/cache\/review\/1-900-498-016a22f492cdf9e11c16a66552a2778c.webp","image_preloader":"\/common\/uploads\/cache\/review\/1-30-17-016a22f492cdf9e11c16a66552a2778c.webp","created_at":"2025-10-13
+          12:26:20","likes_total":1,"games_total":9,"usuario_curtiu":false,"usuario":{"id":15988,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000203873-121166.webp","username":"Sh1n","slug":"sh1n","nome":"Sh1n"},"games":[{"id":4508,"logo":"common\/uploads\/icons\/6e9edde4b6e6229ba9e28133d31cd280.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-6e9edde4b6e6229ba9e28133d31cd280.webp","cover":"016a22f492cdf9e11c16a66552a2778c.jpg"},{"id":4373,"logo":"common\/uploads\/icons\/2d5348a23763ba35e571aaa718206574.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-2d5348a23763ba35e571aaa718206574.webp","cover":"cfa2f1c3b0ae12f74b2f24ef56942811.jpg"},{"id":5666,"logo":"common\/uploads\/icons\/c636a39e8c70dc153855944e686a4414.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-c636a39e8c70dc153855944e686a4414.webp","cover":"32323232-5511026.jpg"}]},{"id":1244,"title":"Wishlist
+          - Paid","title_original":"Wishlist - Paid","slug":"wishlist-1244","image":"\/common\/uploads\/cache\/review\/1-900-498-3f95a414deceb25b66a554be4c918b6f.webp","image_preloader":"\/common\/uploads\/cache\/review\/1-30-17-3f95a414deceb25b66a554be4c918b6f.webp","created_at":"2025-10-13
+          06:16:59","likes_total":1,"games_total":14,"usuario_curtiu":false,"usuario":{"id":59185,"avatar":null,"username":"ApratimPlays","slug":"apratimplays","nome":"ApratimPlays"},"games":[{"id":4121,"logo":"common\/uploads\/icons\/0bf5e107fba1f08fee2cbb16951b2cb0.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0bf5e107fba1f08fee2cbb16951b2cb0.webp","cover":"3f95a414deceb25b66a554be4c918b6f.jpg"},{"id":5753,"logo":"common\/uploads\/icons\/487e3f3149537c51d54656456728fb0b.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-487e3f3149537c51d54656456728fb0b.webp","cover":"asddsadasdada-4210568.jpg"},{"id":4552,"logo":"common\/uploads\/icons\/49302b55c5308511b66f62cb4045e571.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-49302b55c5308511b66f62cb4045e571.webp","cover":"c45010035252fef94c8303f6551888c5.jpg"}]},{"id":1242,"title":"Mining
+          Android","title_original":"Mining \/ Bergbau Android","slug":"mining-bergbau-android","image":"\/common\/uploads\/cache\/review\/1-900-498-12312313s-8628860.webp","image_preloader":"\/common\/uploads\/cache\/review\/1-30-17-12312313s-8628860.webp","created_at":"2025-10-12
+          18:43:32","likes_total":1,"games_total":7,"usuario_curtiu":false,"usuario":{"id":1181,"avatar":null,"username":"Tanam","slug":"tanam","nome":"Tanam"},"games":[{"id":5416,"logo":"common\/uploads\/icons\/0d00af48d833b0b6cdf2cf8b7b3020da.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0d00af48d833b0b6cdf2cf8b7b3020da.webp","cover":"12312313s-8628860.jpg"},{"id":672,"logo":"common\/uploads\/icons\/f74ac26fbcd0ec9c57c558bae381e482.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-f74ac26fbcd0ec9c57c558bae381e482.webp","cover":"a841ef953f2b8ac0dc0677726483ae6a.webp"},{"id":673,"logo":"common\/uploads\/icons\/1902a0763e25d3ebc7b3fb7673391c93.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1902a0763e25d3ebc7b3fb7673391c93.webp","cover":"db840123896ae4bfc09c0399413a7d17.webp"}]}]}'
+      headers:
+        Access-Control-Allow-Origin:
+          - "*"
+        CF-RAY:
+          - 990c6f7a0fc78433-TPE
+        Cache-Control:
+          - max-age=60, private, proxy-revalidate
+        Connection:
+          - keep-alive
+        Content-Encoding:
+          - gzip
+        Content-Security-Policy:
+          - frame-ancestors 'self';
+        Content-Type:
+          - application/json
+        Date:
+          - Sun, 19 Oct 2025 01:17:23 GMT
+        Expires:
+          - Thu, 19 Nov 1981 08:52:00 GMT
+        Nel:
+          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+        Pragma:
+          - no-cache
+        Report-To:
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2qV0sd3hFg8MHv%2Feb8DDMqg7EngOuKnu47eW23no1TaUXN7GKtLFpaV4k1R3xunE1enteSlLFg%2F6KQVUydyrhZ%2BCy97T%2BuhGo6ot6FTqJayDMwIBY24%3D"}]}'
+        Server:
+          - cloudflare
+        Transfer-Encoding:
+          - chunked
+        Vary:
+          - Accept-Encoding
+        X-Frame-Options:
+          - SAMEORIGIN
+        X-UA-Compatible:
+          - IE=Edge,chrome=1
+        cf-cache-status:
+          - DYNAMIC
+      status:
+        code: 200
+        message: OK
+version: 1
