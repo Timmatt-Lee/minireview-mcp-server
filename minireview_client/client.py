@@ -17,6 +17,7 @@ from .enums import (
     Players,
     ScreenOrientation,
     TopUserRatingsOrderBy,
+    UpComingGamesOrderBy,
 )
 from .exceptions import APIError
 
@@ -395,7 +396,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: GamesListOrderBy = GamesListOrderBy.RELEASE_DATE,
+        orderBy: UpComingGamesOrderBy = UpComingGamesOrderBy.LAUNCH_DATE,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """

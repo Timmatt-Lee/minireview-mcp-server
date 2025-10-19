@@ -18,6 +18,14 @@ class GamesListOrderBy(Enum):
     HIGHEST_APP_STORE_SCORE = "highest-appStore-score"
 
 
+class UpComingGamesOrderBy(Enum):
+    """Represents the available sorting options for upcoming games."""
+
+    LAUNCH_DATE = "launch-date"
+    LAST_ADDED = "last-added"
+    HYPE_LEVEL = "hype-level"
+
+
 class GameRatingsOrderBy(Enum):
     """Represents the available sorting options for game ratings."""
 

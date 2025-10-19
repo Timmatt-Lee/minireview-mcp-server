@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/upcoming-games?page=1&limit=50&orderBy=release-date&platforms%5B0%5D=android
+      uri: https://minireview.io/apiv2/upcoming-games?page=1&limit=50&orderBy=launch-date&platforms%5B0%5D=android
     response:
       body:
         string:
@@ -33,7 +33,7 @@ interactions:
           2025","added_date":"7 months ago","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":28,"nome":"Battle
           Royale","slug":"battle-royale"},"categorias":[{"id":28,"nome":"Battle Royale","slug":"battle-royale","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"price":"Free
           to Play"},{"id":413,"nome":"Critadel M","slug":"critadel-m","logo":"common\/uploads\/upcominggame\/351a263566c58844db81403fa12d3020.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-351a263566c58844db81403fa12d3020.webp","launch_date":"Oct,
-          2025","added_date":"Today","is_android":true,"is_ios":false,"fuel_percent":0,"fuel_count":0,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"price":"Free
+          2025","added_date":"This week","is_android":true,"is_ios":false,"fuel_percent":0,"fuel_count":0,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"price":"Free
           to Play"},{"id":367,"nome":"Nekopara Love Project Vol.2","slug":"nekopara-love-project-vol2","logo":"common\/uploads\/upcominggame\/acfbd98305826b9c7bacc88fe114e7e3.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-acfbd98305826b9c7bacc88fe114e7e3.webp","launch_date":"Oct
           31, 2025","added_date":"1 month ago","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":2,"nome":"Adventure","slug":"adventure"},"categorias":[{"id":2,"nome":"Adventure","slug":"adventure","type":"category"},{"id":40,"nome":"Story-Driven","slug":"story-driven","type":"subcategory"}],"price":"Free
           to Play"},{"id":380,"nome":"AWS Card Clash","slug":"aws-card-clash","logo":"common\/uploads\/upcominggame\/07db28d1023b774e81294a087fb30f30.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-07db28d1023b774e81294a087fb30f30.webp","launch_date":"Oct,
@@ -213,7 +213,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990cf62f0f4d4a84-TPE
+          - 990d9a24389d4a4b-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -225,7 +225,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 02:49:20 GMT
+          - Sun, 19 Oct 2025 04:41:16 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -233,7 +233,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=R2tJoxFb2Ks1TflHpBTK8ufl2mQYof49po2NGNE0MObH7rYNpF2JzyhSoPpnF28ZHTPqfSxA1nJ9Au9NxMxkT2QNmEwC%2Bu0pWkIjxMJoi1mMIDNm4UI%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0CaCabUTTEIWtyOKI4ClGgJwe70G703eQQ%2BeRl9u6kDPKqrZggTGr7V%2F0o1A7teGdm4c7XRcepS3nAeQ7rEx%2BCt6d5fklFHAhmXcw0E6ne%2Bk2c60ku4%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
