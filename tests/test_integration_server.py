@@ -112,6 +112,20 @@ async def test_get_game_ratings_integration():
         assert isinstance(ratings_data, dict)
         assert "data" in ratings_data
         assert isinstance(ratings_data["data"], list)
+        assert "current_page" in ratings_data
+        assert "total_ratings" in ratings_data
+        assert "total_positive_ratings" in ratings_data
+        assert "total_negative_ratings" in ratings_data
+        assert "is_last_page" in ratings_data
+        assert "positive_percentage" in ratings_data
+
+        if ratings_data["data"]:
+            rating = ratings_data["data"][0]
+            assert "id" in rating
+            assert "date" in rating
+            assert "score" in rating
+            assert "text" in rating
+            assert "type" in rating
 
 
 @pytest.mark.asyncio

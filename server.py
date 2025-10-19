@@ -181,7 +181,28 @@ def get_game_ratings(
         A dictionary containing a list of ratings and pagination information.
     """
     client = MiniReviewClient()
-    return client.get_game_ratings(game_id, page, limit, orderBy)
+    game_ratings_res = client.get_game_ratings(game_id, page, limit, orderBy)
+
+    game_rating_data = [
+        {
+            "id": game_ratings_data_item.get("id"),
+            "date": game_ratings_data_item.get("data"),
+            "score": game_ratings_data_item.get("pontuacao"),
+            "text": game_ratings_data_item.get("texto"),
+            "type": game_ratings_data_item.get("tipo"),
+        }
+        for game_ratings_data_item in game_ratings_res.get("data")
+    ]
+
+    return {
+        "data": game_rating_data,
+        "current_page": game_ratings_res.get("page"),
+        "total_ratings": game_ratings_res.get("total"),
+        "total_positive_ratings": game_ratings_res.get("total_positivo"),
+        "total_negative_ratings": game_ratings_res.get("total_negativo"),
+        "is_last_page": game_ratings_res.get("ultima_pagina"),
+        "positive_percentage": game_ratings_res.get("porcento"),
+    }
 
 
 @app.tool(description="Fetches a list of games similar to a specific game.")
