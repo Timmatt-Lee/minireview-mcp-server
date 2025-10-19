@@ -36,10 +36,8 @@ def game_data():
         pytest.fail(f"Failed to fetch initial game data for tests: {e}")
 
 
-@pytest.mark.vcr(
-    "tests/cassettes/test_integration_client/test_get_games_list_comprehensive.yaml"
-)
-def test_get_games_list_comprehensive(game_data):
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_games_list.yaml")
+def test_get_games_list(game_data):
     """Test get_games_list with a comprehensive set of parameters."""
     client = game_data["client"]
     filters = client.get_filters()
@@ -135,10 +133,8 @@ def test_get_game_ratings(game_data):
     assert isinstance(response["data"], list)
 
 
-@pytest.mark.vcr(
-    "tests/cassettes/test_integration_client/test_get_similar_games_comprehensive.yaml"
-)
-def test_get_similar_games_comprehensive(game_data):
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_similar_games.yaml")
+def test_get_similar_games(game_data):
     """Test get_similar_games with a comprehensive set of parameters."""
     client = game_data["client"]
     game_id = game_data["game_id"]
@@ -160,18 +156,6 @@ def test_get_similar_games_comprehensive(game_data):
 
 @pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_collections.yaml")
 def test_get_collections(game_data):
-    """Test a live call to get_collections."""
-    response = game_data["client"].get_collections(
-        limit=1, is_load_new=True, is_load_last_updated=True
-    )
-    assert "data" in response
-    assert isinstance(response["data"], list)
-
-
-@pytest.mark.vcr(
-    "tests/cassettes/test_integration_client/test_get_collections_comprehensive.yaml"
-)
-def test_get_collections_comprehensive(game_data):
     """Test get_collections with a comprehensive set of parameters."""
     client = game_data["client"]
 
