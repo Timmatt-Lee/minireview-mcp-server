@@ -14,7 +14,7 @@ from .enums import (
     GameRatingType,
     GamesListOrderBy,
     Platform,
-    TopGamesOrderBy,
+    TopUserRatingsOrderBy,
 )
 from .exceptions import APIError
 
@@ -372,7 +372,6 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: TopGamesOrderBy = TopGamesOrderBy.WEEK,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
@@ -382,7 +381,6 @@ class MiniReviewClient:
             "type": "games-of-the-week",
             "page": page,
             "limit": limit,
-            "orderBy": orderBy,
             "platforms": platforms,
         }
         return self._fetch_api("/games", self._build_params(params, is_validate=True))
@@ -391,7 +389,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: TopGamesOrderBy = TopGamesOrderBy.THIS_WEEK,
+        orderBy: TopUserRatingsOrderBy = TopUserRatingsOrderBy.THIS_WEEK,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
@@ -411,7 +409,7 @@ class MiniReviewClient:
         self,
         page: int = 1,
         limit: int = 50,
-        orderBy: TopGamesOrderBy = TopGamesOrderBy.LAUNCH_DATE,
+        orderBy: TopUserRatingsOrderBy = TopUserRatingsOrderBy.LAUNCH_DATE,
         platforms: list[Platform] = [Platform.ANDROID, Platform.IOS],
     ) -> dict:
         """
