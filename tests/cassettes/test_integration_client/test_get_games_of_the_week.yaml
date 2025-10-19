@@ -13,7 +13,7 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?type=games-of-the-week&page=1&limit=50&orderBy=week&platforms%5B0%5D=android
+      uri: https://minireview.io/apiv2/games?type=games-of-the-week&page=1&limit=50&orderBy=last-added-reviews&platforms%5B0%5D=android
     response:
       body:
         string:
@@ -1449,7 +1449,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990c6f836e508445-TPE
+          - 990c90f00c770738-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -1461,7 +1461,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 01:17:24 GMT
+          - Sun, 19 Oct 2025 01:40:13 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -1469,7 +1469,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NkQ4YON5IrvehdDf%2FPxfpj9Tjo0qqOb2cebSLDWJRcEtj4nZrFuhVBPeP2N%2FE3kbdI3mcwi7Ul7nhEDIk%2FpPz9WLPRNVV2nJsUiaUTngHEPvWKTI80w%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gpiQuDzauN9dP51jQh93VctcgNdz9iUsAS5JqsArTsxkZYgG91tp6UyzBIQBUzfI21rWQfma0afc906ZncoYWQ9%2BfeQNyZQhomY%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

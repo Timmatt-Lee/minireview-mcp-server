@@ -48,12 +48,12 @@ class GameRatingType(Enum):
     NEGATIVE = "negative"
 
 
-class TopGamesOrderBy(Enum):
-    """Represents the available sorting options for top games."""
+class TopUserRatingsOrderBy(Enum):
+    """Represents the available sorting options for top user ratings."""
 
-    WEEK = "week"
     THIS_WEEK = "this-week"
-    LAUNCH_DATE = "launch-date"
+    THIS_DATE = "this-month"
+    ALL_TIME = "all-time"
 
 
 class Monetization(Enum):
