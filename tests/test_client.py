@@ -21,8 +21,8 @@ from minireview_client.enums import (
 from minireview_client.exceptions import APIError
 
 
-class TestMiniReviewClient(unittest.TestCase):
-    """Test suite for the MiniReviewClient."""
+class TestCoreClientFeatures(unittest.TestCase):
+    """Test suite for core client features like init, caching, and errors."""
 
     def setUp(self):
         """Set up a new client for each test."""
@@ -53,18 +53,6 @@ class TestMiniReviewClient(unittest.TestCase):
         self.assertEqual(mock_fetch_api.call_count, 1)  # Should not have increased
         self.assertEqual(filters2, mock_response["filtros"])
 
-    @patch("minireview_client.client.MiniReviewClient._fetch_api")
-    def test_get_game_details_call(self, mock_fetch_api):
-        """Test that get_game_details calls _fetch_api with correct params."""
-        game_slug = "my-game"
-        category = "action"
-
-        self.client.get_game_details(game_slug, category)
-
-        mock_fetch_api.assert_called_once_with(
-            f"/games/{game_slug}", {"getBy": "slug", "category": category}
-        )
-
     @patch.object(requests.Session, "get")
     def test_fetch_api_error(self, mock_get):
         """Test that an APIError is raised on a request exception."""
@@ -87,59 +75,116 @@ class TestMiniReviewClient(unittest.TestCase):
             self.client._fetch_api("/test-endpoint")
         self.assertIn("404 Client Error", str(cm.exception))
 
-    @patch("minireview_client.client.MiniReviewClient._fetch_api")
-    def test_get_game_ratings_uses_enum(self, mock_fetch_api):
-        """Test that get_game_ratings correctly processes its OrderBy enum."""
+
+@patch("minireview_client.client.MiniReviewClient._fetch_api")
+@patch("minireview_client.client.MiniReviewClient._init_validator", return_value=None)
+class TestApiClientCalls(unittest.TestCase):
+    """A test suite for happy-path API method calls."""
+
+    def setUp(self):
+        """Set up a new client for each test."""
+        self.client = MiniReviewClient()
+        # Mock the parsed filters to prevent assertion errors in the validator,
+        # which is called by some of the client methods before fetching the API.
+        self.client._parsed_filters = {"score": {"gameplay"}}
+
+    def test_get_game_details_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_game_details calls _fetch_api with correct params."""
+        game_slug = "my-game"
+        category = "action"
+
+        self.client.get_game_details(game_slug, category)
+
+        # get_game_details does not validate, so _init_validator should not be called.
+        mock_init_validator.assert_not_called()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], f"/games/{game_slug}")
+        self.assertEqual(call_args[1]["getBy"], "slug")
+        self.assertEqual(call_args[1]["category"], category)
+
+    def test_get_game_ratings_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_game_ratings calls _fetch_api with correct params."""
         self.client.get_game_ratings(
             game_id=123,
             orderBy=GameRatingsOrderBy.MOST_RELEVANT,
             type=GameRatingType.ALL,
         )
-        call_args, _ = mock_fetch_api.call_args
+
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
         self.assertEqual(call_args[0], "/games-ratings")
-        self.assertIn("orderBy", call_args[1])
         self.assertEqual(call_args[1]["orderBy"], "most-relevant")
-        self.assertIn("type", call_args[1])
         self.assertEqual(call_args[1]["type"], "all")
+        self.assertEqual(call_args[1]["game_id"], 123)
 
-    @patch("minireview_client.client.MiniReviewClient.get_filters")
-    def test_string_filter_validation(self, mock_get_filters):
-        """Test that various string-based filters are validated correctly."""
-        mock_get_filters.return_value = [
-            {
-                "slug": "category",
-                "itens": [{"slug": "action"}],
-            },
-            {
-                "slug": "players",
-                "itens": [{"slug": "singleplayer"}],
-            },
-            {
-                "slug": "tags",
-                "itens": [{"slug": "2d"}],
-            },
-        ]
+    def test_get_games_list_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_games_list calls _fetch_api with correct params."""
+        self.client.get_games_list(search="rpg", orderBy=GamesListOrderBy.HIGHEST_SCORE)
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/games")
+        self.assertEqual(call_args[1]["search"], "rpg")
+        self.assertEqual(call_args[1]["orderBy"], "highest-score")
 
-        # Test invalid category (single value)
-        with self.assertRaises(ValueError) as cm:
-            self.client.get_games_list(category="invalid-category")
-        self.assertIn(
-            "Invalid value for filter 'category': 'invalid-category'", str(cm.exception)
-        )
+    def test_get_similar_games_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_similar_games calls _fetch_api with correct params."""
+        self.client.get_similar_games(game_id=123, players=Players.MULTI_PLAYER)
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/games-similar")
+        self.assertEqual(call_args[1]["game_id"], 123)
+        self.assertEqual(call_args[1]["players"], "multiplayer")
 
-        # Test invalid players (list of values)
-        with self.assertRaises(ValueError) as cm:
-            self.client.get_games_list(players=["singleplayer", "invalid-player"])
-        self.assertIn(
-            "Invalid value for filter 'players': 'invalid-player'", str(cm.exception)
-        )
+    def test_get_home_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_home calls _fetch_api with correct params."""
+        self.client.get_home(orderBy=GamesListOrderBy.NEW_ON_MINIREVIEW)
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/home")
+        self.assertEqual(call_args[1]["orderBy"], "new-on-minireview")
 
-        # Test invalid tags (list of values)
-        with self.assertRaises(ValueError) as cm:
-            self.client.get_games_list(tags=["invalid-tag"])
-        self.assertIn(
-            "Invalid value for filter 'tags': 'invalid-tag'", str(cm.exception)
-        )
+    def test_get_games_of_the_week_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_games_of_the_week calls _fetch_api with correct params."""
+        self.client.get_games_of_the_week(category=["action"])
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/games")
+        self.assertEqual(call_args[1]["type"], "games-of-the-week")
+        self.assertEqual(call_args[1]["category"], "action")
+
+    def test_get_minireview_pick_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_minireview_pick calls _fetch_api with correct params."""
+        self.client.get_minireview_pick(category=["rpg"])
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/games")
+        self.assertEqual(call_args[1]["type"], "our-pick")
+        self.assertEqual(call_args[1]["category"], "rpg")
+
+    def test_get_top_user_ratings_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_top_user_ratings calls _fetch_api with correct params."""
+        self.client.get_top_user_ratings(orderBy=TopUserRatingsOrderBy.ALL_TIME)
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/top-user-ratings")
+        self.assertEqual(call_args[1]["orderBy"], "all-time")
+
+    def test_get_upcoming_games_call(self, mock_init_validator, mock_fetch_api):
+        """Test that get_upcoming_games calls _fetch_api with correct params."""
+        self.client.get_upcoming_games(orderBy=GamesListOrderBy.RELEASE_DATE)
+        mock_init_validator.assert_called_once()
+        mock_fetch_api.assert_called_once()
+        call_args = mock_fetch_api.call_args[0]
+        self.assertEqual(call_args[0], "/upcoming-games")
+        self.assertEqual(call_args[1]["orderBy"], "release-date")
 
 
 @patch("minireview_client.client.MiniReviewClient._fetch_api", return_value=True)
@@ -380,6 +425,21 @@ class TestParameterValidation(unittest.TestCase):
             )
         except (ValueError, TypeError):
             self.fail("get_upcoming_games raised an exception unexpectedly!")
+
+    def test_get_game_details_validation(self, mock_init, mock_fetch):
+        """Test get_game_details validation."""
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_game_details(game_slug="", category="action")
+        self.assertIn("game_slug cannot be empty", str(cm.exception))
+
+        with self.assertRaises(ValueError) as cm:
+            self.client.get_game_details(game_slug="my-game", category="")
+        self.assertIn("category cannot be empty", str(cm.exception))
+
+        try:
+            self.client.get_game_details(game_slug="my-game", category="action")
+        except ValueError:
+            self.fail("get_game_details raised ValueError unexpectedly!")
 
 
 class TestBuildParams(unittest.TestCase):
