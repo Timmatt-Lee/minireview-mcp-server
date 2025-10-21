@@ -13,38 +13,11 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?type=games-of-the-week&page=1&limit=1&orderBy=week&platforms%5B0%5D=android&players=singleplayer&network=online&monetization_android=no-ads&monetization_ios=no-ads&screen_orientation=portrait&category=action&sub_category=action&tags=2d&countries_android=af&countries_ios=af&score=gameplay-5%2Ccontrols-5%2Cgraphics-5%2Cmonetization-5
+      uri: https://minireview.io/apiv2/games?type=games-of-the-week&page=1&limit=1&orderBy=week&platforms%5B0%5D=android&players=singleplayer&network=online&monetization-android=no-ads&monetization-ios=no-ads&screen-orientation=portrait&category=action&sub-category=action&tags=2d&countries-android=af&countries-ios=af&score=gameplay-5%2Ccontrols-5%2Cgraphics-5%2Cmonetization-5
     response:
       body:
         string:
-          '{"data":[{"id":5913,"nome":"TMNT: Shredder''s Revenge","slug":"tmnt-shredder-s-revenge-playdigious","logo":"common\/uploads\/icons\/4fc2dde9fd334a4ac9b1360d6e8dc3b9.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-4fc2dde9fd334a4ac9b1360d6e8dc3b9.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-tmnt-netflix-6711023.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-tmnt-netflix-6711023.webp","avaliacoes_total":7,"avaliacoes_positivas_porcento":100,"nota":"9.5","usuario_favorito":false,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":19,"nome":"Fighting","slug":"fighting","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"TMNT:
-          Shredder''s Revenge is a modern beat ''em up action fighting game with online
-          co-op multiplayer that pays homage to its old-school arcade predecessors -
-          especially the SNES classic TMNT: Turtles in Time.\r\n\r\nTrue to the traditional
-          beat \u2018em up formula, the gameplay has us continuously walking to the
-          right side while smashing every enemy in our path. And in addition to the
-          four main turtles, there are six extra playable characters, each with their
-          own unique fighting style and ending.\r\n\r\nThe game features 16 stages,
-          many of which are reimagined from previous TMNT titles. Each stage includes
-          specific missions and hidden secrets, which incentivize replay. And while
-          the levels aren\u2019t too difficult, getting all achievements is a satisfying
-          challenge.\r\n\r\nThe Arcade mode adds even more replay value with a variety
-          of fun modifiers, such as increased movement speed or enemies that explode
-          upon defeat. This mode is perfect for quick \u201cpick-up-and-play\u201d sessions
-          after you\u2019ve finished the campaign.\r\n\r\nBut the beautifully implemented
-          online co-op multiplayer is easily the game\u2019s true highlight. We can
-          create private rooms to play with friends or join public lobbies with up to
-          6 players, and the results is complete chaos and a whole lot of fun.\r\n\nAs
-          with any mobile action game, I was initially concerned about the touch controls,
-          but I''m happy to say that they feel very responsive. We can also adjust all
-          buttons freely, and they never get in the way of the action. But best of all,
-          there\u2019s external controller support.\r\n\r\nTMNT: Shredder''s Revenge
-          is free to try, with a\u00a0$8.99 iAP unlocking the full version. But there''s
-          also a \"free\" Netflix version. All DLC is included in both versions.\r\n\r\nWith
-          its amazing graphics and soundtrack, and fluid controls, this is easily one
-          of the best beat em'' ups on mobile. It\u2019s a worthy successor to the classic
-          TMNT games, and I can\u2019t recommend it enough.\r\n","morto_data":null,"pick_data":null,"semana":"This
-          week","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-08-12-23-14-49-820-com-n-4831100.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-08-12-23-14-49-820-com-n-4831100.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-08-12-23-14-49-820-com-n-4831100.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-08-12-23-18-33-700-com-n-4831101.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-08-12-23-18-33-700-com-n-4831101.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-08-12-23-18-33-700-com-n-4831101.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-08-12-23-25-31-347-com-n-4831101.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-08-12-23-25-31-347-com-n-4831101.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2024-08-12-23-25-31-347-com-n-4831101.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-07-11-28-51-405-com-n-4831101.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-07-11-28-51-405-com-n-4831101.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-04-07-11-28-51-405-com-n-4831101.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-07-11-33-42-841-com-n-4831101.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-07-11-33-42-841-com-n-4831101.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-04-07-11-33-42-841-com-n-4831101.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-07-11-46-36-768-com-n-4831102.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-07-11-46-36-768-com-n-4831102.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-04-07-11-46-36-768-com-n-4831102.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-14-03-25-34-104-com-n-4831102.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-14-03-25-34-104-com-n-4831102.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-04-14-03-25-34-104-com-n-4831102.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-14-03-31-50-945-com-n-4831102.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-14-03-31-50-945-com-n-4831102.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-04-14-03-31-50-945-com-n-4831102.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-14-03-42-24-405-com-n-4831102.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-14-03-42-24-405-com-n-4831102.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-14-03-42-24-405-com-n-4831102.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-14-03-50-56-771-com-g-4831103.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-14-03-50-56-771-com-g-4831103.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-14-03-50-56-771-com-g-4831103.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-32-14-080-com-g-4831103.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-32-14-080-com-g-4831103.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-32-14-080-com-g-4831103.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-32-46-351-com-g-4831103.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-32-46-351-com-g-4831103.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-32-46-351-com-g-4831103.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-34-06-364-com-g-4831104.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-34-06-364-com-g-4831104.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-34-06-364-com-g-4831104.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-34-44-730-com-g-4831104.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-34-44-730-com-g-4831104.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-34-44-730-com-g-4831104.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-35-35-759-com-g-4831104.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-35-35-759-com-g-4831104.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-35-35-759-com-g-4831104.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-36-13-385-com-g-4831104.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-36-13-385-com-g-4831104.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-36-13-385-com-g-4831104.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2024-08-12-23-14-22-842-com-n-4831343.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2024-08-12-23-14-22-842-com-n-4831343.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2024-08-12-23-14-22-842-com-n-4831343.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-04-17-01-40-22-578-com-g-4834312.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-04-17-01-40-22-578-com-g-4834312.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-04-17-01-40-22-578-com-g-4834312.jpg"}],"price":"Trial"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization","slug":"monetization","icon":"icon-filters-monetization","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
           IAP","slug":"no-iap","total":null,"descricao":""},{"nome":"Paid","slug":"paid","total":null,"descricao":""},{"nome":"Trial","slug":"trial","total":null,"descricao":""},{"nome":"Google
@@ -144,12 +117,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":4,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":0,"ultima_pagina":true,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9911353879528415-TPE
+          - 99211357282ed0a1-HKG
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -161,7 +134,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 15:11:25 GMT
+          - Tue, 21 Oct 2025 13:24:30 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -169,7 +142,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uHNW19NujKDKauP7CEsnT%2FrT0rlhQmgSN3NB3oletk5bO3939WSK7z6yUiViXKgto%2FooM%2B2EbW3V3wg8nZcyrX7DOcRX82kkZ8HLACHDRtgU%2FPE%2F6D0%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=A%2FB34ZEpDD0xVnzHsgpmYFpgU8HE0%2Bid6BdZQNphyaZqNCWHBFtb68Vr44UmnDOXdqoN4l6Jl5rpK2ak%2Bvx%2BS9wCAS1yfIF8qPq3CWGYTtyfjkyfClUMlA%3D%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

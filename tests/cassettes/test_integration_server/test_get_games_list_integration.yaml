@@ -15,10 +15,11 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6197,"nome":"Mechanical Lab","slug":"mechanical-lab","logo":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","logo_preloader":"https:\/\/play-lh.googleusercontent.com\/GCFJqnU1uTSPRvUeN2BLuvcy0qRtAtbkiFJRGUSbt84WPo9jVW6j-sMdKOINGpNK8tg","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titdssdsdulo-1-9773232.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titdssdsdulo-1-9773232.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":27,"nome":"Physics-Based","slug":"physics-based","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":false,"descricao":"Mechanical
-          Lab is a paid 2D Simulation Physics-Based game available on Android. It\u2019s
-          a singleplayer experience that can be played offline in landscape mode. Mechanical
-          Lab was released in June 2025.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9442480.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9442480.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9442480.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9442481.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-9442481.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-9442481.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-9442481.jpg"}],"price":"$5.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6208,"nome":"Stamps","slug":"stamps","logo":"common\/uploads\/icons\/5c9a2f8685370d3fe698904c3f99f2ee.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5c9a2f8685370d3fe698904c3f99f2ee.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-19-9790725.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-19-9790725.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Stamps
+          is a free trial 2D Puzzle Casual game available on Android and iOS. It\u2019s
+          a singleplayer experience that can be played offline in portrait mode. Stamps
+          was released in June 2025 and has a current rating of 5 out of 5.0 on iOS
+          App Store.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9790174.jpg"}],"price":"Trial"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -189,7 +190,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990cf632fb8ea3a5-TPE
+          - 992113722e65843c-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -201,7 +202,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 02:49:21 GMT
+          - Tue, 21 Oct 2025 13:24:34 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -209,12 +210,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VOFWGlxQ8LXU%2FpmDtNy3320XIEj6IBFKmFhTXxzYh7%2BCyRnnU3L%2FvbDmXLvGuFIeFLAXQw1eUDZadlD%2BOiAXm2bhoy65LX7wAdEpAOIYG3CVhtmheVQ%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lsQM7BJkVtvAdSn2R2QuLi4XeWib77b7kkWTXxl1Nh1v7og%2FPV4gCaXZhl7ayerpFlppihzMcHhn4PUhKfAqXm9pRzn%2FWI6UnNKVt1Wyyt4Ms3go458%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=tm76mmccg3k8hm0jbunajl9vuk; Path=/; Max-Age=2592000; Expires=Tue,
-            18 Nov 2025 02:49:21 GMT
+          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf; Path=/; Max-Age=2592000; Expires=Thu,
+            20 Nov 2025 13:24:34 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -238,7 +239,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=tm76mmccg3k8hm0jbunajl9vuk
+          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -246,30 +247,30 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6168,"nome":"QB - a cube''s tale","slug":"qb-a-cube-s-tale","logo":"common\/uploads\/icons\/965b0c8a96aad0efaa3e6b72ba7f5c28.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-965b0c8a96aad0efaa3e6b72ba7f5c28.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-qb-a-cubes-tale-minireview-9394273.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-qb-a-cubes-tale-minireview-9394273.webp","avaliacoes_total":1,"avaliacoes_positivas_porcento":0,"nota":"7.5","usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"QB
-          - a cube&#39;s tale is a well-made puzzle game that introduces a few new concepts
-          to the good old &ldquo;push a cube around a small level&rdquo; gameplay formula.\r\n\r\nThe
-          goal in each level is to find a way to push our black cube onto a black platform
-          by moving it left, right, up, and down. But as we move around the level, we
-          also land on various special tiles that demolish, move, or transform part
-          of the map itself.\r\n\r\nThis is an interesting mechanic that is used in
-          clever ways throughout the levels. In fact, we often need to break part of
-          the map to get a few steps ahead, but must do so carefully, as it&rsquo;s
-          easy to lock ourselves in a situation we can&rsquo;t get out of.&nbsp;\r\n\r\nWith
-          no rewind button, we&rsquo;re forced into a bunch of trial-and-error and level
-          restarts. Until we can finally remember which steps work and which don&rsquo;t,
-          and then implement them all in one go, that is.\r\n\r\nWhile there are 80
-          levels to play through, they all feel a tad too similar. In addition, the
-          difficulty ramps up too much at level 30, though it thankfully subsides to
-          a more reasonable level again after that.&nbsp;\r\n\r\nOverall, the game is
-          complex yet quite possible to complete. And once done, you can try to gain
-          three stars in each level, which is much more challenging.\r\n\r\nThe biggest
-          downside is that the game&rsquo;s visuals look like something we&rsquo;ve
-          seen a hundred times before.\r\n\r\nQB &ndash; a cube&rsquo;s tale is a $3.49
-          premium game on Android, whereas it&rsquo;s free to try on iOS, with a $3.99
-          iAP unlocking the full game.&nbsp;\r\n\r\nIt&rsquo;s honestly a great price
-          for how much gameplay we get &ndash; as long as you don&rsquo;t mind the simplistic
-          puzzles and predictable gameplay.\r\n","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210536-qb-7678344.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210536-qb-7678344.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210536-qb-7678344.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210600-qb-7678344.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210600-qb-7678344.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210600-qb-7678344.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210335-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210335-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210335-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210348-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210348-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210348-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210416-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210416-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210416-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210448-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210448-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210448-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210219-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210219-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210219-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210231-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210231-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210231-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210245-qb-7678345.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210245-qb-7678345.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210245-qb-7678345.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210300-qb-7678346.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210300-qb-7678346.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210300-qb-7678346.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250911-210324-qb-7678346.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250911-210324-qb-7678346.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250911-210324-qb-7678346.jpg"}],"price":"$3.49"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6145,"nome":"Ninja Party: Team Up & Brawl","slug":"ninja-party-team-up-brawl","logo":"common\/uploads\/icons\/1207633462c0da907c03ba93328277b2.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1207633462c0da907c03ba93328277b2.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titulo-1-6936244.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titulo-1-6936244.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.0","usuario_favorito":false,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":56,"nome":"Battle
+          Royale","slug":"battle-royale","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Ninja
+          Party is a quirky mix of battle royale chaos and casual party brawler action
+          with colorful stages, wacky parkour-like physics, and a fun two-player co-op
+          multiplayer PvP mode.\r\n\r\nEach match throws us and 7 other players into
+          one of several arenas that are full of hazards to avoid, obstacles to climb,
+          and weapons to pick up as we jump around hitting the enemies to score points.\r\n\r\nThe
+          zany concept is wacky and fun, and I often found myself laughing out loud
+          during the short 2-minute matches. Not too unlike games like Fall Guys.\r\n\r\nUnfortunately,
+          the gameplay doesn&rsquo;t quite match the ninja theme as movement feels slow
+          and floaty, and the arsenal of bazookas and shotguns clash with the idea of
+          playing as a nimble, stealthy warrior.\r\n\r\nIn addition, the controls and
+          physics aren&rsquo;t consistent, leading to input that sometimes feels delayed
+          or slippery. So competing for the leaderboard in each match can be frustrating.\r\n\r\nOn
+          the bright side, the game doesn&rsquo;t lean on pay-to-win mechanics, which
+          is a relief for a multiplayer title. Instead, there are lots of cosmetics
+          and characters to unlock.\r\n\r\nStill, we&rsquo;re often prompted to buy
+          something, and some matches feel suspiciously bot-filled, which detracts from
+          the fun after a while.\r\n\r\nNinja Party monetizes via incentivized ads and
+          iAPs for boosting progress and unlocking skins for characters and weapons.
+          But there&rsquo;s no pay-to-win at all.\r\n\r\nWhile the game feels somewhat
+          like a beta, more weapons, more varied game modes, and much more polish for
+          the controls could really make it shine. It&rsquo;s fun in bursts and has
+          genuine potential.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -440,7 +441,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 990cf6364cc94a94-TPE
+          - 992113786ee8a0c5-HKG
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -452,7 +453,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 02:49:21 GMT
+          - Tue, 21 Oct 2025 13:24:35 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -460,7 +461,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bBJKemP1RuIUx0dpsS6nF83gqY%2BfPND4ondcfjuXp0slGg7wAwR1qybednvjpIHlZHOFq41AkqtTjBcj%2BA51CcM2Mnvu1ki5y1ULcXQIvV8gAuph0ck%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vZlV3ryrIzdUqM1obDBtfI9tEanz0BJGlnWxfMWSIJfG9dqFFmy14JzvUHhsDIWbgPbVM2HLcxj1Ip1WgnWW4v0PxWKOeQdUbUgB1JuqV0toYQB%2BRhii4Q%3D%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
