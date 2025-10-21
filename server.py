@@ -8,6 +8,7 @@ from minireview_client.enums import (
 )
 
 app = FastMCP()
+client = MiniReviewClient()
 
 
 @app.tool(description="Fetches a list of games with extensive filtering capabilities.")
@@ -55,7 +56,6 @@ def get_games_list(
     Returns:
         A dictionary containing a list of games and pagination information.
     """
-    client = MiniReviewClient()
     games_list_res = client.get_games_list(
         page=page,
         limit=limit,
@@ -120,9 +120,8 @@ def get_game_details(game_slug: str, category: str) -> dict:
         category: The category of the game.
 
     Returns:
-        A dictionary containing the details of the game.
+        A dictionary containing the details of the.
     """
-    client = MiniReviewClient()
     game_details = client.get_game_details(game_slug, category)
     game_details_data = game_details.get("data")
 
@@ -180,7 +179,6 @@ def get_game_ratings(
     Returns:
         A dictionary containing a list of ratings and pagination information.
     """
-    client = MiniReviewClient()
     game_ratings_res = client.get_game_ratings(game_id, page, limit, orderBy)
 
     game_rating_data = [
@@ -225,7 +223,6 @@ def get_similar_games(
     Returns:
         A dictionary containing a list of similar games and pagination information.
     """
-    client = MiniReviewClient()
     return client.get_similar_games(game_id, page, limit, platforms)
 
 
@@ -283,7 +280,6 @@ def get_games_list_with_details(
         A dictionary containing a list of games with their details and pagination
         information.
     """
-    client = MiniReviewClient()
     games = client.get_games_list(
         page=page,
         limit=limit,
@@ -339,7 +335,6 @@ def get_similar_games_with_details(
         A dictionary containing a list of similar games with their details and
         pagination information.
     """
-    client = MiniReviewClient()
     games = client.get_similar_games(game_id, page, limit, platforms)
     for game in games["data"]:
         game["details"] = client.get_game_details(
