@@ -290,6 +290,11 @@ class MiniReviewClient:
         """
         Fetches details for a specific game.
         """
+        if not game_slug:
+            raise ValueError("game_slug cannot be empty.")
+        if not category:
+            raise ValueError("category cannot be empty.")
+
         params = {"getBy": "slug", "category": category}
         return self._fetch_api(f"/games/{game_slug}", params)
 
