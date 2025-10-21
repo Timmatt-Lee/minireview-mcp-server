@@ -100,14 +100,82 @@ def test_get_games_list(game_data, filters_data):
     assert isinstance(response["data"], list)
 
 
-@pytest.mark.vcr(
-    "tests/cassettes/test_integration_client/test_get_countries_android.yaml"
-)
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_players(game_data):
+    """Test a live call to get_players."""
+    response = game_data["client"].get_players()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_network_options(game_data):
+    """Test a live call to get_network_options."""
+    response = game_data["client"].get_network_options()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_monetization_android(game_data):
+    """Test a live call to get_monetization_android."""
+    response = game_data["client"].get_monetization_android()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_monetization_ios(game_data):
+    """Test a live call to get_monetization_ios."""
+    response = game_data["client"].get_monetization_ios()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_screen_orientation_options(game_data):
+    """Test a live call to get_screen_orientation_options."""
+    response = game_data["client"].get_screen_orientation_options()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_category_options(game_data):
+    """Test a live call to get_category_options."""
+    response = game_data["client"].get_category_options()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_sub_category_options(game_data):
+    """Test a live call to get_sub_category_options."""
+    response = game_data["client"].get_sub_category_options()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_tags(game_data):
+    """Test a live call to get_tags."""
+    response = game_data["client"].get_tags()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
 def test_get_countries_android(game_data):
     """Test a live call to get_countries_android."""
     response = game_data["client"].get_countries_android()
     assert isinstance(response, dict)
     assert "us" in response  # Check for a common country code
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_countries_ios(game_data):
+    """Test a live call to get_countries_ios."""
+    response = game_data["client"].get_countries_ios()
+    assert isinstance(response, dict)
+
+
+@pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_filters.yaml")
+def test_get_score_options(game_data):
+    """Test a live call to get_score_options."""
+    response = game_data["client"].get_score_options()
+    assert isinstance(response, dict)
 
 
 @pytest.mark.vcr("tests/cassettes/test_integration_client/test_get_game_details.yaml")
