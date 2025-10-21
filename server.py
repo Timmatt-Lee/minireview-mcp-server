@@ -3,6 +3,7 @@ from fastmcp import FastMCP
 from minireview_client.client import MiniReviewClient
 from minireview_client.enums import (
     GameRatingsOrderBy,
+    GameRatingType,
     GamesListOrderBy,
     Platform,
 )
@@ -165,6 +166,7 @@ def get_game_ratings(
     game_id: int,
     page: int = 1,
     limit: int = 50,
+    type: GameRatingType = GameRatingType.ALL,
     orderBy: GameRatingsOrderBy = GameRatingsOrderBy.NEWEST,
 ) -> dict:
     """
@@ -174,12 +176,13 @@ def get_game_ratings(
         game_id: The ID of the game.
         page: The page number to fetch.
         limit: The number of ratings to fetch per page.
+        type: The type of ratings to fetch.
         orderBy: The sorting order for the ratings.
 
     Returns:
         A dictionary containing a list of ratings and pagination information.
     """
-    game_ratings_res = client.get_game_ratings(game_id, page, limit, orderBy)
+    game_ratings_res = client.get_game_ratings(game_id, page, limit, type, orderBy)
 
     game_rating_data = [
         {

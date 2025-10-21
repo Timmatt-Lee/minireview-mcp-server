@@ -259,6 +259,13 @@ class MiniReviewClient:
         """
         Fetches a list of games with extensive filtering capabilities.
         """
+        if not isinstance(orderBy, GamesListOrderBy):
+            raise TypeError("orderBy must be a member of the GamesListOrderBy enum")
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+
         params = {
             "page": page,
             "limit": limit,
@@ -297,6 +304,11 @@ class MiniReviewClient:
         """
         Fetches ratings for a specific game.
         """
+        if not isinstance(type, GameRatingType):
+            raise TypeError("type must be a member of the GameRatingType enum")
+        if not isinstance(orderBy, GameRatingsOrderBy):
+            raise TypeError("orderBy must be a member of the GameRatingsOrderBy enum")
+
         params = {
             "game_id": game_id,
             "page": page,
@@ -321,6 +333,21 @@ class MiniReviewClient:
         """
         Fetches games similar to a specific game.
         """
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+        if monetization is not None and not isinstance(monetization, Monetization):
+            raise TypeError("monetization must be a member of the Monetization enum")
+        if players is not None and not isinstance(players, Players):
+            raise TypeError("players must be a member of the Players enum")
+        if screen_orientation is not None and not isinstance(
+            screen_orientation, ScreenOrientation
+        ):
+            raise TypeError(
+                "screen_orientation must be a member of the ScreenOrientation enum"
+            )
+
         params = {
             "game_id": game_id,
             "page": page,
@@ -344,6 +371,13 @@ class MiniReviewClient:
         """
         Fetches the home page content.
         """
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+        if not isinstance(orderBy, GamesListOrderBy):
+            raise TypeError("orderBy must be a member of the GamesListOrderBy enum")
+
         params = {
             "page": page,
             "orderBy": orderBy,
@@ -372,6 +406,11 @@ class MiniReviewClient:
         """
         Fetches games of the week.
         """
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+
         params = {
             "type": "games-of-the-week",
             "page": page,
@@ -380,14 +419,14 @@ class MiniReviewClient:
             "platforms": platforms,
             "players": players,
             "network": network,
-            "monetization_android": monetization_android,
-            "monetization_ios": monetization_ios,
-            "screen_orientation": screen_orientation,
+            "monetization-android": monetization_android,
+            "monetization-ios": monetization_ios,
+            "screen-orientation": screen_orientation,
             "category": category,
-            "sub_category": sub_category,
+            "sub-category": sub_category,
             "tags": tags,
-            "countries_android": countries_android,
-            "countries_ios": countries_ios,
+            "countries-android": countries_android,
+            "countries-ios": countries_ios,
             "score": score,
         }
         return self._fetch_api("/games", self._build_params(params, is_validate=True))
@@ -412,6 +451,11 @@ class MiniReviewClient:
         """
         Fetches games that are MiniReview picks.
         """
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+
         params = {
             "type": "our-pick",
             "page": page,
@@ -420,14 +464,14 @@ class MiniReviewClient:
             "platforms": platforms,
             "players": players,
             "network": network,
-            "monetization_android": monetization_android,
-            "monetization_ios": monetization_ios,
-            "screen_orientation": screen_orientation,
+            "monetization-android": monetization_android,
+            "monetization-ios": monetization_ios,
+            "screen-orientation": screen_orientation,
             "category": category,
-            "sub_category": sub_category,
+            "sub-category": sub_category,
             "tags": tags,
-            "countries_android": countries_android,
-            "countries_ios": countries_ios,
+            "countries-android": countries_android,
+            "countries-ios": countries_ios,
             "score": score,
         }
         return self._fetch_api("/games", self._build_params(params, is_validate=True))
@@ -442,6 +486,15 @@ class MiniReviewClient:
         """
         Fetches top user ratings.
         """
+        if not isinstance(orderBy, TopUserRatingsOrderBy):
+            raise TypeError(
+                "orderBy must be a member of the TopUserRatingsOrderBy enum"
+            )
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+
         params = {
             "page": page,
             "limit": limit,
@@ -462,6 +515,13 @@ class MiniReviewClient:
         """
         Fetches upcoming games.
         """
+        if not isinstance(orderBy, GamesListOrderBy):
+            raise TypeError("orderBy must be a member of the GamesListOrderBy enum")
+        if not all(isinstance(p, Platform) for p in platforms):
+            raise TypeError(
+                "All items in platforms must be members of the Platform enum"
+            )
+
         params = {
             "page": page,
             "limit": limit,

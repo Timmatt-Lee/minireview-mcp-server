@@ -17,18 +17,18 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":531,"tipo":"positivo","data":"2020-06-25T22:32:14-03:00","texto":"very
+          '{"data":[{"id":531,"root_id":null,"parent_id":null,"tipo":"positivo","data":"2020-06-25T22:32:14-03:00","texto":"very
           addictive, don t be too far away from a power source, drain battery quickly.
           good game that will take lots of hours away from your life :) ","texto_original":"very
           addictive, don t be too far away from a power source, drain battery quickly.
-          good game that will take lots of hours away from your life :) ","pontuacao":"1","usuario_votou":null,"usuario":{"id":312,"avatar":null,"username":"Benoit
-          Noisette","slug":"benoit-noisette","nome":"Benoit Noisette","sobre":null,"sobre_original":null,"data_cadastro":"2020-06-04
-          18:49:57","score":1,"total_avaliacoes":1,"total_favoritos":3,"pais_nome":null,"pais_sigla":null}}],"page":2,"total":1,"total_positivo":1,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
+          good game that will take lots of hours away from your life :) ","pontuacao":1,"usuario_votou":null,"usuario":{"id":312,"avatar":null,"username":"Benoit
+          Noisette","slug":"benoit-noisette","nome":"Benoit Noisette","data_cadastro":"2020-06-04
+          18:49:57","score":1,"total_avaliacoes":1,"total_favoritos":3,"pais_nome":null,"pais_sigla":null},"total_replies":0}],"page":2,"total":1,"total_positivo":1,"total_negativo":0,"porcento":0,"usuario_avaliacao":null,"ultima_pagina":true}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 99112b1be9ab8f12-TPE
+          - 992113479e11826a-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -40,7 +40,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Sun, 19 Oct 2025 15:04:32 GMT
+          - Tue, 21 Oct 2025 13:24:27 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -48,7 +48,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MSw8AsBwsj%2BvOyNdb%2FXV%2FFeDA%2FZivrQFYYN6ybTGP1Jaq59e56wvZgQDzF8ZLRibbKgqFeC6yO726dSLfpiDUlpe9NboWLzlAO%2F8zgWcR3jSKDJl%2BMk%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bAM0G2rCYxX7%2Bk7U36GBgE2a1UVyU0NLTSTQSkGpHMVwRXbZlWVIkiYV3qBxWxUuI%2B9o6JZrrNbRMbMp%2FCcm2fTZ4IMjaRi9P9QyRtrXpcxSPzYa8DA%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
