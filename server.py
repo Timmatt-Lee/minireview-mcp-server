@@ -34,6 +34,7 @@ client = MiniReviewClient()
                             "type": "string",
                             "description": "The slug for the game, used in URLs",
                         },
+                        "score": {"type": "number"},
                         "total_reviews": {
                             "type": "integer",
                             "description": "Total number of reviews",
@@ -144,6 +145,7 @@ def get_games_list(
             "id": game_list_data_item.get("id"),
             "name": game_list_data_item.get("nome"),
             "slug": game_list_data_item.get("slug"),
+            "score": game_list_data_item.get("nota"),
             "total_reviews": game_list_data_item.get("avaliacoes_total"),
             "positive_review_percentage": game_list_data_item.get(
                 "avaliacoes_positivas_porcento"
@@ -368,17 +370,17 @@ def get_similar_games(
     output_schema={
         "type": "object",
         "properties": {
-            "players": {"type": "array"},
-            "network": {"type": "array"},
-            "monetization_android": {"type": "array"},
-            "monetization_ios": {"type": "array"},
-            "screen_orientation": {"type": "array"},
-            "category": {"type": "array"},
-            "sub_category": {"type": "array"},
-            "tags": {"type": "array"},
-            "countries_android": {"type": "array"},
-            "countries_ios": {"type": "array"},
-            "score": {"type": "array"},
+            "players": {"type": "object"},
+            "network": {"type": "object"},
+            "monetization_android": {"type": "object"},
+            "monetization_ios": {"type": "object"},
+            "screen_orientation": {"type": "object"},
+            "category": {"type": "object"},
+            "sub_category": {"type": "object"},
+            "tags": {"type": "object"},
+            "countries_android": {"type": "object"},
+            "countries_ios": {"type": "object"},
+            "score": {"type": "object"},
         },
     },
 )
@@ -412,7 +414,7 @@ def get_all_filters() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_player_options() -> dict:
@@ -427,7 +429,7 @@ def get_player_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_network_options() -> dict:
@@ -442,7 +444,7 @@ def get_network_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_monetization_android_options() -> dict:
@@ -457,7 +459,7 @@ def get_monetization_android_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_monetization_ios_options() -> dict:
@@ -470,7 +472,7 @@ def get_monetization_ios_options() -> dict:
     description="Fetches all available screen orientation filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_screen_orientation_options() -> dict:
@@ -483,7 +485,7 @@ def get_screen_orientation_options() -> dict:
     description="Fetches all available main game category filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_category_options() -> dict:
@@ -496,7 +498,7 @@ def get_category_options() -> dict:
     description="Fetches all available game sub-category filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_sub_category_options() -> dict:
@@ -509,7 +511,7 @@ def get_sub_category_options() -> dict:
     description="Fetches all available game tag filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_tag_options() -> dict:
@@ -524,7 +526,7 @@ def get_tag_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_countries_android_options() -> dict:
@@ -539,7 +541,7 @@ def get_countries_android_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_countries_ios_options() -> dict:
@@ -552,7 +554,7 @@ def get_countries_ios_options() -> dict:
     description="Fetches all available score filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_score_options() -> dict:
@@ -591,6 +593,55 @@ def get_home(
 @app.tool(
     title="Get Games of the Week",
     description="Fetches a list of games featured as 'Game of the Week'.",
+    output_schema={
+        "type": "object",
+        "properties": {
+            "data": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {"type": "integer", "description": "Game ID"},
+                        "name": {"type": "string", "description": "Game Name"},
+                        "slug": {
+                            "type": "string",
+                            "description": "The slug for the game, used in URLs",
+                        },
+                        "score": {"type": "number"},
+                        "total_reviews": {
+                            "type": "integer",
+                            "description": "Total number of reviews",
+                        },
+                        "positive_review_percentage": {
+                            "type": "number",
+                            "description": "Percentage of positive reviews",
+                        },
+                        "platform": {
+                            "type": "object",
+                            "properties": {
+                                "android": {"type": "object"},
+                                "ios": {"type": "object"},
+                            },
+                        },
+                        "category": {"type": "object"},
+                        "categories": {"type": "array"},
+                        "description": {
+                            "type": "string",
+                            "description": "Game description",
+                        },
+                        "die_date": {"type": ["string", "null"]},
+                        "pick_date": {"type": ["string", "null"]},
+                        "week": {"type": ["string", "null"]},
+                        "price": {"type": ["string", "number", "null"]},
+                    },
+                },
+            },
+            "current_page": {"type": "integer"},
+            "total_pages": {"type": "integer"},
+            "is_last_page": {"type": "boolean"},
+        },
+        "required": ["data", "current_page", "total_pages", "is_last_page"],
+    },
 )
 def get_games_of_the_week(
     page: int = 1,
@@ -630,7 +681,7 @@ def get_games_of_the_week(
     Returns:
         A dictionary containing a list of games of the week.
     """
-    return client.get_games_of_the_week(
+    get_games_of_the_week_res = client.get_games_of_the_week(
         page=page,
         limit=limit,
         platforms=platforms,
@@ -646,6 +697,46 @@ def get_games_of_the_week(
         countries_ios=countries_ios,
         score=score,
     )
+
+    get_games_of_the_week_data = [
+        {
+            "id": get_games_of_the_week_data_item.get("id"),
+            "name": get_games_of_the_week_data_item.get("nome"),
+            "slug": get_games_of_the_week_data_item.get("slug"),
+            "score": get_games_of_the_week_data_item.get("nota"),
+            "total_reviews": get_games_of_the_week_data_item.get("avaliacoes_total"),
+            "positive_review_percentage": get_games_of_the_week_data_item.get(
+                "avaliacoes_positivas_porcento"
+            ),
+            "platform": {
+                "android": {
+                    "is_available": get_games_of_the_week_data_item.get(
+                        "disponivel_android"
+                    ),
+                },
+                "ios": {
+                    "is_available": get_games_of_the_week_data_item.get(
+                        "disponivel_ios"
+                    ),
+                },
+            },
+            "category": get_games_of_the_week_data_item.get("categoria"),
+            "categories": get_games_of_the_week_data_item.get("categorias"),
+            "description": get_games_of_the_week_data_item.get("descricao"),
+            "die_date": get_games_of_the_week_data_item.get("morto_data"),
+            "pick_date": get_games_of_the_week_data_item.get("pick_data"),
+            "week": get_games_of_the_week_data_item.get("semana"),
+            "price": get_games_of_the_week_data_item.get("price"),
+        }
+        for get_games_of_the_week_data_item in get_games_of_the_week_res.get("data")
+    ]
+
+    return {
+        "data": get_games_of_the_week_data,
+        "current_page": get_games_of_the_week_res.get("page"),
+        "total_pages": get_games_of_the_week_res.get("total"),
+        "is_last_page": get_games_of_the_week_res.get("ultima_pagina"),
+    }
 
 
 @app.tool(
