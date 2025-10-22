@@ -4,12 +4,26 @@ import pytest
 from fastmcp import Client, FastMCP
 
 from server import (
+    get_category_options,
+    get_countries_android_options,
+    get_countries_ios_options,
     get_game_details,
     get_game_ratings,
     get_games_list,
-    get_games_list_with_details,
+    get_games_of_the_week,
+    get_home,
+    get_minireview_pick,
+    get_monetization_android_options,
+    get_monetization_ios_options,
+    get_network_options,
+    get_player_options,
+    get_score_options,
+    get_screen_orientation_options,
     get_similar_games,
-    get_similar_games_with_details,
+    get_sub_category_options,
+    get_tag_options,
+    get_top_user_ratings,
+    get_upcoming_games,
 )
 
 
@@ -152,42 +166,202 @@ async def test_get_similar_games_integration():
 
 @pytest.mark.asyncio
 @pytest.mark.vcr()
-async def test_get_games_list_with_details_integration():
+async def test_get_home_integration():
     app = FastMCP()
-    app.tool(get_games_list_with_details.fn)
+    app.tool(get_home.fn)
 
     async with Client(app) as client:
-        games_with_details_result = await client.call_tool(
-            "get_games_list_with_details", {"limit": 1}
-        )
-        games_with_details_data = json.loads(games_with_details_result.content[0].text)
+        result = await client.call_tool("get_home")
+        data = json.loads(result.content[0].text)
 
-        assert isinstance(games_with_details_data, dict)
-        assert "data" in games_with_details_data
-        assert isinstance(games_with_details_data["data"], list)
-        assert "details" in games_with_details_data["data"][0]
+        assert isinstance(data, dict)
 
 
 @pytest.mark.asyncio
 @pytest.mark.vcr()
-async def test_get_similar_games_with_details_integration():
+async def test_get_games_of_the_week_integration():
     app = FastMCP()
-    app.tool(get_games_list.fn)
-    app.tool(get_similar_games_with_details.fn)
+    app.tool(get_games_of_the_week.fn)
 
     async with Client(app) as client:
-        list_result = await client.call_tool("get_games_list", {"limit": 1})
-        list_data = json.loads(list_result.content[0].text)
-        game_id = list_data["data"][0]["id"]
+        result = await client.call_tool("get_games_of_the_week", {"limit": 1})
+        data = json.loads(result.content[0].text)
 
-        similar_games_with_details_result = await client.call_tool(
-            "get_similar_games_with_details", {"game_id": game_id, "limit": 1}
-        )
-        similar_games_with_details_data = json.loads(
-            similar_games_with_details_result.content[0].text
-        )
+        assert isinstance(data, dict)
+        assert "data" in data
+        assert isinstance(data["data"], list)
 
-        assert isinstance(similar_games_with_details_data, dict)
-        assert "data" in similar_games_with_details_data
-        assert isinstance(similar_games_with_details_data["data"], list)
-        assert "details" in similar_games_with_details_data["data"][0]
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_minireview_pick_integration():
+    app = FastMCP()
+    app.tool(get_minireview_pick.fn)
+
+    async with Client(app) as client:
+        result = await client.call_tool("get_minireview_pick", {"limit": 1})
+        data = json.loads(result.content[0].text)
+
+        assert isinstance(data, dict)
+        assert "data" in data
+        assert isinstance(data["data"], list)
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_top_user_ratings_integration():
+    app = FastMCP()
+    app.tool(get_top_user_ratings.fn)
+
+    async with Client(app) as client:
+        result = await client.call_tool("get_top_user_ratings", {"limit": 1})
+        data = json.loads(result.content[0].text)
+
+        assert isinstance(data, dict)
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_upcoming_games_integration():
+    app = FastMCP()
+    app.tool(get_upcoming_games.fn)
+
+    async with Client(app) as client:
+        result = await client.call_tool("get_upcoming_games", {"limit": 1})
+        data = json.loads(result.content[0].text)
+
+        assert isinstance(data, dict)
+        assert "data" in data
+        assert isinstance(data["data"], list)
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_player_options_integration():
+    app = FastMCP()
+    app.tool(get_player_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_player_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_network_options_integration():
+    app = FastMCP()
+    app.tool(get_network_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_network_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_monetization_android_options_integration():
+    app = FastMCP()
+    app.tool(get_monetization_android_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_monetization_android_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_monetization_ios_options_integration():
+    app = FastMCP()
+    app.tool(get_monetization_ios_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_monetization_ios_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_screen_orientation_options_integration():
+    app = FastMCP()
+    app.tool(get_screen_orientation_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_screen_orientation_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_category_options_integration():
+    app = FastMCP()
+    app.tool(get_category_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_category_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_sub_category_options_integration():
+    app = FastMCP()
+    app.tool(get_sub_category_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_sub_category_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_tag_options_integration():
+    app = FastMCP()
+    app.tool(get_tag_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_tag_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_countries_android_options_integration():
+    app = FastMCP()
+    app.tool(get_countries_android_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_countries_android_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_countries_ios_options_integration():
+    app = FastMCP()
+    app.tool(get_countries_ios_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_countries_ios_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data
+
+
+@pytest.mark.asyncio
+@pytest.mark.vcr()
+async def test_get_score_options_integration():
+    app = FastMCP()
+    app.tool(get_score_options.fn)
+    async with Client(app) as client:
+        result = await client.call_tool("get_score_options")
+        data = json.loads(result.content[0].text)
+        assert isinstance(data, dict)
+        assert "options" in data

@@ -185,12 +185,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3913,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992113722e65843c-TPE
+          - 992596fabf4b8f0f-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -202,7 +202,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Tue, 21 Oct 2025 13:24:34 GMT
+          - Wed, 22 Oct 2025 02:33:25 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -210,12 +210,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lsQM7BJkVtvAdSn2R2QuLi4XeWib77b7kkWTXxl1Nh1v7og%2FPV4gCaXZhl7ayerpFlppihzMcHhn4PUhKfAqXm9pRzn%2FWI6UnNKVt1Wyyt4Ms3go458%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yRMOApYfxGBSKCx1Btxy1q3%2FHbIXM8%2FpyJXu%2FHOTvliYygayRtF%2BW7Hts64djOUYmXux8C0odx3rLGPDBSLEtIzQ0LkH7QRi02FIW3%2B6iYgluux9ySE%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf; Path=/; Max-Age=2592000; Expires=Thu,
-            20 Nov 2025 13:24:34 GMT
+          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81; Path=/; Max-Age=2592000; Expires=Fri,
+            21 Nov 2025 02:33:25 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -239,7 +239,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf
+          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -247,30 +247,32 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6145,"nome":"Ninja Party: Team Up & Brawl","slug":"ninja-party-team-up-brawl","logo":"common\/uploads\/icons\/1207633462c0da907c03ba93328277b2.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1207633462c0da907c03ba93328277b2.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titulo-1-6936244.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titulo-1-6936244.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.0","usuario_favorito":false,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":56,"nome":"Battle
-          Royale","slug":"battle-royale","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Ninja
-          Party is a quirky mix of battle royale chaos and casual party brawler action
-          with colorful stages, wacky parkour-like physics, and a fun two-player co-op
-          multiplayer PvP mode.\r\n\r\nEach match throws us and 7 other players into
-          one of several arenas that are full of hazards to avoid, obstacles to climb,
-          and weapons to pick up as we jump around hitting the enemies to score points.\r\n\r\nThe
-          zany concept is wacky and fun, and I often found myself laughing out loud
-          during the short 2-minute matches. Not too unlike games like Fall Guys.\r\n\r\nUnfortunately,
-          the gameplay doesn&rsquo;t quite match the ninja theme as movement feels slow
-          and floaty, and the arsenal of bazookas and shotguns clash with the idea of
-          playing as a nimble, stealthy warrior.\r\n\r\nIn addition, the controls and
-          physics aren&rsquo;t consistent, leading to input that sometimes feels delayed
-          or slippery. So competing for the leaderboard in each match can be frustrating.\r\n\r\nOn
-          the bright side, the game doesn&rsquo;t lean on pay-to-win mechanics, which
-          is a relief for a multiplayer title. Instead, there are lots of cosmetics
-          and characters to unlock.\r\n\r\nStill, we&rsquo;re often prompted to buy
-          something, and some matches feel suspiciously bot-filled, which detracts from
-          the fun after a while.\r\n\r\nNinja Party monetizes via incentivized ads and
-          iAPs for boosting progress and unlocking skins for characters and weapons.
-          But there&rsquo;s no pay-to-win at all.\r\n\r\nWhile the game feels somewhat
-          like a beta, more weapons, more varied game modes, and much more polish for
-          the controls could really make it shine. It&rsquo;s fun in bursts and has
-          genuine potential.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":5022,"nome":"Reverse: 1999 - 2nd Anniv.","slug":"reverse-1999","logo":"common\/uploads\/icons\/548fc28284a08410289a3ed2476b417d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-548fc28284a08410289a3ed2476b417d.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-reverse-1999-3271055.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-reverse-1999-3271055.webp","avaliacoes_total":6,"avaliacoes_positivas_porcento":100,"nota":"8.3","usuario_favorito":false,"categoria":{"id":30,"nome":"Gacha","slug":"gacha"},"categorias":[{"id":30,"nome":"Gacha","slug":"gacha","type":"category"},{"id":35,"nome":"Role
+          Playing","slug":"role-playing","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Reverse:
+          1999 is a fun turn-based RPG with a Slay the Spire-style card combat system
+          and a unique twist that makes it stand out from other card battlers.\r\n\r\nWe
+          play as a timekeeper who leads a team of three heroes into battle by playing
+          cards that represent the characters&rsquo; moves, of which each have two normal
+          ones and an ultimate. During our turn, we draw up to seven of these cards
+          from our deck, and then place three of them to be played this round.\r\n\r\nThe
+          fun twist is that if two identical cards end up next to each other in our
+          hand, they merge to create a tier 2 version, which makes the card more powerful
+          and sometimes even adds new abilities.&nbsp;\r\n\r\nWe can ensure that two
+          identical cards end up next to each other by playing the card(s) in-between
+          them, or by dragging one card onto another, though the latter makes us lose
+          an attack slot for that turn. This can become frustrating when we accidentally
+          drag a card to a wrong spot since it can&#39;t be reversed.\r\n\r\nEach character
+          class has strengths or weaknesses against certain enemy classes, making team
+          composition rather important.\r\n\r\nThankfully, new characters are unlocked
+          via a very free-to-play-friendly gacha system that is easy to gain resources
+          for and has good pull rates. Most characters also don&rsquo;t have a noticeable
+          power level difference. I pulled a B-tier character and still breezed through
+          the grindy gameplay.\r\n\r\nReverse: 1999 monetizes via iAPs for a battle
+          pass, upgrade materials, gacha pulls, and cosmetics. Thankfully, the necessary
+          resources are easy to farm, and there&rsquo;s no PvP - so paying players at
+          most progress a bit faster.\r\n\r\nOverall, its fun gameplay loop and gorgeous
+          art style make it an easy recommendation if you like card battlers and can
+          ignore the gacha.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200742-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200832-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-171454-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220136-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220223-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -436,12 +438,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3913,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992113786ee8a0c5-HKG
+          - 992596fd3d4a4a82-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -453,7 +455,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Tue, 21 Oct 2025 13:24:35 GMT
+          - Wed, 22 Oct 2025 02:33:25 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -461,7 +463,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vZlV3ryrIzdUqM1obDBtfI9tEanz0BJGlnWxfMWSIJfG9dqFFmy14JzvUHhsDIWbgPbVM2HLcxj1Ip1WgnWW4v0PxWKOeQdUbUgB1JuqV0toYQB%2BRhii4Q%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=EADkx4%2BsfgkoiFkNGto8tKhOPxe79yJ9yqgq7VHTyyhZ3I5%2FinUYcVxavKsJg9d5%2Fy%2Fnj4w9xIhQ1hJr5FORNJbA7yNzR3LVeN1xvWZoeUCLJQkVETo%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
