@@ -368,17 +368,17 @@ def get_similar_games(
     output_schema={
         "type": "object",
         "properties": {
-            "players": {"type": "array"},
-            "network": {"type": "array"},
-            "monetization_android": {"type": "array"},
-            "monetization_ios": {"type": "array"},
-            "screen_orientation": {"type": "array"},
-            "category": {"type": "array"},
-            "sub_category": {"type": "array"},
-            "tags": {"type": "array"},
-            "countries_android": {"type": "array"},
-            "countries_ios": {"type": "array"},
-            "score": {"type": "array"},
+            "players": {"type": "object"},
+            "network": {"type": "object"},
+            "monetization_android": {"type": "object"},
+            "monetization_ios": {"type": "object"},
+            "screen_orientation": {"type": "object"},
+            "category": {"type": "object"},
+            "sub_category": {"type": "object"},
+            "tags": {"type": "object"},
+            "countries_android": {"type": "object"},
+            "countries_ios": {"type": "object"},
+            "score": {"type": "object"},
         },
     },
 )
@@ -412,7 +412,7 @@ def get_all_filters() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_player_options() -> dict:
@@ -427,7 +427,7 @@ def get_player_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_network_options() -> dict:
@@ -442,7 +442,7 @@ def get_network_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_monetization_android_options() -> dict:
@@ -457,7 +457,7 @@ def get_monetization_android_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_monetization_ios_options() -> dict:
@@ -470,7 +470,7 @@ def get_monetization_ios_options() -> dict:
     description="Fetches all available screen orientation filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_screen_orientation_options() -> dict:
@@ -483,7 +483,7 @@ def get_screen_orientation_options() -> dict:
     description="Fetches all available main game category filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_category_options() -> dict:
@@ -496,7 +496,7 @@ def get_category_options() -> dict:
     description="Fetches all available game sub-category filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_sub_category_options() -> dict:
@@ -509,7 +509,7 @@ def get_sub_category_options() -> dict:
     description="Fetches all available game tag filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_tag_options() -> dict:
@@ -524,7 +524,7 @@ def get_tag_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_countries_android_options() -> dict:
@@ -539,7 +539,7 @@ def get_countries_android_options() -> dict:
     ),
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_countries_ios_options() -> dict:
@@ -552,7 +552,7 @@ def get_countries_ios_options() -> dict:
     description="Fetches all available score filter options.",
     output_schema={
         "type": "object",
-        "properties": {"options": {"type": "array", "items": {"type": "object"}}},
+        "properties": {"options": {"type": "object"}},
     },
 )
 def get_score_options() -> dict:
