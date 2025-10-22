@@ -13,36 +13,15 @@ interactions:
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games?page=1&limit=1&orderBy=last-added-reviews
+      uri: https://minireview.io/apiv2/games?type=our-pick&page=1&limit=1&orderBy=pick-date&platforms%5B0%5D=android&platforms%5B1%5D=ios
     response:
       body:
         string:
-          '{"data":[{"id":5022,"nome":"Reverse: 1999 - 2nd Anniv.","slug":"reverse-1999","logo":"common\/uploads\/icons\/548fc28284a08410289a3ed2476b417d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-548fc28284a08410289a3ed2476b417d.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-reverse-1999-3271055.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-reverse-1999-3271055.webp","avaliacoes_total":6,"avaliacoes_positivas_porcento":100,"nota":"8.3","usuario_favorito":false,"categoria":{"id":30,"nome":"Gacha","slug":"gacha"},"categorias":[{"id":30,"nome":"Gacha","slug":"gacha","type":"category"},{"id":35,"nome":"Role
-          Playing","slug":"role-playing","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Reverse:
-          1999 is a fun turn-based RPG with a Slay the Spire-style card combat system
-          and a unique twist that makes it stand out from other card battlers.\r\n\r\nWe
-          play as a timekeeper who leads a team of three heroes into battle by playing
-          cards that represent the characters&rsquo; moves, of which each have two normal
-          ones and an ultimate. During our turn, we draw up to seven of these cards
-          from our deck, and then place three of them to be played this round.\r\n\r\nThe
-          fun twist is that if two identical cards end up next to each other in our
-          hand, they merge to create a tier 2 version, which makes the card more powerful
-          and sometimes even adds new abilities.&nbsp;\r\n\r\nWe can ensure that two
-          identical cards end up next to each other by playing the card(s) in-between
-          them, or by dragging one card onto another, though the latter makes us lose
-          an attack slot for that turn. This can become frustrating when we accidentally
-          drag a card to a wrong spot since it can&#39;t be reversed.\r\n\r\nEach character
-          class has strengths or weaknesses against certain enemy classes, making team
-          composition rather important.\r\n\r\nThankfully, new characters are unlocked
-          via a very free-to-play-friendly gacha system that is easy to gain resources
-          for and has good pull rates. Most characters also don&rsquo;t have a noticeable
-          power level difference. I pulled a B-tier character and still breezed through
-          the grindy gameplay.\r\n\r\nReverse: 1999 monetizes via iAPs for a battle
-          pass, upgrade materials, gacha pulls, and cosmetics. Thankfully, the necessary
-          resources are easy to farm, and there&rsquo;s no PvP - so paying players at
-          most progress a bit faster.\r\n\r\nOverall, its fun gameplay loop and gorgeous
-          art style make it an easy recommendation if you like card battlers and can
-          ignore the gacha.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200742-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200832-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-171454-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220136-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220223-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6208,"nome":"Stamps","slug":"stamps","logo":"common\/uploads\/icons\/5c9a2f8685370d3fe698904c3f99f2ee.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5c9a2f8685370d3fe698904c3f99f2ee.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-19-9790725.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-19-9790725.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Stamps
+          is a free trial 2D Puzzle Casual game available on Android and iOS. It\u2019s
+          a singleplayer experience that can be played offline in portrait mode. Stamps
+          was released in June 2025 and has a current rating of 5 out of 5.0 on iOS
+          App Store.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9790174.jpg"}],"price":"Trial"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -213,7 +192,7 @@ interactions:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9925970c9a7e8458-TPE
+          - 99259715ea708466-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -225,7 +204,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:28 GMT
+          - Wed, 22 Oct 2025 02:33:29 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -233,78 +212,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=djMGjdzWZkUuV%2BCR1wMAfc%2FUA%2B1EKjzzGq%2B%2BuaKznChsVgHeUJLmWM51FrBbH71swm8KwhKlH%2F9RQgGeYhicIzSmZpDG2mNZMQjhk%2FeaFHFCpdY78D4%3D"}]}'
-        Server:
-          - cloudflare
-        Transfer-Encoding:
-          - chunked
-        Vary:
-          - Accept-Encoding
-        X-Frame-Options:
-          - SAMEORIGIN
-        X-UA-Compatible:
-          - IE=Edge,chrome=1
-        cf-cache-status:
-          - DYNAMIC
-      status:
-        code: 200
-        message: OK
-  - request:
-      body: null
-      headers:
-        Accept:
-          - "*/*"
-        Accept-Encoding:
-          - gzip, deflate
-        Connection:
-          - keep-alive
-        Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
-        User-Agent:
-          - python-requests/2.32.5
-      method: GET
-      uri: https://minireview.io/apiv2/games-similar?game_id=5022&page=1&limit=1
-    response:
-      body:
-        string:
-          '{"data":[{"id":6179,"nome":"KAIJU NO. 8 THE GAME","slug":"kaiju-no-8-the-game","logo":"common\/uploads\/icons\/0cc812f1d3081f57c66ee7d02fe607ff.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-0cc812f1d3081f57c66ee7d02fe607ff.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-13-8666462.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-13-8666462.webp","usuario_favorito":false,"usuario_votou":null,"categoria":{"id":30,"nome":"Gacha","slug":"gacha"},"categorias":[{"id":30,"nome":"Gacha","slug":"gacha","type":"category"},{"id":35,"nome":"Role
-          Playing","slug":"role-playing","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"KAIJU
-          NO. 8 THE GAME is a free 3D Gacha Role Playing game available on Android and
-          iOS. It\u2019s a singleplayer experience that can be played online in landscape
-          mode. KAIJU NO. 8 THE GAME was released in July 2025 and has a current rating
-          of 4.5 out of 5.0 on Google Play and 4.9 out of 5.0 on the iOS App Store.","price":"Free","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-8665620.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-6-8665620.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-8665620.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-9-8665620.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-15-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-15-8665620.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-15-8665620.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-14-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-14-8665620.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-14-8665620.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-12-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-12-8665620.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-12-8665620.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-11-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-11-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-11-8665620.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-10-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-10-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-10-8665620.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-8665620.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-13-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-13-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-13-8665620.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-8665619.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-8665619.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-8665619.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-8665619.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-8665619.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-8665619.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-8665620.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-8665620.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-8665620.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-8665620.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-8665620.jpg"}],"similarity":88,"similar_items":[{"name":"Gacha","slug":"gacha","type":"category"},{"name":"Role
-          Playing","slug":"role-playing","type":"subcategory"},{"name":"Online","slug":"online","type":"network"},{"name":"Singleplayer","slug":"singleplayer","type":"players"},{"name":"Landscape","slug":"landscape","type":"screen-orientation"},{"name":"Auto
-          Mode","slug":"auto-mode","type":"tag"},{"name":"Energy System","slug":"energy-system","type":"tag"},{"name":"Gacha","slug":"gacha","type":"tag"},{"name":"Online
-          Events","slug":"online-events","type":"tag"},{"name":"PvE","slug":"pve","type":"players"},{"name":"Quests","slug":"quests","type":"tag"},{"name":"Sci-Fi","slug":"sci-fi","type":"tag"},{"name":"Turn-Based","slug":"turn-based","type":"tag"}],"total_likes":0,"total_dislikes":0}],"last_date_updated":"2025-10-09
-          11:12:00","total":60,"ultima_pagina":true,"meta_title":"60+ Games Like Reverse:
-          1999 - 2nd Anniv. - MiniReview","meta_description":"What are the best games
-          like Reverse: 1999 - 2nd Anniv.? Explore 60+ similar games and filter the
-          list to find the top free, paid, or offline games you will love.","box_content":null,"box_content_game":null}'
-      headers:
-        Access-Control-Allow-Origin:
-          - "*"
-        CF-RAY:
-          - 9925970ecadc4a39-TPE
-        Cache-Control:
-          - max-age=60, private, proxy-revalidate
-        Connection:
-          - keep-alive
-        Content-Encoding:
-          - gzip
-        Content-Security-Policy:
-          - frame-ancestors 'self';
-        Content-Type:
-          - application/json
-        Date:
-          - Wed, 22 Oct 2025 02:33:28 GMT
-        Expires:
-          - Thu, 19 Nov 1981 08:52:00 GMT
-        Nel:
-          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
-        Pragma:
-          - no-cache
-        Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uOOZlsgTdj4lCNJjeCOb85Ck%2FvnZhxP4Wl113GD%2BN%2Bl2m0IgX1MYmezffuEyArYTZhhUKOeHH%2BOReorhjgHk%2B4zLvu5HCbWRwxtG1T34MFjIaLQuHOs%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eY3M3Io%2BHsn4xyc5SUP4m8H0F7uCu9nuplNoQ28wSUIhj5AbA7Viwj2Uqq69F2O1%2ByQoj7orN9f4EnMFPQJrsIl4UD1PeH457mT2n35%2FHRlzErl6ocU%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
