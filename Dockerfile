@@ -11,4 +11,4 @@ COPY . .
 RUN pip install .
 
 # Set the entrypoint
-ENTRYPOINT ["adk", "web", "--host=0.0.0.0", "--port=10000", "--session_service_uri=sqlite:///session.db"]
+ENTRYPOINT ["adk", "web", ".", "--host=0.0.0.0", "--port=10000", "--session_service_uri=sqlite:////data/session.db"]
