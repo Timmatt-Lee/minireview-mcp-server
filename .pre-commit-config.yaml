@@ -42,6 +42,7 @@ repos:
             fastmcp,
             pytest-asyncio,
             pytest-recording,
+            inline-snapshot,
           ]
       - id: test-agent
         name: Test Agent Configuration
