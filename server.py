@@ -120,7 +120,8 @@ def get_games_list(
         score: A dictionary to filter by score.
 
     Returns:
-        A dictionary containing a list of games and pagination information.
+        A dictionary containing a list of games, and pagination information
+        including the current page, total pages, and whether it is the last page.
     """
     games_list_res = client.get_games_list(
         page=page,
@@ -213,7 +214,9 @@ def get_game_details(game_slug: str, category: str) -> dict:
         category: The category of the game.
 
     Returns:
-        A dictionary containing the details of the.
+        A dictionary containing the details of the game, including id, name, slug,
+        score, total reviews, platform, category, subcategory, categories, top game,
+        minireview pick, game of the week, description, review, specs, and tags.
     """
     game_details = client.get_game_details(game_slug, category)
     game_details_data = game_details.get("data")
@@ -299,7 +302,9 @@ def get_game_ratings(
         orderBy: The sorting order for the ratings.
 
     Returns:
-        A dictionary containing a list of ratings and pagination information.
+        A dictionary containing a list of ratings, and pagination information
+        including the current page, total ratings, total positive ratings,
+        total negative ratings, and whether it is the last page.
     """
     game_ratings_res = client.get_game_ratings(game_id, page, limit, type, orderBy)
 
@@ -333,8 +338,30 @@ def get_game_ratings(
         "properties": {
             "data": {
                 "type": "array",
-                "items": {"type": "object"},
-            }
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {"type": "integer"},
+                        "name": {"type": "string"},
+                        "slug": {"type": "string"},
+                        "total_likes": {"type": "integer"},
+                        "total_dislikes": {"type": "integer"},
+                        "platform": {
+                            "type": "object",
+                            "properties": {
+                                "android": {"type": "object"},
+                                "ios": {"type": "object"},
+                            },
+                        },
+                        "category": {"type": "object"},
+                        "categories": {"type": "array"},
+                        "description": {"type": "string"},
+                        "price": {"type": ["string", "number", "null"]},
+                    },
+                },
+            },
+            "total_games": {"type": "integer"},
+            "is_last_page": {"type": "boolean"},
         },
     },
 )
@@ -355,9 +382,39 @@ def get_similar_games(
         orderBy: The sorting order for the similar games list.
 
     Returns:
-        A dictionary containing a list of similar games and pagination information.
+        A dictionary containing a list of similar games, the total number of games,
+        and whether it is the last page.
     """
-    return client.get_similar_games(game_id, page, limit, platforms)
+    similar_games_res = client.get_similar_games(game_id, page, limit, platforms)
+
+    similar_games_data = [
+        {
+            "id": similar_games_data_item.get("id"),
+            "name": similar_games_data_item.get("nome"),
+            "slug": similar_games_data_item.get("slug"),
+            "total_likes": similar_games_data_item.get("total_likes"),
+            "total_dislikes": similar_games_data_item.get("total_dislikes"),
+            "platform": {
+                "android": {
+                    "is_available": similar_games_data_item.get("disponivel_android"),
+                },
+                "ios": {
+                    "is_available": similar_games_data_item.get("disponivel_ios"),
+                },
+            },
+            "category": similar_games_data_item.get("categoria"),
+            "categories": similar_games_data_item.get("categorias"),
+            "description": similar_games_data_item.get("descricao"),
+            "price": similar_games_data_item.get("price"),
+        }
+        for similar_games_data_item in similar_games_res.get("data")
+    ]
+
+    return {
+        "data": similar_games_data,
+        "total_games": similar_games_res.get("total"),
+        "is_last_page": similar_games_res.get("ultima_pagina"),
+    }
 
 
 @app.tool(
@@ -418,7 +475,12 @@ def get_all_filters() -> dict:
     },
 )
 def get_player_options() -> dict:
-    """Fetches available player mode options."""
+    """
+    Fetches available player mode options.
+
+    Returns:
+        A dictionary containing the available player mode options.
+    """
     return {"options": client.get_players()}
 
 
@@ -433,7 +495,12 @@ def get_player_options() -> dict:
     },
 )
 def get_network_options() -> dict:
-    """Fetches available network options."""
+    """
+    Fetches available network options.
+
+    Returns:
+        A dictionary containing the available network options.
+    """
     return {"options": client.get_network_options()}
 
 
@@ -448,7 +515,12 @@ def get_network_options() -> dict:
     },
 )
 def get_monetization_android_options() -> dict:
-    """Fetches available monetization options for Android."""
+    """
+    Fetches available monetization options for Android.
+
+    Returns:
+        A dictionary containing the available monetization options for Android.
+    """
     return {"options": client.get_monetization_android()}
 
 
@@ -463,7 +535,12 @@ def get_monetization_android_options() -> dict:
     },
 )
 def get_monetization_ios_options() -> dict:
-    """Fetches available monetization options for iOS."""
+    """
+    Fetches available monetization options for iOS.
+
+    Returns:
+        A dictionary containing the available monetization options for iOS.
+    """
     return {"options": client.get_monetization_ios()}
 
 
@@ -476,7 +553,12 @@ def get_monetization_ios_options() -> dict:
     },
 )
 def get_screen_orientation_options() -> dict:
-    """Fetches available screen orientation options."""
+    """
+    Fetches available screen orientation options.
+
+    Returns:
+        A dictionary containing the available screen orientation options.
+    """
     return {"options": client.get_screen_orientation_options()}
 
 
@@ -489,7 +571,12 @@ def get_screen_orientation_options() -> dict:
     },
 )
 def get_category_options() -> dict:
-    """Fetches available category options."""
+    """
+    Fetches available category options.
+
+    Returns:
+        A dictionary containing the available category options.
+    """
     return {"options": client.get_category_options()}
 
 
@@ -502,7 +589,12 @@ def get_category_options() -> dict:
     },
 )
 def get_sub_category_options() -> dict:
-    """Fetches available sub-category options."""
+    """
+    Fetches available sub-category options.
+
+    Returns:
+        A dictionary containing the available sub-category options.
+    """
     return {"options": client.get_sub_category_options()}
 
 
@@ -515,7 +607,12 @@ def get_sub_category_options() -> dict:
     },
 )
 def get_tag_options() -> dict:
-    """Fetches available tag options."""
+    """
+    Fetches available tag options.
+
+    Returns:
+        A dictionary containing the available tag options.
+    """
     return {"options": client.get_tags()}
 
 
@@ -530,7 +627,12 @@ def get_tag_options() -> dict:
     },
 )
 def get_countries_android_options() -> dict:
-    """Fetches available country options for Android."""
+    """
+    Fetches available country options for Android.
+
+    Returns:
+        A dictionary containing the available country options for Android.
+    """
     return {"options": client.get_countries_android()}
 
 
@@ -545,7 +647,12 @@ def get_countries_android_options() -> dict:
     },
 )
 def get_countries_ios_options() -> dict:
-    """Fetches available country options for iOS."""
+    """
+    Fetches available country options for iOS.
+
+    Returns:
+        A dictionary containing the available country options for iOS.
+    """
     return {"options": client.get_countries_ios()}
 
 
@@ -558,7 +665,12 @@ def get_countries_ios_options() -> dict:
     },
 )
 def get_score_options() -> dict:
-    """Fetches available score options."""
+    """
+    Fetches available score options.
+
+    Returns:
+        A dictionary containing the available score options.
+    """
     return {"options": client.get_score_options()}
 
 
@@ -679,7 +791,9 @@ def get_games_of_the_week(
         score: A dictionary to filter by score.
 
     Returns:
-        A dictionary containing a list of games of the week.
+        A dictionary containing a list of games of the week, and pagination
+        information including the current page, total pages, and whether it is the
+        last page.
     """
     get_games_of_the_week_res = client.get_games_of_the_week(
         page=page,
