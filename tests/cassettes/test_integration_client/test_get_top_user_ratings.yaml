@@ -122,12 +122,12 @@ interactions:
           played 1k+ mobile games since 2017, and I continue falling in love with great
           new games every day.","sobre_original":"I''ve played 1k+ mobile games since
           2017, and I continue falling in love with great new games every day.","data_cadastro":"2019-08-13
-          11:16:06","score":278,"total_avaliacoes":65,"total_favoritos":7,"pais_nome":"Denmark","pais_sigla":"DK"}}],"page":2,"total":9872,"ultima_pagina":false}'
+          11:16:06","score":279,"total_avaliacoes":66,"total_favoritos":7,"pais_nome":"Denmark","pais_sigla":"DK"}}],"page":2,"total":9881,"ultima_pagina":false}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992596f0d806827f-TPE
+          - 99320e33be87846a-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -139,7 +139,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:24 GMT
+          - Thu, 23 Oct 2025 14:51:58 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -147,7 +147,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ThNKJvfBuTJI318ZiFKw4oUvT3lBQIx7Yn%2B8UII%2B22cCfYY7jIyZs1sUsEZxFiQ1ID0scnlqPy%2F1XW393qBLKQSnkBR7W5MnB7UPC4un%2FL39hkcAQ1Y%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LKt06VxFen%2FKYArJv%2Bih3Xr5y%2BY%2BABVLqsmWieUBSH70pN050%2F5XXQlIOrjDuLxwWBe3s8NBLXm3WokoTW1d5JySMoqucYtmtm1bXyNj2X1iOvEAh9A%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

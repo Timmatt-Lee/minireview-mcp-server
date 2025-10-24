@@ -9,7 +9,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -17,9 +17,14 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":384,"nome":"Brave Frontier Versus","slug":"brave-frontier-versus","logo":"common\/uploads\/upcominggame\/97a13c79ed29540217b8ffbb113cf757.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-97a13c79ed29540217b8ffbb113cf757.webp","launch_date":"Oct
-          22, 2025","added_date":"This month","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":32,"nome":"CCG","slug":"ccg"},"categorias":[{"id":32,"nome":"CCG","slug":"ccg","type":"category"},{"id":60,"nome":"Deck-Building","slug":"deck-building","type":"subcategory"}],"price":"Free
-          to Play"}],"data_recently_released":[{"id":379,"nome":"RAR Islands","slug":"rar-islands","logo":"common\/uploads\/upcominggame\/362f1c347e518f2cc0cbf1aa9e3bf813.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-362f1c347e518f2cc0cbf1aa9e3bf813.webp","launch_date":"Released
+          '{"data":[{"id":247,"nome":"TOWER KING\uff5cBuilding Simulation","slug":"tower-king","logo":"common\/uploads\/upcominggame\/7bccd40da0b7de928ac916de8912371e.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-7bccd40da0b7de928ac916de8912371e.webp","launch_date":"Oct
+          24, 2025","added_date":"5 months ago","is_android":true,"is_ios":true,"fuel_percent":2,"fuel_count":6,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":24,"nome":"Management","slug":"management","type":"subcategory"}],"price":"Free
+          to Play"}],"data_recently_released":[{"id":255,"nome":"Qubicks","slug":"qubicks","logo":"common\/uploads\/upcominggame\/e94d1c8b34ba99914de14dd3094dd4f8.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-e94d1c8b34ba99914de14dd3094dd4f8.webp","launch_date":"Released
+          (Oct 21, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":25,"nome":"Tower
+          Defense","slug":"tower-defense"},"categorias":[{"id":25,"nome":"Tower Defense","slug":"tower-defense","type":"category"},{"id":34,"nome":"Roguelike","slug":"roguelike","type":"subcategory"}],"price":"Free
+          to Play"},{"id":332,"nome":"TOEM: A Photo Adventure","slug":"toem-a-photo-adventure","logo":"common\/uploads\/upcominggame\/c648228f0da6e1f28dd0cf29292cd35f.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-c648228f0da6e1f28dd0cf29292cd35f.webp","launch_date":"Released
+          (Oct 19, 2025)","is_android":true,"is_ios":true,"fuel_percent":4,"fuel_count":8,"categoria":{"id":2,"nome":"Adventure","slug":"adventure"},"categorias":[{"id":2,"nome":"Adventure","slug":"adventure","type":"category"},{"id":30,"nome":"Puzzle","slug":"puzzle","type":"subcategory"}],"price":"Free
+          to Play"},{"id":379,"nome":"RAR Islands","slug":"rar-islands","logo":"common\/uploads\/upcominggame\/362f1c347e518f2cc0cbf1aa9e3bf813.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-362f1c347e518f2cc0cbf1aa9e3bf813.webp","launch_date":"Released
           (Oct 17, 2025)","is_android":true,"is_ios":false,"fuel_percent":1,"fuel_count":2,"categoria":{"id":12,"nome":"Role
           Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":44,"nome":"Text-Based","slug":"text-based","type":"subcategory"}],"price":"Free
           to Play"},{"id":369,"nome":"RAVEN2","slug":"raven2","logo":"common\/uploads\/upcominggame\/dd3d134a6655760a0a05d9cd619d312c.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-dd3d134a6655760a0a05d9cd619d312c.webp","launch_date":"Released
@@ -31,34 +36,36 @@ interactions:
           (Oct 13, 2025)","is_android":true,"is_ios":true,"fuel_percent":10,"fuel_count":21,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":38,"nome":"Shooter","slug":"shooter","type":"subcategory"}],"price":"Paid"},{"id":355,"nome":"Troublemaker
           M - Pixel Mayhem","slug":"troublemaker-m---pixel-mayhem","logo":"common\/uploads\/upcominggame\/775d274f392581b61244313499d7b819.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-775d274f392581b61244313499d7b819.webp","launch_date":"Released
           (Oct 10, 2025)","is_android":true,"is_ios":false,"fuel_percent":0,"fuel_count":0,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":6,"nome":"Arcade","slug":"arcade","type":"subcategory"}],"price":"Free
+          to Play"},{"id":406,"nome":"Crunchyroll: CATO","slug":"crunchyroll-cato","logo":"common\/uploads\/upcominggame\/1ff1b50c61f0ca267eb27cc11c802cf7.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-1ff1b50c61f0ca267eb27cc11c802cf7.webp","launch_date":"Released
+          (Oct 9, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":28,"nome":"Platform","slug":"platform","type":"subcategory"}],"price":"Free
           to Play"},{"id":389,"nome":"Hungry Hearts Ramen","slug":"hungry-hearts-ramen","logo":"common\/uploads\/upcominggame\/900ee47314549c990699a32703c2152c.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-900ee47314549c990699a32703c2152c.webp","launch_date":"Released
           (Oct 9, 2025)","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":6,"nome":"Casual","slug":"casual"},"categorias":[{"id":6,"nome":"Casual","slug":"casual","type":"category"},{"id":24,"nome":"Management","slug":"management","type":"subcategory"}],"price":"Free
           to Play"},{"id":342,"nome":"Maze Mice","slug":"maze-mice","logo":"common\/uploads\/upcominggame\/6721649d8f6f69d715d977a8cccab13b.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-6721649d8f6f69d715d977a8cccab13b.webp","launch_date":"Released
           (Oct 9, 2025)","is_android":true,"is_ios":true,"fuel_percent":3,"fuel_count":6,"categoria":{"id":3,"nome":"Arcade","slug":"arcade"},"categorias":[{"id":3,"nome":"Arcade","slug":"arcade","type":"category"},{"id":63,"nome":"Bullet
-          Heaven","slug":"bullet-heaven","type":"subcategory"}],"price":"$4.99"},{"id":383,"nome":"ULTRAMAN
-          Puzzle Shuwatch!!","slug":"ultraman-puzzle-shuwatch","logo":"common\/uploads\/upcominggame\/f83d7aad977f7903e63cac93a37a79a7.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-f83d7aad977f7903e63cac93a37a79a7.webp","launch_date":"Released
-          (Oct 8, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":26,"nome":"Match-3","slug":"match-3","type":"subcategory"}],"price":"Free
-          to Play"},{"id":398,"nome":"Kingdom Rush Battles: TD Game","slug":"kingdom-rush-battles-td-game","logo":"common\/uploads\/upcominggame\/7b3cdf192caf6641ed2055c3d5df04d7.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-7b3cdf192caf6641ed2055c3d5df04d7.webp","launch_date":"Released
-          (Oct 8, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":25,"nome":"Tower
-          Defense","slug":"tower-defense"},"categorias":[{"id":25,"nome":"Tower Defense","slug":"tower-defense","type":"category"},{"id":41,"nome":"Strategy","slug":"strategy","type":"subcategory"}],"price":"Free
-          to Play"},{"id":341,"nome":"Dealer''s Life Legend","slug":"dealers-life-legend","logo":"common\/uploads\/upcominggame\/d61300ea324dec55f86494dc858e756d.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-d61300ea324dec55f86494dc858e756d.webp","launch_date":"Released
+          Heaven","slug":"bullet-heaven","type":"subcategory"}],"price":"$4.99"},{"id":341,"nome":"Dealer''s
+          Life Legend","slug":"dealers-life-legend","logo":"common\/uploads\/upcominggame\/d61300ea324dec55f86494dc858e756d.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-d61300ea324dec55f86494dc858e756d.webp","launch_date":"Released
           (Oct 8, 2025)","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":35,"nome":"Role
           Playing","slug":"role-playing","type":"subcategory"}],"price":"Free to Play"},{"id":385,"nome":"Pocket
           Boss","slug":"pocket-boss","logo":"common\/uploads\/upcominggame\/8d322ce945a5d6b2bbdddd706c0c1e17.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-8d322ce945a5d6b2bbdddd706c0c1e17.webp","launch_date":"Released
           (Oct 8, 2025)","is_android":true,"is_ios":false,"fuel_percent":0,"fuel_count":0,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":30,"nome":"Puzzle","slug":"puzzle","type":"subcategory"}],"price":"Free
+          to Play"},{"id":383,"nome":"ULTRAMAN Puzzle Shuwatch!!","slug":"ultraman-puzzle-shuwatch","logo":"common\/uploads\/upcominggame\/f83d7aad977f7903e63cac93a37a79a7.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-f83d7aad977f7903e63cac93a37a79a7.webp","launch_date":"Released
+          (Oct 8, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":26,"nome":"Match-3","slug":"match-3","type":"subcategory"}],"price":"Free
+          to Play"},{"id":398,"nome":"Kingdom Rush Battles: TD Game","slug":"kingdom-rush-battles-td-game","logo":"common\/uploads\/upcominggame\/7b3cdf192caf6641ed2055c3d5df04d7.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-7b3cdf192caf6641ed2055c3d5df04d7.webp","launch_date":"Released
+          (Oct 8, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":25,"nome":"Tower
+          Defense","slug":"tower-defense"},"categorias":[{"id":25,"nome":"Tower Defense","slug":"tower-defense","type":"category"},{"id":41,"nome":"Strategy","slug":"strategy","type":"subcategory"}],"price":"Free
+          to Play"},{"id":335,"nome":"Parabellum: Siege of Legends","slug":"parabellum-siege-of-legends","logo":"common\/uploads\/upcominggame\/abb1f6950a8fab4dfc39c0118d93d2b3.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-abb1f6950a8fab4dfc39c0118d93d2b3.webp","launch_date":"Released
+          (Oct 7, 2025)","is_android":true,"is_ios":true,"fuel_percent":2,"fuel_count":2,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":41,"nome":"Strategy","slug":"strategy","type":"subcategory"}],"price":"Paid"},{"id":376,"nome":"Legends
+          of Elumia","slug":"legends-of-elumia","logo":"common\/uploads\/upcominggame\/7286857034e829a20b3c7fb85f36b926.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-7286857034e829a20b3c7fb85f36b926.webp","launch_date":"Released
+          (Oct 7, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":23,"nome":"MMORPG","slug":"mmorpg"},"categorias":[{"id":23,"nome":"MMORPG","slug":"mmorpg","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"price":"Free
           to Play"},{"id":365,"nome":"Naval Conquest","slug":"naval-conquest","logo":"common\/uploads\/upcominggame\/000802854ab80329c14b38482f596b06.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-000802854ab80329c14b38482f596b06.webp","launch_date":"Released
           (Oct 7, 2025)","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":28,"nome":"Battle
           Royale","slug":"battle-royale"},"categorias":[{"id":28,"nome":"Battle Royale","slug":"battle-royale","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"price":"Free
-          to Play"},{"id":376,"nome":"Legends of Elumia","slug":"legends-of-elumia","logo":"common\/uploads\/upcominggame\/7286857034e829a20b3c7fb85f36b926.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-7286857034e829a20b3c7fb85f36b926.webp","launch_date":"Released
-          (Oct 7, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":23,"nome":"MMORPG","slug":"mmorpg"},"categorias":[{"id":23,"nome":"MMORPG","slug":"mmorpg","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"price":"Free
-          to Play"},{"id":335,"nome":"Parabellum: Siege of Legends","slug":"parabellum-siege-of-legends","logo":"common\/uploads\/upcominggame\/abb1f6950a8fab4dfc39c0118d93d2b3.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-abb1f6950a8fab4dfc39c0118d93d2b3.webp","launch_date":"Released
-          (Oct 7, 2025)","is_android":true,"is_ios":true,"fuel_percent":2,"fuel_count":2,"categoria":{"id":13,"nome":"Simulation","slug":"simulation"},"categorias":[{"id":13,"nome":"Simulation","slug":"simulation","type":"category"},{"id":41,"nome":"Strategy","slug":"strategy","type":"subcategory"}],"price":"Paid"},{"id":285,"nome":"Roterra
-          6 - Royal Adventure","slug":"roterra-6---royal-adventure","logo":"common\/uploads\/upcominggame\/6a775b8036729c805e69c9de92678916.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-6a775b8036729c805e69c9de92678916.webp","launch_date":"Released
-          (Oct 6, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"price":"$4.99"},{"id":326,"nome":"Monster
-          Walk: Step Adventure","slug":"monster-walk-step-adventure","logo":"common\/uploads\/upcominggame\/cfd78cda993a687260d6f145940af1b3.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-cfd78cda993a687260d6f145940af1b3.webp","launch_date":"Released
+          to Play"},{"id":326,"nome":"Monster Walk: Step Adventure","slug":"monster-walk-step-adventure","logo":"common\/uploads\/upcominggame\/cfd78cda993a687260d6f145940af1b3.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-cfd78cda993a687260d6f145940af1b3.webp","launch_date":"Released
           (Oct 6, 2025)","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":12,"nome":"Role
           Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":9,"nome":"Bullet
-          Hell","slug":"bullet-hell","type":"subcategory"}],"price":"Free to Play"},{"id":217,"nome":"Elysia:
+          Hell","slug":"bullet-hell","type":"subcategory"}],"price":"Free to Play"},{"id":285,"nome":"Roterra
+          6 - Royal Adventure","slug":"roterra-6---royal-adventure","logo":"common\/uploads\/upcominggame\/6a775b8036729c805e69c9de92678916.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-6a775b8036729c805e69c9de92678916.webp","launch_date":"Released
+          (Oct 6, 2025)","is_android":true,"is_ios":true,"fuel_percent":0,"fuel_count":0,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"price":"$4.99"},{"id":217,"nome":"Elysia:
           The Astral Fall","slug":"elysia-the-astral-fall","logo":"common\/uploads\/upcominggame\/04a051c4703921efe506c796087e810f.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-04a051c4703921efe506c796087e810f.webp","launch_date":"Released
           (Oct 3, 2025)","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":12,"nome":"Role
           Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":23,"nome":"Incremental","slug":"incremental","type":"subcategory"}],"price":"Free
@@ -86,26 +93,21 @@ interactions:
           to Play"},{"id":307,"nome":"TOREROWA","slug":"torerowa","logo":"common\/uploads\/upcominggame\/87874d31667b4b4a71fd8c2f4b90b1b4.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-87874d31667b4b4a71fd8c2f4b90b1b4.webp","launch_date":"Released
           (Sep 24, 2025)","is_android":true,"is_ios":true,"fuel_percent":2,"fuel_count":2,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":16,"nome":"Dungeon
           Crawler","slug":"dungeon-crawler","type":"subcategory"}],"price":"Free to
-          Play"},{"id":361,"nome":"Pine Hearts","slug":"pine-hearts","logo":"common\/uploads\/upcominggame\/2e8ed4ce801cec57dc4265f7b035c864.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-2e8ed4ce801cec57dc4265f7b035c864.webp","launch_date":"Released
-          (Sep 23, 2025)","is_android":true,"is_ios":true,"fuel_percent":2,"fuel_count":3,"categoria":{"id":2,"nome":"Adventure","slug":"adventure"},"categorias":[{"id":2,"nome":"Adventure","slug":"adventure","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"price":"Free
-          to Play"},{"id":359,"nome":"CRESTY - THE DAWN","slug":"cresty---the-dawn","logo":"common\/uploads\/upcominggame\/efce1f8658263bacb51e6884994698e0.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-efce1f8658263bacb51e6884994698e0.webp","launch_date":"Released
-          (Sep 22, 2025)","is_android":true,"is_ios":false,"fuel_percent":0,"fuel_count":0,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"price":"Free
-          to Play"},{"id":325,"nome":"Blade & Soul Heroes","slug":"blade-soul-heroes","logo":"common\/uploads\/upcominggame\/e92e189e16713d74ec6698a964e1e61f.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-e92e189e16713d74ec6698a964e1e61f.webp","launch_date":"Released
-          (Sep 22, 2025)","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":23,"nome":"MMORPG","slug":"mmorpg"},"categorias":[{"id":23,"nome":"MMORPG","slug":"mmorpg","type":"category"},{"id":2,"nome":"Action","slug":"action","type":"subcategory"}],"price":"Free
-          to Play"}],"data_awaiting_release":[],"top_most_hyped":[{"id":210,"nome":"OFF
-          THE ROAD 2","slug":"off-the-road-2","logo":"common\/uploads\/upcominggame\/images-503098.jpeg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-images-503098.webp"},{"id":3,"nome":"Path
-          of Exile Mobile","slug":"path-of-exile-mobile","logo":"common\/uploads\/upcominggame\/path-of-exile-mobile-logo-868709.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-path-of-exile-mobile-logo-868709.webp"},{"id":10,"nome":"Warframe","slug":"warframe","logo":"common\/uploads\/upcominggame\/01024252048001112d58e123dc8f138d.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-01024252048001112d58e123dc8f138d.webp"},{"id":21,"nome":"Palworld
-          Mobile","slug":"palworld","logo":"common\/uploads\/upcominggame\/download-311402.jpeg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-download-311402.webp"},{"id":67,"nome":"Don\u2019t
+          Play"}],"data_awaiting_release":[{"id":384,"nome":"Brave Frontier Versus","slug":"brave-frontier-versus","logo":"common\/uploads\/upcominggame\/97a13c79ed29540217b8ffbb113cf757.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-97a13c79ed29540217b8ffbb113cf757.webp","launch_date":"Oct
+          22, 2025","is_android":true,"is_ios":true,"fuel_percent":1,"fuel_count":1,"categoria":{"id":32,"nome":"CCG","slug":"ccg"},"categorias":[{"id":32,"nome":"CCG","slug":"ccg","type":"category"},{"id":60,"nome":"Deck-Building","slug":"deck-building","type":"subcategory"}],"price":"Free
+          to Play"}],"top_most_hyped":[{"id":210,"nome":"OFF THE ROAD 2","slug":"off-the-road-2","logo":"common\/uploads\/upcominggame\/images-503098.jpeg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-images-503098.webp"},{"id":3,"nome":"Path
+          of Exile Mobile","slug":"path-of-exile-mobile","logo":"common\/uploads\/upcominggame\/path-of-exile-mobile-logo-868709.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-path-of-exile-mobile-logo-868709.webp"},{"id":21,"nome":"Palworld
+          Mobile","slug":"palworld","logo":"common\/uploads\/upcominggame\/download-311402.jpeg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-download-311402.webp"},{"id":10,"nome":"Warframe","slug":"warframe","logo":"common\/uploads\/upcominggame\/01024252048001112d58e123dc8f138d.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-01024252048001112d58e123dc8f138d.webp"},{"id":67,"nome":"Don\u2019t
           Starve Together","slug":"don-t-starve-together","logo":"common\/uploads\/upcominggame\/don-t-starve-together-icon-by--938041.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-don-t-starve-together-icon-by--938041.webp"},{"id":94,"nome":"The
           Bazaar","slug":"the-bazaar","logo":"common\/uploads\/upcominggame\/communityicon-auxd6or1z5kc1-124169.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-communityicon-auxd6or1z5kc1-124169.webp"},{"id":86,"nome":"Arknights:
-          Endfield","slug":"arknights-endfield","logo":"common\/uploads\/upcominggame\/appicon-m-2-117896.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-appicon-m-2-117896.webp"},{"id":18,"nome":"Valorant
-          Mobile","slug":"valorant-mobile","logo":"common\/uploads\/upcominggame\/iritdxe5-400x400-308183.jpeg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-iritdxe5-400x400-308183.webp"},{"id":20,"nome":"The
-          Division Resurgence","slug":"the-division-resurgence","logo":"common\/uploads\/upcominggame\/2c7865aab5d353fe186aa9ab628e4463.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-2c7865aab5d353fe186aa9ab628e4463.webp"},{"id":30,"nome":"Ananta","slug":"ananta","logo":"common\/uploads\/upcominggame\/ananta-165483.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-ananta-165483.webp"}],"page":1,"listing_total":133,"last_date_updated":"2025-10-20T19:00:04-03:00","total":133,"ultima_pagina":false}'
+          Endfield","slug":"arknights-endfield","logo":"common\/uploads\/upcominggame\/appicon-m-2-117896.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-appicon-m-2-117896.webp"},{"id":20,"nome":"The
+          Division Resurgence","slug":"the-division-resurgence","logo":"common\/uploads\/upcominggame\/2c7865aab5d353fe186aa9ab628e4463.webp","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-2c7865aab5d353fe186aa9ab628e4463.webp"},{"id":18,"nome":"Valorant
+          Mobile","slug":"valorant-mobile","logo":"common\/uploads\/upcominggame\/iritdxe5-400x400-308183.jpeg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-iritdxe5-400x400-308183.webp"},{"id":30,"nome":"Ananta","slug":"ananta","logo":"common\/uploads\/upcominggame\/ananta-165483.jpg","logo_preloader":"\/common\/uploads\/cache\/upcominggame\/1-30-30-ananta-165483.webp"}],"page":1,"listing_total":132,"last_date_updated":"2025-10-22T17:00:05-03:00","total":131,"ultima_pagina":false}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9925971c99c4a9a9-TPE
+          - 99320e6ebae3a9c2-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -117,7 +119,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:30 GMT
+          - Thu, 23 Oct 2025 14:52:07 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -125,7 +127,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tQ%2FZflGy6%2F9Cj8FqSOILsPrJwVB%2FcfnzatGJLFxWZ01PsVRnVhZ3SX4SS3t68hJwObG7wktgs1bTyIPSZgWeY5OD4QnN33ffNurfMaSI8OaK%2BfvbFEk%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=wKzmg48JvvkVTYt9bMwBua8AIS6ih%2F7%2FRKMI95DdpP6p6tW5W0I2lR84dcxSiWy9xJuBQzDX5jfIhjNQKa0jCLNNhzKkwuj%2BpmciQj2UQ8bkLdfFPdc%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

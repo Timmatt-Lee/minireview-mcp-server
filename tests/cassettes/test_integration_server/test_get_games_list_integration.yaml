@@ -15,11 +15,12 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6208,"nome":"Stamps","slug":"stamps","logo":"common\/uploads\/icons\/5c9a2f8685370d3fe698904c3f99f2ee.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5c9a2f8685370d3fe698904c3f99f2ee.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-19-9790725.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-19-9790725.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Stamps
-          is a free trial 2D Puzzle Casual game available on Android and iOS. It\u2019s
-          a singleplayer experience that can be played offline in portrait mode. Stamps
-          was released in June 2025 and has a current rating of 5 out of 5.0 on iOS
-          App Store.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9790174.jpg"}],"price":"Trial"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6218,"nome":"Miscrits","slug":"miscrits","logo":"common\/uploads\/icons\/04300adb321c46f431168aa56f73ee21.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-04300adb321c46f431168aa56f73ee21.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-a-9-0655900.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-a-9-0655900.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":false,"disponivel_ios":true,"descricao":"Miscrits
+          is a free 2D Role Playing Adventure game available on iOS. It\u2019s a single
+          and multiplayer experience that can be played online in landscape mode. Miscrits
+          was released in July 2025 and has a current rating of 4.8 out of 5.0 on iOS
+          App Store.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-10-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-10-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-10-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-11-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-11-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-11-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-12-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-12-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-12-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-13-0655526.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-13-0655526.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-13-0655526.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -185,12 +186,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3913,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3916,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992596fabf4b8f0f-TPE
+          - 99320e3f7b19844e-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -202,7 +203,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:25 GMT
+          - Thu, 23 Oct 2025 14:51:59 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -210,12 +211,12 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yRMOApYfxGBSKCx1Btxy1q3%2FHbIXM8%2FpyJXu%2FHOTvliYygayRtF%2BW7Hts64djOUYmXux8C0odx3rLGPDBSLEtIzQ0LkH7QRi02FIW3%2B6iYgluux9ySE%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=TU3qnGPxrrCsaUAlktux%2BDsCG2OJANXMVucG%2BEm15HYsQ5NqgWpb0w%2FVqO4EE4vPDi6pimujpX2PVL%2Bm%2Bww9TF2vYCBeABj4AtJhibQn0i9SvpJdlBA%3D"}]}'
         Server:
           - cloudflare
         Set-Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81; Path=/; Max-Age=2592000; Expires=Fri,
-            21 Nov 2025 02:33:25 GMT
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts; Path=/; Max-Age=2592000; Expires=Sat,
+            22 Nov 2025 14:51:59 GMT
         Transfer-Encoding:
           - chunked
         Vary:
@@ -239,7 +240,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -247,32 +248,29 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":5022,"nome":"Reverse: 1999 - 2nd Anniv.","slug":"reverse-1999","logo":"common\/uploads\/icons\/548fc28284a08410289a3ed2476b417d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-548fc28284a08410289a3ed2476b417d.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-reverse-1999-3271055.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-reverse-1999-3271055.webp","avaliacoes_total":6,"avaliacoes_positivas_porcento":100,"nota":"8.3","usuario_favorito":false,"categoria":{"id":30,"nome":"Gacha","slug":"gacha"},"categorias":[{"id":30,"nome":"Gacha","slug":"gacha","type":"category"},{"id":35,"nome":"Role
-          Playing","slug":"role-playing","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Reverse:
-          1999 is a fun turn-based RPG with a Slay the Spire-style card combat system
-          and a unique twist that makes it stand out from other card battlers.\r\n\r\nWe
-          play as a timekeeper who leads a team of three heroes into battle by playing
-          cards that represent the characters&rsquo; moves, of which each have two normal
-          ones and an ultimate. During our turn, we draw up to seven of these cards
-          from our deck, and then place three of them to be played this round.\r\n\r\nThe
-          fun twist is that if two identical cards end up next to each other in our
-          hand, they merge to create a tier 2 version, which makes the card more powerful
-          and sometimes even adds new abilities.&nbsp;\r\n\r\nWe can ensure that two
-          identical cards end up next to each other by playing the card(s) in-between
-          them, or by dragging one card onto another, though the latter makes us lose
-          an attack slot for that turn. This can become frustrating when we accidentally
-          drag a card to a wrong spot since it can&#39;t be reversed.\r\n\r\nEach character
-          class has strengths or weaknesses against certain enemy classes, making team
-          composition rather important.\r\n\r\nThankfully, new characters are unlocked
-          via a very free-to-play-friendly gacha system that is easy to gain resources
-          for and has good pull rates. Most characters also don&rsquo;t have a noticeable
-          power level difference. I pulled a B-tier character and still breezed through
-          the grindy gameplay.\r\n\r\nReverse: 1999 monetizes via iAPs for a battle
-          pass, upgrade materials, gacha pulls, and cosmetics. Thankfully, the necessary
-          resources are easy to farm, and there&rsquo;s no PvP - so paying players at
-          most progress a bit faster.\r\n\r\nOverall, its fun gameplay loop and gorgeous
-          art style make it an easy recommendation if you like card battlers and can
-          ignore the gacha.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200742-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200832-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-171454-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220136-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220223-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6174,"nome":"A Little to the Left: Drawers","slug":"a-little-to-the-left-drawers","logo":"common\/uploads\/icons\/581c125a3902f57bdf400b5f7a26b0c1.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-581c125a3902f57bdf400b5f7a26b0c1.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-a-little-to-the-left-drawers-minireview-0442938.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-a-little-to-the-left-drawers-minireview-0442938.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.0","usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"A
+          Little to the Left: Drawers is the sequel to a unique and engaging sorting
+          puzzle game that delivers more of the same, but in a smaller package.\r\n\r\nThe
+          goal is to neatly organize everything on screen, such as items in a kitchen
+          drawer or a cupboard with tea and cakes. There are no instructions on what
+          to do, and every item can be freely moved around.\r\n\r\nEvery level starts
+          out as a mess of items, which we must sort in a way that makes it look systematic
+          and neat. Combine 5 garbage pieces into a square, place seven pencils in the
+          same room from long to short, and so on. In some levels, color and number
+          sorting is a thing too.\r\n\r\nWhen we place an item close to where it&rsquo;s
+          supposed to be, it does get dragged into place. But without any other instructions,
+          it&rsquo;s easy to get stuck. And while the puzzles are a tad more intuitive
+          than in the first game, quite a few still had me using the hint system.\r\n\r\nCertain
+          solutions I didn&#39;t even understand after seeing them, so while some of
+          the 32 levels are high quality, others feel somewhat broken. Even a tiny piece
+          being out of place makes impossible to solve the level.\r\n\r\nThis sequel
+          doesn&rsquo;t add much new to the series, and considering how short the runtime
+          is, it feels like something is missing. I also experienced a bug where the
+          game would zoom in at random intervals, making it impossible to move anything.\r\n\r\nA
+          Little to the Left: Drawers is a $2.99 premium game.\r\n\r\nIt&#39;s a nice
+          little experience, but a step down from the original. It would be easier to
+          recommend if it had more levels. But if you loved the first one, you&rsquo;ll
+          likely enjoy this one too.\r\n","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg"}],"price":"$2.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -438,12 +436,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3913,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3916,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992596fd3d4a4a82-TPE
+          - 99320e4339996b60-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -455,7 +453,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:25 GMT
+          - Thu, 23 Oct 2025 14:52:00 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -463,7 +461,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=EADkx4%2BsfgkoiFkNGto8tKhOPxe79yJ9yqgq7VHTyyhZ3I5%2FinUYcVxavKsJg9d5%2Fy%2Fnj4w9xIhQ1hJr5FORNJbA7yNzR3LVeN1xvWZoeUCLJQkVETo%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Xe9m6XS2s05lLX0zrrD23XkE8i5WzZCP7g0OIvbX6FG8m1ozQGM2OKx76tbaXfweC9wrwGL6QGZCoLcybKZlqfNwnbK5h36pJG1E5lbFIkWmiXAu%2B5g%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
