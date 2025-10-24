@@ -9,7 +9,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -17,30 +17,29 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6145,"nome":"Ninja Party: Team Up & Brawl","slug":"ninja-party-team-up-brawl","logo":"common\/uploads\/icons\/1207633462c0da907c03ba93328277b2.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-1207633462c0da907c03ba93328277b2.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-sem-titulo-1-6936244.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-sem-titulo-1-6936244.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.0","usuario_favorito":false,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":56,"nome":"Battle
-          Royale","slug":"battle-royale","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Ninja
-          Party is a quirky mix of battle royale chaos and casual party brawler action
-          with colorful stages, wacky parkour-like physics, and a fun two-player co-op
-          multiplayer PvP mode.\r\n\r\nEach match throws us and 7 other players into
-          one of several arenas that are full of hazards to avoid, obstacles to climb,
-          and weapons to pick up as we jump around hitting the enemies to score points.\r\n\r\nThe
-          zany concept is wacky and fun, and I often found myself laughing out loud
-          during the short 2-minute matches. Not too unlike games like Fall Guys.\r\n\r\nUnfortunately,
-          the gameplay doesn&rsquo;t quite match the ninja theme as movement feels slow
-          and floaty, and the arsenal of bazookas and shotguns clash with the idea of
-          playing as a nimble, stealthy warrior.\r\n\r\nIn addition, the controls and
-          physics aren&rsquo;t consistent, leading to input that sometimes feels delayed
-          or slippery. So competing for the leaderboard in each match can be frustrating.\r\n\r\nOn
-          the bright side, the game doesn&rsquo;t lean on pay-to-win mechanics, which
-          is a relief for a multiplayer title. Instead, there are lots of cosmetics
-          and characters to unlock.\r\n\r\nStill, we&rsquo;re often prompted to buy
-          something, and some matches feel suspiciously bot-filled, which detracts from
-          the fun after a while.\r\n\r\nNinja Party monetizes via incentivized ads and
-          iAPs for boosting progress and unlocking skins for characters and weapons.
-          But there&rsquo;s no pay-to-win at all.\r\n\r\nWhile the game feels somewhat
-          like a beta, more weapons, more varied game modes, and much more polish for
-          the controls could really make it shine. It&rsquo;s fun in bursts and has
-          genuine potential.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-17-45-01-61-ed2826-8001653.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-00-37-97-ed2826-8001653.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-03-48-31-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-06-02-56-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-07-18-54-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-15-18-14-03-42-ed2826-8001654.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-17-45-31-ed2826-8002699.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-19-01-25-ed2826-8002699.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-19-14-42-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-27-17-90-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-28-41-68-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-28-48-84-ed2826-8002700.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-12-27-ed2826-8002701.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-32-58-ed2826-8002701.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-30-55-62-ed2826-8002702.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-31-49-52-ed2826-8002702.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-09-16-11-32-02-75-ed2826-8002703.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6174,"nome":"A Little to the Left: Drawers","slug":"a-little-to-the-left-drawers","logo":"common\/uploads\/icons\/581c125a3902f57bdf400b5f7a26b0c1.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-581c125a3902f57bdf400b5f7a26b0c1.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-a-little-to-the-left-drawers-minireview-0442938.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-a-little-to-the-left-drawers-minireview-0442938.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.0","usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"A
+          Little to the Left: Drawers is the sequel to a unique and engaging sorting
+          puzzle game that delivers more of the same, but in a smaller package.\r\n\r\nThe
+          goal is to neatly organize everything on screen, such as items in a kitchen
+          drawer or a cupboard with tea and cakes. There are no instructions on what
+          to do, and every item can be freely moved around.\r\n\r\nEvery level starts
+          out as a mess of items, which we must sort in a way that makes it look systematic
+          and neat. Combine 5 garbage pieces into a square, place seven pencils in the
+          same room from long to short, and so on. In some levels, color and number
+          sorting is a thing too.\r\n\r\nWhen we place an item close to where it&rsquo;s
+          supposed to be, it does get dragged into place. But without any other instructions,
+          it&rsquo;s easy to get stuck. And while the puzzles are a tad more intuitive
+          than in the first game, quite a few still had me using the hint system.\r\n\r\nCertain
+          solutions I didn&#39;t even understand after seeing them, so while some of
+          the 32 levels are high quality, others feel somewhat broken. Even a tiny piece
+          being out of place makes impossible to solve the level.\r\n\r\nThis sequel
+          doesn&rsquo;t add much new to the series, and considering how short the runtime
+          is, it feels like something is missing. I also experienced a bug where the
+          game would zoom in at random intervals, making it impossible to move anything.\r\n\r\nA
+          Little to the Left: Drawers is a $2.99 premium game.\r\n\r\nIt&#39;s a nice
+          little experience, but a step down from the original. It would be easier to
+          recommend if it had more levels. But if you loved the first one, you&rsquo;ll
+          likely enjoy this one too.\r\n","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg"}],"price":"$2.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -206,12 +205,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3914,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3916,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992113a2be93b1bf-HKG
+          - 99320e79aa288091-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -223,7 +222,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Tue, 21 Oct 2025 13:24:42 GMT
+          - Thu, 23 Oct 2025 14:52:08 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -231,7 +230,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=n4ylvdkgMyQTNPLpMs0URQNoEI9tAjUuhIicy8k4TDrEyYKp3Dto6sWgUdUvXEOwtbtOqj%2Fj4JM7%2BbnbLYRHg5n300IEA9i4krtVMyExFx5PsGTeZxUiFw%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QtZ4aLrnaMCB4%2FPwo1yF%2FCirk0kOrh4wPjgAujBUEPaxkKRavb0DXfssMcDy1Wzh2gHvVkjuvDvyGQWGhOlF02hHa0holTvJl6tcc8uXBnJonb%2FO0ak%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
@@ -257,54 +256,29 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games-similar?game_id=6145&page=1&limit=1
+      uri: https://minireview.io/apiv2/games-similar?game_id=6174&page=1&limit=1
     response:
       body:
         string:
-          '{"data":[{"id":5779,"nome":"Squid Game: Unleashed","slug":"squid-game-unleashed","logo":"common\/uploads\/icons\/72b2e237e35f6815d4037cad3c16c1cd.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-72b2e237e35f6815d4037cad3c16c1cd.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-projec23-15-v3426832072332319-7293173.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-projec23-15-v3426832072332319-7293173.webp","usuario_favorito":false,"usuario_votou":null,"categoria":{"id":1,"nome":"Action","slug":"action"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":56,"nome":"Battle
-          Royale","slug":"battle-royale","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Squid
-          Game: Unleashed is a last-man-standing multiplayer action game heavily inspired
-          by Fall Guys and Roblox obstacle maps &ndash; and so far the only Netflix
-          game that doesn&rsquo;t require a Netflix subscription.\r\n\r\nThe game tasks
-          us with surviving a series of increasingly chaotic physics-based obstacle
-          course levels full of moving platforms, spinning hazards, trapdoors, and more.\r\n\r\nThe
-          goal is simple: reach the finish line before elimination. However, the game&rsquo;s
-          poor collision detection and frequent server-side lag often see us phasing
-          through obstacles or being launched unpredictably, turning the challenge into
-          a test of patience rather than skill.\r\n\r\nTo progress, we must compete
-          in a mix of faux team-based challenges and individual races where cooperation
-          is more of a gimmick than a necessity. Team rounds see us grouped with random
-          players, but the lack of meaningful collaboration tools makes winning feel
-          more like luck than teamwork.\r\n\r\nMovement is also unresponsive, with loose
-          physics causing frequent accidental eliminations. So all attempts to create
-          tension with last-minute eliminations are undercut by the game&rsquo;s inconsistencies.\r\n\r\nBetween
-          plays, we can unlock cosmetics and emotes for currency earned exclusively
-          through gameplay. While it&rsquo;s commendable that you can&rsquo;t buy this
-          currency via iAPs, the selection of items is rather uninspired.\r\n\r\nThe
-          fluid PS1-inspired art style feels unfinished rather than deliberately retro,
-          and the repetitive music loops and underwhelming audio cues do little to build
-          atmosphere or tension.\r\n\r\nSquid Game: Unleashed fails to deliver on basic
-          polish and gameplay satisfaction. Ultimately, all its bugs and errors make
-          the experience more frustrating than fun. The only real upside is that it&rsquo;s
-          entirely free.\r\n\r\nThe game tries to mimic the chaotic fun of Fall Guys
-          but stumbles over its own technical issues and lack of originality. Hopefully,
-          the bugs will get fixed over time.","price":"Netflix","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-27-14-112-com-n-7059685.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-27-14-112-com-n-7059685.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-27-14-112-com-n-7059685.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-27-26-576-com-n-7059720.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-27-26-576-com-n-7059720.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-27-26-576-com-n-7059720.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-27-19-624-com-n-7059720.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-27-19-624-com-n-7059720.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-27-19-624-com-n-7059720.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-27-01-674-com-n-7059721.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-27-01-674-com-n-7059721.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-27-01-674-com-n-7059721.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-26-07-122-com-n-7059721.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-26-07-122-com-n-7059721.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-26-07-122-com-n-7059721.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-24-22-129-com-n-7059721.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-24-22-129-com-n-7059721.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-24-22-129-com-n-7059721.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-23-37-302-com-n-7059721.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-23-37-302-com-n-7059721.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-23-37-302-com-n-7059721.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-23-29-444-com-n-7059721.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-23-29-444-com-n-7059721.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-23-29-444-com-n-7059721.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-22-03-090-com-n-7059722.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-22-03-090-com-n-7059722.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-22-03-090-com-n-7059722.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-21-48-967-com-n-7059722.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-21-48-967-com-n-7059722.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-2025-01-14-20-21-48-967-com-n-7059722.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-19-56-326-com-n-7059722.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-19-56-326-com-n-7059722.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-19-56-326-com-n-7059722.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-19-18-602-com-n-7059722.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-19-18-602-com-n-7059722.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-19-18-602-com-n-7059722.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-17-49-597-com-n-7059723.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-17-49-597-com-n-7059723.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-17-49-597-com-n-7059723.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-17-56-715-com-n-7059723.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-17-56-715-com-n-7059723.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-17-56-715-com-n-7059723.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-17-14-025-com-n-7059723.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-17-14-025-com-n-7059723.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-17-14-025-com-n-7059723.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-17-06-421-com-n-7059723.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-17-06-421-com-n-7059723.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-17-06-421-com-n-7059723.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-2025-01-14-20-16-35-637-com-n-7059723.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-2025-01-14-20-16-35-637-com-n-7059723.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-2025-01-14-20-16-35-637-com-n-7059723.jpg"}],"similarity":100,"similar_items":[{"name":"Action","slug":"action","type":"category"},{"name":"Battle
-          Royale","slug":"battle-royale","type":"subcategory"},{"name":"Online","slug":"online","type":"network"},{"name":"Multiplayer","slug":"multiplayer","type":"players"},{"name":"Landscape","slug":"landscape","type":"screen-orientation"},{"name":"3D","slug":"3d","type":"tag"},{"name":"Competitive","slug":"competitive","type":"tag"},{"name":"Cosmetics","slug":"cosmetics","type":"tag"},{"name":"Crossplay","slug":"crossplay","type":"tag"},{"name":"Funny","slug":"funny","type":"tag"},{"name":"Leaderboards","slug":"leaderboards","type":"tag"},{"name":"Online
-          Events","slug":"online-events","type":"tag"},{"name":"Physics","slug":"physics","type":"tag"},{"name":"Real-time
-          PvP","slug":"real-time-pvp","type":"players"},{"name":"Virtual Joystick","slug":"virtual-joystick","type":"tag"}],"total_likes":0,"total_dislikes":0}],"last_date_updated":"2025-10-14
-          09:03:00","total":40,"ultima_pagina":true,"meta_title":"40+ Games Like Ninja
-          Party: Team Up & Brawl - MiniReview","meta_description":"What are the best
-          games like Ninja Party: Team Up & Brawl? Explore 40+ similar games and filter
-          the list to find the top free, paid, or offline games you will love.","box_content":null,"box_content_game":null}'
+          '{"data":[{"id":5854,"nome":"soupsoup","slug":"soupsoup","logo":"common\/uploads\/icons\/9b99c8ee51f1b8df502722c685029b7f.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-9b99c8ee51f1b8df502722c685029b7f.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-de87cdd25c65e82b941fac76deds7v3a0945-2482498.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-de87cdd25c65e82b941fac76deds7v3a0945-2482498.webp","usuario_favorito":false,"usuario_votou":null,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"soupsoup
+          is a free 2D Puzzle Casual game available on Android and iOS. It\u2019s a
+          singleplayer experience that can be played offline in portrait mode. It has
+          received 2 user ratings from the MiniReview community. soupsoup was released
+          in December 2022 and has a current rating of 4.7 out of 5.0 on Google Play
+          and 4.6 out of 5.0 on the iOS App Store.","price":"Free","galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-1643942.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-1643942.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-3-1643942.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-1643942.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-1643942.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-6-1643942.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-1643942.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-1643942.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-5-1643942.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-1643942.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-1643942.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-7-1643942.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-1643942.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-1643942.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-1-1643942.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-1643943.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-1643943.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-8-1643943.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-1643943.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-1643943.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-a-9-1643943.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-10-1643943.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-10-1643943.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-10-1643943.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-11-1643943.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-11-1643943.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-11-1643943.jpg"}],"similarity":100,"similar_items":[{"name":"Puzzle","slug":"puzzle","type":"category"},{"name":"Casual","slug":"casual","type":"subcategory"},{"name":"Offline","slug":"offline","type":"network"},{"name":"Singleplayer","slug":"singleplayer","type":"players"},{"name":"2D","slug":"2d","type":"tag"},{"name":"Atmospheric","slug":"atmospheric","type":"tag"},{"name":"Indie","slug":"indie","type":"tag"},{"name":"Minimalist","slug":"minimalist","type":"tag"},{"name":"Relaxing","slug":"relaxing","type":"tag"}],"total_likes":0,"total_dislikes":0}],"last_date_updated":"2025-10-10
+          07:09:01","total":60,"ultima_pagina":true,"meta_title":"60+ Games Like A Little
+          to the Left: Drawers - MiniReview","meta_description":"What are the best games
+          like A Little to the Left: Drawers? Explore 60+ similar games and filter the
+          list to find the top free, paid, or offline games you will love.","box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992113a659694a88-TPE
+          - 99320e7cd8d34a60-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -316,7 +290,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Tue, 21 Oct 2025 13:24:43 GMT
+          - Thu, 23 Oct 2025 14:52:09 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -324,130 +298,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KwAnzG4l8r8E3Xb7CfS9lokfH2HhfgoN6cNoyHoIbcAtELfVdPdz8BZ1y9EskKqIyiRdcgGwAMuYwLXOApZ8yiSzJd7thElhIZpPDvL3JXMpYzfSNCk%3D"}]}'
-        Server:
-          - cloudflare
-        Transfer-Encoding:
-          - chunked
-        Vary:
-          - Accept-Encoding
-        X-Frame-Options:
-          - SAMEORIGIN
-        X-UA-Compatible:
-          - IE=Edge,chrome=1
-        cf-cache-status:
-          - DYNAMIC
-      status:
-        code: 200
-        message: OK
-  - request:
-      body: null
-      headers:
-        Accept:
-          - "*/*"
-        Accept-Encoding:
-          - gzip, deflate
-        Connection:
-          - keep-alive
-        Cookie:
-          - minireview-io=m2qkvmfl354sqvtku2mj7uuinf
-        User-Agent:
-          - python-requests/2.32.5
-      method: GET
-      uri: https://minireview.io/apiv2/games/squid-game-unleashed?getBy=slug&category=action
-    response:
-      body:
-        string:
-          '{"data":{"id":5779,"nome":"Squid Game: Unleashed","slug":"squid-game-unleashed","logo":"common\/uploads\/icons\/72b2e237e35f6815d4037cad3c16c1cd.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-72b2e237e35f6815d4037cad3c16c1cd.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-506-new-projec23-15-v3426832072332319-7293173.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-projec23-15-v3426832072332319-7293173.webp","nota":6,"total_avaliacoes":1,"usuario_favorito":false,"usuario_avaliou":false,"disponivel_android":true,"disponivel_ios":true,"android_morto":false,"android_morto_data":null,"ios_morto":false,"ios_morto_data":null,"preco_android":"Free","preco_ios":"Free","link_android":"https:\/\/play.google.com\/store\/apps\/details?id=com.netflix.NGP.ProjectKraken&referrer=utm_source%3DMiniReview","link_ios":"https:\/\/apps.apple.com\/us\/app\/id6498719476?ct=MiniReview","categoria":{"id":1,"nome":"Action","slug":"action"},"subcategoria":{"id":1,"nome":"Battle
-          Royale","slug":"battle-royale"},"categorias":[{"id":1,"nome":"Action","slug":"action","type":"category"},{"id":56,"nome":"Battle
-          Royale","slug":"battle-royale","type":"subcategory"}],"top_game":{"nome":"The
-          23 best Sci-Fi games on Mobile 2025","slug":"best-scifi-games-mobile","text":"very
-          best sci-fi games"},"our_picks":false,"game_of_the_week":false,"galeria":[{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-16-35-637-com-n-7059723.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-16-35-637-com-n-7059723.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-16-35-637-com-n-7059723.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-27-19-624-com-n-7059720.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-27-19-624-com-n-7059720.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-27-19-624-com-n-7059720.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-17-06-421-com-n-7059723.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-17-06-421-com-n-7059723.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-17-06-421-com-n-7059723.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-24-22-129-com-n-7059721.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-24-22-129-com-n-7059721.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-24-22-129-com-n-7059721.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-27-14-112-com-n-7059685.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-27-14-112-com-n-7059685.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-27-14-112-com-n-7059685.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-27-26-576-com-n-7059720.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-27-26-576-com-n-7059720.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-27-26-576-com-n-7059720.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-27-01-674-com-n-7059721.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-27-01-674-com-n-7059721.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-27-01-674-com-n-7059721.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-26-07-122-com-n-7059721.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-26-07-122-com-n-7059721.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-26-07-122-com-n-7059721.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-23-37-302-com-n-7059721.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-23-37-302-com-n-7059721.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-23-37-302-com-n-7059721.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-23-29-444-com-n-7059721.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-23-29-444-com-n-7059721.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-23-29-444-com-n-7059721.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-22-03-090-com-n-7059722.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-22-03-090-com-n-7059722.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-22-03-090-com-n-7059722.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-21-48-967-com-n-7059722.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-21-48-967-com-n-7059722.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-21-48-967-com-n-7059722.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-19-18-602-com-n-7059722.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-19-18-602-com-n-7059722.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-19-18-602-com-n-7059722.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-19-56-326-com-n-7059722.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-19-56-326-com-n-7059722.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-19-56-326-com-n-7059722.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-17-49-597-com-n-7059723.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-17-49-597-com-n-7059723.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-17-49-597-com-n-7059723.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-17-56-715-com-n-7059723.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-17-56-715-com-n-7059723.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-17-56-715-com-n-7059723.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-2025-01-14-20-17-14-025-com-n-7059723.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-2025-01-14-20-17-14-025-com-n-7059723.webp","imagem_zoom":"common\/uploads\/review\/screenshot-2025-01-14-20-17-14-025-com-n-7059723.jpg","width":595,"height":268}],"descricao":"Squid
-          Game: Unleashed is a Netflix 3D Action Battle Royale game available on Android
-          and iOS. It\u2019s a multiplayer experience that can be played online in landscape
-          mode. It has received 1 user rating from the MiniReview community. Squid Game:
-          Unleashed was released in December 2024 and has a current rating of 4.3 out
-          of 5.0 on Google Play and 4.8 out of 5.0 on the iOS App Store.","mostrar_faq":false,"review":{"data":"2025-02-01","usuario":{"avatar":"\/common\/uploads\/cache\/usuario\/1-76-76-6d0859a37f7b0535476034babd232a47.webp","nome":"Activebuttodd","cargo":"Reviewer","reviews":5,"sobre":"","links":[]},"texto":"Squid
-          Game: Unleashed is a last-man-standing multiplayer action game heavily inspired
-          by Fall Guys and Roblox obstacle maps &ndash; and so far the only Netflix
-          game that doesn&rsquo;t require a Netflix subscription.<br \/>\r\n<br \/>\r\nThe
-          game tasks us with surviving a series of increasingly chaotic physics-based
-          obstacle course levels full of moving platforms, spinning hazards, trapdoors,
-          and more.<br \/>\r\n<br \/>\r\nThe goal is simple: reach the finish line before
-          elimination. However, the game&rsquo;s poor collision detection and frequent
-          server-side lag often see us phasing through obstacles or being launched unpredictably,
-          turning the challenge into a test of patience rather than skill.<br \/>\r\n<br
-          \/>\r\nTo progress, we must compete in a mix of faux team-based challenges
-          and individual races where cooperation is more of a gimmick than a necessity.
-          Team rounds see us grouped with random players, but the lack of meaningful
-          collaboration tools makes winning feel more like luck than teamwork.<br \/>\r\n<br
-          \/>\r\nMovement is also unresponsive, with loose physics causing frequent
-          accidental eliminations. So all attempts to create tension with last-minute
-          eliminations are undercut by the game&rsquo;s inconsistencies.<br \/>\r\n<br
-          \/>\r\nBetween plays, we can unlock cosmetics and emotes for currency earned
-          exclusively through gameplay. While it&rsquo;s commendable that you can&rsquo;t
-          buy this currency via iAPs, the selection of items is rather uninspired.<br
-          \/>\r\n<br \/>\r\nThe fluid PS1-inspired art style feels unfinished rather
-          than deliberately retro, and the repetitive music loops and underwhelming
-          audio cues do little to build atmosphere or tension.<br \/>\r\n<br \/>\r\nSquid
-          Game: Unleashed fails to deliver on basic polish and gameplay satisfaction.
-          Ultimately, all its bugs and errors make the experience more frustrating than
-          fun. The only real upside is that it&rsquo;s entirely free.<br \/>\r\n<br
-          \/>\r\nThe game tries to mimic the chaotic fun of Fall Guys but stumbles over
-          its own technical issues and lack of originality. Hopefully, the bugs will
-          get fixed over time.","notas":{"gameplay":5,"graficos":5,"controles":4,"monetizacao":10}},"review_total_solicitado":0,"usuario_seguiu":false,"usuario_seguiu_email":null,"usuario_seguiu_push":null,"usuario_ultimo_seguiu_email":null,"usuario_ultimo_seguiu_push":null,"mostrar_rewards":false,"especificacoes":[[{"nome":"Singleplayer","ativo":false,"url":"\/browse?players=singleplayer"},{"nome":"Multiplayer","ativo":true,"url":"\/browse?players=multiplayer"}],[{"nome":"Offline","ativo":false,"url":"\/browse?network=offline"},{"nome":"Online","ativo":true,"url":"\/browse?network=online"}],[{"nome":"Portrait","ativo":false,"url":"\/browse?screen-orientation=portrait"},{"nome":"Landscape","ativo":true,"url":"\/browse?screen-orientation=landscape"}],[{"nome":"PvE","ativo":false,"url":"\/browse?players=pve"}],[{"nome":"Co-op","ativo":false,"url":"\/browse?players=co-op"}],[{"nome":"PvP","ativo":false,"url":"\/browse?players=pvp"}],[{"nome":"Real-time
-          PvP","ativo":true,"url":"\/browse?players=real-time-pvp"}]],"tags":[{"id":107,"nome":"3D","slug":"3d","tag_tipo":"tag"},{"id":70,"nome":"Achievements","slug":"achievements","tag_tipo":"tag"},{"id":115,"nome":"Competitive","slug":"competitive","tag_tipo":"tag"},{"id":29,"nome":"Cosmetics","slug":"cosmetics","tag_tipo":"tag"},{"id":60,"nome":"Crossplay","slug":"crossplay","tag_tipo":"tag"},{"id":49,"nome":"Friend
-          List","slug":"friend-list","tag_tipo":"tag"},{"id":102,"nome":"Funny","slug":"funny","tag_tipo":"tag"},{"id":36,"nome":"Hardcore","slug":"hardcore","tag_tipo":"tag"},{"id":35,"nome":"Leaderboards","slug":"leaderboards","tag_tipo":"tag"},{"id":104,"nome":"Minimalist","slug":"minimalist","tag_tipo":"tag"},{"id":95,"nome":"Online
-          Events","slug":"online-events","tag_tipo":"tag"},{"id":69,"nome":"Physics","slug":"physics","tag_tipo":"tag"},{"id":99,"nome":"Real-time
-          PvP","slug":"real-time-pvp","tag_tipo":"espeficicacao"},{"id":93,"nome":"Sci-Fi","slug":"sci-fi","tag_tipo":"tag"},{"id":4,"nome":"Virtual
-          Joystick","slug":"virtual-joystick","tag_tipo":"tag"}],"android_dados_loja":{"desenvolvedor":{"nome":"Netflix,
-          Inc.","link":null},"permissoes":[{"nome":"Other","valor":["read the contents
-          of your USB storage","modify or delete the contents of your USB storage","read
-          the contents of your USB storage","modify or delete the contents of your USB
-          storage","record audio","view Wi-Fi connections","view network connections","pair
-          with Bluetooth devices","full network access","change your audio settings","run
-          at startup","control vibration","prevent device from sleeping"]}],"detalhes":[{"type":"release-date","nome":"Release
-          date","valor":"Dec 13, 2024"},{"type":"last-updated","nome":"Last updated","valor":"Oct
-          3, 2025"},{"type":"current-score","nome":"Current score","valor":4.5},{"type":"n-of-downloads","nome":"#
-          of Downloads","valor":"10,000,000+"},{"type":"price","nome":"Price","valor":"Free"},{"type":"ads","nome":"Contain
-          ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app purchases","valor":"None"},{"type":"content-rating","nome":"Content
-          rating","valor":"Teen"},{"type":"download-size","nome":"Download size","valor":"2036.2
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"2,270 MB"},{"type":"version","nome":"Version","valor":"0.0.16388"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"Netflix,
-          Inc.","link":"https:\/\/apps.apple.com\/us\/developer\/netflix-inc\/id363590054?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
-          date","valor":"Dec 17, 2024"},{"type":"last-updated","nome":"Last updated","valor":"Oct
-          9, 2025"},{"type":"average-score","nome":"Average score","valor":4.8},{"type":"current-score","nome":"Current
-          score","valor":4.8},{"type":"n-of-reviews","nome":"# of reviews","valor":37109},{"type":"price","nome":"Price","valor":"Free"},{"type":"ads","nome":"Contain
-          ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app purchases","valor":"None"},{"type":"content-rating","nome":"Content
-          rating","valor":"12+"},{"type":"download-size","nome":"Download size","valor":"2036.2
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"2,270 MB"},{"type":"version","nome":"Version","valor":"0.0.16388"}]},"gameplays":[{"id":"cNy4dr_u9_k","image":"https:\/\/img.youtube.com\/vi\/cNy4dr_u9_k\/0.jpg"},{"id":"cldw1At1Xeo","image":"https:\/\/img.youtube.com\/vi\/cldw1At1Xeo\/0.jpg"},{"id":"PYAwA_50qZY","image":"https:\/\/img.youtube.com\/vi\/PYAwA_50qZY\/0.jpg"}],"meta_title":"Squid
-          Game: Unleashed Review & User Ratings","meta_description":"Squid Game: Unleashed
-          is a last-man-standing multiplayer action game heavily inspired by Fall Guys
-          and Roblox obstacle maps &ndash; and so far the only Net..."},"box_content":null}'
-      headers:
-        Access-Control-Allow-Origin:
-          - "*"
-        CF-RAY:
-          - 992113aacc4f0890-HKG
-        Cache-Control:
-          - max-age=60, private, proxy-revalidate
-        Connection:
-          - keep-alive
-        Content-Encoding:
-          - gzip
-        Content-Security-Policy:
-          - frame-ancestors 'self';
-        Content-Type:
-          - application/json
-        Date:
-          - Tue, 21 Oct 2025 13:24:43 GMT
-        Expires:
-          - Thu, 19 Nov 1981 08:52:00 GMT
-        Nel:
-          - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
-        Pragma:
-          - no-cache
-        Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=P605L63RGpdZWqrbzKupNVY19yZfc3deMFCHzC8oFIv9neMlYnYa%2FdU9%2BUERkSI0l2BEfZR%2Bx%2FXYa56oPzKPsGHaSwxTzOb%2F40MPkZxkjde2M4dfncqnNg%3D%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=L7Vz9dcq00vKGgG%2FBbIzkT5PsxTVdr%2BvDkjhByURNvYQHaEYPAEa0Dn8%2FXOFifUaY7MxO3KMb6epWzJ2udxP3cd6rN2XMd%2BtYu%2FF99%2BUqA8wT%2FAFi5c%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

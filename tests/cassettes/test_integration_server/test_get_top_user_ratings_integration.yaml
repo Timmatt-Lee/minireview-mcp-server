@@ -9,7 +9,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -22,15 +22,15 @@ interactions:
           are introduced and at least the three star solution no longer obvious. Simple,
           solid, challenging.","texto_original":"Fun puzzler. Seems pretty linear at
           first, but around lvl 30 the different blocks are introduced and at least
-          the three star solution no longer obvious. Simple, solid, challenging.","total_likes":"3","sort_by":"this
+          the three star solution no longer obvious. Simple, solid, challenging.","total_likes":"4","sort_by":"this
           week","jogo":{"id":6168,"nome":"QB - a cube''s tale","slug":"qb-a-cube-s-tale","logo":"common\/uploads\/icons\/965b0c8a96aad0efaa3e6b72ba7f5c28.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-965b0c8a96aad0efaa3e6b72ba7f5c28.webp","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true},"usuario":{"id":5164,"avatar":"\/common\/uploads\/cache\/appuser\/1-76-76-1000043664-748805.webp","username":"relet","slug":"relet","nome":"relet","sobre":"150
           character limit","sobre_original":"150 character limit","data_cadastro":"2021-05-24
-          23:48:39","score":584,"total_avaliacoes":349,"total_favoritos":4,"pais_nome":"Norway","pais_sigla":"NO"}}],"page":1,"total":77,"ultima_pagina":false}'
+          23:48:39","score":585,"total_avaliacoes":349,"total_favoritos":4,"pais_nome":"Norway","pais_sigla":"NO"}}],"page":1,"total":97,"ultima_pagina":false}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 9925971818de6a92-TPE
+          - 99320e695a1f8448-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -42,7 +42,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:30 GMT
+          - Thu, 23 Oct 2025 14:52:06 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -50,7 +50,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5fi50EcIb%2BOTqBLT7iaEJUmSWuWOfuvwidvUw2f14gTigi7wyjT8TvXaZcNofbL%2FgcG%2FDJBOeoyUd%2B24pYDo9T8%2B5HjDzh2%2FYCCWvO4Cn7xrq4R3HEo%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=U%2BDGgUxeUjHDBj9PeydGL6dTkE2PIni5mgEY5ScuG3pa8D6C9%2F%2FfDFnSIE1xeGL8fVXwQD6%2BjejB9gfxRM1C0%2FaqrGt03oSrZPdbva%2F5xan%2FaF96Dtc%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

@@ -9,7 +9,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -17,11 +17,12 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":6208,"nome":"Stamps","slug":"stamps","logo":"common\/uploads\/icons\/5c9a2f8685370d3fe698904c3f99f2ee.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-5c9a2f8685370d3fe698904c3f99f2ee.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-new-project-19-9790725.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-new-project-19-9790725.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Stamps
-          is a free trial 2D Puzzle Casual game available on Android and iOS. It\u2019s
-          a singleplayer experience that can be played offline in portrait mode. Stamps
-          was released in June 2025 and has a current rating of 5 out of 5.0 on iOS
-          App Store.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-9790174.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-9790174.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-9790174.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-9790174.jpg"}],"price":"Trial"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6218,"nome":"Miscrits","slug":"miscrits","logo":"common\/uploads\/icons\/04300adb321c46f431168aa56f73ee21.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-04300adb321c46f431168aa56f73ee21.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-a-9-0655900.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-a-9-0655900.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":null,"usuario_favorito":false,"categoria":{"id":12,"nome":"Role
+          Playing","slug":"role-playing"},"categorias":[{"id":12,"nome":"Role Playing","slug":"role-playing","type":"category"},{"id":3,"nome":"Adventure","slug":"adventure","type":"subcategory"}],"disponivel_android":false,"disponivel_ios":true,"descricao":"Miscrits
+          is a free 2D Role Playing Adventure game available on iOS. It\u2019s a single
+          and multiplayer experience that can be played online in landscape mode. Miscrits
+          was released in July 2025 and has a current rating of 4.8 out of 5.0 on iOS
+          App Store.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-8-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-8-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-8-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-4-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-4-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-4-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-5-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-5-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-5-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-1-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-1-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-1-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-3-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-3-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-3-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-10-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-10-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-10-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-6-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-6-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-6-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-7-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-7-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-7-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-9-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-9-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-9-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-2-0655524.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-2-0655524.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-2-0655524.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-11-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-11-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-11-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-12-0655525.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-12-0655525.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-12-0655525.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/a-13-0655526.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/a-13-0655526.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/a-13-0655526.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -187,12 +188,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3913,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3916,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 99259715ea708466-TPE
+          - 99320e668989a9ad-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -204,7 +205,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:29 GMT
+          - Thu, 23 Oct 2025 14:52:05 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -212,7 +213,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eY3M3Io%2BHsn4xyc5SUP4m8H0F7uCu9nuplNoQ28wSUIhj5AbA7Viwj2Uqq69F2O1%2ByQoj7orN9f4EnMFPQJrsIl4UD1PeH457mT2n35%2FHRlzErl6ocU%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UOiiYBiNqq6J72dAE5JamKWSDvyQNDQMwmEv0ftLLS5GWvzhar%2Fk4J4Xa3hYw5ji7C0a%2Bbm8S%2BDXdRG1q07Ldd7sLK1nWOGYnlTcobSh%2FF97rGKcQNs%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:

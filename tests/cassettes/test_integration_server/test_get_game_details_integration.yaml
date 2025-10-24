@@ -9,7 +9,7 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
@@ -17,32 +17,29 @@ interactions:
     response:
       body:
         string:
-          '{"data":[{"id":5022,"nome":"Reverse: 1999 - 2nd Anniv.","slug":"reverse-1999","logo":"common\/uploads\/icons\/548fc28284a08410289a3ed2476b417d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-548fc28284a08410289a3ed2476b417d.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-reverse-1999-3271055.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-reverse-1999-3271055.webp","avaliacoes_total":6,"avaliacoes_positivas_porcento":100,"nota":"8.3","usuario_favorito":false,"categoria":{"id":30,"nome":"Gacha","slug":"gacha"},"categorias":[{"id":30,"nome":"Gacha","slug":"gacha","type":"category"},{"id":35,"nome":"Role
-          Playing","slug":"role-playing","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"Reverse:
-          1999 is a fun turn-based RPG with a Slay the Spire-style card combat system
-          and a unique twist that makes it stand out from other card battlers.\r\n\r\nWe
-          play as a timekeeper who leads a team of three heroes into battle by playing
-          cards that represent the characters&rsquo; moves, of which each have two normal
-          ones and an ultimate. During our turn, we draw up to seven of these cards
-          from our deck, and then place three of them to be played this round.\r\n\r\nThe
-          fun twist is that if two identical cards end up next to each other in our
-          hand, they merge to create a tier 2 version, which makes the card more powerful
-          and sometimes even adds new abilities.&nbsp;\r\n\r\nWe can ensure that two
-          identical cards end up next to each other by playing the card(s) in-between
-          them, or by dragging one card onto another, though the latter makes us lose
-          an attack slot for that turn. This can become frustrating when we accidentally
-          drag a card to a wrong spot since it can&#39;t be reversed.\r\n\r\nEach character
-          class has strengths or weaknesses against certain enemy classes, making team
-          composition rather important.\r\n\r\nThankfully, new characters are unlocked
-          via a very free-to-play-friendly gacha system that is easy to gain resources
-          for and has good pull rates. Most characters also don&rsquo;t have a noticeable
-          power level difference. I pulled a B-tier character and still breezed through
-          the grindy gameplay.\r\n\r\nReverse: 1999 monetizes via iAPs for a battle
-          pass, upgrade materials, gacha pulls, and cosmetics. Thankfully, the necessary
-          resources are easy to farm, and there&rsquo;s no PvP - so paying players at
-          most progress a bit faster.\r\n\r\nOverall, its fun gameplay loop and gorgeous
-          art style make it an easy recommendation if you like card battlers and can
-          ignore the gacha.","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200742-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200742-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251002-200832-reverse-1999-9592734.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251002-200832-reverse-1999-9592734.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-171454-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-171454-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220136-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220136-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251004-220223-reverse-1999-9592735.jpg","imagem_zoom":"\/common\/uploads\/cache\/review\/5-1500-1500-screenshot-20251004-220223-reverse-1999-9592735.webp"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195441-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195607-reverse-1999-9928193.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20251008-195622-reverse-1999-9928193.jpg"}],"price":"Free"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
+          '{"data":[{"id":6174,"nome":"A Little to the Left: Drawers","slug":"a-little-to-the-left-drawers","logo":"common\/uploads\/icons\/581c125a3902f57bdf400b5f7a26b0c1.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-581c125a3902f57bdf400b5f7a26b0c1.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-498-a-little-to-the-left-drawers-minireview-0442938.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-a-little-to-the-left-drawers-minireview-0442938.webp","avaliacoes_total":0,"avaliacoes_positivas_porcento":0,"nota":"7.0","usuario_favorito":false,"categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"disponivel_android":true,"disponivel_ios":true,"descricao":"A
+          Little to the Left: Drawers is the sequel to a unique and engaging sorting
+          puzzle game that delivers more of the same, but in a smaller package.\r\n\r\nThe
+          goal is to neatly organize everything on screen, such as items in a kitchen
+          drawer or a cupboard with tea and cakes. There are no instructions on what
+          to do, and every item can be freely moved around.\r\n\r\nEvery level starts
+          out as a mess of items, which we must sort in a way that makes it look systematic
+          and neat. Combine 5 garbage pieces into a square, place seven pencils in the
+          same room from long to short, and so on. In some levels, color and number
+          sorting is a thing too.\r\n\r\nWhen we place an item close to where it&rsquo;s
+          supposed to be, it does get dragged into place. But without any other instructions,
+          it&rsquo;s easy to get stuck. And while the puzzles are a tad more intuitive
+          than in the first game, quite a few still had me using the hint system.\r\n\r\nCertain
+          solutions I didn&#39;t even understand after seeing them, so while some of
+          the 32 levels are high quality, others feel somewhat broken. Even a tiny piece
+          being out of place makes impossible to solve the level.\r\n\r\nThis sequel
+          doesn&rsquo;t add much new to the series, and considering how short the runtime
+          is, it feels like something is missing. I also experienced a bug where the
+          game would zoom in at random intervals, making it impossible to move anything.\r\n\r\nA
+          Little to the Left: Drawers is a $2.99 premium game.\r\n\r\nIt&#39;s a nice
+          little experience, but a step down from the original. It would be easier to
+          recommend if it had more levels. But if you loved the first one, you&rsquo;ll
+          likely enjoy this one too.\r\n","morto_data":null,"pick_data":null,"semana":null,"galeria":[{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg"},{"imagem":"\/thumb\/review\/1\/696\/322\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","imagem_preloader":"\/thumb\/review\/1\/30\/14\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","imagem_zoom":"\/thumb\/review\/5\/1500\/1500\/webp\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg"}],"price":"$2.99"}],"page":1,"filtros":[{"nome":"Players","slug":"players","icon":"icon-filters-players","tipo":"lista","itens":[{"nome":"Singleplayer","slug":"singleplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"Multiplayer","slug":"multiplayer","total":null,"descricao":"","can_exclude":false,"value":null},{"nome":"PvE","slug":"pve","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"PvP","slug":"pvp","total":null,"descricao":"","can_exclude":true,"value":null},{"nome":"Real-time
           PvP","slug":"real-time-pvp","total":null,"descricao":null,"can_exclude":true,"value":null},{"nome":"Co-op","slug":"co-op","total":null,"descricao":null,"can_exclude":true,"value":null}]},{"nome":"Network","slug":"network","icon":"icon-filters-network","tipo":"lista","itens":[{"nome":"Online","slug":"online","total":null,"descricao":null,"can_exclude":false,"value":null},{"nome":"Offline","slug":"offline","total":null,"descricao":null,"can_exclude":false,"value":null}]},{"nome":"Monetization
           android","slug":"monetization-android","icon":"icon-filters-monetization-android","tipo":"lista","itens":[{"nome":"No
           Ads","slug":"no-ads","total":null,"descricao":""},{"nome":"Free","slug":"free","total":null,"descricao":""},{"nome":"No
@@ -208,12 +205,12 @@ interactions:
           Islands","slug":"um","total":null,"descricao":""},{"nome":"Uruguay","slug":"uy","total":null,"descricao":""},{"nome":"Uzbekistan","slug":"uz","total":null,"descricao":""},{"nome":"Vanuatu","slug":"vu","total":null,"descricao":""},{"nome":"Venezuela","slug":"ve","total":null,"descricao":""},{"nome":"Viet
           Nam","slug":"vn","total":null,"descricao":""},{"nome":"Virgin Islands, British","slug":"vg","total":null,"descricao":""},{"nome":"Virgin
           Islands, U.S.","slug":"vi","total":null,"descricao":""},{"nome":"Wallis And
-          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3913,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
+          Futuna","slug":"wf","total":null,"descricao":""},{"nome":"Western Sahara","slug":"eh","total":null,"descricao":""},{"nome":"Yemen","slug":"ye","total":null,"descricao":""},{"nome":"Zambia","slug":"zm","total":null,"descricao":""},{"nome":"Zimbabwe","slug":"zw","total":null,"descricao":""}]}],"total":3916,"ultima_pagina":false,"box_content":null,"box_content_game":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 992596ffdab96b68-TPE
+          - 99320e492e9a8270-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -225,7 +222,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:26 GMT
+          - Thu, 23 Oct 2025 14:52:01 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -233,7 +230,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IUzRxNuH3F1n%2BdTnojct28Xc%2FHZNZBnnIzDlv9PaRPZBMJs0XwB%2Bnc72Ppa7TxxTC1h6QXdkckNz6peM2bCkbJhqOwcB%2BOqOXT5B%2FMHnyfWk717zsc8%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BqSxBK7ddoL3GjW%2FEoQCxrDdk5lFMugDQ09HvA9bcQW5WzMgA2%2FgslOGbPZaQYrjw41XGud3%2Bk34Wjz0SeKV67%2BgI1ZQLbFaUkdvyK3OPLEW8EuXwyc%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
@@ -259,86 +256,71 @@ interactions:
         Connection:
           - keep-alive
         Cookie:
-          - minireview-io=r6ipar3ob1rk4ij82tbc3muj81
+          - minireview-io=jtn1kja4dj7rcq7k6q6jogl7ts
         User-Agent:
           - python-requests/2.32.5
       method: GET
-      uri: https://minireview.io/apiv2/games/reverse-1999?getBy=slug&category=gacha
+      uri: https://minireview.io/apiv2/games/a-little-to-the-left-drawers?getBy=slug&category=puzzle
     response:
       body:
         string:
-          '{"data":{"id":5022,"nome":"Reverse: 1999 - 2nd Anniv.","slug":"reverse-1999","logo":"common\/uploads\/icons\/548fc28284a08410289a3ed2476b417d.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-548fc28284a08410289a3ed2476b417d.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-506-reverse-1999-3271055.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-reverse-1999-3271055.webp","nota":8.3,"total_avaliacoes":6,"usuario_favorito":false,"usuario_avaliou":false,"disponivel_android":true,"disponivel_ios":true,"android_morto":false,"android_morto_data":null,"ios_morto":false,"ios_morto_data":null,"preco_android":"Free
-          (iAP)","preco_ios":"Free (iAP)","link_android":"https:\/\/play.google.com\/store\/apps\/details?id=com.bluepoch.m.en.reverse1999&referrer=utm_source%3DMiniReview","link_ios":"https:\/\/apps.apple.com\/us\/app\/id1672933190?ct=MiniReview","categoria":{"id":30,"nome":"Gacha","slug":"gacha"},"subcategoria":{"id":30,"nome":"Role
-          Playing","slug":"role-playing"},"categorias":[{"id":30,"nome":"Gacha","slug":"gacha","type":"category"},{"id":35,"nome":"Role
-          Playing","slug":"role-playing","type":"subcategory"}],"top_game":{"nome":"The
-          23 best Sci-Fi games on Mobile 2025","slug":"best-scifi-games-mobile","text":"very
-          best sci-fi games"},"our_picks":false,"game_of_the_week":false,"galeria":[{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251002-200742-reverse-1999-9592734.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251002-200742-reverse-1999-9592734.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251002-200742-reverse-1999-9592734.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251002-200832-reverse-1999-9592734.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251002-200832-reverse-1999-9592734.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251002-200832-reverse-1999-9592734.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251004-171454-reverse-1999-9592735.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251004-171454-reverse-1999-9592735.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251004-171454-reverse-1999-9592735.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251004-220136-reverse-1999-9592735.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251004-220136-reverse-1999-9592735.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251004-220136-reverse-1999-9592735.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251004-220223-reverse-1999-9592735.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251004-220223-reverse-1999-9592735.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251004-220223-reverse-1999-9592735.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251008-195441-reverse-1999-9928193.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251008-195441-reverse-1999-9928193.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251008-195441-reverse-1999-9928193.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251008-195607-reverse-1999-9928193.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251008-195607-reverse-1999-9928193.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251008-195607-reverse-1999-9928193.jpg","width":581,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20251008-195622-reverse-1999-9928193.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20251008-195622-reverse-1999-9928193.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20251008-195622-reverse-1999-9928193.jpg","width":581,"height":268}],"descricao":"Reverse:
-          1999 - 2nd Anniv. is a free 2D Gacha Role Playing game available on Android
-          and iOS. It\u2019s a singleplayer experience that can be played online in
-          landscape mode. It has received 6 user ratings from the MiniReview community.
-          Reverse: 1999 - 2nd Anniv. was released in October 2023 and has a current
-          rating of 4.4 out of 5.0 on Google Play and 4.8 out of 5.0 on the iOS App
-          Store.","mostrar_faq":false,"review":{"data":"2025-10-21","usuario":{"avatar":"\/common\/uploads\/cache\/usuario\/1-76-76-84cc92a5b379b6a9c277d925802cee34.webp","nome":"AncientKris","cargo":"Reviewer","reviews":1,"sobre":"","links":[]},"texto":"Reverse:
-          1999 is a fun turn-based RPG with a Slay the Spire-style card combat system
-          and a unique twist that makes it stand out from other card battlers.<br \/>\r\n<br
-          \/>\r\nWe play as a timekeeper who leads a team of three heroes into battle
-          by playing cards that represent the characters&rsquo; moves, of which each
-          have two normal ones and an ultimate. During our turn, we draw up to seven
-          of these cards from our deck, and then place three of them to be played this
-          round.<br \/>\r\n<br \/>\r\nThe fun twist is that if two identical cards end
-          up next to each other in our hand, they merge to create a tier 2 version,
-          which makes the card more powerful and sometimes even adds new abilities.&nbsp;<br
-          \/>\r\n<br \/>\r\nWe can ensure that two identical cards end up next to each
-          other by playing the card(s) in-between them, or by dragging one card onto
-          another, though the latter makes us lose an attack slot for that turn. This
-          can become frustrating when we accidentally drag a card to a wrong spot since
-          it can&#39;t be reversed.<br \/>\r\n<br \/>\r\nEach character class has strengths
-          or weaknesses against certain enemy classes, making team composition rather
-          important.<br \/>\r\n<br \/>\r\nThankfully, new characters are unlocked via
-          a very free-to-play-friendly gacha system that is easy to gain resources for
-          and has good pull rates. Most characters also don&rsquo;t have a noticeable
-          power level difference. I pulled a B-tier character and still breezed through
-          the grindy gameplay.<br \/>\r\n<br \/>\r\nReverse: 1999 monetizes via iAPs
-          for a battle pass, upgrade materials, gacha pulls, and cosmetics. Thankfully,
-          the necessary resources are easy to farm, and there&rsquo;s no PvP - so paying
-          players at most progress a bit faster.<br \/>\r\n<br \/>\r\nOverall, its fun
-          gameplay loop and gorgeous art style make it an easy recommendation if you
-          like card battlers and can ignore the gacha.","notas":{"gameplay":9,"graficos":8,"controles":8,"monetizacao":8}},"review_total_solicitado":2,"usuario_seguiu":false,"usuario_seguiu_email":null,"usuario_seguiu_push":null,"usuario_ultimo_seguiu_email":null,"usuario_ultimo_seguiu_push":null,"mostrar_rewards":false,"especificacoes":[[{"nome":"Singleplayer","ativo":true,"url":"\/browse?players=singleplayer"},{"nome":"Multiplayer","ativo":false,"url":"\/browse?players=multiplayer"}],[{"nome":"Offline","ativo":false,"url":"\/browse?network=offline"},{"nome":"Online","ativo":true,"url":"\/browse?network=online"}],[{"nome":"Portrait","ativo":false,"url":"\/browse?screen-orientation=portrait"},{"nome":"Landscape","ativo":true,"url":"\/browse?screen-orientation=landscape"}],[{"nome":"PvE","ativo":true,"url":"\/browse?players=pve"}],[{"nome":"Co-op","ativo":false,"url":"\/browse?players=co-op"}],[{"nome":"PvP","ativo":false,"url":"\/browse?players=pvp"}],[{"nome":"Real-time
-          PvP","ativo":false,"url":"\/browse?players=real-time-pvp"}]],"tags":[{"id":106,"nome":"2D","slug":"2d","tag_tipo":"tag"},{"id":70,"nome":"Achievements","slug":"achievements","tag_tipo":"tag"},{"id":46,"nome":"Auto
-          Mode","slug":"auto-mode","tag_tipo":"tag"},{"id":66,"nome":"Cards","slug":"cards","tag_tipo":"tag"},{"id":29,"nome":"Cosmetics","slug":"cosmetics","tag_tipo":"tag"},{"id":85,"nome":"Energy
-          System","slug":"energy-system","tag_tipo":"tag"},{"id":42,"nome":"Gacha","slug":"gacha","tag_tipo":"tag"},{"id":95,"nome":"Online
-          Events","slug":"online-events","tag_tipo":"tag"},{"id":45,"nome":"PvE","slug":"pve","tag_tipo":"espeficicacao"},{"id":52,"nome":"Quests","slug":"quests","tag_tipo":"tag"},{"id":93,"nome":"Sci-Fi","slug":"sci-fi","tag_tipo":"tag"},{"id":100,"nome":"Season
-          Pass","slug":"season-pass","tag_tipo":"tag"},{"id":15,"nome":"Turn-Based","slug":"turn-based","tag_tipo":"tag"}],"android_dados_loja":{"desenvolvedor":{"nome":"Bluepoch
-          Co.,Ltd.","link":"https:\/\/re1999.bluepoch.com\/en\/"},"permissoes":[{"nome":"Other","valor":["read
-          the contents of your USB storage","modify or delete the contents of your USB
-          storage","read the contents of your USB storage","modify or delete the contents
-          of your USB storage","view Wi-Fi connections","view network connections","pair
-          with Bluetooth devices","change network connectivity","connect and disconnect
-          from Wi-Fi","full network access","close other apps","change your audio settings","prevent
-          device from sleeping"]}],"detalhes":[{"type":"release-date","nome":"Release
-          date","valor":"Oct 22, 2023"},{"type":"last-updated","nome":"Last updated","valor":"Sep
-          4, 2025"},{"type":"current-score","nome":"Current score","valor":4.4},{"type":"n-of-downloads","nome":"#
-          of Downloads","valor":"1,000,000+"},{"type":"price","nome":"Price","valor":"Free
-          (iAP)"},{"type":"ads","nome":"Contain ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app
-          purchases","valor":"$0.99 - $99.99"},{"type":"content-rating","nome":"Content
-          rating","valor":"Teen"},{"type":"download-size","nome":"Download size","valor":"4016.8
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"12,410 MB"},{"type":"version","nome":"Version","valor":"2.8.0"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"Bluepoch
-          Co.,Ltd.","link":"https:\/\/apps.apple.com\/us\/developer\/bluepoch-co-ltd\/id1670072118?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
-          date","valor":"Oct 25, 2023"},{"type":"last-updated","nome":"Last updated","valor":"Sep
-          19, 2025"},{"type":"average-score","nome":"Average score","valor":4.8},{"type":"current-score","nome":"Current
-          score","valor":4.8},{"type":"n-of-reviews","nome":"# of reviews","valor":9709},{"type":"price","nome":"Price","valor":"Free
-          (iAP)"},{"type":"ads","nome":"Contain ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app
-          purchases","valor":"$0.99 - $99.99"},{"type":"content-rating","nome":"Content
-          rating","valor":"12+"},{"type":"download-size","nome":"Download size","valor":"4016.8
-          MB"},{"type":"storage-size","nome":"Storage Size","valor":"12,410 MB"},{"type":"version","nome":"Version","valor":"2.8"}]},"gameplays":[{"id":"bnxu9lJAWxw","image":"https:\/\/img.youtube.com\/vi\/bnxu9lJAWxw\/0.jpg"},{"id":"FkGWmQ5UrUE","image":"https:\/\/img.youtube.com\/vi\/FkGWmQ5UrUE\/0.jpg"},{"id":"6pggcAK_G9U","image":"https:\/\/img.youtube.com\/vi\/6pggcAK_G9U\/0.jpg"}],"meta_title":"Reverse:
-          1999 - 2nd Anniv. Review & User Ratings","meta_description":"Reverse: 1999
-          is a fun turn-based RPG with a Slay the Spire-style card combat system and
-          a unique twist that makes it stand out from other card battlers...."},"box_content":null}'
+          '{"data":{"id":6174,"nome":"A Little to the Left: Drawers","slug":"a-little-to-the-left-drawers","logo":"common\/uploads\/icons\/581c125a3902f57bdf400b5f7a26b0c1.webp","logo_preloader":"\/common\/uploads\/cache\/icons\/1-30-30-581c125a3902f57bdf400b5f7a26b0c1.webp","thumb":"\/common\/uploads\/cache\/review\/1-900-506-a-little-to-the-left-drawers-minireview-0442938.webp","thumb_preloader":"\/common\/uploads\/cache\/review\/1-30-17-a-little-to-the-left-drawers-minireview-0442938.webp","nota":7,"total_avaliacoes":0,"usuario_favorito":false,"usuario_avaliou":false,"disponivel_android":true,"disponivel_ios":true,"android_morto":false,"android_morto_data":null,"ios_morto":false,"ios_morto_data":null,"preco_android":"$2.99","preco_ios":"$2.99","link_android":"https:\/\/play.google.com\/store\/apps\/details?id=com.SecretModeLimited.ALittletotheLeftCupboards&referrer=utm_source%3DMiniReview","link_ios":"https:\/\/apps.apple.com\/us\/app\/id6738784092?ct=MiniReview","categoria":{"id":9,"nome":"Puzzle","slug":"puzzle"},"subcategoria":{"id":9,"nome":"Casual","slug":"casual"},"categorias":[{"id":9,"nome":"Puzzle","slug":"puzzle","type":"category"},{"id":11,"nome":"Casual","slug":"casual","type":"subcategory"}],"top_game":{"nome":"The
+          22 best puzzle games on mobile 2025","slug":"best-puzzle-games-on-mobile","text":"best
+          puzzle games"},"our_picks":false,"game_of_the_week":false,"galeria":[{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154523-alttl-cupboar-7686379.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154523-alttl-cupboar-7686379.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154523-alttl-cupboar-7686379.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154545-alttl-cupboar-7686379.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154545-alttl-cupboar-7686379.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154545-alttl-cupboar-7686379.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154458-alttl-cupboar-7686379.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154458-alttl-cupboar-7686379.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154458-alttl-cupboar-7686379.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154435-alttl-cupboar-7686379.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154435-alttl-cupboar-7686379.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154435-alttl-cupboar-7686379.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154403-alttl-cupboar-7686380.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154403-alttl-cupboar-7686380.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154403-alttl-cupboar-7686380.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154245-alttl-cupboar-7686380.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154245-alttl-cupboar-7686380.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154245-alttl-cupboar-7686380.jpg","width":595,"height":268},{"imagem":"\/common\/uploads\/cache\/review\/5--322-screenshot-20250912-154317-alttl-cupboar-7686380.webp","imagem_preloader":"\/common\/uploads\/cache\/review\/5--14-screenshot-20250912-154317-alttl-cupboar-7686380.webp","imagem_zoom":"common\/uploads\/review\/screenshot-20250912-154317-alttl-cupboar-7686380.jpg","width":595,"height":268}],"descricao":"A
+          Little to the Left: Drawers is a paid 2D Puzzle Casual game available on Android
+          and iOS. It\u2019s a singleplayer experience that can be played offline in
+          landscape mode. A Little to the Left: Drawers was released in February 2025
+          and has a current rating of 4.8 out of 5.0 on Google Play and 4.9 out of 5.0
+          on the iOS App Store.","mostrar_faq":true,"review":{"data":"2025-10-23","usuario":{"avatar":"\/common\/uploads\/cache\/usuario\/1-76-76-c620708190bdd093f62822af9edd2668.webp","nome":"Jurij","cargo":"Reviewer","reviews":60,"sobre":"","links":[]},"texto":"<p>A
+          Little to the Left: Drawers is the sequel to a unique and engaging sorting
+          puzzle game that delivers more of the same, but in a smaller package.<br \/>\r\n<br
+          \/>\r\nThe goal is to neatly organize everything on screen, such as items
+          in a kitchen drawer or a cupboard with tea and cakes. There are no instructions
+          on what to do, and every item can be freely moved around.<br \/>\r\n<br \/>\r\nEvery
+          level starts out as a mess of items, which we must sort in a way that makes
+          it look systematic and neat. Combine 5 garbage pieces into a square, place
+          seven pencils in the same room from long to short, and so on. In some levels,
+          color and number sorting is a thing too.<br \/>\r\n<br \/>\r\nWhen we place
+          an item close to where it&rsquo;s supposed to be, it does get dragged into
+          place. But without any other instructions, it&rsquo;s easy to get stuck. And
+          while the puzzles are a tad more intuitive than in <a href=\"https:\/\/minireview.io\/puzzle\/a-little-to-the-left\">the
+          first game<\/a>, quite a few still had me using the hint system.<br \/>\r\n<br
+          \/>\r\nCertain solutions I didn&#39;t even understand after seeing them, so
+          while some of the 32 levels are high quality, others feel somewhat broken.
+          Even a tiny piece being out of place makes impossible to solve the level.<br
+          \/>\r\n<br \/>\r\nThis sequel doesn&rsquo;t add much new to the series, and
+          considering how short the runtime is, it feels like something is missing.
+          I also experienced a bug where the game would zoom in at random intervals,
+          making it impossible to move anything.<br \/>\r\n<br \/>\r\nA Little to the
+          Left: Drawers is a $2.99 premium game.<br \/>\r\n<br \/>\r\nIt&#39;s a nice
+          little experience, but a step down from the original. It would be easier to
+          recommend if it had more levels. But if you loved the first one, you&rsquo;ll
+          likely enjoy this one too.<\/p>\r\n","notas":{"gameplay":7,"graficos":7,"controles":5,"monetizacao":9}},"review_total_solicitado":0,"usuario_seguiu":false,"usuario_seguiu_email":null,"usuario_seguiu_push":null,"usuario_ultimo_seguiu_email":null,"usuario_ultimo_seguiu_push":null,"mostrar_rewards":false,"especificacoes":[[{"nome":"Singleplayer","ativo":true,"url":"\/browse?players=singleplayer"},{"nome":"Multiplayer","ativo":false,"url":"\/browse?players=multiplayer"}],[{"nome":"Offline","ativo":true,"url":"\/browse?network=offline"},{"nome":"Online","ativo":false,"url":"\/browse?network=online"}],[{"nome":"Portrait","ativo":false,"url":"\/browse?screen-orientation=portrait"},{"nome":"Landscape","ativo":true,"url":"\/browse?screen-orientation=landscape"}],[{"nome":"PvE","ativo":false,"url":"\/browse?players=pve"}],[{"nome":"Co-op","ativo":false,"url":"\/browse?players=co-op"}],[{"nome":"PvP","ativo":false,"url":"\/browse?players=pvp"}],[{"nome":"Real-time
+          PvP","ativo":false,"url":"\/browse?players=real-time-pvp"}]],"tags":[{"id":106,"nome":"2D","slug":"2d","tag_tipo":"tag"},{"id":70,"nome":"Achievements","slug":"achievements","tag_tipo":"tag"},{"id":103,"nome":"Atmospheric","slug":"atmospheric","tag_tipo":"tag"},{"id":33,"nome":"Indie","slug":"indie","tag_tipo":"tag"},{"id":104,"nome":"Minimalist","slug":"minimalist","tag_tipo":"tag"},{"id":1,"nome":"Port","slug":"port","tag_tipo":"tag"},{"id":57,"nome":"Relaxing","slug":"relaxing","tag_tipo":"tag"}],"android_dados_loja":{"desenvolvedor":{"nome":"Secret
+          Mode Ltd","link":"https:\/\/www.maxinferno.com\/"},"permissoes":[{"nome":"Other","valor":["view
+          network connections","full network access","Google Play license check"]}],"detalhes":[{"type":"release-date","nome":"Release
+          date","valor":"Feb 14, 2025"},{"type":"last-updated","nome":"Last updated","valor":"Oct
+          7, 2025"},{"type":"current-score","nome":"Current score","valor":4.8},{"type":"n-of-downloads","nome":"#
+          of Downloads","valor":"10,000+"},{"type":"price","nome":"Price","valor":"$2.99"},{"type":"ads","nome":"Contain
+          ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app purchases","valor":"None"},{"type":"content-rating","nome":"Content
+          rating","valor":"Everyone"},{"type":"download-size","nome":"Download size","valor":"877.7
+          MB"},{"type":"storage-size","nome":"Storage Size","valor":"766 MB"},{"type":"version","nome":"Version","valor":"3.5.10"}]},"ios_dados_loja":{"desenvolvedor":{"nome":"Secret
+          Mode","link":"https:\/\/apps.apple.com\/us\/developer\/secret-mode\/id1613352148?uo=4"},"permissoes":[],"detalhes":[{"type":"release-date","nome":"Release
+          date","valor":"Mar 6, 2025"},{"type":"last-updated","nome":"Last updated","valor":"Aug
+          27, 2025"},{"type":"average-score","nome":"Average score","valor":4.9},{"type":"current-score","nome":"Current
+          score","valor":4.9},{"type":"n-of-reviews","nome":"# of reviews","valor":685},{"type":"price","nome":"Price","valor":"$2.99"},{"type":"ads","nome":"Contain
+          ads?","valor":"No"},{"type":"in-app-purchases","nome":"In-app purchases","valor":"None"},{"type":"content-rating","nome":"Content
+          rating","valor":"4+"},{"type":"download-size","nome":"Download size","valor":"877.7
+          MB"},{"type":"storage-size","nome":"Storage Size","valor":"766 MB"},{"type":"version","nome":"Version","valor":"1.3"}]},"gameplays":[{"id":"r8Z25dFFY3Y","image":"https:\/\/img.youtube.com\/vi\/r8Z25dFFY3Y\/0.jpg"},{"id":"H8fRTaw0YJ0","image":"https:\/\/img.youtube.com\/vi\/H8fRTaw0YJ0\/0.jpg"},{"id":"u-2yTn2nu2A","image":"https:\/\/img.youtube.com\/vi\/u-2yTn2nu2A\/0.jpg"}],"meta_title":"A
+          Little to the Left: Drawers Review & User Ratings","meta_description":"A Little
+          to the Left: Drawers is the sequel to a unique and engaging sorting puzzle
+          game that delivers more of the same, but in a smaller package.\r\n\r\nThe
+          g..."},"box_content":null}'
       headers:
         Access-Control-Allow-Origin:
           - "*"
         CF-RAY:
-          - 99259703cbd1826d-TPE
+          - 99320e4ced17828f-TPE
         Cache-Control:
           - max-age=60, private, proxy-revalidate
         Connection:
@@ -350,7 +332,7 @@ interactions:
         Content-Type:
           - application/json
         Date:
-          - Wed, 22 Oct 2025 02:33:26 GMT
+          - Thu, 23 Oct 2025 14:52:01 GMT
         Expires:
           - Thu, 19 Nov 1981 08:52:00 GMT
         Nel:
@@ -358,7 +340,7 @@ interactions:
         Pragma:
           - no-cache
         Report-To:
-          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=resHRQmaxN9xXLx2%2BB%2BnujKMU%2BIOrWaUwJ%2BPrFSXPhXfdARXviKV7ykKnGGgsIyot%2FWHqknW6cuzFzNCaG2zr9nY8Ho6Enc5IH50%2F%2B8ON%2FWqDHGWkdE%3D"}]}'
+          - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z6WsHziNMIMeGpRSr8vLYweM2gMr6jGUIGN8ooOHyDUQEaRDDsC0JFYLVPVd9jCsh%2FFJSqIr0WDGE0K%2F7w%2Bw70vZtcyFvhR0VNc4dM8cwDNJwUerAqw%3D"}]}'
         Server:
           - cloudflare
         Transfer-Encoding:
