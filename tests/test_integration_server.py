@@ -162,6 +162,26 @@ async def test_get_similar_games_integration():
         assert isinstance(similar_games_data, dict)
         assert "data" in similar_games_data
         assert isinstance(similar_games_data["data"], list)
+        assert len(similar_games_data["data"]) > 0
+
+        game = similar_games_data["data"][0]
+        assert game.get("id") is not None
+        assert game.get("name") is not None
+        assert game.get("slug") is not None
+        assert game.get("total_likes") is not None
+        assert game.get("total_dislikes") is not None
+        assert game.get("platform") is not None
+        assert game["platform"].get("android") is not None
+        assert game["platform"]["android"].get("is_available") is not None
+        assert game["platform"].get("ios") is not None
+        assert game["platform"]["ios"].get("is_available") is not None
+        assert game.get("category") is not None
+        assert game.get("categories") is not None
+        assert game.get("description") is not None
+        assert game.get("price") is not None
+
+        assert "total_games" in similar_games_data
+        assert "is_last_page" in similar_games_data
 
 
 @pytest.mark.asyncio

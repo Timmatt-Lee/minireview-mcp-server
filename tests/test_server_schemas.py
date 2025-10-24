@@ -309,7 +309,34 @@ async def test_get_similar_games_schemas():
     assert tool.output_schema == snapshot(
         {
             "type": "object",
-            "properties": {"data": {"type": "array", "items": {"type": "object"}}},
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {"type": "integer"},
+                            "name": {"type": "string"},
+                            "slug": {"type": "string"},
+                            "total_likes": {"type": "integer"},
+                            "total_dislikes": {"type": "integer"},
+                            "platform": {
+                                "type": "object",
+                                "properties": {
+                                    "android": {"type": "object"},
+                                    "ios": {"type": "object"},
+                                },
+                            },
+                            "category": {"type": "object"},
+                            "categories": {"type": "array"},
+                            "description": {"type": "string"},
+                            "price": {"type": ["string", "number", "null"]},
+                        },
+                    },
+                },
+                "total_games": {"type": "integer"},
+                "is_last_page": {"type": "boolean"},
+            },
         }
     )
 
